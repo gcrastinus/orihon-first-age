@@ -1263,6 +1263,8 @@ function packLanes(items){
 }
 
 function boot(){
+  try { if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; } catch (e) {}
+
   const range = yearRange();
   const years = range.end - range.start;
   const avail = Math.max(900, (window.innerWidth || 900) - 48);
@@ -1291,6 +1293,7 @@ function boot(){
     if (e.target.closest('.life-line')) return;
     if (e.target.closest('#legend')) return;
     if (e.target.closest('#legend-dock')) return;
+    if (e.target.closest('#chrome-dock')) return;
     if (e.target.closest('#artist-panel')) return;
     if (e.target.closest('#lightbox')) return;
     clearMediumFilter();
@@ -1450,9 +1453,22 @@ function selectLine(it, range){
   openPanel(it.artist);
 }
 
-function scrollToStart(){
+function pinLeft(){
   const st = $('#stage');
-  if (st) st.scrollTo({left: 0, top: 0, behavior: 'auto'});
+  if (!st) return;
+  st.scrollLeft = 0;
+  st.scrollTop = 0;
+  try { st.scrollTo(0, 0); } catch (e) {}
+}
+function scrollToStart(){
+  pinLeft();
+  requestAnimationFrame(() => {
+    pinLeft();
+    requestAnimationFrame(pinLeft);
+  });
+  setTimeout(pinLeft, 60);
+  setTimeout(pinLeft, 250);
+  window.addEventListener('load', pinLeft, {once:true});
   syncNav();
 }
 

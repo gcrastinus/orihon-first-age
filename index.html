@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vademecum · 1250–1320</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=EB+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20260903c">
 </head>
 <body>
   <header class="mast">
     <div class="mast-left">
       <h1>Vademecum</h1>
-      <p class="lede">1250–1320 · a pocket guide to the first age — art, building, and music in time</p>
+      <p class="lede">A pocket guide to the first age — earliest years at the left; later years to the right</p>
     </div>
-    <nav class="centuries" id="century-nav" aria-label="Centuries"></nav>
   </header>
 
-  <div id="stage" tabindex="0">
+  <div id="stage">
     <div id="paper">
-      <div id="decade-rail" aria-hidden="false"></div>
+      <div id="decade-rail"></div>
       <div id="axis"></div>
       <div id="lanes"></div>
     </div>
   </div>
 
-  <div id="legend-dock" aria-label="Medium key"></div>
+  <div id="chrome-dock">
+    <nav class="centuries" id="century-nav" aria-label="Centuries"></nav>
+    <div id="legend-dock" aria-label="Medium key"></div>
+  </div>
 
   <aside id="artist-panel" hidden>
     <button class="x" id="panel-x" aria-label="Close">×</button>
@@ -40,6 +42,6 @@
     </figure>
   </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=20260903c"></script>
 </body>
 </html>

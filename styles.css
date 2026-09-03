@@ -19,16 +19,15 @@
   --purple:#5a3d6b;
 }
 *{box-sizing:border-box}
-html{height:100%; height:100dvh;}
-body{margin:0;min-height:100%; min-height:100dvh; background:var(--parchment);color:var(--ink);color-scheme:light;
+html,body{height:100%; height:100dvh; margin:0; overflow:hidden;}
+html{color-scheme:light;}
+body{background:var(--parchment);color:var(--ink);
   font-family:"EB Garamond",Garamond,"Times New Roman",serif;font-size:18px;
-  display:flex; flex-direction:column;
-  padding: 0 env(safe-area-inset-right) 0 env(safe-area-inset-left);
-  overflow:hidden;}
+  position:relative;}
 h1,h2,h3,.decade-num,.line-label,.century-btn{font-family:"Cormorant Garamond","Palatino Linotype",serif;}
 
-.mast{position:relative;z-index:30;flex:0 0 auto;display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
-  padding:10px 22px 10px; padding-top: calc(10px + env(safe-area-inset-top));
+.mast{position:fixed; top:0; left:0; right:0; z-index:40;
+  padding:8px 16px calc(8px); padding-top: calc(8px + env(safe-area-inset-top));
   background:linear-gradient(#f7edd4, #f0e0b8);
   border-bottom:1px solid var(--bole);}
 .mast-left{flex:0 1 340px;}
@@ -42,14 +41,23 @@ h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;
 .centuries button.on, .centuries button:hover{background:color-mix(in srgb,var(--vermilion) 14%, transparent);
   border-color:var(--vermilion);}
 
-#stage{flex:1 1 auto; min-height:0; overflow:auto;
-  -webkit-overflow-scrolling:touch; overscroll-behavior:contain;
+#stage{
+  direction:ltr;
+  position:fixed;
+  top: calc(52px + env(safe-area-inset-top));
+  left:0; right:0;
+  bottom:0;
+  overflow:auto;
+  overflow-anchor:none;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
   touch-action:pan-x pan-y;
-  scrollbar-color: var(--bole) var(--parchment2);}
+  scrollbar-color: var(--bole) var(--parchment2);
+}
 #paper{position:relative;min-height:min-content;
   background:
     linear-gradient(#f6e9cc, #e8d3a8 40%, #dfc896);
-  padding:12px 24px calc(88px + env(safe-area-inset-bottom));}
+  padding:12px 24px calc(120px + env(safe-area-inset-bottom));}
 
 #decade-rail{position:relative;height:var(--rail-h);margin-bottom:0;}
 .decade-cell{position:absolute;top:0;bottom:0;padding:0 3px;}
@@ -159,8 +167,7 @@ details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
   h1{font-size:22px;}
   .lede{font-size:13px;}
   .hint{display:none;}
-  .centuries{width:100%;}
-  .centuries button{font-size:16px; padding:10px 14px;}
+  .mast-left{flex:1 1 auto;}
   #artist-panel{
     width:auto; left:8px; right:8px; top:auto; bottom:0;
     max-height:min(70dvh, 70vh); border-radius:12px 12px 0 0;
@@ -180,19 +187,21 @@ details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
 .work-card.no-img{padding:10px; min-height:4.5em;}
 .works button.no-img{display:flex; flex-direction:column; justify-content:center;}
 
-#legend-dock{
-  position:fixed; z-index:35;
+#chrome-dock{
+  position:fixed; z-index:45;
   left: max(8px, env(safe-area-inset-left));
   bottom: max(8px, env(safe-area-inset-bottom));
-  max-width: min(96vw, 520px);
-  background: color-mix(in srgb, #f7edd4 92%, transparent);
+  max-width: min(96vw, 540px);
+  background: color-mix(in srgb, #f7edd4 94%, transparent);
   border:1px solid var(--bole);
   box-shadow: 0 4px 18px rgba(40,20,8,.22);
   border-radius: 8px;
-  padding: 6px 8px;
-  backdrop-filter: blur(6px);
+  padding: 8px 10px 6px;
+  backdrop-filter: blur(8px);
 }
+#chrome-dock .centuries{margin:0 0 6px; gap:6px; flex-wrap:wrap;}
+#chrome-dock .centuries button{font-size:16px; padding:8px 12px;}
+#legend-dock{position:static; border:0; box-shadow:none; background:transparent; padding:0; max-width:none;}
 #legend-dock .legend{margin:0; gap:6px;}
 #legend-dock .legend button{background:color-mix(in srgb, #fff6de 70%, transparent);}
-/* old in-flow legend hidden if any leftover */
 #lanes > .legend{display:none;}
