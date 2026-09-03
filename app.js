@@ -1271,15 +1271,20 @@ function boot(){
   pxPerYear = Math.max(10, Math.min(18, avail / years));
   document.documentElement.style.setProperty('--px-per-year', pxPerYear + 'px');
 
-  const nav = $('#century-nav');
-  nav.innerHTML = '';
-  centuries().forEach(c => {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.textContent = centuryLabel(c);
-    b.dataset.century = c;
-    b.addEventListener('click', () => scrollToYear(c + 50)); // mid-century
-    nav.appendChild(b);
+  const sel = $('#century-select');
+  sel.innerHTML = '';
+  // Only 13th and 14th for now (years 1200–1299 / 1300–1399)
+  ;[1200, 1300].forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = String(c);
+    opt.textContent = centuryLabel(c);
+    sel.appendChild(opt);
+  });
+  sel.value = '1200';
+  sel.addEventListener('change', () => {
+    const c = Number(sel.value);
+    if (!Number.isFinite(c)) return;
+    scrollToYear(c + 50); // mid-century
   });
 
   draw(range);
@@ -1485,8 +1490,11 @@ function syncNav(){
   const st = $('#stage');
   const mid = st.scrollLeft + st.clientWidth * 0.35;
   const year = range.start + mid / pxPerYear;
-  const c = Math.floor(year / 100) * 100;
-  [...$('#century-nav').children].forEach(b => b.classList.toggle('on', Number(b.dataset.century) === c));
+  let c = Math.floor(year / 100) * 100;
+  if (c < 1200) c = 1200;
+  if (c > 1300) c = 1300;
+  const sel = $('#century-select');
+  if (sel && sel.value !== String(c)) sel.value = String(c);
 }
 
 function regionLabel(a){
@@ -1581,10 +1589,15 @@ function onKey(e){
     clearMediumFilter();
   }
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
-    const btns = [...$('#century-nav').children];
-    const on = btns.findIndex(b => b.classList.contains('on'));
+    const sel = $('#century-select');
+    if (!sel) return;
+    const opts = [...sel.options];
+    const on = opts.findIndex(o => o.value === sel.value);
     const n = e.key === 'ArrowRight' ? on+1 : on-1;
-    if (n>=0 && n<btns.length) btns[n].click();
+    if (n>=0 && n<opts.length){
+      sel.value = opts[n].value;
+      sel.dispatchEvent(new Event('change'));
+    }
   }
 }
 

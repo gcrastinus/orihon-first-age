@@ -6,12 +6,18 @@
 <title>Vademecum · 1250–1320</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=EB+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260903c">
+<link rel="stylesheet" href="styles.css?v=20260903d">
 </head>
 <body>
   <header class="mast">
     <div class="mast-left">
-      <h1>Vademecum</h1>
+      <div class="mast-title-row">
+        <h1>Vademecum</h1>
+        <label class="century-pick" for="century-select">
+          <span class="visually-hidden">Century</span>
+          <select id="century-select" aria-label="Jump to century"></select>
+        </label>
+      </div>
       <p class="lede">A pocket guide to the first age — earliest years at the left; later years to the right</p>
     </div>
   </header>
@@ -25,7 +31,6 @@
   </div>
 
   <div id="chrome-dock">
-    <nav class="centuries" id="century-nav" aria-label="Centuries"></nav>
     <div id="legend-dock" aria-label="Medium key"></div>
   </div>
 
@@ -42,6 +47,6 @@
     </figure>
   </div>
 
-<script src="app.js?v=20260903c"></script>
+<script src="app.js?v=20260903d"></script>
 </body>
 </html>
