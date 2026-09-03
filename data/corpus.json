@@ -1029,12 +1029,8 @@
           "file": null,
           "listen": [
             {
-              "label": "Internet Archive — Deller Consort: Viderunt Omnes (Music at Notre Dame)",
+              "label": "Internet Archive — Pérotin, Viderunt omnes (Deller Consort, human; Notre Dame LP)",
               "url": "https://archive.org/details/lp_music-at-notre-dame-1200-1375-notre-dame-m_guillaume-de-machaut-protin-alfred-deller"
-            },
-            {
-              "label": "Internet Archive — David Munrow: Viderunt omnes",
-              "url": "https://archive.org/details/perotin-david-munrow-viderunt-omnes"
             }
           ],
           "note": "Four-voice organum for Christmas. Opens an external recording (not hosted here). No MIDI."
@@ -1066,12 +1062,8 @@
           "h": 863,
           "listen": [
             {
-              "label": "Internet Archive — Le Jeu de Robin et Marion (Pro Musica Antiqua)",
+              "label": "Internet Archive — Le Jeu de Robin et Marion (Pro Musica Antiqua / Safford Cape, human, 1956)",
               "url": "https://archive.org/details/lp_le-jeu-de-robin-et-marion-13-rondeaux-1_adam-de-la-halle-pro-musica-antiqua-saffor"
-            },
-            {
-              "label": "Wikimedia Commons — Breves dies hominis (Adam de la Halle)",
-              "url": "https://commons.wikimedia.org/wiki/File:Breves_dies_hominis.ogg"
             }
           ],
           "note": "Pastoral play with songs — often called an ancestor of opera. Written for the Angevin circle. Opens an external recording (not hosted here). No MIDI."
@@ -1101,12 +1093,8 @@
           "file": null,
           "listen": [
             {
-              "label": "Internet Archive — Laudario di Cortona (Quartetto Polifonico Italiano)",
+              "label": "Internet Archive — Altissima luce, Laudario di Cortona (Quartetto Polifonico Italiano; track A17)",
               "url": "https://archive.org/details/lp_musica-italica-laudario-di-cortona-codex-9_quartetto-polifonico-italiano"
-            },
-            {
-              "label": "Wikipedia — Laudario di Cortona",
-              "url": "https://en.wikipedia.org/wiki/Laudario_di_Cortona"
             }
           ],
           "note": "Vernacular praise-songs of the confraternities. Opens an external recording (not hosted here). No MIDI."
@@ -1136,11 +1124,7 @@
           "file": null,
           "listen": [
             {
-              "label": "Wikimedia Commons — Ypocrite / Velut stelle / Et gaudebit (13th-c. motet)",
-              "url": "https://commons.wikimedia.org/wiki/File:Ypocrite-Velut_stelle-Et_gaudebit.ogg"
-            },
-            {
-              "label": "Wikipedia — Franco of Cologne",
+              "label": "Wikipedia — Franco of Cologne (notation; no free recording of his music found)",
               "url": "https://en.wikipedia.org/wiki/Franco_of_Cologne"
             }
           ],
@@ -1171,12 +1155,8 @@
           "file": null,
           "listen": [
             {
-              "label": "Wikipedia — Petrus de Cruce",
+              "label": "Wikipedia — Petrus de Cruce (no free recording of Aucun ont trouvé found)",
               "url": "https://en.wikipedia.org/wiki/Petrus_de_Cruce"
-            },
-            {
-              "label": "Wikimedia Commons — Ypocrite / Velut stelle / Et gaudebit (ars antiqua motet)",
-              "url": "https://commons.wikimedia.org/wiki/File:Ypocrite-Velut_stelle-Et_gaudebit.ogg"
             }
           ],
           "note": "Petronian motet: a top voice that subdivides the breve into many quick notes. Opens an external recording (not hosted here). No MIDI."
@@ -1206,12 +1186,12 @@
           "file": null,
           "listen": [
             {
-              "label": "Wikimedia Commons — Sumer Is Icumen In (playable .ogg)",
+              "label": "Wikimedia Commons — Sumer Is Icumen In (human recording, playable .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Sumer_Is_Icumen_In_(13th_century_English_round).ogg"
             },
             {
-              "label": "Wikipedia — Sumer is icumen in",
-              "url": "https://en.wikipedia.org/wiki/Sumer_is_icumen_in"
+              "label": "Internet Archive — Summer Is Icumen In (English Singers, c.1927 78)",
+              "url": "https://archive.org/details/78_summer-is-icumen-in_the-english-singers-john-of-fornsete_gbia3007147b"
             }
           ],
           "note": "Four-voice round with a Latin pious contrafact in the same manuscript. Opens an external recording (not hosted here). No MIDI."
@@ -1243,12 +1223,12 @@
           "h": 1199,
           "listen": [
             {
-              "label": "Wikimedia Commons — Vitry: Gratissima Virginis (playable .ogg)",
+              "label": "Wikimedia Commons — Vitry, Gratissima virginis (electronic / MIDI realization)",
               "url": "https://commons.wikimedia.org/wiki/File:Vitry_-_Gratissima_Virginis.ogg"
             },
             {
-              "label": "Internet Archive — Motet du Roman de Fauvel (78 rpm)",
-              "url": "https://archive.org/details/78_prmices-de-la-polyphonie-suisse-motet-du-roman-de-fauvel_mm-bousquet-et-rousselo_gbia0504179b"
+              "label": "Wikimedia Commons — Vitry, Vos qui admiramini (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:Vitry_-_Vos_qui_admiramini.ogg"
             }
           ],
           "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
