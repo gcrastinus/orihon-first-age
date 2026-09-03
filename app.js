@@ -1281,7 +1281,7 @@ function boot(){
   });
 
   draw(range);
-  scrollToYear(1280);
+  scrollToStart();
   $('#stage').addEventListener('scroll', syncNav, {passive:true});
   $('#panel-x').onclick = closePanel;
   $('#light-x').onclick = closeLight;
@@ -1290,6 +1290,7 @@ function boot(){
   $('#stage').addEventListener('click', e => {
     if (e.target.closest('.life-line')) return;
     if (e.target.closest('#legend')) return;
+    if (e.target.closest('#legend-dock')) return;
     if (e.target.closest('#artist-panel')) return;
     if (e.target.closest('#lightbox')) return;
     clearMediumFilter();
@@ -1391,6 +1392,7 @@ function draw(range){
     it.el = el;
   });
 
+  const dock = $('#legend-dock');
   const leg = document.createElement('div');
   leg.className = 'legend';
   leg.id = 'legend';
@@ -1400,7 +1402,8 @@ function draw(range){
     <button type="button" data-filter="architecture"><i style="background:#2a3d6b"></i> Architecture</button>
     <button type="button" data-filter="music"><i style="background:#5a3d6b"></i> Music</button>
     <button type="button" data-filter="antiquity"><i style="background:#c4a35a;border:1px dashed #fff8"></i> Ancient model</button>`;
-  lanesEl.appendChild(leg);
+  if (dock){ dock.innerHTML = ''; dock.appendChild(leg); }
+  else { lanesEl.appendChild(leg); }
   leg.querySelectorAll('[data-filter]').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
@@ -1445,6 +1448,12 @@ function selectLine(it, range){
   glow.style.left = xOf(it.start, range) + 'px';
   glow.style.width = wOf(it.start, it.end, range) + 'px';
   openPanel(it.artist);
+}
+
+function scrollToStart(){
+  const st = $('#stage');
+  if (st) st.scrollTo({left: 0, top: 0, behavior: 'auto'});
+  syncNav();
 }
 
 function scrollToYear(year){
