@@ -1,7 +1,7 @@
 const DATA = {
-  "title": "An Orihon of the First Age",
+  "title": "Vademecum",
   "span": "1250–1320",
-  "subtitle": "Painting, sculpture, architecture in Italy and the Low Countries — with the ancient marbles this generation studied",
+  "subtitle": "Painting, sculpture, architecture, and music — Italy, the Low Countries, and the sounding world around them",
   "years": {
     "start": 1220,
     "end": 1350
@@ -36,6 +36,11 @@ const DATA = {
       "id": "antiquity",
       "label": "Ancient models",
       "pigment": "gold"
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "pigment": "purple"
     }
   ],
   "artists": [
@@ -909,9 +914,262 @@ const DATA = {
           "note": "Reliefs of Trajan, Hadrian, and Marcus Aurelius reused under Constantine’s attic. Always standing; Jubilee pilgrims and Roman painters walked under it."
         }
       ]
+    },
+    {
+      "id": "perotin",
+      "name": "Pérotin",
+      "nameFull": "Pérotin (Perotinus Magnus)",
+      "dates": "fl. c. 1200",
+      "born": 1190,
+      "died": 1225,
+      "medium": "music",
+      "region": "france",
+      "place": "Paris (Notre-Dame)",
+      "famous": "perotin-viderunt",
+      "vasari": null,
+      "vasariNote": "Outside Vasari’s painterly First Age: the Notre-Dame school that taught Europe how voices could move together. Slightly earlier than 1250, kept here because later motets still live in its wake.",
+      "works": [
+        {
+          "id": "perotin-viderunt",
+          "title": "Viderunt omnes",
+          "date": "c. 1198–1200",
+          "year": 1200,
+          "place": "Paris, Notre-Dame",
+          "file": null,
+          "listen": [
+            {
+              "label": "Apple Music — Hilliard Ensemble",
+              "url": "https://classical.music.apple.com/us/recording/perotin-c1160-pp43-1452341609"
+            },
+            {
+              "label": "Search YouTube (Hilliard / Viderunt omnes)",
+              "url": "https://www.youtube.com/results?search_query=Perotin+Viderunt+omnes+Hilliard+Ensemble"
+            }
+          ],
+          "note": "Four-voice organum for Christmas. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "adam-halle",
+      "name": "Adam de la Halle",
+      "nameFull": "Adam de la Halle",
+      "dates": "c. 1245–1288/1306",
+      "born": 1245,
+      "died": 1288,
+      "medium": "music",
+      "region": "france",
+      "place": "Arras / Naples",
+      "famous": "adam-robin",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — a trouvère, not a Tuscan painter. Arras and the Angevin south.",
+      "works": [
+        {
+          "id": "adam-robin",
+          "title": "Le Jeu de Robin et Marion",
+          "date": "c. 1282–83",
+          "year": 1283,
+          "place": "Naples (Angevin court) / Arras",
+          "file": "images/adam-halle.jpg",
+          "w": 1280,
+          "h": 863,
+          "listen": [
+            {
+              "label": "Naxos — Tonus Peregrinus recording",
+              "url": "https://www.naxos.com/CatalogueDetail/?id=8.557337"
+            },
+            {
+              "label": "Search YouTube (Jeu de Robin et Marion)",
+              "url": "https://www.youtube.com/results?search_query=Adam+de+la+Halle+Jeu+de+Robin+et+Marion"
+            }
+          ],
+          "note": "Pastoral play with songs — often called an ancestor of opera. Written for the Angevin circle. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "cortona-laude",
+      "name": "Laudario di Cortona",
+      "nameFull": "Anonymous — Laudario di Cortona",
+      "dates": "ms. c. 1250–1290",
+      "born": 1250,
+      "died": 1290,
+      "medium": "music",
+      "region": "italy",
+      "place": "Cortona / Tuscany",
+      "famous": "cortona-altissima",
+      "vasari": null,
+      "vasariNote": "Devotional songs in Italian, unknown to Vasari’s painter Lives — the sounding counterpart to Franciscan Assisi.",
+      "works": [
+        {
+          "id": "cortona-altissima",
+          "title": "Altissima luce (and companion laude)",
+          "date": "c. 1250–90",
+          "year": 1270,
+          "place": "Cortona, Biblioteca del Comune (ms. 91)",
+          "file": null,
+          "listen": [
+            {
+              "label": "Search YouTube (Laudario di Cortona Altissima luce)",
+              "url": "https://www.youtube.com/results?search_query=Laudario+di+Cortona+Altissima+luce"
+            },
+            {
+              "label": "Search Apple Music (Altissima Luce / Cortona)",
+              "url": "https://music.apple.com/us/search?term=Altissima%20Luce%20Laudario%20di%20Cortona"
+            }
+          ],
+          "note": "Vernacular praise-songs of the confraternities. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "franco-cologne",
+      "name": "Franco of Cologne",
+      "nameFull": "Franco of Cologne",
+      "dates": "fl. c. 1250–1280",
+      "born": 1250,
+      "died": 1280,
+      "medium": "music",
+      "region": "north",
+      "place": "Cologne / Paris",
+      "famous": "franco-ars",
+      "vasari": null,
+      "vasariNote": "Theorist of Franconian notation (Ars cantus mensurabilis). No Vasari Life.",
+      "works": [
+        {
+          "id": "franco-ars",
+          "title": "Ars cantus mensurabilis (and the Franconian motet)",
+          "date": "c. 1260",
+          "year": 1260,
+          "place": "Cologne / Paris",
+          "file": null,
+          "listen": [
+            {
+              "label": "Search YouTube (Franconian motet 13th century)",
+              "url": "https://www.youtube.com/results?search_query=Franconian+motet+13th+century"
+            },
+            {
+              "label": "Search YouTube (Ars antiqua motet)",
+              "url": "https://www.youtube.com/results?search_query=Ars+antiqua+motet+recording"
+            }
+          ],
+          "note": "How the breve was measured — the rulebook behind late-13th-c. polyphony. Listen via period motets that follow his precepts. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "petrus-cruce",
+      "name": "Petrus de Cruce",
+      "nameFull": "Petrus de Cruce (Pierre de la Croix)",
+      "dates": "fl. c. 1290",
+      "born": 1270,
+      "died": 1302,
+      "medium": "music",
+      "region": "france",
+      "place": "Amiens / Paris",
+      "famous": "petrus-aucun",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Jacobus of Liège praised his motets.",
+      "works": [
+        {
+          "id": "petrus-aucun",
+          "title": "Aucun ont trouvé / Lonc tans / Annun[tiantes]",
+          "date": "c. 1290",
+          "year": 1290,
+          "place": "Paris / Amiens",
+          "file": null,
+          "listen": [
+            {
+              "label": "Search YouTube (Petrus de Cruce Aucun ont trouvé)",
+              "url": "https://www.youtube.com/results?search_query=Petrus+de+Cruce+Aucun+ont+trouve"
+            },
+            {
+              "label": "Search Apple Music (Petrus de Cruce)",
+              "url": "https://music.apple.com/us/search?term=Petrus%20de%20Cruce%20motet"
+            }
+          ],
+          "note": "Petronian motet: a top voice that subdivides the breve into many quick notes. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "sumer-icumen",
+      "name": "Sumer is icumen in",
+      "nameFull": "Anonymous — Sumer is icumen in",
+      "dates": "ms. c. 1260",
+      "born": 1255,
+      "died": 1270,
+      "medium": "music",
+      "region": "north",
+      "place": "Reading Abbey (England)",
+      "famous": "sumer-round",
+      "vasari": null,
+      "vasariNote": "English rota — outside Vasari, included as a northern sounding contemporary of the Tuscan first age.",
+      "works": [
+        {
+          "id": "sumer-round",
+          "title": "Sumer is icumen in (Reading Rota)",
+          "date": "c. 1260",
+          "year": 1260,
+          "place": "British Library, Harley MS 978",
+          "file": null,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — audio recording",
+              "url": "https://commons.wikimedia.org/wiki/File:Sumer_Is_Icumen_In_(13th_century_English_round).ogg"
+            },
+            {
+              "label": "Search YouTube (Sumer is icumen in)",
+              "url": "https://www.youtube.com/results?search_query=Sumer+is+icumen+in+medieval"
+            }
+          ],
+          "note": "Four-voice round with a Latin pious contrafact in the same manuscript. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
+    },
+    {
+      "id": "vitry",
+      "name": "Philippe de Vitry",
+      "nameFull": "Philippe de Vitry",
+      "dates": "1291–1361",
+      "born": 1291,
+      "died": 1361,
+      "medium": "music",
+      "region": "france",
+      "place": "Paris",
+      "famous": "vitry-fauvel",
+      "vasari": null,
+      "vasariNote": "Ars Nova begins in his generation. No Vasari Life.",
+      "works": [
+        {
+          "id": "vitry-fauvel",
+          "title": "Motets in the Roman de Fauvel",
+          "date": "c. 1316",
+          "year": 1316,
+          "place": "Paris (BNF fr. 146)",
+          "file": "images/vitry-fauvel.jpg",
+          "w": 1177,
+          "h": 1199,
+          "listen": [
+            {
+              "label": "Search YouTube (Roman de Fauvel motet Vitry)",
+              "url": "https://www.youtube.com/results?search_query=Roman+de+Fauvel+Philippe+de+Vitry+motet"
+            },
+            {
+              "label": "Search Apple Music (Roman de Fauvel)",
+              "url": "https://music.apple.com/us/search?term=Roman%20de%20Fauvel%20motet"
+            }
+          ],
+          "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
+        }
+      ]
     }
   ],
-  "lede": "1250–1320 · Italy and the Low Countries · plus the antique models they looked at"
+  "lede": "A pocket guide to the first age: life-lines, build-lines, music-lines, and the antique models they studied",
+  "centuries": [
+    1200,
+    1300
+  ]
 };
 
 const $ = (s, r=document) => r.querySelector(s);
@@ -922,9 +1180,10 @@ const PALETTE = {
   painting: ['#3d5a45', '#4f7358', '#2f4a38', '#5a8062', '#456650', '#6b8f72', '#334f3c', '#587a5e'],
   sculpture: ['#8a4b32', '#a35a3c', '#734028', '#b56a48', '#935540', '#7a3f2a', '#c17a55', '#6b3824'],
   architecture: ['#2a3d6b', '#3a5080', '#243556', '#4a6294', '#334870', '#1f2f55', '#5a72a0', '#2f4470'],
-  antiquity: ['#a6863a', '#c4a35a', '#8a7030', '#b89648']
+  antiquity: ['#a6863a', '#c4a35a', '#8a7030', '#b89648'],
+  music: ['#5a3d6b', '#6e4d82', '#4a3258', '#7a5a94', '#513868', '#8668a0']
 };
-const colorCursor = {painting:0, sculpture:0, architecture:0, antiquity:0};
+const colorCursor = {painting:0, sculpture:0, architecture:0, antiquity:0, music:0};
 
 function colorFor(medium){
   const arr = PALETTE[medium] || PALETTE.painting;
@@ -934,87 +1193,90 @@ function colorFor(medium){
 }
 
 function yearRange(){
-  // Expandable: derived from decades + artist births/deaths with padding
-  const decades = DATA.decades.slice().sort((a,b)=>a-b);
-  let start = decades[0] - 30;
-  let end = decades[decades.length-1] + 40;
+  const decades = (DATA.decades || []).slice().sort((a,b)=>a-b);
+  let start = (decades[0] || 1250) - 30;
+  let end = (decades[decades.length-1] || 1320) + 40;
   DATA.artists.forEach(a => {
     if (a.born) start = Math.min(start, a.born - 5);
     if (a.died) end = Math.max(end, a.died + 5);
   });
-  // round to decades
   start = Math.floor(start / 10) * 10;
   end = Math.ceil(end / 10) * 10;
   return {start, end};
 }
 
-function xOf(year, range){
-  return (year - range.start) * pxPerYear;
+function centuries(){
+  if (DATA.centuries && DATA.centuries.length) return DATA.centuries.slice().sort((a,b)=>a-b);
+  const r = yearRange();
+  const out = [];
+  for (let c = Math.floor(r.start/100)*100; c < r.end; c += 100) out.push(c);
+  return out;
 }
-function wOf(y0, y1, range){
-  return Math.max(36, (y1 - y0) * pxPerYear);
+
+function centuryLabel(c){
+  // 1200 -> "13th c."
+  const n = Math.floor(c/100) + 1;
+  const suf = (n%10===1&&n%100!==11)?'st':(n%10===2&&n%100!==12)?'nd':(n%10===3&&n%100!==13)?'rd':'th';
+  return n + suf + ' c.';
 }
+
+function xOf(year, range){ return (year - range.start) * pxPerYear; }
+function wOf(y0, y1, range){ return Math.max(36, (y1 - y0) * pxPerYear); }
 
 function decadeOf(y){
   const n = Number(y);
-  const decades = DATA.decades;
+  const decades = DATA.decades || [];
+  if (!decades.length) return Math.floor(n/10)*10;
   if (n < decades[0]) return decades[0];
   if (n >= decades[decades.length-1]) return decades[decades.length-1];
   return Math.floor(n / 10) * 10;
 }
 
 function pickDecadeHeroes(){
-  // one representative work per decade: prefer painting, then sculpture, architecture, antiquity
-  const rank = {painting:0, sculpture:1, architecture:2, antiquity:3};
+  const rank = {painting:0, sculpture:1, architecture:2, music:3, antiquity:4};
   const byDec = {};
   DATA.artists.forEach(a => {
     a.works.forEach(w => {
+      if (!w.file) return; // rail needs a picture
       const d = decadeOf(w.year);
       const score = (a.famous === w.id ? 0 : 10) + (rank[a.medium] ?? 9);
       const prev = byDec[d];
-      if (!prev || score < prev.score){
-        byDec[d] = {score, artist:a, work:w};
-      }
+      if (!prev || score < prev.score) byDec[d] = {score, artist:a, work:w};
     });
   });
   return byDec;
 }
 
 function packLanes(items){
-  // items: {start, end, ...} sorted by start
   const lanes = [];
   items.forEach(it => {
     let placed = false;
     for (let i=0;i<lanes.length;i++){
       if (lanes[i] <= it.start){
-        lanes[i] = it.end + 1; // small gap in years
-        it.lane = i;
-        placed = true;
-        break;
+        lanes[i] = it.end + 1;
+        it.lane = i; placed = true; break;
       }
     }
-    if (!placed){
-      it.lane = lanes.length;
-      lanes.push(it.end + 1);
-    }
+    if (!placed){ it.lane = lanes.length; lanes.push(it.end + 1); }
   });
   return lanes.length;
 }
 
 function boot(){
-  // measure: fit roughly to viewport width if few decades, else scroll
   const range = yearRange();
   const years = range.end - range.start;
-  const avail = Math.max(900, window.innerWidth - 48);
+  const avail = Math.max(900, (window.innerWidth || 900) - 48);
   pxPerYear = Math.max(10, Math.min(18, avail / years));
   document.documentElement.style.setProperty('--px-per-year', pxPerYear + 'px');
 
-  const nav = $('#decade-nav');
-  DATA.decades.forEach(d => {
+  const nav = $('#century-nav');
+  nav.innerHTML = '';
+  centuries().forEach(c => {
     const b = document.createElement('button');
     b.type = 'button';
-    b.textContent = d;
-    b.addEventListener('click', () => scrollToYear(d));
+    b.textContent = centuryLabel(c);
+    b.dataset.century = c;
+    b.addEventListener('click', () => scrollToYear(c + 50)); // mid-century
     nav.appendChild(b);
   });
 
@@ -1026,15 +1288,11 @@ function boot(){
   $('#lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') closeLight(); });
   document.addEventListener('keydown', onKey);
   $('#stage').addEventListener('click', e => {
-    // click empty parchment / axis / rail (not a line, legend, or panel)
     if (e.target.closest('.life-line')) return;
     if (e.target.closest('#legend')) return;
     if (e.target.closest('#artist-panel')) return;
     if (e.target.closest('#lightbox')) return;
     clearMediumFilter();
-  });
-  window.addEventListener('resize', () => {
-    // lightweight: keep layout; only remeasure on big changes if needed
   });
 }
 
@@ -1043,31 +1301,33 @@ function draw(range){
   const paper = $('#paper');
   paper.style.width = (width + 48) + 'px';
 
-  // Decade rail
   const rail = $('#decade-rail');
   rail.innerHTML = '';
   rail.style.width = width + 'px';
   const heroes = pickDecadeHeroes();
-  DATA.decades.forEach((d, i) => {
-    const next = DATA.decades[i+1] || Math.min(range.end, d + 10);
+  const decades = DATA.decades || [];
+  decades.forEach((d, i) => {
+    const next = decades[i+1] || Math.min(range.end, d + 10);
     const cell = document.createElement('div');
     cell.className = 'decade-cell';
     cell.style.left = xOf(d, range) + 'px';
     cell.style.width = wOf(d, next, range) + 'px';
     const hero = heroes[d];
     const img = hero ? hero.work.file : '';
-    const alt = hero ? hero.work.title : d;
+    const alt = hero ? hero.work.title : String(d);
     cell.innerHTML = `<div class="shot">${img ? `<img src="${img}" alt="${alt}" loading="lazy">` : ''}</div>
-      <h2 class="decade-num">${d}</h2>`;
+      <div class="decade-num">${d}</div>`;
     if (hero){
       cell.title = `${hero.work.title} — ${hero.artist.name}`;
       cell.style.cursor = 'pointer';
-      cell.addEventListener('click', () => openPanel(hero.artist, hero.work));
+      cell.addEventListener('click', () => {
+        selectArtistSpan(hero.artist, range);
+        openPanel(hero.artist, hero.work);
+      });
     }
     rail.appendChild(cell);
   });
 
-  // Axis
   const axis = $('#axis');
   axis.innerHTML = '';
   axis.style.width = width + 'px';
@@ -1076,7 +1336,7 @@ function draw(range){
     t.className = 'tick' + (y % 50 === 0 ? ' major' : '');
     t.style.left = xOf(y, range) + 'px';
     axis.appendChild(t);
-    if (y % 20 === 0 || DATA.decades.includes(y)){
+    if (y % 20 === 0 || decades.includes(y)){
       const lab = document.createElement('div');
       lab.className = 'tick-label';
       lab.style.left = xOf(y, range) + 'px';
@@ -1085,7 +1345,6 @@ function draw(range){
     }
   }
 
-  // Life lines
   const lanesEl = $('#lanes');
   lanesEl.innerHTML = '';
   lanesEl.style.width = width + 'px';
@@ -1094,21 +1353,16 @@ function draw(range){
   glow.id = 'span-glow';
   lanesEl.appendChild(glow);
 
-  // reset color cursors
   Object.keys(colorCursor).forEach(k => colorCursor[k]=0);
 
   const items = DATA.artists.map(a => {
     let start = Number(a.born) || decadeOf((a.works[0]||{}).year);
     let end = Number(a.died) || (start + 20);
     if (end < start) end = start + 10;
-    // clamp into drawable range but keep original for highlight
-    return {
-      artist: a,
-      start, end,
-      color: colorFor(a.medium),
-      kind: a.medium === 'architecture' ? 'build'
-          : a.medium === 'antiquity' ? 'antique' : 'life'
-    };
+    const kind = a.medium === 'architecture' ? 'build'
+      : a.medium === 'antiquity' ? 'antique'
+      : a.medium === 'music' ? 'music' : 'life';
+    return { artist:a, start, end, color: colorFor(a.medium), kind };
   }).sort((a,b) => a.start - b.start || a.end - b.end);
 
   const laneCount = packLanes(items);
@@ -1128,22 +1382,23 @@ function draw(range){
     el.style.left = xOf(it.start, range) + 'px';
     el.style.width = wOf(it.start, it.end, range) + 'px';
     el.style.background = it.color;
-    const labelKind = it.kind === 'build' ? 'build-line' : (it.kind === 'antique' ? 'model' : 'life-line');
-    el.title = `${it.artist.nameFull} (${it.artist.dates}) · ${labelKind}`;
+    el.title = `${it.artist.nameFull} (${it.artist.dates})`;
     el.innerHTML = `<span class="line-label">${escapeHtml(it.artist.name)}<span class="yrs">(${escapeHtml(it.artist.dates)})</span></span>`;
-    el.addEventListener('click', () => selectLine(it, range));
+    el.addEventListener('click', () => {
+      selectLine(it, range);
+    });
     lane.appendChild(el);
     it.el = el;
   });
 
-  // legend (click to isolate a medium)
   const leg = document.createElement('div');
   leg.className = 'legend';
   leg.id = 'legend';
   leg.innerHTML = `
-    <button type="button" data-filter="painting"><i style="background:#3d5a45"></i> Painting (life-line)</button>
-    <button type="button" data-filter="sculpture"><i style="background:#8a4b32"></i> Sculpture (life-line)</button>
-    <button type="button" data-filter="architecture"><i style="background:#2a3d6b"></i> Architecture (build-line)</button>
+    <button type="button" data-filter="painting"><i style="background:#3d5a45"></i> Painting</button>
+    <button type="button" data-filter="sculpture"><i style="background:#8a4b32"></i> Sculpture</button>
+    <button type="button" data-filter="architecture"><i style="background:#2a3d6b"></i> Architecture</button>
+    <button type="button" data-filter="music"><i style="background:#5a3d6b"></i> Music</button>
     <button type="button" data-filter="antiquity"><i style="background:#c4a35a;border:1px dashed #fff8"></i> Ancient model</button>`;
   lanesEl.appendChild(leg);
   leg.querySelectorAll('[data-filter]').forEach(btn => {
@@ -1153,14 +1408,13 @@ function draw(range){
     });
   });
 
-  // stash for selection
   window.__timeline = {range, items};
 }
 
 function clearMediumFilter(){
   const lanesEl = $('#lanes');
   if (!lanesEl) return;
-  lanesEl.classList.remove('filter-painting','filter-sculpture','filter-architecture','filter-antiquity');
+  ['painting','sculpture','architecture','antiquity','music'].forEach(m => lanesEl.classList.remove('filter-'+m));
   document.querySelectorAll('#legend [data-filter]').forEach(b => b.classList.remove('on'));
 }
 
@@ -1175,6 +1429,12 @@ function toggleMediumFilter(medium){
     const btn = document.querySelector('#legend [data-filter="'+medium+'"]');
     if (btn) btn.classList.add('on');
   }
+}
+
+function selectArtistSpan(artist, range){
+  const items = (window.__timeline && window.__timeline.items) || [];
+  const it = items.find(x => x.artist.id === artist.id);
+  if (it) selectLine(it, range || window.__timeline.range);
 }
 
 function selectLine(it, range){
@@ -1192,7 +1452,7 @@ function scrollToYear(year){
   const st = $('#stage');
   const x = xOf(year, range) - st.clientWidth * 0.25;
   st.scrollTo({left: Math.max(0, x), behavior:'smooth'});
-  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', Number(b.textContent) === Number(year) || Number(b.textContent) === decadeOf(year)));
+  syncNav();
 }
 
 function syncNav(){
@@ -1200,31 +1460,54 @@ function syncNav(){
   const st = $('#stage');
   const mid = st.scrollLeft + st.clientWidth * 0.35;
   const year = range.start + mid / pxPerYear;
-  const d = decadeOf(year);
-  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', Number(b.textContent) === d));
+  const c = Math.floor(year / 100) * 100;
+  [...$('#century-nav').children].forEach(b => b.classList.toggle('on', Number(b.dataset.century) === c));
+}
+
+function regionLabel(a){
+  if (a.medium === 'antiquity') return 'Ancient model';
+  if (a.region === 'north') return 'North / Low Countries';
+  if (a.region === 'france') return 'France (sounding context)';
+  return 'Italy';
+}
+
+function mediumLabel(a){
+  return ({
+    architecture:'Architecture (build-line)',
+    antiquity:'Ancient model',
+    sculpture:'Sculpture (life-line)',
+    music:'Music (music-line)',
+    painting:'Painting (life-line)'
+  })[a.medium] || a.medium;
 }
 
 function openPanel(a, focusWork){
   openArtist = a;
   const pan = $('#artist-panel');
-  const regionLabel = a.medium === 'antiquity' ? 'Ancient model · Italy'
-    : (a.region === 'north' ? 'Low Countries' : 'Italy');
-  const mediumLabel = a.medium === 'architecture' ? 'Architecture (build-line)'
-    : a.medium === 'antiquity' ? 'Ancient model'
-    : a.medium === 'sculpture' ? 'Sculpture (life-line)'
-    : 'Painting (life-line)';
   let html = `<h2>${a.nameFull}</h2>
     <p class="dates">${a.dates} · ${a.place}</p>
-    <p class="note-muted">${mediumLabel} · ${regionLabel}</p>
+    <p class="note-muted">${mediumLabel(a)} · ${regionLabel(a)}</p>
     <div class="works">`;
   a.works.forEach(w => {
     const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
-    html += `<button type="button" data-work="${w.id}"${hot}>
-      <img src="${w.file}" alt="" loading="lazy">
-      <figcaption><b>${w.title}</b><br>${w.date}<br>${w.place}</figcaption>
-    </button>`;
+    const noImg = !w.file;
+    html += `<button type="button" class="${noImg?'no-img':''}" data-work="${w.id}"${hot}>`;
+    if (w.file) html += `<img src="${w.file}" alt="" loading="lazy">`;
+    html += `<figcaption><b>${w.title}</b><br>${w.date}<br>${w.place||''}</figcaption></button>`;
   });
   html += `</div>`;
+
+  // external listen links for all works that have them
+  const listens = [];
+  a.works.forEach(w => (w.listen||[]).forEach(L => listens.push({work:w.title, ...L})));
+  if (listens.length){
+    html += `<div class="listen-links"><p class="note-muted">Listen (opens elsewhere — nothing loads on this page):</p>`;
+    listens.forEach(L => {
+      html += `<a href="${escapeAttr(L.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.label)} — ${escapeHtml(L.work)}</a>`;
+    });
+    html += `</div>`;
+  }
+
   if (a.vasari && a.vasari.text){
     html += `<details class="vasari" open><summary>Vasari · ${a.vasari.life}</summary>
       <p>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</p><p>')}</p>
@@ -1237,7 +1520,8 @@ function openPanel(a, focusWork){
   pan.querySelectorAll('[data-work]').forEach(btn => {
     btn.addEventListener('click', () => {
       const w = a.works.find(x => x.id === btn.dataset.work);
-      openLight(a, w);
+      if (w && w.file) openLight(a, w);
+      else if (w && w.listen && w.listen[0]) window.open(w.listen[0].url, '_blank', 'noopener,noreferrer');
     });
   });
 }
@@ -1253,9 +1537,10 @@ function closePanel(){
 }
 
 function openLight(a, w){
+  if (!w.file) return;
   $('#light-img').src = w.file;
   $('#light-img').alt = w.title;
-  $('#light-cap').textContent = `${w.title}, ${w.date}. ${w.place}. ${w.note || ''} — ${a.nameFull}.`;
+  $('#light-cap').textContent = `${w.title}, ${w.date}. ${w.place||''}. ${w.note || ''} — ${a.nameFull}.`;
   $('#lightbox').hidden = false;
 }
 
@@ -1271,14 +1556,18 @@ function onKey(e){
     clearMediumFilter();
   }
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
-    const on = [...$('#decade-nav').children].findIndex(b => b.classList.contains('on'));
+    const btns = [...$('#century-nav').children];
+    const on = btns.findIndex(b => b.classList.contains('on'));
     const n = e.key === 'ArrowRight' ? on+1 : on-1;
-    if (n>=0 && n<DATA.decades.length) scrollToYear(DATA.decades[n]);
+    if (n>=0 && n<btns.length) btns[n].click();
   }
 }
 
 function escapeHtml(s){
   return String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+}
+function escapeAttr(s){
+  return String(s).replace(/[&"<>]/g, c => ({'&':'&amp;','"':'&quot;','<':'&lt;','>':'&gt;'}[c]));
 }
 
 boot();

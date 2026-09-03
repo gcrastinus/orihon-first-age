@@ -1,16 +1,16 @@
-# An Orihon of the First Age (1250–1320)
+# Vademecum (1250–1320)
 
-Literal timeline of painting, sculpture, and architecture in Italy and the Low Countries, plus ancient models studied in the period.
+A pocket timeline of painting, sculpture, architecture, and music — life-lines and build-lines on a dated axis, with Vasari where he wrote, and **external** listening links for music (nothing is streamed on this page).
 
-- **Above the axis:** one representative image per decade
-- **Thick time axis:** years / decades
-- **Below:** stacked life-lines (artists) and build-lines (architecture) in related colors; click to highlight the full span and open works + Vasari
+## Use
 
-Built to expand: add decades to `data/corpus.json` (and regenerate the inlined `DATA` in `app.js`) as later centuries are filled in.
+- Century buttons jump the scroll (13th / 14th c.); the strip itself stays ordered by year.
+- Tap a colored line for the full floruit highlight + works / Vasari / listen links.
+- Color key filters a medium; tap again or empty parchment to clear.
 
-## Open locally
+## Local
 
-Double-click `index.html`, or `python3 -m http.server 8766`.
+Open `index.html`, or `python3 -m http.server 8766`.
 
 ## Live
 
@@ -18,4 +18,4 @@ https://gcrastinus.github.io/orihon-first-age/
 
 ## Dispose
 
-Delete the GitHub repo `gcrastinus/orihon-first-age` when finished.
+Delete the GitHub repo when finished.

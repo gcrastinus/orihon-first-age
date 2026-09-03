@@ -16,38 +16,47 @@
   --year-start: 1220;
   --year-end: 1350;
   --px-per-year: 14px;
+  --purple:#5a3d6b;
 }
 *{box-sizing:border-box}
-html,body{margin:0;height:100%;background:var(--parchment);color:var(--ink);color-scheme:light;
-  font-family:"EB Garamond",Garamond,"Times New Roman",serif;font-size:18px;}
-h1,h2,h3,.decade-num,.line-label{font-family:"Cormorant Garamond","Palatino Linotype",serif;}
+html{height:100%; height:100dvh;}
+body{margin:0;min-height:100%; min-height:100dvh; background:var(--parchment);color:var(--ink);color-scheme:light;
+  font-family:"EB Garamond",Garamond,"Times New Roman",serif;font-size:18px;
+  display:flex; flex-direction:column;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  overflow:hidden;}
+h1,h2,h3,.decade-num,.line-label,.century-btn{font-family:"Cormorant Garamond","Palatino Linotype",serif;}
 
-.mast{position:sticky;top:0;z-index:30;display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
+.mast{position:relative;z-index:30;flex:0 0 auto;display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
   padding:10px 22px 10px;background:linear-gradient(#f7edd4, #f0e0b8);
   border-bottom:1px solid var(--bole); min-height:var(--mast);}
 .mast-left{flex:0 1 340px;}
 h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;}
 .lede{margin:2px 0 0;font-size:14px;font-style:italic;color:#4a3a28;}
 .hint{margin:0;font-size:13px;color:#6a5640;max-width:28ch;}
-.decades{display:flex;gap:2px;flex-wrap:wrap;align-items:center;flex:1;}
-.decades button{background:transparent;border:0;color:var(--vermilion);font-family:inherit;
-  font-size:17px;font-weight:600;padding:6px 10px;cursor:pointer;border-radius:3px;}
-.decades button.on, .decades button:hover{background:color-mix(in srgb,var(--vermilion) 18%, transparent);}
+.centuries{display:flex;gap:6px;flex-wrap:wrap;align-items:center;flex:1;}
+.centuries button, .century-btn{background:transparent;border:1px solid color-mix(in srgb,var(--bole) 35%, transparent);
+  color:var(--vermilion);font-family:"Cormorant Garamond",serif;
+  font-size:18px;font-weight:600;padding:8px 14px;cursor:pointer;border-radius:4px;}
+.centuries button.on, .centuries button:hover{background:color-mix(in srgb,var(--vermilion) 14%, transparent);
+  border-color:var(--vermilion);}
 
-#stage{height:calc(100vh - var(--mast));overflow:auto;
+#stage{flex:1 1 auto; min-height:0; height:auto; overflow:auto;
+  -webkit-overflow-scrolling:touch; overscroll-behavior:contain;
+  touch-action:pan-x pan-y;
   scrollbar-color: var(--bole) var(--parchment2);}
-#paper{position:relative;min-height:100%;
+#paper{position:relative;min-height:min-content;
   background:
     linear-gradient(#f6e9cc, #e8d3a8 40%, #dfc896);
-  padding:12px 24px 40px;}
+  padding:12px 24px 56px;}
 
 #decade-rail{position:relative;height:var(--rail-h);margin-bottom:0;}
 .decade-cell{position:absolute;top:0;bottom:0;padding:0 3px;}
 .decade-cell .shot{height:calc(100% - 28px);border:1px solid rgba(40,20,8,.25);
   overflow:hidden;background:#2b2114; box-shadow:0 1px 0 var(--gold);}
 .decade-cell img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;}
-.decade-cell .decade-num{margin:4px 0 0;font-size:20px;font-weight:700;color:var(--vermilion);
-  letter-spacing:.06em; text-align:center; line-height:1;}
+.decade-cell .decade-num{margin:4px 0 0;font-size:13px;font-weight:600;color:#6a5640;
+  letter-spacing:.04em; text-align:center; line-height:1;}
 
 #axis{position:relative;height:var(--axis-h);margin:4px 0 10px;
   background:linear-gradient(#6a3424, #9c2b1a 40%, #6a3424);
@@ -75,6 +84,7 @@ h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;
   letter-spacing:0; opacity:.92; margin-left:4px;}
 .life-line.build .line-label{font-style:italic;}
 .life-line.antique{border:1px dashed rgba(255,244,220,.55);}
+.life-line.music{border:1px solid rgba(255,244,220,.25);}
 
 /* dim others when one is selected */
 #lanes.is-focus .life-line:not(.on){opacity:.28;}
@@ -100,11 +110,13 @@ h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;
 #lanes.filter-painting .life-line:not([data-medium="painting"]),
 #lanes.filter-sculpture .life-line:not([data-medium="sculpture"]),
 #lanes.filter-architecture .life-line:not([data-medium="architecture"]),
-#lanes.filter-antiquity .life-line:not([data-medium="antiquity"]){opacity:.18; filter:grayscale(.35);}
+#lanes.filter-antiquity .life-line:not([data-medium="antiquity"]),
+#lanes.filter-music .life-line:not([data-medium="music"]){opacity:.18; filter:grayscale(.35);}
 #lanes.filter-painting .life-line[data-medium="painting"],
 #lanes.filter-sculpture .life-line[data-medium="sculpture"],
 #lanes.filter-architecture .life-line[data-medium="architecture"],
-#lanes.filter-antiquity .life-line[data-medium="antiquity"]{opacity:1; filter:none;}
+#lanes.filter-antiquity .life-line[data-medium="antiquity"],
+#lanes.filter-music .life-line[data-medium="music"]{opacity:1; filter:none;}
 
 
 #artist-panel{position:fixed;right:18px;top:calc(var(--mast) + 12px);bottom:18px;
@@ -140,6 +152,29 @@ details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
 #lightbox{display:flex;}
 
 @media (max-width: 900px){
-  :root{ --rail-h: 120px; --px-per-year: 11px; }
-  #artist-panel{width:min(100vw - 24px, 420px); right:12px; left:12px; margin:auto;}
+  :root{ --rail-h: 110px; --px-per-year: 10px; --lane-h: 30px; }
+  .mast{padding:8px 12px; gap:8px;}
+  .mast-left{flex:1 1 100%; max-width:none;}
+  h1{font-size:22px;}
+  .lede{font-size:13px;}
+  .hint{display:none;}
+  .centuries{width:100%;}
+  .centuries button{font-size:16px; padding:10px 14px;}
+  #artist-panel{
+    width:auto; left:8px; right:8px; top:auto; bottom:0;
+    max-height:min(70dvh, 70vh); border-radius:12px 12px 0 0;
+    padding-bottom: calc(16px + env(safe-area-inset-bottom));
+  }
+  #lightbox{padding:12px; padding-bottom: calc(12px + env(safe-area-inset-bottom));}
+  #lightbox img{max-height:70dvh;}
+  .life-line{height:22px; top:3px; padding:0 8px;}
+  .life-line .line-label{font-size:12px;}
+  .legend{gap:8px; padding-bottom:8px;}
+  .legend button{padding:8px 10px; font-size:13px;} /* larger tap targets */
 }
+
+.listen-links{margin:10px 0 4px; display:flex; flex-direction:column; gap:6px;}
+.listen-links a{color:var(--vermilion); font-size:14px; text-decoration:underline; text-underline-offset:2px;}
+.listen-links a:hover{color:var(--ink);}
+.work-card.no-img{padding:10px; min-height:4.5em;}
+.works button.no-img{display:flex; flex-direction:column; justify-content:center;}

@@ -1,7 +1,7 @@
 {
- "title": "An Orihon of the First Age",
+ "title": "Vademecum",
  "span": "1250–1320",
- "subtitle": "Painting, sculpture, architecture in Italy and the Low Countries — with the ancient marbles this generation studied",
+ "subtitle": "Painting, sculpture, architecture, and music — Italy, the Low Countries, and the sounding world around them",
  "years": {
   "start": 1220,
   "end": 1350
@@ -36,6 +36,11 @@
    "id": "antiquity",
    "label": "Ancient models",
    "pigment": "gold"
+  },
+  {
+   "id": "music",
+   "label": "Music",
+   "pigment": "purple"
   }
  ],
  "artists": [
@@ -909,7 +914,260 @@
      "note": "Reliefs of Trajan, Hadrian, and Marcus Aurelius reused under Constantine’s attic. Always standing; Jubilee pilgrims and Roman painters walked under it."
     }
    ]
+  },
+  {
+   "id": "perotin",
+   "name": "Pérotin",
+   "nameFull": "Pérotin (Perotinus Magnus)",
+   "dates": "fl. c. 1200",
+   "born": 1190,
+   "died": 1225,
+   "medium": "music",
+   "region": "france",
+   "place": "Paris (Notre-Dame)",
+   "famous": "perotin-viderunt",
+   "vasari": null,
+   "vasariNote": "Outside Vasari’s painterly First Age: the Notre-Dame school that taught Europe how voices could move together. Slightly earlier than 1250, kept here because later motets still live in its wake.",
+   "works": [
+    {
+     "id": "perotin-viderunt",
+     "title": "Viderunt omnes",
+     "date": "c. 1198–1200",
+     "year": 1200,
+     "place": "Paris, Notre-Dame",
+     "file": null,
+     "listen": [
+      {
+       "label": "Apple Music — Hilliard Ensemble",
+       "url": "https://classical.music.apple.com/us/recording/perotin-c1160-pp43-1452341609"
+      },
+      {
+       "label": "Search YouTube (Hilliard / Viderunt omnes)",
+       "url": "https://www.youtube.com/results?search_query=Perotin+Viderunt+omnes+Hilliard+Ensemble"
+      }
+     ],
+     "note": "Four-voice organum for Christmas. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "adam-halle",
+   "name": "Adam de la Halle",
+   "nameFull": "Adam de la Halle",
+   "dates": "c. 1245–1288/1306",
+   "born": 1245,
+   "died": 1288,
+   "medium": "music",
+   "region": "france",
+   "place": "Arras / Naples",
+   "famous": "adam-robin",
+   "vasari": null,
+   "vasariNote": "No Vasari Life — a trouvère, not a Tuscan painter. Arras and the Angevin south.",
+   "works": [
+    {
+     "id": "adam-robin",
+     "title": "Le Jeu de Robin et Marion",
+     "date": "c. 1282–83",
+     "year": 1283,
+     "place": "Naples (Angevin court) / Arras",
+     "file": "images/adam-halle.jpg",
+     "w": 1280,
+     "h": 863,
+     "listen": [
+      {
+       "label": "Naxos — Tonus Peregrinus recording",
+       "url": "https://www.naxos.com/CatalogueDetail/?id=8.557337"
+      },
+      {
+       "label": "Search YouTube (Jeu de Robin et Marion)",
+       "url": "https://www.youtube.com/results?search_query=Adam+de+la+Halle+Jeu+de+Robin+et+Marion"
+      }
+     ],
+     "note": "Pastoral play with songs — often called an ancestor of opera. Written for the Angevin circle. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "cortona-laude",
+   "name": "Laudario di Cortona",
+   "nameFull": "Anonymous — Laudario di Cortona",
+   "dates": "ms. c. 1250–1290",
+   "born": 1250,
+   "died": 1290,
+   "medium": "music",
+   "region": "italy",
+   "place": "Cortona / Tuscany",
+   "famous": "cortona-altissima",
+   "vasari": null,
+   "vasariNote": "Devotional songs in Italian, unknown to Vasari’s painter Lives — the sounding counterpart to Franciscan Assisi.",
+   "works": [
+    {
+     "id": "cortona-altissima",
+     "title": "Altissima luce (and companion laude)",
+     "date": "c. 1250–90",
+     "year": 1270,
+     "place": "Cortona, Biblioteca del Comune (ms. 91)",
+     "file": null,
+     "listen": [
+      {
+       "label": "Search YouTube (Laudario di Cortona Altissima luce)",
+       "url": "https://www.youtube.com/results?search_query=Laudario+di+Cortona+Altissima+luce"
+      },
+      {
+       "label": "Search Apple Music (Altissima Luce / Cortona)",
+       "url": "https://music.apple.com/us/search?term=Altissima%20Luce%20Laudario%20di%20Cortona"
+      }
+     ],
+     "note": "Vernacular praise-songs of the confraternities. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "franco-cologne",
+   "name": "Franco of Cologne",
+   "nameFull": "Franco of Cologne",
+   "dates": "fl. c. 1250–1280",
+   "born": 1250,
+   "died": 1280,
+   "medium": "music",
+   "region": "north",
+   "place": "Cologne / Paris",
+   "famous": "franco-ars",
+   "vasari": null,
+   "vasariNote": "Theorist of Franconian notation (Ars cantus mensurabilis). No Vasari Life.",
+   "works": [
+    {
+     "id": "franco-ars",
+     "title": "Ars cantus mensurabilis (and the Franconian motet)",
+     "date": "c. 1260",
+     "year": 1260,
+     "place": "Cologne / Paris",
+     "file": null,
+     "listen": [
+      {
+       "label": "Search YouTube (Franconian motet 13th century)",
+       "url": "https://www.youtube.com/results?search_query=Franconian+motet+13th+century"
+      },
+      {
+       "label": "Search YouTube (Ars antiqua motet)",
+       "url": "https://www.youtube.com/results?search_query=Ars+antiqua+motet+recording"
+      }
+     ],
+     "note": "How the breve was measured — the rulebook behind late-13th-c. polyphony. Listen via period motets that follow his precepts. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "petrus-cruce",
+   "name": "Petrus de Cruce",
+   "nameFull": "Petrus de Cruce (Pierre de la Croix)",
+   "dates": "fl. c. 1290",
+   "born": 1270,
+   "died": 1302,
+   "medium": "music",
+   "region": "france",
+   "place": "Amiens / Paris",
+   "famous": "petrus-aucun",
+   "vasari": null,
+   "vasariNote": "No Vasari Life. Jacobus of Liège praised his motets.",
+   "works": [
+    {
+     "id": "petrus-aucun",
+     "title": "Aucun ont trouvé / Lonc tans / Annun[tiantes]",
+     "date": "c. 1290",
+     "year": 1290,
+     "place": "Paris / Amiens",
+     "file": null,
+     "listen": [
+      {
+       "label": "Search YouTube (Petrus de Cruce Aucun ont trouvé)",
+       "url": "https://www.youtube.com/results?search_query=Petrus+de+Cruce+Aucun+ont+trouve"
+      },
+      {
+       "label": "Search Apple Music (Petrus de Cruce)",
+       "url": "https://music.apple.com/us/search?term=Petrus%20de%20Cruce%20motet"
+      }
+     ],
+     "note": "Petronian motet: a top voice that subdivides the breve into many quick notes. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "sumer-icumen",
+   "name": "Sumer is icumen in",
+   "nameFull": "Anonymous — Sumer is icumen in",
+   "dates": "ms. c. 1260",
+   "born": 1255,
+   "died": 1270,
+   "medium": "music",
+   "region": "north",
+   "place": "Reading Abbey (England)",
+   "famous": "sumer-round",
+   "vasari": null,
+   "vasariNote": "English rota — outside Vasari, included as a northern sounding contemporary of the Tuscan first age.",
+   "works": [
+    {
+     "id": "sumer-round",
+     "title": "Sumer is icumen in (Reading Rota)",
+     "date": "c. 1260",
+     "year": 1260,
+     "place": "British Library, Harley MS 978",
+     "file": null,
+     "listen": [
+      {
+       "label": "Wikimedia Commons — audio recording",
+       "url": "https://commons.wikimedia.org/wiki/File:Sumer_Is_Icumen_In_(13th_century_English_round).ogg"
+      },
+      {
+       "label": "Search YouTube (Sumer is icumen in)",
+       "url": "https://www.youtube.com/results?search_query=Sumer+is+icumen+in+medieval"
+      }
+     ],
+     "note": "Four-voice round with a Latin pious contrafact in the same manuscript. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
+  },
+  {
+   "id": "vitry",
+   "name": "Philippe de Vitry",
+   "nameFull": "Philippe de Vitry",
+   "dates": "1291–1361",
+   "born": 1291,
+   "died": 1361,
+   "medium": "music",
+   "region": "france",
+   "place": "Paris",
+   "famous": "vitry-fauvel",
+   "vasari": null,
+   "vasariNote": "Ars Nova begins in his generation. No Vasari Life.",
+   "works": [
+    {
+     "id": "vitry-fauvel",
+     "title": "Motets in the Roman de Fauvel",
+     "date": "c. 1316",
+     "year": 1316,
+     "place": "Paris (BNF fr. 146)",
+     "file": "images/vitry-fauvel.jpg",
+     "w": 1177,
+     "h": 1199,
+     "listen": [
+      {
+       "label": "Search YouTube (Roman de Fauvel motet Vitry)",
+       "url": "https://www.youtube.com/results?search_query=Roman+de+Fauvel+Philippe+de+Vitry+motet"
+      },
+      {
+       "label": "Search Apple Music (Roman de Fauvel)",
+       "url": "https://music.apple.com/us/search?term=Roman%20de%20Fauvel%20motet"
+      }
+     ],
+     "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
+    }
+   ]
   }
  ],
- "lede": "1250–1320 · Italy and the Low Countries · plus the antique models they looked at"
+ "lede": "A pocket guide to the first age: life-lines, build-lines, music-lines, and the antique models they studied",
+ "centuries": [
+  1200,
+  1300
+ ]
 }
