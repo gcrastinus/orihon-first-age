@@ -10,9 +10,7 @@ Double-click `index.html`, or:
 python3 -m http.server 8766
 ```
 
-## GitHub Pages
-
-If Pages is enabled on this repo (Settings → Pages → Deploy from branch `main` / root), the site is at:
+## Live
 
 https://gcrastinus.github.io/orihon-first-age/
 

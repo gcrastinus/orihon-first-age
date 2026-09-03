@@ -1,0 +1,132 @@
+:root{
+  color-scheme: light;
+  --parchment:#f4e7c8;
+  --parchment2:#ead7b0;
+  --ink:#1c140c;
+  --vermilion:#9c2b1a;
+  --terre:#3d5a45;
+  --bole:#8a4b32;
+  --azurite:#2a3d6b;
+  --gold:#c4a35a;
+  --rule:#d3c19a;
+  --mast: 86px;
+  --tile: 220px;
+  --tile-h: 260px;
+  --gap: 3px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--parchment);color:var(--ink);color-scheme:light;
+  font-family:"EB Garamond",Garamond,"Times New Roman",serif;font-size:18px;}
+h1,h2,h3,.decade-num,.name,.work-title,.decade-title{font-family:"Cormorant Garamond","Palatino Linotype",serif;}
+
+.mast{position:sticky;top:0;z-index:20;display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
+  padding:10px 22px 10px;background:linear-gradient(#f7edd4, #f0e0b8);
+  border-bottom:1px solid var(--bole); min-height:var(--mast);}
+.mast-left{flex:0 1 300px;}
+h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;}
+.lede{margin:2px 0 0;font-size:14px;font-style:italic;color:#4a3a28;}
+.hint{margin:0;font-size:13px;color:#6a5640;max-width:26ch;}
+.decades{display:flex;gap:2px;flex-wrap:wrap;align-items:center;flex:1;}
+.decades button{background:transparent;border:0;color:var(--vermilion);font-family:inherit;
+  font-size:17px;font-weight:600;padding:6px 10px;cursor:pointer;border-radius:3px;}
+.decades button.on, .decades button:hover{background:color-mix(in srgb,var(--vermilion) 18%, transparent);}
+
+#stage{height:calc(100vh - var(--mast));overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x proximity; scrollbar-color: var(--bole) var(--parchment2);}
+#paper{display:flex;align-items:stretch;height:100%;min-width:100%;
+  background:
+    repeating-linear-gradient(90deg, transparent, transparent 48px,
+      rgba(80,40,10,.035) 48px, rgba(80,40,10,.035) 49px),
+    linear-gradient(#f6e9cc, #e8d3a8 55%, #dfc896);
+  padding:0 12px;}
+
+.leaf{flex:0 0 auto;scroll-snap-align:start;height:100%;
+  display:flex;flex-direction:column;padding:12px 10px 14px;
+  border-right:1px solid rgba(90,50,20,.16); min-width: calc(var(--tile) + 28px);}
+.leaf:last-child{border-right:0;}
+.leaf[data-count="1"]{min-width: calc(var(--tile) + 36px);}
+.leaf[data-count="2"]{min-width: calc(var(--tile) * 2 + var(--gap) + 36px);}
+.leaf[data-count="3"]{min-width: calc(var(--tile) * 3 + var(--gap) * 2 + 36px);}
+.leaf[data-count="4"],
+.leaf[data-count="5"],
+.leaf[data-count="6"]{min-width: calc(var(--tile) * 3 + var(--gap) * 2 + 36px);}
+
+.decade-head{flex:0 0 auto;margin:0 0 8px;padding:0 2px;}
+.decade-num{color:var(--vermilion);font-size:34px;font-weight:700;letter-spacing:.06em;margin:0;
+  text-shadow: 0 1px 0 #fff6de; line-height:1;}
+.decade-title{margin:2px 0 0;font-size:13px;font-weight:500;color:#5a4632;font-style:italic;
+  max-width:36ch;line-height:1.25;}
+
+.tracks{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px;}
+.track{flex:1;min-height:0;display:flex;flex-direction:column;position:relative;}
+.track-label{flex:0 0 auto;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  margin:0 0 4px;opacity:.85;padding-left:2px;}
+.track.painting .track-label{color:var(--terre);}
+.track.sculpture .track-label{color:var(--bole);}
+.track.architecture .track-label{color:var(--azurite);}
+.track.antiquity .track-label{color:#8a6a28;}
+.track-row{flex:1;min-height:0;display:flex;flex-wrap:nowrap;gap:var(--gap);align-items:stretch;}
+
+.artist{position:relative;flex:1 1 var(--tile);min-width:var(--tile);max-width:280px;
+  height:100%;min-height:140px;cursor:pointer;overflow:hidden;
+  border:1px solid rgba(40,20,8,.22); background:#2b2114;
+  transition: box-shadow .15s, outline .15s;}
+.artist:hover{box-shadow:0 0 0 2px var(--vermilion); z-index:2;}
+.artist img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  object-position:center top; display:block;}
+.antiquity-card img{object-position:center center;}
+.artist .caption{position:absolute;left:0;right:0;bottom:0;padding:28px 10px 10px;
+  background:linear-gradient(transparent, rgba(18,10,6,.82) 45%, rgba(18,10,6,.92));
+  color:#f7edd4; pointer-events:none;}
+.artist .name{display:block;font-size:17px;font-weight:600;line-height:1.15;
+  text-shadow:0 1px 2px #000;}
+.artist .work-title{display:block;font-size:12px;font-style:italic;opacity:.92;margin-top:2px;
+  line-height:1.2; text-shadow:0 1px 2px #000;}
+.artist .dates{display:block;font-size:11px;opacity:.8;margin-top:2px;}
+.artist .vasari-mark{font-size:9px;letter-spacing:.12em;text-transform:uppercase;
+  color:#f0c27a; display:inline-block;margin-left:6px;vertical-align:middle;}
+.north .name{font-style:italic;}
+.chip{display:none;}
+
+.empty-track{display:none !important;}
+
+#artist-panel{position:fixed;right:18px;top:calc(var(--mast) + 12px);bottom:18px;
+  width:min(460px, 44vw);background:#f7edd4;border:1px solid var(--bole);
+  box-shadow:-8px 8px 28px rgba(40,20,8,.28);z-index:40;overflow:auto;padding:18px 20px 24px;}
+#artist-panel h2{margin:0 28px 0 0;font-size:26px;}
+#artist-panel .dates{color:#5a4632;margin:0 0 10px;}
+.works{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0;}
+.works button{background:#f3e6c4;border:1px solid var(--rule);padding:0;cursor:pointer;text-align:left;}
+.works button:hover{border-color:var(--vermilion);}
+.works img{width:100%;height:160px;object-fit:cover;display:block;}
+.works figcaption{font-size:13px;padding:6px 8px 8px;line-height:1.25;}
+details.vasari{margin-top:14px;border-top:1px solid var(--rule);padding-top:10px;
+  font-size:15px;line-height:1.45;}
+details.vasari summary{cursor:pointer;color:var(--vermilion);font-family:"Cormorant Garamond",serif;
+  font-size:17px;}
+details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
+.x{position:absolute;top:6px;right:8px;width:36px;height:36px;border:0;background:transparent;
+  font-size:28px;cursor:pointer;color:var(--ink);line-height:1;}
+.x:hover{color:var(--vermilion);}
+
+#lightbox{position:fixed;inset:0;background:rgba(18,10,6,.9);z-index:50;
+  display:flex;align-items:center;justify-content:center;padding:28px;}
+#lightbox figure{margin:0;max-width:94vw;max-height:94vh;text-align:center;}
+#lightbox img{max-width:94vw;max-height:82vh;object-fit:contain; box-shadow:0 8px 40px #000;}
+#lightbox figcaption{color:#f4e7c8;font-size:16px;margin-top:10px;max-width:70ch;margin-inline:auto;
+  text-shadow:0 1px 2px #000;line-height:1.35;}
+.light-x{color:#f4e7c8;top:10px;right:16px;font-size:36px;}
+
+.note-muted{font-size:13px;color:#6a5640;font-style:italic;}
+
+#artist-panel[hidden], #lightbox[hidden]{display:none !important;}
+#artist-panel{display:block;}
+#lightbox{display:flex;}
+
+@media (max-width: 900px){
+  :root{ --tile: 170px; }
+  #artist-panel{width:min(100vw - 24px, 420px); right:12px; left:12px; margin:auto;}
+}
+@media (min-width: 1400px){
+  :root{ --tile: 240px; }
+}
