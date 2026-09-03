@@ -32,7 +32,7 @@ h1,h2,h3,.decade-num,.line-label,.century-btn{font-family:"Cormorant Garamond","
   border-bottom:1px solid var(--bole);}
 .mast-left{flex:0 1 auto; max-width:100%;}
 .mast-title-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
-h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;}
+h1{margin:0;font-size:24px;font-weight:600;letter-spacing:.02em;line-height:1.1;}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
 .century-pick{display:inline-flex; align-items:center; margin:0;}
 .century-pick select{
@@ -191,7 +191,7 @@ details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
   :root{ --rail-h: 110px; --px-per-year: 10px; --lane-h: 30px; }
   .mast{padding:8px 12px; gap:8px;}
   .mast-left{flex:1 1 100%; max-width:none;}
-  h1{font-size:22px;}
+  h1{font-size:19px;}
   .mast-title-row{gap:8px;}
   .century-pick select{font-size:13px; padding:3px 24px 3px 8px;}
   .lede{font-size:13px;}

@@ -1,4 +1,4 @@
-# Vademecum (1250–1320)
+# Vademecum of the arts (1250–1320)
 
 A pocket timeline of painting, sculpture, architecture, and music — life-lines and build-lines on a dated axis, with Vasari where he wrote, and **external** listening links for music (nothing is streamed on this page).
 
