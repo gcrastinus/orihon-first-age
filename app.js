@@ -3,8 +3,8 @@ const DATA = {
   "span": "1250–1320",
   "subtitle": "Painting, sculpture, architecture in Italy and the Low Countries — with the ancient marbles this generation studied",
   "years": {
-    "start": 1250,
-    "end": 1330
+    "start": 1220,
+    "end": 1350
   },
   "decades": [
     1250,
@@ -916,138 +916,281 @@ const DATA = {
 
 const $ = (s, r=document) => r.querySelector(s);
 let openArtist = null;
+let pxPerYear = 14;
+
+const PALETTE = {
+  painting: ['#3d5a45', '#4f7358', '#2f4a38', '#5a8062', '#456650', '#6b8f72', '#334f3c', '#587a5e'],
+  sculpture: ['#8a4b32', '#a35a3c', '#734028', '#b56a48', '#935540', '#7a3f2a', '#c17a55', '#6b3824'],
+  architecture: ['#2a3d6b', '#3a5080', '#243556', '#4a6294', '#334870', '#1f2f55', '#5a72a0', '#2f4470'],
+  antiquity: ['#a6863a', '#c4a35a', '#8a7030', '#b89648']
+};
+const colorCursor = {painting:0, sculpture:0, architecture:0, antiquity:0};
+
+function colorFor(medium){
+  const arr = PALETTE[medium] || PALETTE.painting;
+  const i = colorCursor[medium] % arr.length;
+  colorCursor[medium]++;
+  return arr[i];
+}
+
+function yearRange(){
+  // Expandable: derived from decades + artist births/deaths with padding
+  const decades = DATA.decades.slice().sort((a,b)=>a-b);
+  let start = decades[0] - 30;
+  let end = decades[decades.length-1] + 40;
+  DATA.artists.forEach(a => {
+    if (a.born) start = Math.min(start, a.born - 5);
+    if (a.died) end = Math.max(end, a.died + 5);
+  });
+  // round to decades
+  start = Math.floor(start / 10) * 10;
+  end = Math.ceil(end / 10) * 10;
+  return {start, end};
+}
+
+function xOf(year, range){
+  return (year - range.start) * pxPerYear;
+}
+function wOf(y0, y1, range){
+  return Math.max(36, (y1 - y0) * pxPerYear);
+}
 
 function decadeOf(y){
   const n = Number(y);
-  if (n < 1250) return 1250;
-  if (n >= 1320) return 1320;
+  const decades = DATA.decades;
+  if (n < decades[0]) return decades[0];
+  if (n >= decades[decades.length-1]) return decades[decades.length-1];
   return Math.floor(n / 10) * 10;
 }
 
-const DECADE_BLURBS = {
-  1250: "The Greek manner still reigns; Nicola carves at Pisa.",
-  1260: "Pulpits, Madonnas, and the antique Phaedra as teacher.",
-  1270: "Assisi, Siena, and the mosaic dome of Florence.",
-  1280: "Cimabue’s gold; Arnolfo’s tombs; Flemish towers.",
-  1290: "Rome before the Jubilee; Cavallini, Torriti, the Signoria.",
-  1300: "Padua’s blue vault; Giotto; the Lateran bronze.",
-  1310: "Duccio’s Maestà; Giovanni’s late pulpit.",
-  1320: "Simone’s Maestà; the close of the first age."
-};
+function pickDecadeHeroes(){
+  // one representative work per decade: prefer painting, then sculpture, architecture, antiquity
+  const rank = {painting:0, sculpture:1, architecture:2, antiquity:3};
+  const byDec = {};
+  DATA.artists.forEach(a => {
+    a.works.forEach(w => {
+      const d = decadeOf(w.year);
+      const score = (a.famous === w.id ? 0 : 10) + (rank[a.medium] ?? 9);
+      const prev = byDec[d];
+      if (!prev || score < prev.score){
+        byDec[d] = {score, artist:a, work:w};
+      }
+    });
+  });
+  return byDec;
+}
+
+function packLanes(items){
+  // items: {start, end, ...} sorted by start
+  const lanes = [];
+  items.forEach(it => {
+    let placed = false;
+    for (let i=0;i<lanes.length;i++){
+      if (lanes[i] <= it.start){
+        lanes[i] = it.end + 1; // small gap in years
+        it.lane = i;
+        placed = true;
+        break;
+      }
+    }
+    if (!placed){
+      it.lane = lanes.length;
+      lanes.push(it.end + 1);
+    }
+  });
+  return lanes.length;
+}
 
 function boot(){
+  // measure: fit roughly to viewport width if few decades, else scroll
+  const range = yearRange();
+  const years = range.end - range.start;
+  const avail = Math.max(900, window.innerWidth - 48);
+  pxPerYear = Math.max(10, Math.min(18, avail / years));
+  document.documentElement.style.setProperty('--px-per-year', pxPerYear + 'px');
+
   const nav = $('#decade-nav');
   DATA.decades.forEach(d => {
     const b = document.createElement('button');
     b.type = 'button';
     b.textContent = d;
-    b.addEventListener('click', () => foldTo(d));
+    b.addEventListener('click', () => scrollToYear(d));
     nav.appendChild(b);
   });
-  drawPaper();
-  foldTo(1280);
+
+  draw(range);
+  scrollToYear(1280);
   $('#stage').addEventListener('scroll', syncNav, {passive:true});
   $('#panel-x').onclick = closePanel;
   $('#light-x').onclick = closeLight;
   $('#lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') closeLight(); });
   document.addEventListener('keydown', onKey);
+  window.addEventListener('resize', () => {
+    // lightweight: keep layout; only remeasure on big changes if needed
+  });
 }
 
-function drawPaper(){
+function draw(range){
+  const width = (range.end - range.start) * pxPerYear;
   const paper = $('#paper');
-  paper.innerHTML = '';
-  const counts = Object.fromEntries(DATA.decades.map(d => [d, 0]));
+  paper.style.width = (width + 48) + 'px';
 
-  DATA.decades.forEach(d => {
-    const leaf = document.createElement('section');
-    leaf.className = 'leaf';
-    leaf.dataset.decade = d;
-    leaf.innerHTML = `<div class="decade-head"><h2 class="decade-num">${d}</h2>
-      <p class="decade-title">${DECADE_BLURBS[d] || ''}</p></div>
-      <div class="tracks"></div>`;
-    const tracksEl = leaf.querySelector('.tracks');
-    DATA.tracks.forEach(t => {
-      const tr = document.createElement('div');
-      tr.className = `track ${t.id}`;
-      tr.dataset.track = t.id;
-      tr.innerHTML = `<span class="track-label">${t.label}</span><div class="track-row"></div>`;
-      tracksEl.appendChild(tr);
-    });
-    paper.appendChild(leaf);
-  });
-
-  DATA.artists.forEach(a => {
-    const famous = a.works.find(w => w.id === a.famous) || a.works[0];
-    if (!famous) return;
-    const d = decadeOf(famous.year);
-    const leaf = paper.querySelector(`.leaf[data-decade="${d}"]`);
-    if (!leaf) return;
-    const track = leaf.querySelector(`.track.${a.medium} .track-row`);
-    if (!track) return;
-    counts[d] = (counts[d] || 0) + 1;
-    const el = document.createElement('article');
-    el.className = 'artist'
-      + (a.region === 'north' ? ' north' : '')
-      + (a.medium === 'antiquity' ? ' antiquity-card' : '');
-    el.innerHTML = `<img src="${famous.file}" alt="${famous.title}" loading="lazy">
-      <div class="caption">
-        <span class="name">${a.name}${a.vasari ? '<span class="vasari-mark">Vasari</span>' : ''}</span>
-        <span class="work-title">${famous.title}</span>
-        <span class="dates">${a.dates}</span>
-      </div>`;
-    el.addEventListener('click', () => openPanel(a));
-    track.appendChild(el);
+  // Decade rail
+  const rail = $('#decade-rail');
+  rail.innerHTML = '';
+  rail.style.width = width + 'px';
+  const heroes = pickDecadeHeroes();
+  DATA.decades.forEach((d, i) => {
+    const next = DATA.decades[i+1] || Math.min(range.end, d + 10);
+    const cell = document.createElement('div');
+    cell.className = 'decade-cell';
+    cell.style.left = xOf(d, range) + 'px';
+    cell.style.width = wOf(d, next, range) + 'px';
+    const hero = heroes[d];
+    const img = hero ? hero.work.file : '';
+    const alt = hero ? hero.work.title : d;
+    cell.innerHTML = `<div class="shot">${img ? `<img src="${img}" alt="${alt}" loading="lazy">` : ''}</div>
+      <h2 class="decade-num">${d}</h2>`;
+    if (hero){
+      cell.title = `${hero.work.title} — ${hero.artist.name}`;
+      cell.style.cursor = 'pointer';
+      cell.addEventListener('click', () => openPanel(hero.artist, hero.work));
+    }
+    rail.appendChild(cell);
   });
 
-  paper.querySelectorAll('.leaf').forEach(leaf => {
-    const d = leaf.dataset.decade;
-    leaf.dataset.count = String(Math.min(6, Math.max(1, counts[d] || 1)));
+  // Axis
+  const axis = $('#axis');
+  axis.innerHTML = '';
+  axis.style.width = width + 'px';
+  for (let y = range.start; y <= range.end; y += 10){
+    const t = document.createElement('div');
+    t.className = 'tick' + (y % 50 === 0 ? ' major' : '');
+    t.style.left = xOf(y, range) + 'px';
+    axis.appendChild(t);
+    if (y % 20 === 0 || DATA.decades.includes(y)){
+      const lab = document.createElement('div');
+      lab.className = 'tick-label';
+      lab.style.left = xOf(y, range) + 'px';
+      lab.textContent = y;
+      axis.appendChild(lab);
+    }
+  }
+
+  // Life lines
+  const lanesEl = $('#lanes');
+  lanesEl.innerHTML = '';
+  lanesEl.style.width = width + 'px';
+  const glow = document.createElement('div');
+  glow.className = 'span-glow';
+  glow.id = 'span-glow';
+  lanesEl.appendChild(glow);
+
+  // reset color cursors
+  Object.keys(colorCursor).forEach(k => colorCursor[k]=0);
+
+  const items = DATA.artists.map(a => {
+    let start = Number(a.born) || decadeOf((a.works[0]||{}).year);
+    let end = Number(a.died) || (start + 20);
+    if (end < start) end = start + 10;
+    // clamp into drawable range but keep original for highlight
+    return {
+      artist: a,
+      start, end,
+      color: colorFor(a.medium),
+      kind: a.medium === 'architecture' ? 'build'
+          : a.medium === 'antiquity' ? 'antique' : 'life'
+    };
+  }).sort((a,b) => a.start - b.start || a.end - b.end);
+
+  const laneCount = packLanes(items);
+  for (let i=0;i<laneCount;i++){
+    const lane = document.createElement('div');
+    lane.className = 'lane';
+    lane.dataset.lane = i;
+    lanesEl.appendChild(lane);
+  }
+
+  items.forEach(it => {
+    const lane = lanesEl.querySelector(`.lane[data-lane="${it.lane}"]`);
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'life-line ' + it.kind;
+    el.style.left = xOf(it.start, range) + 'px';
+    el.style.width = wOf(it.start, it.end, range) + 'px';
+    el.style.background = it.color;
+    const labelKind = it.kind === 'build' ? 'build-line' : (it.kind === 'antique' ? 'model' : 'life-line');
+    el.title = `${it.artist.nameFull} (${it.artist.dates}) · ${labelKind}`;
+    el.innerHTML = `<span class="line-label">${escapeHtml(it.artist.name)}<span class="yrs">(${escapeHtml(it.artist.dates)})</span></span>`;
+    el.addEventListener('click', () => selectLine(it, range));
+    lane.appendChild(el);
+    it.el = el;
   });
-  paper.querySelectorAll('.track').forEach(tr => {
-    const row = tr.querySelector('.track-row');
-    if (!row || !row.children.length) tr.classList.add('empty-track');
-  });
+
+  // legend
+  const leg = document.createElement('div');
+  leg.className = 'legend';
+  leg.innerHTML = `
+    <span><i style="background:#3d5a45"></i> Painting (life-line)</span>
+    <span><i style="background:#8a4b32"></i> Sculpture (life-line)</span>
+    <span><i style="background:#2a3d6b"></i> Architecture (build-line)</span>
+    <span><i style="background:#c4a35a;border:1px dashed #fff8"></i> Ancient model</span>`;
+  lanesEl.appendChild(leg);
+
+  // stash for selection
+  window.__timeline = {range, items};
 }
 
-function foldTo(decade){
-  const leaf = document.querySelector(`.leaf[data-decade="${decade}"]`);
+function selectLine(it, range){
+  const lanesEl = $('#lanes');
+  lanesEl.classList.add('is-focus');
+  lanesEl.querySelectorAll('.life-line').forEach(el => el.classList.toggle('on', el === it.el));
+  const glow = $('#span-glow');
+  glow.style.left = xOf(it.start, range) + 'px';
+  glow.style.width = wOf(it.start, it.end, range) + 'px';
+  openPanel(it.artist);
+}
+
+function scrollToYear(year){
+  const range = (window.__timeline && window.__timeline.range) || yearRange();
   const st = $('#stage');
-  if (!leaf || !st) return;
-  st.scrollTo({left: leaf.offsetLeft - 8, behavior: 'smooth'});
-  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', b.textContent == decade));
+  const x = xOf(year, range) - st.clientWidth * 0.25;
+  st.scrollTo({left: Math.max(0, x), behavior:'smooth'});
+  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', Number(b.textContent) === Number(year) || Number(b.textContent) === decadeOf(year)));
 }
 
 function syncNav(){
+  const range = (window.__timeline && window.__timeline.range) || yearRange();
   const st = $('#stage');
-  const leaves = [...document.querySelectorAll('.leaf')];
-  let best = DATA.decades[0], dist = 1e9;
-  leaves.forEach(leaf => {
-    const d = Math.abs(leaf.offsetLeft - st.scrollLeft);
-    if (d < dist){ dist = d; best = Number(leaf.dataset.decade); }
-  });
-  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', b.textContent == best));
+  const mid = st.scrollLeft + st.clientWidth * 0.35;
+  const year = range.start + mid / pxPerYear;
+  const d = decadeOf(year);
+  [...$('#decade-nav').children].forEach(b => b.classList.toggle('on', Number(b.textContent) === d));
 }
 
-function openPanel(a){
+function openPanel(a, focusWork){
   openArtist = a;
   const pan = $('#artist-panel');
   const regionLabel = a.medium === 'antiquity' ? 'Ancient model · Italy'
     : (a.region === 'north' ? 'Low Countries' : 'Italy');
-  const mediumLabel = a.medium === 'antiquity' ? 'Antiquity'
-    : (a.medium[0].toUpperCase()+a.medium.slice(1));
+  const mediumLabel = a.medium === 'architecture' ? 'Architecture (build-line)'
+    : a.medium === 'antiquity' ? 'Ancient model'
+    : a.medium === 'sculpture' ? 'Sculpture (life-line)'
+    : 'Painting (life-line)';
   let html = `<h2>${a.nameFull}</h2>
     <p class="dates">${a.dates} · ${a.place}</p>
     <p class="note-muted">${mediumLabel} · ${regionLabel}</p>
     <div class="works">`;
   a.works.forEach(w => {
-    html += `<button type="button" data-work="${w.id}">
+    const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
+    html += `<button type="button" data-work="${w.id}"${hot}>
       <img src="${w.file}" alt="" loading="lazy">
       <figcaption><b>${w.title}</b><br>${w.date}<br>${w.place}</figcaption>
     </button>`;
   });
   html += `</div>`;
   if (a.vasari && a.vasari.text){
-    html += `<details class="vasari"><summary>Vasari · ${a.vasari.life}</summary>
+    html += `<details class="vasari" open><summary>Vasari · ${a.vasari.life}</summary>
       <p>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</p><p>')}</p>
       <p class="cite">${escapeHtml(a.vasari.cite)}</p></details>`;
   } else if (a.vasariNote){
@@ -1066,6 +1209,11 @@ function openPanel(a){
 function closePanel(){
   $('#artist-panel').hidden = true;
   openArtist = null;
+  const lanesEl = $('#lanes');
+  if (lanesEl){
+    lanesEl.classList.remove('is-focus');
+    lanesEl.querySelectorAll('.life-line.on').forEach(el => el.classList.remove('on'));
+  }
 }
 
 function openLight(a, w){
@@ -1088,7 +1236,7 @@ function onKey(e){
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
     const on = [...$('#decade-nav').children].findIndex(b => b.classList.contains('on'));
     const n = e.key === 'ArrowRight' ? on+1 : on-1;
-    if (n>=0 && n<DATA.decades.length) foldTo(DATA.decades[n]);
+    if (n>=0 && n<DATA.decades.length) scrollToYear(DATA.decades[n]);
   }
 }
 

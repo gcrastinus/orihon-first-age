@@ -12,14 +12,18 @@
   <header class="mast">
     <div class="mast-left">
       <h1>An Orihon of the First Age</h1>
-      <p class="lede">1250–1320 · Italy and the Low Countries · painting, sculpture, architecture, and the antique models they studied</p>
+      <p class="lede">1250–1320 · Italy and the Low Countries · life-lines, build-lines, and the antique models they studied</p>
     </div>
     <nav class="decades" id="decade-nav" aria-label="Decades"></nav>
-    <p class="hint">Swipe the decades left and right. Click a tile for works and Vasari. Esc or × returns you.</p>
+    <p class="hint">Scroll the years. Click a life-line or build-line for works and Vasari. Esc closes.</p>
   </header>
 
   <div id="stage" tabindex="0">
-    <div id="paper"></div>
+    <div id="paper">
+      <div id="decade-rail" aria-hidden="false"></div>
+      <div id="axis"></div>
+      <div id="lanes"></div>
+    </div>
   </div>
 
   <aside id="artist-panel" hidden>
