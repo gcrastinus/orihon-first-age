@@ -232,3 +232,33 @@ details.vasari .cite{font-size:12px;color:#6a5640;margin-top:10px;}
 #legend-dock .legend{margin:0; gap:6px;}
 #legend-dock .legend button{background:color-mix(in srgb, #fff6de 70%, transparent);}
 #lanes > .legend{display:none;}
+
+.vasari-works{margin-top:14px; display:flex; flex-direction:column; gap:8px;}
+details.vasari{
+  margin-top:0; border:1px solid var(--rule); border-radius:6px;
+  background:color-mix(in srgb, #fff6de 55%, transparent);
+  padding:0;
+}
+details.vasari summary{
+  cursor:pointer; list-style:none;
+  padding:10px 12px;
+  color:var(--vermilion);
+  font-family:"Cormorant Garamond",serif;
+  font-size:16px;
+  font-weight:600;
+}
+details.vasari summary::-webkit-details-marker{display:none;}
+details.vasari summary::before{
+  content:"▸ ";
+  display:inline-block;
+  transition: transform .15s;
+}
+details.vasari[open] summary::before{ content:"▾ "; }
+details.vasari summary em{font-style:italic; color:var(--ink); font-weight:600;}
+details.vasari blockquote{
+  margin:0 12px 12px; padding:0 0 0 12px;
+  border-left:2px solid color-mix(in srgb, var(--bole) 45%, transparent);
+  font-size:15px; line-height:1.45; color:#2a1e12;
+}
+details.vasari .cite{margin:0 12px 12px; font-size:12px; color:#6a5640;}
+details.vasari .note-muted{margin:0 12px 8px;}

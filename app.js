@@ -57,9 +57,7 @@ const DATA = {
       "famous": "cimabue-trinita",
       "vasari": {
         "life": "Life of Giovanni Cimabue",
-        "text": "LIFE OF GIOVANNI CIMABUE,\n\nPAINTER OF FLORENCE\n\nBy the infinite flood of evils which had laid prostrate and submerged\npoor Italy there had not only been ruined everything that could truly\nclaim the name of building, but there had been blotted out (and this was\nof graver import) the whole body of the craftsmen, when, by the will of\nGod, in the city of Florence, in the year 1240, there was born, to give\nthe first light to the art of painting, Giovanni, surnamed Cimabue, of\nthe family, noble in those times, of Cimabue. He, while growing up,\nbeing judged by his father and by others to have a beautiful and acute\nintelligence, was sent, to the end that he might exercise himself in\nletters, to a master in S. Maria Novella, his relative, who was then\nteaching grammar to the novices of that convent; but Cimabue, in place\nof attending to his letters, would spend the whole day, as one who felt\nhimself led thereto by nature, in drawing, on books and other papers,\nmen, horses, houses, and diverse other things of fancy; to which natural\ninclination fortune was favourable, for certain Greek painters had been\nsummoned to Florence by those who then governed the city, for nothing\nelse but to restore to Florence the art of painting, which was rather\nout of mind than out of fashion, and they began, among the other works\nundertaken in the city, the Chapel of the Gondi, whereof to-day the\nvaulting and the walls are little less than eaten away by time, as may\nbe seen in S. Maria Novella beside the principal chapel, where it\nstands. Wherefore Cimabue, having begun to take his first steps in this\nart which pleased him, playing truant often from school, would stand the\nlivelong day watching these masters at work, in a manner that, being\njudged by his father and by these painters to be in such wise fitted\nfor painting that there could be hoped for him, applying himself to this\nprofession, an honourable success, to his own no small satisfaction he\nwas apprenticed by the said father to these men; whereupon, exercising\nhimself without ceasing, in a short time nature assisted him so greatly\nthat he surpassed by a long way, both in drawing and in colouring, the\nmanner of the masters who were teaching him. For they, giving no thought\nto making any advance, had made those works in that fashion wherein they\nare seen to-day—that is, not in the good ancient manner of the Greeks\nbut in that rude…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "GIOVANNI_CIMABUE"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -71,7 +69,13 @@ const DATA = {
           "file": "images/cimabue-trinita.jpg",
           "w": 1280,
           "h": 2292,
-          "note": "Vasari’s first light of painting: the Madonna still Byzantine in gold, the faces already turning."
+          "note": "Vasari’s first light of painting: the Madonna still Byzantine in gold, the faces already turning.",
+          "vasari": {
+            "life": "Life of Giovanni Cimabue",
+            "text": "Having returned, then, to Florence, Cimabue painted in the cloister of S. Spirito (wherein there is painted in the Greek manner, by other masters, the whole side facing the church) three small arches by his own hand, from the life of Christ, and truly with much design. And at the same time he sent certain works wrought by himself in Florence to Empoli, which works are still held to-day in great veneration in the Pieve of that township. Next, he made for the Church of S. Maria Novella the panel of Our Lady that is set on high between the Chapel of the Rucellai and that of the Bardi da Vernia; which work was of greater size than any figure that had been made up to that time. And certain angels that are round it show that, although he still had the Greek manner, he was going on approaching in part to the line and method of the modern.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari’s famous Madonna-panel story (he places it at S. Maria Novella / the Rucellai chapel; modern scholarship often reads that panel as Duccio’s)."
+          }
         },
         {
           "id": "cimabue-louvre",
@@ -82,7 +86,13 @@ const DATA = {
           "file": "images/cimabue-louvre.jpg",
           "w": 1280,
           "h": 2073,
-          "note": "Smaller seated Virgin with angels; the same gold ground, a softer weight in the Child."
+          "note": "Smaller seated Virgin with angels; the same gold ground, a softer weight in the Child.",
+          "vasari": {
+            "life": "Life of Giovanni Cimabue",
+            "text": "Having returned, then, to Florence, Cimabue painted in the cloister of S. Spirito (wherein there is painted in the Greek manner, by other masters, the whole side facing the church) three small arches by his own hand, from the life of Christ, and truly with much design. And at the same time he sent certain works wrought by himself in Florence to Empoli, which works are still held to-day in great veneration in the Pieve of that township. Next, he made for the Church of S. Maria Novella the panel of Our Lady that is set on high between the Chapel of the Rucellai and that of the Bardi da Vernia; which work was of greater size than any figure that had been made up to that time. And certain angels that are round it show that, although he still had the Greek manner, he was going on approaching in part to the line and method of the modern.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari’s procession / Charles of Anjou anecdote for Cimabue’s great Madonna panel."
+          }
         },
         {
           "id": "cimabue-crucifix",
@@ -93,7 +103,12 @@ const DATA = {
           "file": "images/cimabue-crucifix.jpg",
           "w": 1280,
           "h": 1584,
-          "note": "Photographed in color before the 1966 flood. The living body against the old Italo-Byzantine scheme."
+          "note": "Photographed in color before the 1966 flood. The living body against the old Italo-Byzantine scheme.",
+          "vasari": {
+            "life": "Life of Giovanni Cimabue",
+            "text": "Cimabue, being summoned again after this work by the same Prior who had caused him to make the works in S. Croce, made him a large Crucifix on wood, which is still seen to-day in the church; which work was the reason, it appearing to the Prior that he had been well served, that he took him to S. Francesco in Pisa, their convent, in order to make a S. Francis on a panel, which was held by these people to be a most rare work, there being seen therein a certain greater quality of excellence, both in the air of the heads and in the folds of the draperies, than had been shown in the Greek manner up to that time by anyone who had wrought anything, not only in Pisa, but in all Italy. Cimabue having next made for the same church on a large panel the image of Our Lady, with the Child in her arms and with many angels round her, also on a ground of gold, it was after no long time removed from where it had been set up the first time, in order to make there the marble altar that is there at present, and was placed within the church beside the door on the left hand;…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "cimabue-assisi",
@@ -104,7 +119,12 @@ const DATA = {
           "file": "images/cimabue-assisi.jpg",
           "w": 1280,
           "h": 921,
-          "note": "The lead white has darkened over the centuries into a photographic negative of itself; the grief in the angels is untouched."
+          "note": "The lead white has darkened over the centuries into a photographic negative of itself; the grief in the angels is untouched.",
+          "vasari": {
+            "life": "Life of Giovanni Cimabue",
+            "text": "By reason of these works, then, the name of Cimabue being very famous everywhere, he was brought to Assisi, a city of Umbria, where, in company with certain Greek masters, in the lower Church of S. Francesco, he painted part of the vaulting, and on the walls the life of Jesus Christ and that of S. Francis. In these pictures he surpassed by a long way those Greek painters; wherefore, growing in courage, he began by his own self to paint the upper church in fresco, and in the chief apse, over the choir, on four sides, he made certain stories of Our Lady--namely, her death; when her soul is borne by Christ to Heaven upon a throne of clouds; and when, in the midst of a choir of angels, He crowns her, with a great number of saints below, both male and female, now eaten away by time and by dust. Next, in the sections of the vaulting of the said church, which are five, he painted in like manner many scenes.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         }
       ]
     },
@@ -185,9 +205,7 @@ const DATA = {
       "famous": "giotto-lamentation",
       "vasari": {
         "life": "Life of Giotto",
-        "text": "LIFE OF GIOTTO,\n\nPAINTER, SCULPTOR, AND ARCHITECT, OF FLORENCE\n\nThat very obligation which the craftsmen of painting owe to nature, who\nserves continually as model to those who are ever wresting the good from\nher best and most beautiful features and striving to counterfeit and to\nimitate her, should be owed, in my belief, to Giotto, painter of\nFlorence, for the reason that, after the methods of good paintings and\ntheir outlines had lain buried for so many years under the ruins of the\nwars, he alone, although born among inept craftsmen, by the gift of God\nrevived that art, which had come to a grievous pass, and brought it to\nsuch a form as could be called good. And truly it was a very great\nmiracle that that age, gross and inept, should have had strength to work\nin Giotto in a fashion so masterly, that design, whereof the men of\nthose times had little or no knowledge, was restored completely to life\nby means of him. And yet this great man was born at the village of\nVespignano, in the district of Florence, fourteen miles distant from\nthat city, in the year 1276, from a father named Bondone, a tiller of\nthe soil and a simple fellow. He, having had this son, to whom he gave\nthe name Giotto, reared him conformably to his condition; and when he\nhad come to the age of ten, he showed in all his actions, although\nchildish still, a vivacity and readiness of intelligence much out of the\nordinary, which rendered him dear not only to his father but to all\nthose also who knew him, both in the village and beyond. Now Bondone\ngave some sheep into his charge, and he, going about the holding, now in\none part and now in another, to graze them, and impelled by a natural\ninclination to the art of design, was for ever drawing, on stones, on\nthe ground, or on sand, something from nature, or in truth anything\nthat came into his fancy. Wherefore Cimabue, going one day on some\nbusiness of his own from Florence to Vespignano, found Giotto, while his\nsheep were browsing, portraying a sheep from nature on a flat and\npolished slab, with a stone slightly pointed, without having learnt any\nmethod of doing this from others, but only from nature; whence Cimabue,\nstanding fast all in a marvel, asked him if he wished to go to live with\nhim. The child answered that, his father consenting, he would go\nwillingly. Cimabue then asking this from Bondone, the latter lovingly\ngranted it to him, and wa…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "GIOTTO"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -199,7 +217,13 @@ const DATA = {
           "file": "images/giotto-lamentation.jpg",
           "w": 1000,
           "h": 925,
-          "note": "The blue vault and the mourners who occupy real ground. Vasari’s Giotto begins here in the student’s eye."
+          "note": "The blue vault and the mourners who occupy real ground. Vasari’s Giotto begins here in the student’s eye.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+          }
         },
         {
           "id": "giotto-judas",
@@ -210,7 +234,13 @@ const DATA = {
           "file": "images/giotto-judas.jpg",
           "w": 1280,
           "h": 1248,
-          "note": "The two faces, the yellow cloak, the crowd as a single press of helmets."
+          "note": "The two faces, the yellow cloak, the crowd as a single press of helmets.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+          }
         },
         {
           "id": "giotto-ognissanti",
@@ -221,7 +251,12 @@ const DATA = {
           "file": "images/giotto-ognissanti.jpg",
           "w": 1280,
           "h": 1968,
-          "note": "The throne recedes; the angels stand on a floor. Painted for the church of All Saints, Florence."
+          "note": "The throne recedes; the angels stand on a floor. Painted for the church of All Saints, Florence.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "For the Frati Umiliati of Ognissanti in Florence, Giotto painted a chapel and four panels, in one of which there was the Madonna, with many angels round her and the Child in her arms, and a large Crucifix on wood, whereof Puccio Capanna took the design and wrought many of them afterwards throughout all Italy, having much practice in the manner of Giotto. In the tramezzo[12] of the said church, when this book of the Lives of the Painters, Sculptors, and Architects was printed the first time, there was a little panel in distemper painted by Giotto with infinite diligence, wherein was the death of Our Lady, with the Apostles round her and with a Christ who is receiving her soul into His arms. This work was much praised by the craftsmen of painting, and in particular by Michelagnolo Buonarroti, who declared, as was said another time, that the quality of this painted story could not be more like to the truth than it is.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "giotto-flight",
@@ -232,7 +267,13 @@ const DATA = {
           "file": "images/giotto-flight.jpg",
           "w": 1280,
           "h": 1302,
-          "note": "The donkey's four legs carry the whole weight of the journey; the mountain closes behind the family like a wave."
+          "note": "The donkey's four legs carry the whole weight of the journey; the mountain closes behind the family like a wave.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+          }
         },
         {
           "id": "giotto-nativity",
@@ -243,7 +284,13 @@ const DATA = {
           "file": "images/giotto-nativity.jpg",
           "w": 1920,
           "h": 1959,
-          "note": "Mary reaches for the Child across her own reclining body; the ox and ass watch from a rock-cut stable."
+          "note": "Mary reaches for the Child across her own reclining body; the ox and ass watch from a rock-cut stable.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+          }
         },
         {
           "id": "giotto-golden-gate",
@@ -254,7 +301,13 @@ const DATA = {
           "file": "images/giotto-golden-gate.jpg",
           "w": 1000,
           "h": 908,
-          "note": "Joachim and Anna embrace before the city gate — the same tenderness Giotto gives Mary and Elizabeth."
+          "note": "Joachim and Anna embrace before the city gate — the same tenderness Giotto gives Mary and Elizabeth.",
+          "vasari": {
+            "life": "Life of Giotto",
+            "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+          }
         }
       ]
     },
@@ -344,9 +397,7 @@ const DATA = {
       "famous": "nicola-pisa",
       "vasari": {
         "life": "Life of Niccola and Giovanni of Pisa",
-        "text": "LIFE OF NICCOLA AND GIOVANNI OF PISA,\n\n[NICCOLA PISANO AND GIOVANNI PISANO],\n\nSCULPTORS AND ARCHITECTS\n\nHaving discoursed of design and of painting in the Life of Cimabue and\nof architecture in that of Arnolfo di Lapo, in this one concerning\nNiccola and Giovanni of Pisa we will treat of sculpture, and also of the\nmost important buildings that they made, for the reason that their works\nin sculpture and in architecture truly deserve to be celebrated, not\nonly as being large and magnificent but also well enough conceived,\nsince both in working marble and in building they swept away in great\npart that old Greek manner, rude and void of proportion, showing better\ninvention in their stories and giving better attitudes to their figures.\n\nNiccola Pisano, then, chancing to be under certain Greek sculptors who\nwere working the figures and other carved ornaments of the Duomo of Pisa\nand of the Church of S. Giovanni, and there being, among many marble\nspoils brought by the fleet of the Pisans, certain ancient sarcophagi\nthat are to-day in the Campo Santo of that city, there was one of them,\nmost beautiful among them all, whereon there was carved the Chase of\nMeleager after the Calydonian Boar, in very beautiful manner, seeing\nthat both the nude figures and the draped were wrought with much mastery\nand with most perfect design. This sarcophagus was placed by the Pisans,\nby reason of its beauty, in the side of the Duomo opposite S. Rocco,\nbeside the principal side-door, and it served for the body of the mother\nof Countess Matilda, if indeed these words are true that are to be read\ncarved in the marble:\n\nA.D. MCXVI. IX KAL. AUG. OBIIT D. MATILDA FELICIS MEMORIÆ\nCOMITISSA, QUÆ PRO ANIMA GENETRICIS SUÆ DOMINÆ BEATRICIS COMITISSÆ\nVENERABILIS, IN HAC TUMBA HONORABILI QUIESCENTIS, IN MULTIS\nPARTIBUS MIRIFICE HANC DOTAVIT ECCLESIAM; QUARUM ANIMÆ REQUIESCANT\nIN PACE\n\nAnd then:\n\nA.D. MCCCIII. SUB DIGNISSIMO OPERARIO D. BURGUNDIO TADI, OCCASIONE\nGRADUUM FIENDORUM PER IPSUM CIRCA ECCLESIAM, SUPRADICTA TUMBA\nSUPERIUS NOTATA BIS TRANSLATA FUIT, TUNC DE SEDIBUS PRIMIS IN\nECCLESIAM, NUNC DE ECCLESIA IN HUNC LOCUM, UT CERNITIS,\nEXCELLENTEM.\n\nAlinari\n\nTHE PULPIT OF THE BAPTISTERY OF PISA\n\n(After Niccola Pisano. Pisa)\n\nView larger image…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "NICCOLA_AND_GIOVANNI_OF_PISA"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -358,7 +409,12 @@ const DATA = {
           "file": "images/nicola-pisa.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Signed and dated 1260. The nude Fortitude and the Roman sarcophagus remembered in marble."
+          "note": "Signed and dated 1260. The nude Fortitude and the Roman sarcophagus remembered in marble.",
+          "vasari": {
+            "life": "Life of Niccola and Giovanni of Pisa",
+            "text": "Niccola, meanwhile, being summoned by the people of Volterra, in the year 1254 (when they came under the power of the Florentines), in order that their Duomo, which was small, might be enlarged, he brought it to better form, although it was very irregular, and made it more magnificent than it was before. Then, having returned finally to Pisa, he made the pulpit of S. Giovanni, in marble, putting therein all diligence in order to leave a memorial of himself to his country; and among other things, carving in it the Universal Judgment, he made therein many figures, if not with perfect design, at least with infinite patience and diligence, as can be seen. And because it appeared to him, as was true, that he had done a work worthy of praise, he carved at the foot of it these verses:",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "nicola-siena",
@@ -369,7 +425,12 @@ const DATA = {
           "file": "images/nicola-siena.jpg",
           "w": 1280,
           "h": 1707,
-          "note": "Octagonal, with Giovanni already in the shop. Narrative crowding beyond Pisa."
+          "note": "Octagonal, with Giovanni already in the shop. Narrative crowding beyond Pisa.",
+          "vasari": {
+            "life": "Life of Niccola and Giovanni of Pisa",
+            "text": "The people of Siena, moved by the fame of this work, which greatly pleased not only the Pisans but everyone who saw it, gave to Niccola the making of the pulpit of their Duomo, in which there is sung the Gospel; Guglielmo Mariscotti being Praetor. In this Niccola made many stories of Jesus Christ, with much credit to himself, by reason of the figures that are there wrought and with great difficulty almost wholly detached from the marble. Niccola likewise made the design of the Church and Convent of S. Domenico in Arezzo for the Lords of Pietramala, who erected it. And at the entreaty of Bishop Ubertini he restored the Pieve of Cortona, and founded the Church of S. Margherita for the Friars of S. Francis, on the highest point of that city.",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "fontana-maggiore",
@@ -380,7 +441,13 @@ const DATA = {
           "file": "images/fontana-maggiore.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Two basins carved with the labors of the months, the liberal arts, and Rome and Perugia enthroned — made with Giovanni, then in his twenties."
+          "note": "Two basins carved with the labors of the months, the liberal arts, and Rome and Perugia enthroned — made with Giovanni, then in his twenties.",
+          "vasari": {
+            "life": "Life of Niccola and Giovanni of Pisa",
+            "text": "Niccola had, among others, a son called Giovanni, who, because he ever followed his father and applied himself under his teaching to sculpture and to architecture, in a few years became not only equal to his father but in some ways superior; wherefore Niccola, being now old, retired to Pisa, and living there quietly left the management of everything to his son. Pope Urban IV having died at that time in Perugia, a summons was sent to Giovanni, who, having gone there, made a tomb of marble for that Pontiff, which, together with that of Pope Martin IV, was afterwards thrown to the ground when the people of Perugia enlarged their Vescovado, in a manner that there are seen only a few relics of it scattered throughout the church. And the people of Perugia, at the same time, having brought a very great body of water through leaden pipes from the hill of Pacciano, two miles distant from the city, by means of the genius and industry of a friar of the Silvestrines, it was given to Giovanni Pisano to make all the ornaments of the fountain, both in bronze and in marble;…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
+            "note": "Vasari gives the Fontana Maggiore to Giovanni Pisano (Niccola’s son)."
+          }
         }
       ]
     },
@@ -397,9 +464,7 @@ const DATA = {
       "famous": "giovanni-pistoia",
       "vasari": {
         "life": "Life of Niccola and Giovanni of Pisa",
-        "text": "LIFE OF NICCOLA AND GIOVANNI OF PISA,\n\n[NICCOLA PISANO AND GIOVANNI PISANO],\n\nSCULPTORS AND ARCHITECTS\n\nHaving discoursed of design and of painting in the Life of Cimabue and\nof architecture in that of Arnolfo di Lapo, in this one concerning\nNiccola and Giovanni of Pisa we will treat of sculpture, and also of the\nmost important buildings that they made, for the reason that their works\nin sculpture and in architecture truly deserve to be celebrated, not\nonly as being large and magnificent but also well enough conceived,\nsince both in working marble and in building they swept away in great\npart that old Greek manner, rude and void of proportion, showing better\ninvention in their stories and giving better attitudes to their figures.\n\nNiccola Pisano, then, chancing to be under certain Greek sculptors who\nwere working the figures and other carved ornaments of the Duomo of Pisa\nand of the Church of S. Giovanni, and there being, among many marble\nspoils brought by the fleet of the Pisans, certain ancient sarcophagi\nthat are to-day in the Campo Santo of that city, there was one of them,\nmost beautiful among them all, whereon there was carved the Chase of\nMeleager after the Calydonian Boar, in very beautiful manner, seeing\nthat both the nude figures and the draped were wrought with much mastery\nand with most perfect design. This sarcophagus was placed by the Pisans,\nby reason of its beauty, in the side of the Duomo opposite S. Rocco,\nbeside the principal side-door, and it served for the body of the mother\nof Countess Matilda, if indeed these words are true that are to be read\ncarved in the marble:\n\nA.D. MCXVI. IX KAL. AUG. OBIIT D. MATILDA FELICIS MEMORIÆ\nCOMITISSA, QUÆ PRO ANIMA GENETRICIS SUÆ DOMINÆ BEATRICIS COMITISSÆ\nVENERABILIS, IN HAC TUMBA HONORABILI QUIESCENTIS, IN MULTIS\nPARTIBUS MIRIFICE HANC DOTAVIT ECCLESIAM; QUARUM ANIMÆ REQUIESCANT\nIN PACE\n\nAnd then:\n\nA.D. MCCCIII. SUB DIGNISSIMO OPERARIO D. BURGUNDIO TADI, OCCASIONE\nGRADUUM FIENDORUM PER IPSUM CIRCA ECCLESIAM, SUPRADICTA TUMBA\nSUPERIUS NOTATA BIS TRANSLATA FUIT, TUNC DE SEDIBUS PRIMIS IN\nECCLESIAM, NUNC DE ECCLESIA IN HUNC LOCUM, UT CERNITIS,\nEXCELLENTEM.\n\nAlinari\n\nTHE PULPIT OF THE BAPTISTERY OF PISA\n\n(After Niccola Pisano. Pisa)\n\nView larger image…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "NICCOLA_AND_GIOVANNI_OF_PISA"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -411,7 +476,12 @@ const DATA = {
           "file": "images/giovanni-pistoia.jpg",
           "w": 1280,
           "h": 1284,
-          "note": "The support: a lioness with cubs. Giovanni’s pulpit is harsher and more Gothic than his father’s."
+          "note": "The support: a lioness with cubs. Giovanni’s pulpit is harsher and more Gothic than his father’s.",
+          "vasari": {
+            "life": "Life of Niccola and Giovanni of Pisa",
+            "text": "In the year 1300, Niccola da Prato, Cardinal Legate of the Pope, being in Florence in order to accommodate the dissensions of the Florentines, caused him to make a convent for nuns in Prato, which is called S. Niccola from his name, and to restore in the same territory the Convent of S. Domenico, and so too that of Pistoia; in both the one and the other of which there are still seen the arms of the said Cardinal. And because the people of Pistoia held in veneration the name of Niccola, father of Giovanni, by reason of that which he had wrought in that city with his talent, they caused Giovanni himself to make a pulpit of marble for the Church of S. Andrea, like to the one which he had made in the Duomo of Siena; and this he did in order to compete with one which had been made a little before in the Church of S. Giovanni Evangelista by a German, who was therefore much praised.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "giovanni-pisa-pulpit",
@@ -422,7 +492,12 @@ const DATA = {
           "file": "images/giovanni-pisa-pulpit.jpg",
           "w": 1280,
           "h": 953,
-          "note": "Giovanni's late pulpit, more crowded and more Gothic than his father's at the Baptistery forty years before."
+          "note": "Giovanni's late pulpit, more crowded and more Gothic than his father's at the Baptistery forty years before.",
+          "vasari": {
+            "life": "Life of Niccola and Giovanni of Pisa",
+            "text": "Giovanni, having dispatched his business in Perugia, wished to go to Rome, in order to learn from those few ancient things that were to be seen there, even as his father had done; but being hindered by good reasons, this his desire did not take effect, and the rather as he heard that the Court had just gone to Avignon. Returning, then, to Pisa, Nello di Giovanni Falconi, Warden, caused him to make the great pulpit of the Duomo, which is on the right hand going towards the high-altar, attached to the choir; and having made a beginning with this and with many figures in the round, three braccia high, that were to serve for it, little by little he brought them to that form that is seen to-day, placing the pulpit partly on the said figures and partly on some columns sustained by lions; and on the sides he made some scenes from the life of Christ.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         }
       ]
     },
@@ -439,9 +514,7 @@ const DATA = {
       "famous": "palazzo-vecchio",
       "vasari": {
         "life": "Life of Arnolfo di Lapo",
-        "text": "LIFE OF ARNOLFO DI LAPO,\n\nARCHITECT OF FLORENCE\n\n[Notice to Readers in the Life of Arnolfo.—The said Arnolfo began,\nin S. Maria Maggiore in Rome, the tomb of Pope Honorius III, of the\nhouse of Savelli; which tomb he left imperfect, with the portrait\nof the said Pope, which was afterwards placed with his design in\nthe principal chapel of mosaic of S. Paolo in Rome, with the\nportrait of Giovanni Gaetano, Abbot of that monastery. And the\nmarble chapel, wherein is the Manger of Jesus Christ, was one of\nthe last pieces of sculpture in marble that Arnolfo ever made; and\nhe made it at the instance of Pandolfo Ippotecorvo, in the year\ntwelve (?), as an epitaph bears witness that is on the wall beside\nthe chapel; and likewise the chapel and tomb of Pope Boniface VIII,\nin S. Pietro in Rome, whereon is carved the same name of Arnolfo,\nwho wrought it.]\n\nHaving discoursed, in the Preface to the Lives, of certain buildings in\na manner old but not ancient, and having been silent, for the reason\nthat I did not know them, about the names of the architects who had\ncharge of their construction, I will make mention, in the Preface to\nthis Life of Arnolfo, of certain other edifices built in his time or a\nlittle before, whereof in like manner it is not known who were the\nmasters; and then of those that were built in the same times, whereof it\nis known who were the architects, either because the manner of the\nedifices themselves is recognized very well, or because we have had\ninformation about them by means of the writings and memorials left by\nthem in the works that they made. Nor will this be outside our subject,\nseeing that, although they are neither in a beautiful nor in a good\nmanner but only vast and magnificent, they are worthy none the less of\nsome consideration.…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "ARNOLFO_DI_LAPO"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -453,7 +526,12 @@ const DATA = {
           "file": "images/palazzo-vecchio.jpg",
           "w": 1280,
           "h": 2276,
-          "note": "The civic tower. Vasari calls him Arnolfo di Lapo. The rusticated mass is of his time; later floors were altered."
+          "note": "The civic tower. Vasari calls him Arnolfo di Lapo. The rusticated mass is of his time; later floors were altered.",
+          "vasari": {
+            "life": "Life of Arnolfo di Lapo",
+            "text": "But returning to Arnolfo, I say that being held, as he was, excellent, he had acquired so great trust that nothing of importance was determined without his counsel; wherefore, in the same year, the Commune of Florence having finished the foundation of the last circle of the walls of the city, even as it was said above that they were formerly begun, and so too the towers of the gates, and all being in great part well advanced, he made a beginning for the Palace of the Signori, designing it in resemblance to that which his father Lapo had built in the Casentino for the Counts of Poppi. But yet, however magnificent and great he designed it, he could not give it that perfection which his art and his judgment required, for the following reason: the houses of the Uberti, Ghibellines and rebels against the people of Florence, had been pulled down and thrown to the ground, and a square had been made on the site, and the stupid obstinacy of certain men prevailed so greatly that Arnolfo could not bring it about, through whatsoever arguments he might urge thereunto, that it should be granted…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "arnolfo-braye",
@@ -464,7 +542,12 @@ const DATA = {
           "file": "images/arnolfo-braye.jpg",
           "w": 1280,
           "h": 2069,
-          "note": "Two acolytes draw back a stone curtain over the effigy — a device copied for two centuries of tomb design after him. The Madonna above is modeled on an antique statue of Abundance."
+          "note": "Two acolytes draw back a stone curtain over the effigy — a device copied for two centuries of tomb design after him. The Madonna above is modeled on an antique statue of Abundance.",
+          "vasari": {
+            "life": "Life of Arnolfo di Lapo",
+            "text": "[NOTICE TO READERS IN THE LIFE OF ARNOLFO.--The said Arnolfo began, in S. Maria Maggiore in Rome, the tomb of Pope Honorius III, of the house of Savelli; which tomb he left imperfect, with the portrait of the said Pope, which was afterwards placed with his design in the principal chapel of mosaic of S. Paolo in Rome, with the portrait of Giovanni Gaetano, Abbot of that monastery. And the marble chapel, wherein is the Manger of Jesus Christ, was one of the last pieces of sculpture in marble that Arnolfo ever made; and he made it at the instance of Pandolfo Ippotecorvo, in the year twelve (?), as an epitaph bears witness that is on the wall beside the chapel; and likewise the chapel and tomb of Pope Boniface VIII, in S. Pietro in Rome, whereon is carved the same name of Arnolfo, who wrought it.]",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         },
         {
           "id": "santa-croce-interior",
@@ -475,7 +558,12 @@ const DATA = {
           "file": "images/santa-croce-interior.jpg",
           "w": 1280,
           "h": 1717,
-          "note": "The Franciscans' great Florentine church, traditionally begun to Arnolfo's design; the Gothic nave, not the nineteenth-century marble front."
+          "note": "The Franciscans' great Florentine church, traditionally begun to Arnolfo's design; the Gothic nave, not the nineteenth-century marble front.",
+          "vasari": {
+            "life": "Life of Arnolfo di Lapo",
+            "text": "After this there was founded with his design, in the year 1294, the Church of S. Croce, where the Friars Minor have their seat. What with the middle nave and the two lesser ones Arnolfo constructed this so wide, that, being unable to make the vaulting below the roof by reason of the too great space, he, with much judgment, caused arches to be made from pier to pier, and upon these he placed the roofs on a slope, building stone gutters over the said arches in order to carry away the rain-water, and giving them so much fall as to make the roofs secure, as they are, from the danger of rotting; which device was not only new and ingenious then, but is equally useful and worthy of being considered to-day. He then gave the design for the first cloisters of the old convent of that church, and a little time after he caused to be removed from round the Church of S. Giovanni, on the outer side, all the arches and tombs of marble and grey-stone that were there, and had part of them placed behind the campanile on the facade of the Canon's house, beside the Company of S. Zanobi;…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         }
       ]
     },
@@ -596,9 +684,7 @@ const DATA = {
       "famous": "simone-maesta",
       "vasari": {
         "life": "Life of Simone Sanese",
-        "text": "LIFE OF SIMONE SANESE\n\n[\nSIMONE MEMMI OR MARTINI\n]\n\nPAINTER\n\nTruly happy can those men be called, who are inclined by nature to those\narts that can bring to them not only honour and very great profit, but\nalso, what is more, fame and a name wellnigh eternal, and happier still\nare they who have from their cradles, besides such inclination, courtesy\nand honest ways, which render them very dear to all men. But happiest of\nall, finally, talking of craftsmen, are they who not only receive a love\nof the good from nature, and noble ways from the same source and from\neducation, but also live in the time of some famous writer, from whom,\nin return for a little portrait or some other similar courtesy in the\nway of art, they gain on occasion the reward of eternal honour and name,\nby means of their writings; and this, among those who practise the arts\nof design, should be particularly desired and sought by the excellent\npainters, seeing that their works, being on the surface and on a ground\nof colour, cannot have that eternal life which castings in bronze and\nworks in marble give to sculpture, or buildings to the architects.\n\nVery great, then, was that good-fortune of Simone, to live at the time\nof Messer Francesco Petrarca and to chance to find that most amorous\npoet at the Court of Avignon, desirous of having the image of Madonna\nLaura by the hand of Maestro Simone, because, having received it as\nbeautiful as he had desired, he made memory of him in two sonnets,\nwhereof one begins:\n\nPer mirar Policleto a prova fiso\n\nCon gli altri che ebber fama di quell'arte;\n\nand the second:\n\nQuando giunse a Simon l'alto concetto\n\nCh'a mio nome gli pose in man lo stile.\n\n[Pg 168]\n\nThese sonnets, in truth, together with the mention made of him in one of\nhis\nFamiliar Letters\n, in the fifth book, which begins: \"Non sum\nnescius,\" have given more fame to the poor life of Maestro Simone than\nall his own works have ever done or ever will, seeing that they must at\nsome time perish, whereas the writings of so great a man will live for\neternal ages. Simone Memmi of Siena, then, was an excellent painter,\nremarkable in his own times and much esteemed at the Court of the Pope,\nfor the reason that after the death of Giotto his master, whom he had\nfollowed to Rome when he made the Navicella in mosaic and the other\nworks, he made a Virgin Mary in the portico of S. Pietro, with a S.\nPeter and a S. Paul, near to the place where the bronze pine-cone is, on\na wall between the arches of the portico on the outer side; and in this\nhe counterfeited the manner of Giotto very well, receiving so much\npraise, above all because he portrayed therein a sacristan of S. Pietro\nlighting some lamps before the said figures with much promptness, that\nhe was summoned with very great insistence to the Court of the Pope at\nAvignon, where he wrought so many pictures, in fresco and on panels,\nthat he made his works correspond to the reputation that had been borne\nthither. Whence, having returned to Siena in great credit and much\nfavoured on this account, he was commissioned by the Signoria to paint\nin fresco, in a hall of their Palace, a Virgin Mary with many figures\nround her, which he completed with all perfection to his own great\ncredit and advantage. And in order to show that he was no less able to\nwork on panel than in fresco, he painted in the said Palace a panel\nwhich led to his being afterwards made to paint two of them in the\nDuomo, and a Madonna with the Child in her arms, in a very beautiful…",
-        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-        "key": "SIMONE_SANESE"
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
       },
       "works": [
         {
@@ -610,7 +696,12 @@ const DATA = {
           "file": "images/simone-maesta.jpg",
           "w": 1280,
           "h": 984,
-          "note": "The Virgin under a canopy of civic heraldry: Siena’s Nine govern under her gaze. Vasari’s Simone."
+          "note": "The Virgin under a canopy of civic heraldry: Siena’s Nine govern under her gaze. Vasari’s Simone.",
+          "vasari": {
+            "life": "Life of Simone Sanese",
+            "text": "These sonnets, in truth, together with the mention made of him in one of his _Familiar Letters_, in the fifth book, which begins: \"Non sum nescius,\" have given more fame to the poor life of Maestro Simone than all his own works have ever done or ever will, seeing that they must at some time perish, whereas the writings of so great a man will live for eternal ages. Simone Memmi of Siena, then, was an excellent painter, remarkable in his own times and much esteemed at the Court of the Pope, for the reason that after the death of Giotto his master, whom he had followed to Rome when he made the Navicella in mosaic and the other works, he made a Virgin Mary in the portico of S. Pietro, with a S. Peter and a S. Paul, near to the place where the bronze pine-cone is, on a wall between the arches of the portico on the outer side; and in this he counterfeited the manner of Giotto very well, receiving so much praise, above all because he portrayed therein a sacristan of S.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
+          }
         }
       ]
     },
@@ -938,12 +1029,12 @@ const DATA = {
           "file": null,
           "listen": [
             {
-              "label": "Apple Music — Hilliard Ensemble",
-              "url": "https://classical.music.apple.com/us/recording/perotin-c1160-pp43-1452341609"
+              "label": "Internet Archive — Deller Consort: Viderunt Omnes (Music at Notre Dame)",
+              "url": "https://archive.org/details/lp_music-at-notre-dame-1200-1375-notre-dame-m_guillaume-de-machaut-protin-alfred-deller"
             },
             {
-              "label": "Search YouTube (Hilliard / Viderunt omnes)",
-              "url": "https://www.youtube.com/results?search_query=Perotin+Viderunt+omnes+Hilliard+Ensemble"
+              "label": "Internet Archive — David Munrow: Viderunt omnes",
+              "url": "https://archive.org/details/perotin-david-munrow-viderunt-omnes"
             }
           ],
           "note": "Four-voice organum for Christmas. Opens an external recording (not hosted here). No MIDI."
@@ -975,12 +1066,12 @@ const DATA = {
           "h": 863,
           "listen": [
             {
-              "label": "Naxos — Tonus Peregrinus recording",
-              "url": "https://www.naxos.com/CatalogueDetail/?id=8.557337"
+              "label": "Internet Archive — Le Jeu de Robin et Marion (Pro Musica Antiqua)",
+              "url": "https://archive.org/details/lp_le-jeu-de-robin-et-marion-13-rondeaux-1_adam-de-la-halle-pro-musica-antiqua-saffor"
             },
             {
-              "label": "Search YouTube (Jeu de Robin et Marion)",
-              "url": "https://www.youtube.com/results?search_query=Adam+de+la+Halle+Jeu+de+Robin+et+Marion"
+              "label": "Wikimedia Commons — Breves dies hominis (Adam de la Halle)",
+              "url": "https://commons.wikimedia.org/wiki/File:Breves_dies_hominis.ogg"
             }
           ],
           "note": "Pastoral play with songs — often called an ancestor of opera. Written for the Angevin circle. Opens an external recording (not hosted here). No MIDI."
@@ -1010,12 +1101,12 @@ const DATA = {
           "file": null,
           "listen": [
             {
-              "label": "Search YouTube (Laudario di Cortona Altissima luce)",
-              "url": "https://www.youtube.com/results?search_query=Laudario+di+Cortona+Altissima+luce"
+              "label": "Internet Archive — Laudario di Cortona (Quartetto Polifonico Italiano)",
+              "url": "https://archive.org/details/lp_musica-italica-laudario-di-cortona-codex-9_quartetto-polifonico-italiano"
             },
             {
-              "label": "Search Apple Music (Altissima Luce / Cortona)",
-              "url": "https://music.apple.com/us/search?term=Altissima%20Luce%20Laudario%20di%20Cortona"
+              "label": "Wikipedia — Laudario di Cortona",
+              "url": "https://en.wikipedia.org/wiki/Laudario_di_Cortona"
             }
           ],
           "note": "Vernacular praise-songs of the confraternities. Opens an external recording (not hosted here). No MIDI."
@@ -1045,12 +1136,12 @@ const DATA = {
           "file": null,
           "listen": [
             {
-              "label": "Search YouTube (Franconian motet 13th century)",
-              "url": "https://www.youtube.com/results?search_query=Franconian+motet+13th+century"
+              "label": "Wikimedia Commons — Ypocrite / Velut stelle / Et gaudebit (13th-c. motet)",
+              "url": "https://commons.wikimedia.org/wiki/File:Ypocrite-Velut_stelle-Et_gaudebit.ogg"
             },
             {
-              "label": "Search YouTube (Ars antiqua motet)",
-              "url": "https://www.youtube.com/results?search_query=Ars+antiqua+motet+recording"
+              "label": "Wikipedia — Franco of Cologne",
+              "url": "https://en.wikipedia.org/wiki/Franco_of_Cologne"
             }
           ],
           "note": "How the breve was measured — the rulebook behind late-13th-c. polyphony. Listen via period motets that follow his precepts. Opens an external recording (not hosted here). No MIDI."
@@ -1080,12 +1171,12 @@ const DATA = {
           "file": null,
           "listen": [
             {
-              "label": "Search YouTube (Petrus de Cruce Aucun ont trouvé)",
-              "url": "https://www.youtube.com/results?search_query=Petrus+de+Cruce+Aucun+ont+trouve"
+              "label": "Wikipedia — Petrus de Cruce",
+              "url": "https://en.wikipedia.org/wiki/Petrus_de_Cruce"
             },
             {
-              "label": "Search Apple Music (Petrus de Cruce)",
-              "url": "https://music.apple.com/us/search?term=Petrus%20de%20Cruce%20motet"
+              "label": "Wikimedia Commons — Ypocrite / Velut stelle / Et gaudebit (ars antiqua motet)",
+              "url": "https://commons.wikimedia.org/wiki/File:Ypocrite-Velut_stelle-Et_gaudebit.ogg"
             }
           ],
           "note": "Petronian motet: a top voice that subdivides the breve into many quick notes. Opens an external recording (not hosted here). No MIDI."
@@ -1115,12 +1206,12 @@ const DATA = {
           "file": null,
           "listen": [
             {
-              "label": "Wikimedia Commons — audio recording",
+              "label": "Wikimedia Commons — Sumer Is Icumen In (playable .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Sumer_Is_Icumen_In_(13th_century_English_round).ogg"
             },
             {
-              "label": "Search YouTube (Sumer is icumen in)",
-              "url": "https://www.youtube.com/results?search_query=Sumer+is+icumen+in+medieval"
+              "label": "Wikipedia — Sumer is icumen in",
+              "url": "https://en.wikipedia.org/wiki/Sumer_is_icumen_in"
             }
           ],
           "note": "Four-voice round with a Latin pious contrafact in the same manuscript. Opens an external recording (not hosted here). No MIDI."
@@ -1152,12 +1243,12 @@ const DATA = {
           "h": 1199,
           "listen": [
             {
-              "label": "Search YouTube (Roman de Fauvel motet Vitry)",
-              "url": "https://www.youtube.com/results?search_query=Roman+de+Fauvel+Philippe+de+Vitry+motet"
+              "label": "Wikimedia Commons — Vitry: Gratissima Virginis (playable .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Vitry_-_Gratissima_Virginis.ogg"
             },
             {
-              "label": "Search Apple Music (Roman de Fauvel)",
-              "url": "https://music.apple.com/us/search?term=Roman%20de%20Fauvel%20motet"
+              "label": "Internet Archive — Motet du Roman de Fauvel (78 rpm)",
+              "url": "https://archive.org/details/78_prmices-de-la-polyphonie-suisse-motet-du-roman-de-fauvel_mm-bousquet-et-rousselo_gbia0504179b"
             }
           ],
           "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
@@ -1541,10 +1632,23 @@ function openPanel(a, focusWork){
     html += `</div>`;
   }
 
-  if (a.vasari && a.vasari.text){
-    html += `<details class="vasari" open><summary>Vasari · ${a.vasari.life}</summary>
-      <p>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</p><p>')}</p>
-      <p class="cite">${escapeHtml(a.vasari.cite)}</p></details>`;
+  // Vasari: one collapsed quote per major work (not the whole Life dumped open)
+  const workQuotes = a.works.filter(w => w.vasari && w.vasari.text);
+  if (workQuotes.length){
+    html += `<div class="vasari-works">`;
+    workQuotes.forEach(w => {
+      const V = w.vasari;
+      html += `<details class="vasari"><summary>Vasari on <em>${escapeHtml(w.title)}</em></summary>`;
+      if (V.note) html += `<p class="note-muted">${escapeHtml(V.note)}</p>`;
+      html += `<blockquote>${escapeHtml(V.text).replace(/\n\n/g,'</blockquote><blockquote>')}</blockquote>`;
+      if (V.cite) html += `<p class="cite">${escapeHtml(V.cite)}</p>`;
+      html += `</details>`;
+    });
+    html += `</div>`;
+  } else if (a.vasari && a.vasari.text){
+    html += `<details class="vasari"><summary>Vasari · ${escapeHtml(a.vasari.life||'Life')}</summary>
+      <blockquote>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</blockquote><blockquote>')}</blockquote>
+      <p class="cite">${escapeHtml(a.vasari.cite||'')}</p></details>`;
   } else if (a.vasariNote){
     html += `<p class="note-muted">${escapeHtml(a.vasariNote)}</p>`;
   }
