@@ -90,6 +90,22 @@ h1{margin:0;font-size:26px;font-weight:600;letter-spacing:.02em;line-height:1.1;
   font-size:12px;color:#5a4632;}
 .legend span{display:inline-flex;align-items:center;gap:6px;}
 .legend i{width:18px;height:10px;border-radius:6px;display:inline-block;}
+.legend button{
+  background:transparent;border:1px solid transparent;border-radius:4px;
+  font:inherit;font-size:12px;color:#5a4632;cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;padding:4px 8px;
+}
+.legend button:hover{border-color:color-mix(in srgb, var(--bole) 40%, transparent); background:color-mix(in srgb, #fff6de 50%, transparent);}
+.legend button.on{border-color:var(--vermilion); background:color-mix(in srgb, var(--vermilion) 12%, transparent); color:var(--ink);}
+#lanes.filter-painting .life-line:not([data-medium="painting"]),
+#lanes.filter-sculpture .life-line:not([data-medium="sculpture"]),
+#lanes.filter-architecture .life-line:not([data-medium="architecture"]),
+#lanes.filter-antiquity .life-line:not([data-medium="antiquity"]){opacity:.18; filter:grayscale(.35);}
+#lanes.filter-painting .life-line[data-medium="painting"],
+#lanes.filter-sculpture .life-line[data-medium="sculpture"],
+#lanes.filter-architecture .life-line[data-medium="architecture"],
+#lanes.filter-antiquity .life-line[data-medium="antiquity"]{opacity:1; filter:none;}
+
 
 #artist-panel{position:fixed;right:18px;top:calc(var(--mast) + 12px);bottom:18px;
   width:min(460px, 44vw);background:#f7edd4;border:1px solid var(--bole);

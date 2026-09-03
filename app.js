@@ -1025,6 +1025,14 @@ function boot(){
   $('#light-x').onclick = closeLight;
   $('#lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') closeLight(); });
   document.addEventListener('keydown', onKey);
+  $('#stage').addEventListener('click', e => {
+    // click empty parchment / axis / rail (not a line, legend, or panel)
+    if (e.target.closest('.life-line')) return;
+    if (e.target.closest('#legend')) return;
+    if (e.target.closest('#artist-panel')) return;
+    if (e.target.closest('#lightbox')) return;
+    clearMediumFilter();
+  });
   window.addEventListener('resize', () => {
     // lightweight: keep layout; only remeasure on big changes if needed
   });
@@ -1116,6 +1124,7 @@ function draw(range){
     const el = document.createElement('button');
     el.type = 'button';
     el.className = 'life-line ' + it.kind;
+    el.dataset.medium = it.artist.medium;
     el.style.left = xOf(it.start, range) + 'px';
     el.style.width = wOf(it.start, it.end, range) + 'px';
     el.style.background = it.color;
@@ -1127,18 +1136,45 @@ function draw(range){
     it.el = el;
   });
 
-  // legend
+  // legend (click to isolate a medium)
   const leg = document.createElement('div');
   leg.className = 'legend';
+  leg.id = 'legend';
   leg.innerHTML = `
-    <span><i style="background:#3d5a45"></i> Painting (life-line)</span>
-    <span><i style="background:#8a4b32"></i> Sculpture (life-line)</span>
-    <span><i style="background:#2a3d6b"></i> Architecture (build-line)</span>
-    <span><i style="background:#c4a35a;border:1px dashed #fff8"></i> Ancient model</span>`;
+    <button type="button" data-filter="painting"><i style="background:#3d5a45"></i> Painting (life-line)</button>
+    <button type="button" data-filter="sculpture"><i style="background:#8a4b32"></i> Sculpture (life-line)</button>
+    <button type="button" data-filter="architecture"><i style="background:#2a3d6b"></i> Architecture (build-line)</button>
+    <button type="button" data-filter="antiquity"><i style="background:#c4a35a;border:1px dashed #fff8"></i> Ancient model</button>`;
   lanesEl.appendChild(leg);
+  leg.querySelectorAll('[data-filter]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      toggleMediumFilter(btn.dataset.filter);
+    });
+  });
 
   // stash for selection
   window.__timeline = {range, items};
+}
+
+function clearMediumFilter(){
+  const lanesEl = $('#lanes');
+  if (!lanesEl) return;
+  lanesEl.classList.remove('filter-painting','filter-sculpture','filter-architecture','filter-antiquity');
+  document.querySelectorAll('#legend [data-filter]').forEach(b => b.classList.remove('on'));
+}
+
+function toggleMediumFilter(medium){
+  const lanesEl = $('#lanes');
+  if (!lanesEl) return;
+  const cls = 'filter-' + medium;
+  const already = lanesEl.classList.contains(cls);
+  clearMediumFilter();
+  if (!already){
+    lanesEl.classList.add(cls);
+    const btn = document.querySelector('#legend [data-filter="'+medium+'"]');
+    if (btn) btn.classList.add('on');
+  }
 }
 
 function selectLine(it, range){
@@ -1232,6 +1268,7 @@ function onKey(e){
   if (e.key === 'Escape'){
     if (!$('#lightbox').hidden) { closeLight(); return; }
     if (!$('#artist-panel').hidden) { closePanel(); return; }
+    clearMediumFilter();
   }
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
     const on = [...$('#decade-nav').children].findIndex(b => b.classList.contains('on'));
