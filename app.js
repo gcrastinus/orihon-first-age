@@ -9114,7 +9114,7 @@ function openPanel(a, focusWork){
       html += `</div>`;
     }
     const withLink = a.works.filter(w => (w.listen && w.listen.length) || w.about);
-    const plain = a.works.filter(w => !(w.listen && w.listen.length) && !w.about);
+    const plain = a.works.filter(w => !(w.listen && w.listen.length) && !w.about && !w.file);
     // plain may include pureImages titles — list compositions once: linked first, then plain text for the rest (skip duplicates already shown only as images if title-only wanted)
     // User asked: playable/external as links; otherwise plain text list — not buttons.
     html += `<ul class="works-text">`;
