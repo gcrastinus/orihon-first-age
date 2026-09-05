@@ -1,10 +1,10 @@
 {
   "title": "Vademecum of the arts",
-  "span": "1250–1320",
+  "span": "1250–1510",
   "subtitle": "Painting, sculpture, architecture, and music — Italy, the Low Countries, and the sounding world around them",
   "years": {
     "start": 1220,
-    "end": 1350
+    "end": 1520
   },
   "decades": [
     1250,
@@ -14,7 +14,26 @@
     1290,
     1300,
     1310,
-    1320
+    1320,
+    1330,
+    1340,
+    1350,
+    1360,
+    1370,
+    1380,
+    1390,
+    1400,
+    1410,
+    1420,
+    1430,
+    1440,
+    1450,
+    1460,
+    1470,
+    1480,
+    1490,
+    1500,
+    1510
   ],
   "tracks": [
     {
@@ -1234,11 +1253,1294 @@
           "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
         }
       ]
+    },
+    {
+      "id": "ambrogio-lorenzetti",
+      "name": "Ambrogio Lorenzetti",
+      "nameFull": "Ambrogio Lorenzetti",
+      "dates": "c. 1290–1348",
+      "born": 1290,
+      "died": 1348,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Siena",
+      "famous": "ambrogio-good-government",
+      "vasari": {
+        "life": "Life of Ambrogio Lorenzetti",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "ambrogio-good-government",
+          "title": "Allegory of Good Government",
+          "date": "1338–39",
+          "year": 1339,
+          "place": "Siena, Palazzo Pubblico",
+          "file": "images/ambrogio-good-government.jpg",
+          "w": 2000,
+          "h": 1082,
+          "note": "Justice, Concord, and the Common Good enthroned: civic painting as political theory.",
+          "vasari": {
+            "life": "Life of Ambrogio Lorenzetti",
+            "text": "PAINTER OF SIENA\n\n\nIf that debt is great, as without doubt it is, which craftsmen of fine\ngenius should acknowledge to nature, much greater should that be that is\ndue from us to them, seeing that they, with great solicitude, fill the\ncities with noble and useful buildings and with lovely historical\ncompositions, gaining for themselves, for the most part, fame and riches\nwith their works; as did Ambrogio Lorenzetti, painter of Siena, who\nshowed beautiful and great invention in grouping and placing his figures\nthoughtfully in historical scenes.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+            "note": "Vasari praises Ambrogio’s Siena frescoes of peace and government."
+          }
+        },
+        {
+          "id": "ambrogio-effects-good",
+          "title": "Effects of Good Government in the City",
+          "date": "1338–39",
+          "year": 1339,
+          "place": "Siena, Palazzo Pubblico",
+          "file": "images/ambrogio-effects-good.jpg",
+          "w": 1280,
+          "h": 1151,
+          "note": "Shops, dancers, builders: the city thriving under the Nine.",
+          "vasari": {
+            "life": "Life of Ambrogio Lorenzetti",
+            "text": "PAINTER OF SIENA\n\n\nIf that debt is great, as without doubt it is, which craftsmen of fine\ngenius should acknowledge to nature, much greater should that be that is\ndue from us to them, seeing that they, with great solicitude, fill the\ncities with noble and useful buildings and with lovely historical\ncompositions, gaining for themselves, for the most part, fame and riches\nwith their works; as did Ambrogio Lorenzetti, painter of Siena, who\nshowed beautiful and great invention in grouping and placing his figures\nthoughtfully in historical scenes.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        }
+      ]
+    },
+    {
+      "id": "taddeo-gaddi",
+      "name": "Taddeo Gaddi",
+      "nameFull": "Taddeo Gaddi",
+      "dates": "c. 1300–1366",
+      "born": 1300,
+      "died": 1366,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "taddeo-baroncelli",
+      "vasari": {
+        "life": "Life of Taddeo Gaddi",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "taddeo-baroncelli",
+          "title": "Presentation of the Virgin (Baroncelli Chapel)",
+          "date": "c. 1328–30",
+          "year": 1329,
+          "place": "Florence, Santa Croce",
+          "file": "images/taddeo-baroncelli.jpg",
+          "w": 1280,
+          "h": 872,
+          "note": "Giotto’s pupil in the Baroncelli Chapel: deep architecture, quiet procession.",
+          "vasari": {
+            "life": "Life of Taddeo Gaddi",
+            "text": "PAINTER OF FLORENCE\n\n\nIt is a beautiful and truly useful and praiseworthy action to reward\ntalent largely in every place, and to honour him who has it, seeing that\nan infinity of intellects which might otherwise slumber, roused by this\nencouragement, strive with all industry not only to learn their art but\nto become excellent therein, in order to advance themselves and to\nattain to a rank both profitable and honourable; whence there may follow\nhonour for their country, glory for themselves, and riches and nobility\nfor their descendants, who, upraised by such beginnings, very often\nbecome both very rich and very noble, even as the descendants of the\npainter Taddeo Gaddi did by reason of his work.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bernardo-daddi",
+      "name": "Bernardo Daddi",
+      "nameFull": "Bernardo Daddi",
+      "dates": "c. 1290–1348",
+      "born": 1290,
+      "died": 1348,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "daddi-madonna",
+      "vasari": null,
+      "vasariNote": "No dedicated Vasari Life; he appears among Giotto’s Florentine followers.",
+      "works": [
+        {
+          "id": "daddi-madonna",
+          "title": "Madonna and Child with Saints",
+          "date": "c. 1330–34",
+          "year": 1333,
+          "place": "Florence (panel now often Uffizi / related ensembles)",
+          "file": "images/daddi-madonna.jpg",
+          "w": 1256,
+          "h": 1602,
+          "note": "Gold-ground tenderness after Giotto: soft faces, careful drapery folds."
+        }
+      ]
+    },
+    {
+      "id": "andrea-pisano",
+      "name": "Andrea Pisano",
+      "nameFull": "Andrea Pisano (Andrea da Pontedera)",
+      "dates": "c. 1290–1348",
+      "born": 1290,
+      "died": 1348,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Florence / Pisa",
+      "famous": "andrea-pisano-doors",
+      "vasari": {
+        "life": "Life of Andrea Pisano",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "andrea-pisano-doors",
+          "title": "Baptistery south doors (Baptism of Christ panel)",
+          "date": "1330–36",
+          "year": 1333,
+          "place": "Florence, Baptistery (panels now Opera del Duomo)",
+          "file": "images/andrea-pisano-doors.jpg",
+          "w": 1280,
+          "h": 1485,
+          "note": "Twenty-eight bronze scenes of the Baptist: Gothic frames, clear narrative.",
+          "vasari": {
+            "life": "Life of Andrea Pisano",
+            "text": "SCULPTOR AND ARCHITECT\n\n\nThe art of painting never flourished at any time without the sculptors\nalso pursuing their exercise with excellence, and to this the works of\nall ages bear witness for the close observer, because these two arts are\ntruly sisters, born at one and the same time, and fostered and governed\nby one and the same soul. This is seen in Andrea Pisano, who, practising\nsculpture in the time of Giotto, made so great improvement in this art,\nthat both in practice and in theory he was esteemed the greatest man\nthat the Tuscans had had up to his times in this profession, and above\nall in casting in bronze. Wherefore his works were honoured and rewarded\nin such a manner by all who knew him, and above all by the Florentines,\nthat it was no hardship to him to change country, relatives, property\nand friends.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+            "note": "Vasari’s account of the Baptistery doors for the Arte di Calimala."
+          }
+        }
+      ]
+    },
+    {
+      "id": "orcagna",
+      "name": "Orcagna",
+      "nameFull": "Andrea di Cione (Orcagna)",
+      "dates": "c. 1308–1368",
+      "born": 1308,
+      "died": 1368,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "orcagna-strozzi",
+      "vasari": {
+        "life": "Life of Andrea di Cione Orcagna",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "orcagna-strozzi",
+          "title": "Strozzi Altarpiece",
+          "date": "1354–57",
+          "year": 1357,
+          "place": "Florence, Santa Maria Novella",
+          "file": "images/orcagna-strozzi.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Christ in glory amid saints: gold ground after the Black Death generation.",
+          "vasari": {
+            "life": "Life of Andrea di Cione Orcagna",
+            "text": "PAINTER, SCULPTOR, AND ARCHITECT, OF FLORENCE\n\n\nRarely is a man of parts excellent in one pursuit without being able\neasily to learn any other, and above all any one of those that are akin\nto his original profession, and proceed, as it were, from one and the\nsame source, as did the Florentine Orcagna, who was painter, sculptor,\narchitect, and poet, as it will be told below. Born in Florence, he\nbegan while still a child to give attention to sculpture under Andrea\nPisano, and pursued it for some years; then, being desirous to become\nabundant in invention in order to make lovely historical compositions,\nhe applied himself with so great study to drawing, assisted by nature,\nwho wished to make him universal, that having tried his hand at painting\nwith colours both in distemper and in fresco, even as one thing leads to\nanother, he succeeded so…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        }
+      ]
+    },
+    {
+      "id": "buffalmacco",
+      "name": "Buffalmacco",
+      "nameFull": "Buonamico Buffalmacco",
+      "dates": "c. 1290 – c. 1340",
+      "born": 1290,
+      "died": 1340,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence / Pisa",
+      "famous": "buffalmacco-death",
+      "vasari": {
+        "life": "Life of Buonamico Buffalmacco",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "buffalmacco-death",
+          "title": "Triumph of Death (detail: angels and demons)",
+          "date": "c. 1336–41",
+          "year": 1338,
+          "place": "Pisa, Camposanto",
+          "file": "images/buffalmacco-death.jpg",
+          "w": 1920,
+          "h": 1918,
+          "note": "Attributed Camposanto fresco: souls contested between angels and demons.",
+          "vasari": {
+            "life": "Life of Buonamico Buffalmacco",
+            "text": "PAINTER OF FLORENCE\n\n\nBuonamico di Cristofano, called Buffalmacco, painter of Florence, who\nwas a disciple of Andrea Tafi, and celebrated for his jokes by Messer\nGiovanni Boccaccio in his _Decameron_, was, as is known, a very dear\ncompanion of Bruno and Calandrino, painters equally humorous and gay;\nand as may be seen in his works, scattered throughout all Tuscany, he\nwas a man of passing good judgment in his art of painting. Franco\nSacchetti relates in his three hundred Stories (to begin with the things\nthat this man did while still youthful), that Buffalmacco lived, while\nhe was a lad, with Andrea, and that this master of his used to make it a\ncustom, when the nights were long, to get up before daylight to labour,\nand to call the lads to night-work.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
+            "note": "Vasari’s comic Life; modern scholarship attributes the Camposanto cycle to Buffalmacco."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghiberti",
+      "name": "Ghiberti",
+      "nameFull": "Lorenzo Ghiberti",
+      "dates": "1378–1455",
+      "born": 1378,
+      "died": 1455,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "ghiberti-paradise",
+      "vasari": {
+        "life": "Life of Lorenzo Ghiberti",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "ghiberti-isaac",
+          "title": "Sacrifice of Isaac (competition panel)",
+          "date": "1401",
+          "year": 1401,
+          "place": "Florence, Bargello",
+          "file": "images/ghiberti-isaac.jpg",
+          "w": 1280,
+          "h": 1707,
+          "note": "The 1401 Baptistery-door contest panel: graceful Isaac, crowded bronze stage.",
+          "vasari": {
+            "life": "Life of Lorenzo Ghiberti",
+            "text": "PAINTER OF FLORENCE\n\n\nThere is no doubt that in every city those who, by reason of any talent,\ncome into some fame among men, are a most blessed light and example to\nmany who are either born after them or live in the same age, not to\nmention the infinite praise and the extraordinary rewards that they\nthemselves gain thereby while living. Nor is there anything that does\nmore to arouse the minds of men, and to render the discipline of study\nless fatiguing to them, than the honour and profit which are afterwards\nwon by labouring at the arts, for the reason that these make every\ndifficult undertaking easy to them all, and give a greater stimulus to\nthe growth of their talents, when they are urged to greater efforts by\nthe praises of the world.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "ghiberti-paradise",
+          "title": "Gates of Paradise (east doors)",
+          "date": "1425–52",
+          "year": 1440,
+          "place": "Florence, Baptistery",
+          "file": "images/ghiberti-paradise.jpg",
+          "w": 1280,
+          "h": 1769,
+          "note": "Ten gilded Old Testament scenes; Michelangelo’s later nickname stuck.",
+          "vasari": {
+            "life": "Life of Lorenzo Ghiberti",
+            "text": "PAINTER OF FLORENCE\n\n\nThere is no doubt that in every city those who, by reason of any talent,\ncome into some fame among men, are a most blessed light and example to\nmany who are either born after them or live in the same age, not to\nmention the infinite praise and the extraordinary rewards that they\nthemselves gain thereby while living. Nor is there anything that does\nmore to arouse the minds of men, and to render the discipline of study\nless fatiguing to them, than the honour and profit which are afterwards\nwon by labouring at the arts, for the reason that these make every\ndifficult undertaking easy to them all, and give a greater stimulus to\nthe growth of their talents, when they are urged to greater efforts by\nthe praises of the world.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "brunelleschi",
+      "name": "Brunelleschi",
+      "nameFull": "Filippo Brunelleschi",
+      "dates": "1377–1446",
+      "born": 1377,
+      "died": 1446,
+      "medium": "architecture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "brunelleschi-dome",
+      "vasari": {
+        "life": "Life of Filippo Brunelleschi",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "brunelleschi-dome",
+          "title": "Dome of Florence Cathedral",
+          "date": "1420–36",
+          "year": 1436,
+          "place": "Florence, Santa Maria del Fiore",
+          "file": "images/brunelleschi-dome.jpg",
+          "w": 1280,
+          "h": 928,
+          "note": "Double shell without centering: the engineering wonder of Quattrocento Florence.",
+          "vasari": {
+            "life": "Life of Filippo Brunelleschi",
+            "text": "SCULPTOR AND ARCHITECT\n\n\nMany men are created by nature small in person and in features, who have\na mind full of such greatness and a heart of such irresistible\nvehemence, that if they do not begin difficult--nay, almost\nimpossible--undertakings, and bring them to completion to the marvel of\nall who behold them, they have never any peace in their lives; and\nwhatsoever work chance puts into their hands, however lowly and base it\nmay be, they give it value and nobility. Wherefore no one should turn up\nhis nose when he encounters people who have not, in their aspect, that\nprimal grace or beauty which nature should give, on his coming into the\nworld, to a man who works at any art, seeing that there is no doubt that\nbeneath the clods of the earth are hidden veins of gold.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "brunelleschi-innocenti",
+          "title": "Ospedale degli Innocenti (loggia)",
+          "date": "1419–27",
+          "year": 1424,
+          "place": "Florence, Piazza Santissima Annunziata",
+          "file": "images/brunelleschi-innocenti.jpg",
+          "w": 1920,
+          "h": 1080,
+          "note": "Measured arches and Corinthian columns: a new classical street façade.",
+          "vasari": {
+            "life": "Life of Filippo Brunelleschi",
+            "text": "SCULPTOR AND ARCHITECT\n\n\nMany men are created by nature small in person and in features, who have\na mind full of such greatness and a heart of such irresistible\nvehemence, that if they do not begin difficult--nay, almost\nimpossible--undertakings, and bring them to completion to the marvel of\nall who behold them, they have never any peace in their lives; and\nwhatsoever work chance puts into their hands, however lowly and base it\nmay be, they give it value and nobility. Wherefore no one should turn up\nhis nose when he encounters people who have not, in their aspect, that\nprimal grace or beauty which nature should give, on his coming into the\nworld, to a man who works at any art, seeing that there is no doubt that\nbeneath the clods of the earth are hidden veins of gold.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "donatello",
+      "name": "Donatello",
+      "nameFull": "Donato di Niccolò (Donatello)",
+      "dates": "c. 1386–1466",
+      "born": 1386,
+      "died": 1466,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Florence / Padua",
+      "famous": "donatello-david",
+      "vasari": {
+        "life": "Life of Donato",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "donatello-st-george",
+          "title": "Saint George",
+          "date": "c. 1415–17",
+          "year": 1416,
+          "place": "Florence, Bargello (from Orsanmichele)",
+          "file": "images/donatello-st-george.jpg",
+          "w": 1280,
+          "h": 2768,
+          "note": "Alert marble knight: early Quattrocento vigilance in stone.",
+          "vasari": {
+            "life": "Life of Donato",
+            "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "donatello-david",
+          "title": "David (bronze)",
+          "date": "c. 1440s",
+          "year": 1445,
+          "place": "Florence, Bargello",
+          "file": "images/donatello-david.jpg",
+          "w": 1066,
+          "h": 1600,
+          "note": "First freestanding nude bronze of the Renaissance — hat, sword, soft contrapposto.",
+          "vasari": {
+            "life": "Life of Donato",
+            "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "donatello-gattamelata",
+          "title": "Equestrian monument of Gattamelata",
+          "date": "1445–53",
+          "year": 1453,
+          "place": "Padua, Piazza del Santo",
+          "file": "images/donatello-gattamelata.jpg",
+          "w": 1280,
+          "h": 1970,
+          "note": "Bronze general after the antique: power without a pedestal emperor.",
+          "vasari": {
+            "life": "Life of Donato",
+            "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "masaccio",
+      "name": "Masaccio",
+      "nameFull": "Tommaso di Ser Giovanni (Masaccio)",
+      "dates": "1401–1428",
+      "born": 1401,
+      "died": 1428,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "masaccio-tribute",
+      "vasari": {
+        "life": "Life of Masaccio",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "masaccio-tribute",
+          "title": "The Tribute Money",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence, Brancacci Chapel",
+          "file": "images/masaccio-tribute.jpg",
+          "w": 2200,
+          "h": 1015,
+          "note": "One continuous space, one light: tax coin, lake, and Apostles under Brunelleschi’s perspective.",
+          "vasari": {
+            "life": "Life of Masaccio",
+            "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "masaccio-trinity",
+          "title": "Holy Trinity",
+          "date": "c. 1427",
+          "year": 1427,
+          "place": "Florence, Santa Maria Novella",
+          "file": "images/masaccio-trinity.jpg",
+          "w": 1028,
+          "h": 2073,
+          "note": "Painted barrel vault that seems to pierce the wall — donors below, God above.",
+          "vasari": {
+            "life": "Life of Masaccio",
+            "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "masaccio-expulsion",
+          "title": "Expulsion from Eden",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence, Brancacci Chapel",
+          "file": "images/masaccio-expulsion.jpg",
+          "w": 1280,
+          "h": 2239,
+          "note": "Adam’s shame, Eve’s cry: bodies weighted by grief.",
+          "vasari": {
+            "life": "Life of Masaccio",
+            "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "masolino",
+      "name": "Masolino",
+      "nameFull": "Masolino da Panicale",
+      "dates": "c. 1383–1447",
+      "born": 1383,
+      "died": 1447,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "masolino-temptation",
+      "vasari": {
+        "life": "Life of Masolino da Panicale",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "masolino-temptation",
+          "title": "Temptation of Adam and Eve",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence, Brancacci Chapel",
+          "file": "images/masolino-temptation.jpg",
+          "w": 1025,
+          "h": 1956,
+          "note": "Elegant International Gothic bodies across from Masaccio’s Expulsion.",
+          "vasari": {
+            "life": "Life of Masolino da Panicale",
+            "text": "Truly great, I believe, must be the contentment of those who are\napproaching the highest rank in the science wherein they are labouring;\nand those, likewise, who, besides the delight and pleasure that they\nfeel in working valiantly, enjoy some fruit from their labours, without\ndoubt live a quiet and very happy life. And if perchance it comes to\npass that one, while advancing towards perfection in any science or art,\nis overtaken by death in the happy course of his life, his memory does\nnot become wholly spent, if only he has laboured worthily in order to\nattain to the true end of his art.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fra-angelico",
+      "name": "Fra Angelico",
+      "nameFull": "Guido di Pietro (Fra Angelico / Fra Giovanni da Fiesole)",
+      "dates": "c. 1395–1455",
+      "born": 1395,
+      "died": 1455,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence / Rome",
+      "famous": "fra-angelico-annunciation",
+      "vasari": {
+        "life": "Life of Fra Giovanni da Fiesole",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "fra-angelico-annunciation",
+          "title": "Annunciation",
+          "date": "c. 1440–45",
+          "year": 1442,
+          "place": "Florence, Museo di San Marco",
+          "file": "images/fra-angelico-annunciation.jpg",
+          "w": 1280,
+          "h": 1327,
+          "note": "Gabriel and Mary under a quiet arcade: Dominican devotion made luminous.",
+          "vasari": {
+            "life": "Life of Fra Giovanni da Fiesole",
+            "text": "PAINTER OF THE ORDER OF PREACHING FRIARS\n\n\nFra Giovanni Angelico da Fiesole, who was known in the world as Guido,\nwas no less excellent as painter and illuminator than he was upright as\nchurchman, and for both one and the other of these reasons he deserves\nthat most honourable record should be made of him. This man, although he\ncould have lived in the world with the greatest comfort, and could have\ngained whatever he wished, besides what he possessed, by means of those\narts, of which he had a very good knowledge even in his youth, yet\nresolved, for his own peace and satisfaction, being by nature serious\nand upright, and above all in order to save his soul, to take the vows\nof the Order of Preaching Friars; for the reason that, although it is\npossible to serve God in all walks of life, nevertheless it appears to\nsome men that they can gain…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "uccello",
+      "name": "Uccello",
+      "nameFull": "Paolo Uccello",
+      "dates": "1397–1475",
+      "born": 1397,
+      "died": 1475,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "uccello-san-romano",
+      "vasari": {
+        "life": "Life of Paolo Uccello",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "uccello-san-romano",
+          "title": "Battle of San Romano",
+          "date": "c. 1438–40",
+          "year": 1439,
+          "place": "Florence, Uffizi (one panel of three)",
+          "file": "images/uccello-san-romano.jpg",
+          "w": 1280,
+          "h": 1555,
+          "note": "Lances as perspective lines; Vasari’s painter “drunk on perspective.”",
+          "vasari": {
+            "life": "Life of Paolo Uccello",
+            "text": "PAINTER OF FLORENCE\n\n\nPaolo Uccello would have been the most gracious and fanciful genius that\nwas ever devoted to the art of painting, from Giotto's day to our own,\nif he had laboured as much at figures and animals as he laboured and\nlost time over the details of perspective; for although these are\ningenious and beautiful, yet if a man pursues them beyond measure he\ndoes nothing but waste his time, exhausts his powers, fills his mind\nwith difficulties, and often transforms its fertility and readiness into\nsterility and constraint, and renders his manner, by attending more to\nthese details than to figures, dry and angular, which all comes from a\nwish to examine things too minutely; not to mention that very often he\nbecomes solitary, eccentric, melancholy, and poor, as did Paolo Uccello.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gentile",
+      "name": "Gentile da Fabriano",
+      "nameFull": "Gentile da Fabriano",
+      "dates": "c. 1370–1427",
+      "born": 1370,
+      "died": 1427,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Fabriano / Florence",
+      "famous": "gentile-magi",
+      "vasari": {
+        "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "gentile-magi",
+          "title": "Adoration of the Magi",
+          "date": "1423",
+          "year": 1423,
+          "place": "Florence, Uffizi",
+          "file": "images/gentile-magi.jpg",
+          "w": 1280,
+          "h": 922,
+          "note": "International Gothic splendor: gold, animals, and a winding Magi procession.",
+          "vasari": {
+            "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
+            "text": "Very great is the advantage enjoyed by one who follows in the steps of a\npredecessor who has gained honour and fame by means of some rare talent,\nfor the reason that, if only he follows to some extent the path prepared\nby his master, he seldom fails to arrive without much fatigue at an\nhonourable goal; whereas, if he had to reach it by himself, he would\nhave need of a much longer time and far greater labours. The truth of\nthis could be seen, ready for the finger to point to, as the saying is,\namong many other examples, in that of Pisano, or rather, Pisanello, a\npainter of Verona, who, having spent many years in Florence with Andrea\ndal Castagno, and having finished his works after his death, acquired so\nmuch credit by means of Andrea's name, that Pope Martin V, coming to\nFlorence, took him in his train to Rome, where he caused him to pain…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "filippo-lippi",
+      "name": "Fra Filippo Lippi",
+      "nameFull": "Fra Filippo Lippi",
+      "dates": "c. 1406–1469",
+      "born": 1406,
+      "died": 1469,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence / Prato",
+      "famous": "filippo-lippi-madonna",
+      "vasari": {
+        "life": "Life of Fra Filippo Lippi",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "filippo-lippi-madonna",
+          "title": "Madonna and Child with Two Angels",
+          "date": "c. 1455–65",
+          "year": 1460,
+          "place": "Florence, Uffizi",
+          "file": "images/filippo-lippi-madonna.jpg",
+          "w": 1280,
+          "h": 1911,
+          "note": "Window ledge, mischievous angels, and a tender half-smile.",
+          "vasari": {
+            "life": "Life of Fra Filippo Lippi",
+            "text": "PAINTER OF FLORENCE\n\n\nFra Filippo di Tommaso Lippi, a Carmelite, was born in Florence in a\nstreet called Ardiglione, below the Canto alla Cuculia and behind the\nConvent of the Carmelites. By the death of his father Tommaso he was\nleft a poor little orphan at the age of two, with no one to take care of\nhim, for his mother had also died not long after giving him birth. He\nwas left, therefore, in the charge of one Mona Lapaccia, his aunt,\nsister of his father, who brought him up with very great inconvenience\nto herself; and when he was eight years of age and she could no longer\nsupport him, she made him a friar in the aforesaid Convent of the\nCarmine.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "domenico-veneziano",
+      "name": "Domenico Veneziano",
+      "nameFull": "Domenico Veneziano",
+      "dates": "c. 1410–1461",
+      "born": 1410,
+      "died": 1461,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "domenico-veneziano-lucy",
+      "vasari": {
+        "life": "Lives of Andrea dal Castagno and Domenico Veneziano",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "domenico-veneziano-lucy",
+          "title": "St Lucy Altarpiece",
+          "date": "c. 1445–47",
+          "year": 1446,
+          "place": "Florence, Uffizi",
+          "file": "images/domenico-veneziano-lucy.jpg",
+          "w": 1280,
+          "h": 1124,
+          "note": "Pale light and measured architecture: oil-ish tempera clarity in Florence.",
+          "vasari": {
+            "life": "Lives of Andrea dal Castagno and Domenico Veneziano",
+            "text": "How reprehensible is the vice of envy, which should never exist in\nanyone, when found in a man of excellence, and how wicked and horrible a\nthing it is to seek under the guise of a feigned friendship to\nextinguish not only the fame and glory of another but his very life, I\ntruly believe it to be impossible to express with words, for the\nwickedness of the act overcomes all power and force of speech, however\neloquent. For this reason, without enlarging further on this subject, I\nwill only say that in such men there dwells a spirit not merely inhuman\nand savage but wholly cruel and devilish, and so far removed from any\nsort of virtue that they are no longer men or even animals, and do not\ndeserve to live.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "piero",
+      "name": "Piero della Francesca",
+      "nameFull": "Piero della Francesca",
+      "dates": "c. 1415–1492",
+      "born": 1415,
+      "died": 1492,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Sansepolcro / Urbino",
+      "famous": "piero-flagellation",
+      "vasari": {
+        "life": "Life of Piero della Francesca",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "piero-flagellation",
+          "title": "Flagellation of Christ",
+          "date": "c. 1455–60",
+          "year": 1458,
+          "place": "Urbino, Galleria Nazionale",
+          "file": "images/piero-flagellation.jpg",
+          "w": 1280,
+          "h": 900,
+          "note": "Geometry of suffering: Christ small in a measured courtyard.",
+          "vasari": {
+            "life": "Life of Piero della Francesca",
+            "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "piero-baptism",
+          "title": "Baptism of Christ",
+          "date": "c. 1448–50",
+          "year": 1450,
+          "place": "London, National Gallery",
+          "file": "images/piero-baptism.jpg",
+          "w": 846,
+          "h": 1200,
+          "note": "Still water, pale angels, and a landscape folded into math.",
+          "vasari": {
+            "life": "Life of Piero della Francesca",
+            "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mantegna",
+      "name": "Mantegna",
+      "nameFull": "Andrea Mantegna",
+      "dates": "1431–1506",
+      "born": 1431,
+      "died": 1506,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Padua / Mantua",
+      "famous": "mantegna-dead-christ",
+      "vasari": {
+        "life": "Life of Andrea Mantegna",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "mantegna-dead-christ",
+          "title": "Lamentation over the Dead Christ",
+          "date": "c. 1480",
+          "year": 1480,
+          "place": "Milan, Brera",
+          "file": "images/mantegna-dead-christ.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Foreshortened corpse on a slab: antique rigor and raw grief.",
+          "vasari": {
+            "life": "Life of Andrea Mantegna",
+            "text": "PAINTER OF MANTUA\n\n\nHow great is the effect of reward on talent is known to him who labours\nvaliantly and receives a certain measure of recompense, for he feels\nneither discomfort, nor hardship, nor fatigue, when he expects honour\nand reward for them; nay, what is more, they render his talent every day\nmore renowned and illustrious. It is true, indeed, that there is not\nalways found one to recognize, esteem, and remunerate it as that of\nAndrea Mantegna was recognized. This man was born from very humble stock\nin the district of Mantua; and, although as a boy he was occupied in\ngrazing herds, he was so greatly exalted by destiny and by his merit\nthat he attained to the honourable rank of Chevalier, as will be told in\nthe proper place.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "mantegna-camera",
+          "title": "Camera degli Sposi (ceiling oculus)",
+          "date": "1465–74",
+          "year": 1474,
+          "place": "Mantua, Palazzo Ducale",
+          "file": "images/mantegna-camera.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Putti and court faces lean over a painted sky-hole.",
+          "vasari": {
+            "life": "Life of Andrea Mantegna",
+            "text": "PAINTER OF MANTUA\n\n\nHow great is the effect of reward on talent is known to him who labours\nvaliantly and receives a certain measure of recompense, for he feels\nneither discomfort, nor hardship, nor fatigue, when he expects honour\nand reward for them; nay, what is more, they render his talent every day\nmore renowned and illustrious. It is true, indeed, that there is not\nalways found one to recognize, esteem, and remunerate it as that of\nAndrea Mantegna was recognized. This man was born from very humble stock\nin the district of Mantua; and, although as a boy he was occupied in\ngrazing herds, he was so greatly exalted by destiny and by his merit\nthat he attained to the honourable rank of Chevalier, as will be told in\nthe proper place.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pollaiuolo",
+      "name": "Pollaiuolo",
+      "nameFull": "Antonio del Pollaiuolo",
+      "dates": "1431–1498",
+      "born": 1431,
+      "died": 1498,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence / Rome",
+      "famous": "pollaiuolo-sebastian",
+      "vasari": {
+        "life": "Life of Antonio and Piero Pollaiuolo",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "pollaiuolo-sebastian",
+          "title": "Martyrdom of Saint Sebastian",
+          "date": "c. 1475",
+          "year": 1475,
+          "place": "London, National Gallery",
+          "file": "images/pollaiuolo-sebastian.jpg",
+          "w": 1280,
+          "h": 1759,
+          "note": "Anatomy under arrow-fire: brothers’ workshop muscle study.",
+          "vasari": {
+            "life": "Life of Antonio and Piero Pollaiuolo",
+            "text": "PAINTERS AND SCULPTORS OF FLORENCE\n\n\nMany men begin in a humble spirit with unimportant works, who, gaining\ncourage from proficiency, grow also in power and ability, in such a\nmanner that they aspire to greater undertakings and almost reach Heaven\nwith their beautiful thoughts. Raised by fortune, they very often chance\nupon some liberal Prince, who, finding himself well served by them, is\nforced to remunerate their labours so richly that their descendants\nderive great benefits and advantages from them. Wherefore such men walk\nthrough this life to the end with so much glory, that they leave\nmarvellous memorials of themselves to the world, as did Antonio and\nPiero del Pollaiuolo, who were greatly esteemed in their day for the\nrare acquirements that they had made with their industry and labour.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "verrocchio",
+      "name": "Verrocchio",
+      "nameFull": "Andrea del Verrocchio",
+      "dates": "c. 1435–1488",
+      "born": 1435,
+      "died": 1488,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "verrocchio-david",
+      "vasari": {
+        "life": "Life of Andrea Verrocchio",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "verrocchio-david",
+          "title": "David",
+          "date": "c. 1465–70",
+          "year": 1468,
+          "place": "Florence, Bargello",
+          "file": "images/verrocchio-david.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Wiry bronze youth — workshop of Leonardo’s master.",
+          "vasari": {
+            "life": "Life of Andrea Verrocchio",
+            "text": "PAINTER, SCULPTOR, AND ARCHITECT OF FLORENCE\n\n\nAndrea del Verrocchio, a Florentine, was in his day a goldsmith, a\nmaster of perspective, a sculptor, a wood-carver, a painter, and a\nmusician; but in the arts of sculpture and painting, to tell the truth,\nhe had a manner somewhat hard and crude, as one who acquired it rather\nby infinite study than by the facility of a natural gift. Even if he had\nbeen as poor in this facility as he was rich in the study and diligence\nthat exalted him, he would have been most excellent in those arts,\nwhich, for their highest perfection, require a union of study and\nnatural power.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "verrocchio-thomas",
+          "title": "Christ and Saint Thomas",
+          "date": "1467–83",
+          "year": 1483,
+          "place": "Florence, Orsanmichele",
+          "file": "images/verrocchio-thomas.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Doubting Thomas steps into the niche; Christ opens the wound.",
+          "vasari": {
+            "life": "Life of Andrea Verrocchio",
+            "text": "PAINTER, SCULPTOR, AND ARCHITECT OF FLORENCE\n\n\nAndrea del Verrocchio, a Florentine, was in his day a goldsmith, a\nmaster of perspective, a sculptor, a wood-carver, a painter, and a\nmusician; but in the arts of sculpture and painting, to tell the truth,\nhe had a manner somewhat hard and crude, as one who acquired it rather\nby infinite study than by the facility of a natural gift. Even if he had\nbeen as poor in this facility as he was rich in the study and diligence\nthat exalted him, he would have been most excellent in those arts,\nwhich, for their highest perfection, require a union of study and\nnatural power.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "botticelli",
+      "name": "Botticelli",
+      "nameFull": "Sandro Botticelli (Alessandro Filipepi)",
+      "dates": "c. 1445–1510",
+      "born": 1445,
+      "died": 1510,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "botticelli-venus",
+      "vasari": {
+        "life": "Life of Sandro Botticelli",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "botticelli-primavera",
+          "title": "Primavera",
+          "date": "c. 1482",
+          "year": 1482,
+          "place": "Florence, Uffizi",
+          "file": "images/botticelli-primavera.jpg",
+          "w": 1280,
+          "h": 841,
+          "note": "Mercury, the Graces, Venus, Flora: a Medici garden of allegory.",
+          "vasari": {
+            "life": "Life of Sandro Botticelli",
+            "text": "PAINTER OF FLORENCE\n\n\nAt the same time with the elder Lorenzo de' Medici, the Magnificent,\nwhich was truly a golden age for men of intellect, there also flourished\none Alessandro, called Sandro after our custom, and surnamed Di\nBotticello for a reason that we shall see below. This man was the son of\nMariano Filipepi, a citizen of Florence, who brought him up with care,\nand had him instructed in all those things that are usually taught to\nchildren before they are old enough to be apprenticed to some calling.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "botticelli-venus",
+          "title": "Birth of Venus",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence, Uffizi",
+          "file": "images/botticelli-venus.jpg",
+          "w": 1280,
+          "h": 804,
+          "note": "Venus on the shell: antique myth in tempera line.",
+          "vasari": {
+            "life": "Life of Sandro Botticelli",
+            "text": "PAINTER OF FLORENCE\n\n\nAt the same time with the elder Lorenzo de' Medici, the Magnificent,\nwhich was truly a golden age for men of intellect, there also flourished\none Alessandro, called Sandro after our custom, and surnamed Di\nBotticello for a reason that we shall see below. This man was the son of\nMariano Filipepi, a citizen of Florence, who brought him up with care,\nand had him instructed in all those things that are usually taught to\nchildren before they are old enough to be apprenticed to some calling.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghirlandaio",
+      "name": "Ghirlandaio",
+      "nameFull": "Domenico Ghirlandaio",
+      "dates": "1449–1494",
+      "born": 1449,
+      "died": 1494,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "ghirlandaio-birth-virgin",
+      "vasari": {
+        "life": "Life of Domenico Ghirlandaio",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "ghirlandaio-birth-virgin",
+          "title": "Birth of the Virgin",
+          "date": "1486–90",
+          "year": 1488,
+          "place": "Florence, Santa Maria Novella",
+          "file": "images/ghirlandaio-birth-virgin.jpg",
+          "w": 1376,
+          "h": 850,
+          "note": "Tornabuoni women visit a Florentine birth chamber in sacred dress.",
+          "vasari": {
+            "life": "Life of Domenico Ghirlandaio",
+            "text": "PAINTER OF FLORENCE\n\n\nDomenico di Tommaso del Ghirlandajo, who, from his talent and from the\ngreatness and the vast number of his works, may be called one of the\nmost important and most excellent masters of his age, was made by nature\nto be a painter; and for this reason, in spite of the opposition of\nthose who had charge of him (which often nips the finest fruits of our\nintellects in the bud by occupying them with work for which they are not\nsuited, and by diverting them from that to which nature inclines them),\nhe followed his natural instinct, secured very great honour for himself\nand profit for his art and for his kindred, and became the great delight\nof his age.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "ghirlandaio-old-man",
+          "title": "An Old Man and his Grandson",
+          "date": "c. 1490",
+          "year": 1490,
+          "place": "Paris, Louvre",
+          "file": "images/ghirlandaio-old-man.jpg",
+          "w": 1280,
+          "h": 1736,
+          "note": "Nose and affection without flattery: portrait tenderness.",
+          "vasari": {
+            "life": "Life of Domenico Ghirlandaio",
+            "text": "PAINTER OF FLORENCE\n\n\nDomenico di Tommaso del Ghirlandajo, who, from his talent and from the\ngreatness and the vast number of his works, may be called one of the\nmost important and most excellent masters of his age, was made by nature\nto be a painter; and for this reason, in spite of the opposition of\nthose who had charge of him (which often nips the finest fruits of our\nintellects in the bud by occupying them with work for which they are not\nsuited, and by diverting them from that to which nature inclines them),\nhe followed his natural instinct, secured very great honour for himself\nand profit for his art and for his kindred, and became the great delight\nof his age.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "perugino",
+      "name": "Perugino",
+      "nameFull": "Pietro Perugino (Pietro Vannucci)",
+      "dates": "c. 1446–1523",
+      "born": 1446,
+      "died": 1523,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Perugia / Rome / Florence",
+      "famous": "perugino-keys",
+      "vasari": {
+        "life": "Life of Pietro Perugino",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+      },
+      "works": [
+        {
+          "id": "perugino-keys",
+          "title": "Delivery of the Keys to Saint Peter",
+          "date": "1481–82",
+          "year": 1482,
+          "place": "Vatican, Sistine Chapel",
+          "file": "images/perugino-keys.jpg",
+          "w": 2000,
+          "h": 1207,
+          "note": "Open piazza and measured temple: Raphael’s teacher at the Vatican wall.",
+          "vasari": {
+            "life": "Life of Pietro Perugino",
+            "text": "How great a benefit poverty may be to men of genius, and how potent\na force it may be to make them become excellent--nay, perfect--in\nthe exercise of any faculty whatsoever, can be seen clearly enough\nin the actions of Pietro Perugino, who, flying from the extremity of\ndistress at Perugia, and betaking himself to Florence in the desire\nto attain to some distinction by means of his talent, remained for\nmany months without any other bed than a miserable chest to sleep\nin, turning night into day, and devoting himself with the greatest\nardour to the unceasing study of his profession.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+          }
+        }
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo",
+      "nameFull": "Leonardo da Vinci",
+      "dates": "1452–1519",
+      "born": 1452,
+      "died": 1519,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence / Milan / France",
+      "famous": "leonardo-mona-lisa",
+      "vasari": {
+        "life": "Life of Leonardo da Vinci",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+      },
+      "works": [
+        {
+          "id": "leonardo-annunciation",
+          "title": "Annunciation",
+          "date": "c. 1472–75",
+          "year": 1473,
+          "place": "Florence, Uffizi",
+          "file": "images/leonardo-annunciation.jpg",
+          "w": 1920,
+          "h": 1440,
+          "note": "Early workshop panel: Gabriel, lectern, and a distant harbor haze.",
+          "vasari": {
+            "life": "Life of Leonardo da Vinci",
+            "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+          }
+        },
+        {
+          "id": "leonardo-last-supper",
+          "title": "Last Supper",
+          "date": "1495–98",
+          "year": 1498,
+          "place": "Milan, Santa Maria delle Grazie",
+          "file": "images/leonardo-last-supper.jpg",
+          "w": 2000,
+          "h": 1000,
+          "note": "The moment of betrayal spoken: geometry of hands and faces.",
+          "vasari": {
+            "life": "Life of Leonardo da Vinci",
+            "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+          }
+        },
+        {
+          "id": "leonardo-mona-lisa",
+          "title": "Mona Lisa",
+          "date": "c. 1503–19",
+          "year": 1505,
+          "place": "Paris, Louvre",
+          "file": "images/leonardo-mona-lisa.jpg",
+          "w": 1280,
+          "h": 1908,
+          "note": "Sfumato portrait that never quite settles into a single smile.",
+          "vasari": {
+            "life": "Life of Leonardo da Vinci",
+            "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
+          }
+        }
+      ]
+    },
+    {
+      "id": "van-eyck",
+      "name": "Jan van Eyck",
+      "nameFull": "Jan van Eyck",
+      "dates": "c. 1390–1441",
+      "born": 1390,
+      "died": 1441,
+      "medium": "painting",
+      "region": "north",
+      "place": "Bruges / Ghent",
+      "famous": "van-eyck-arnolfini",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — northern oil painting outside his Florentine horizon.",
+      "works": [
+        {
+          "id": "van-eyck-ghent",
+          "title": "Ghent Altarpiece (open)",
+          "date": "1432",
+          "year": 1432,
+          "place": "Ghent, Saint Bavo",
+          "file": "images/van-eyck-ghent.jpg",
+          "w": 1280,
+          "h": 936,
+          "note": "Hubert begun, Jan finished: the Lamb and a paradise of detail."
+        },
+        {
+          "id": "van-eyck-arnolfini",
+          "title": "Arnolfini Portrait",
+          "date": "1434",
+          "year": 1434,
+          "place": "London, National Gallery",
+          "file": "images/van-eyck-arnolfini.jpg",
+          "w": 1280,
+          "h": 1751,
+          "note": "Convex mirror, oranges, and a solemn double portrait in oil."
+        }
+      ]
+    },
+    {
+      "id": "campin",
+      "name": "Robert Campin",
+      "nameFull": "Robert Campin (Master of Flémalle)",
+      "dates": "c. 1375–1444",
+      "born": 1375,
+      "died": 1444,
+      "medium": "painting",
+      "region": "north",
+      "place": "Tournai",
+      "famous": "campin-merode",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — Early Netherlandish workshop painting.",
+      "works": [
+        {
+          "id": "campin-merode",
+          "title": "Mérode Altarpiece",
+          "date": "c. 1427–32",
+          "year": 1428,
+          "place": "New York, The Cloisters",
+          "file": "images/campin-merode.jpg",
+          "w": 1280,
+          "h": 1017,
+          "note": "Annunciation in a bourgeois room: oil light on brass and linen."
+        }
+      ]
+    },
+    {
+      "id": "machaut",
+      "name": "Machaut",
+      "nameFull": "Guillaume de Machaut",
+      "dates": "c. 1300–1377",
+      "born": 1300,
+      "died": 1377,
+      "medium": "music",
+      "region": "france",
+      "place": "Reims",
+      "famous": "machaut-messe",
+      "vasari": null,
+      "vasariNote": "Ars Nova poet-composer. No Vasari Life.",
+      "works": [
+        {
+          "id": "machaut-messe",
+          "title": "Messe de Nostre Dame",
+          "date": "c. 1360s",
+          "year": 1364,
+          "place": "Reims",
+          "file": "images/machaut-messe.jpg",
+          "w": 960,
+          "h": 1287,
+          "note": "Four-voice cyclic Mass: Ars Nova architecture in sound. External listening only.",
+          "listen": [
+            {
+              "label": "Internet Archive — Machaut, Messe de Nostre Dame (human performance, John McCarthy / Ambrosian Singers)",
+              "url": "https://archive.org/details/ely-0430-de-machaut-o-la-messe-de-nostre-dame-john-mccarthy"
+            },
+            {
+              "label": "Wikimedia Commons — Machaut, Honte, paour (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:HontePaour.mid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landini",
+      "name": "Landini",
+      "nameFull": "Francesco Landini",
+      "dates": "c. 1325–1397",
+      "born": 1325,
+      "died": 1397,
+      "medium": "music",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "landini-ballate",
+      "vasari": null,
+      "vasariNote": "Blind organist of Trecento Florence. No Vasari Life.",
+      "works": [
+        {
+          "id": "landini-ballate",
+          "title": "Ballate (Squarcialupi Codex)",
+          "date": "c. 1360–90",
+          "year": 1380,
+          "place": "Florence (Squarcialupi Codex)",
+          "file": "images/landini-portrait.jpg",
+          "w": 1280,
+          "h": 1842,
+          "note": "Trecento ballate under his portrait in the Squarcialupi Codex. External listening only.",
+          "listen": [
+            {
+              "label": "Internet Archive — Danses du Moyen-Age / early music program including Landini’s era (Clemencic Consort & Ensemble Ricercare)",
+              "url": "https://archive.org/details/mhu-2.472-danses-du-moyen-age-clementic-cons.-ens.-ricercare"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dufay",
+      "name": "Dufay",
+      "nameFull": "Guillaume Dufay",
+      "dates": "c. 1397–1474",
+      "born": 1397,
+      "died": 1474,
+      "medium": "music",
+      "region": "north",
+      "place": "Cambrai / Italy",
+      "famous": "dufay-nuper",
+      "vasari": null,
+      "vasariNote": "Burgundian / papal chapel composer. No Vasari Life.",
+      "works": [
+        {
+          "id": "dufay-nuper",
+          "title": "Nuper rosarum flores / Ave maris stella",
+          "date": "1436",
+          "year": 1436,
+          "place": "Florence / Cambrai",
+          "file": "images/dufay-portrait.jpg",
+          "w": 1280,
+          "h": 1655,
+          "note": "Motet for the Duomo consecration (1436) and Marian fauxbourdon. External listening only.",
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Dufay, Ave maris stella (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:Avemarisstella.mid"
+            },
+            {
+              "label": "Internet Archive — Dufay program on Syntagma Musicum LP (human performance)",
+              "url": "https://archive.org/details/01-syntagma-musicum-francescus-andrieu-armes-amours_202409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "binchois",
+      "name": "Binchois",
+      "nameFull": "Gilles Binchois",
+      "dates": "c. 1400–1460",
+      "born": 1400,
+      "died": 1460,
+      "medium": "music",
+      "region": "north",
+      "place": "Burgundy",
+      "famous": "binchois-de-plus",
+      "vasari": null,
+      "vasariNote": "Burgundian court chanson composer. No Vasari Life.",
+      "works": [
+        {
+          "id": "binchois-de-plus",
+          "title": "De plus en plus (and Burgundian chansons)",
+          "date": "c. 1420–50",
+          "year": 1430,
+          "place": "Burgundian court",
+          "file": "images/binchois-illum.jpg",
+          "w": 1280,
+          "h": 1655,
+          "note": "Intimate court song beside Dufay. External listening only.",
+          "listen": [
+            {
+              "label": "Internet Archive — Rondeaux du 15e siècle program (human performance; Binchois milieu)",
+              "url": "https://archive.org/details/01-arnold-de-lantins-puisque-je-voy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ockeghem",
+      "name": "Ockeghem",
+      "nameFull": "Johannes Ockeghem",
+      "dates": "c. 1410–1497",
+      "born": 1410,
+      "died": 1497,
+      "medium": "music",
+      "region": "north",
+      "place": "France (royal chapel)",
+      "famous": "ockeghem-missa",
+      "vasari": null,
+      "vasariNote": "Franco-Flemish Mass and chanson master. No Vasari Life.",
+      "works": [
+        {
+          "id": "ockeghem-missa",
+          "title": "Missa prolationum / Ma bouche rit",
+          "date": "c. 1460–80",
+          "year": 1470,
+          "place": "French royal chapel",
+          "file": "images/ockeghem-illum.jpg",
+          "w": 1280,
+          "h": 839,
+          "note": "Prolation canons and melancholy chanson. External listening only.",
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Ockeghem, Missa prolationum Kyrie (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:Ockeghem_Prolationum_Kyrie_midi.mid"
+            },
+            {
+              "label": "Wikimedia Commons — Ockeghem, Ma bouche rit (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:OCKEGHEM_Ma_bouche_rit.mid"
+            },
+            {
+              "label": "Internet Archive — Ockeghem Missae (human performance, Charles Ravier)",
+              "url": "https://archive.org/details/mb-4109-ockeghem-o-missae-charles-ravier"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "lede": "A pocket guide to the first age: life-lines, build-lines, music-lines, and the antique models they studied",
+  "lede": "A pocket guide from the first age into the Quattrocento: life-lines, build-lines, music-lines, and the antique models they studied",
   "centuries": [
     1200,
-    1300
+    1300,
+    1400
   ]
 }
