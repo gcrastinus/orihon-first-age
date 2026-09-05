@@ -95,6 +95,20 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Breves_dies_hominis.ogg"
             }
           ]
+        },
+        {
+          "id": "leonin-alleluia",
+          "title": "Alleluya (organum)",
+          "date": "c. 1175",
+          "year": 1175,
+          "place": "Paris (Notre-Dame)"
+        },
+        {
+          "id": "leonin-magnus-liber",
+          "title": "Magnus liber organi (cycle)",
+          "date": "c. 1180",
+          "year": 1180,
+          "place": "Paris (Notre-Dame)"
         }
       ]
     },
@@ -173,6 +187,166 @@ const DATA = {
             "text": "By reason of these works, then, the name of Cimabue being very famous everywhere, he was brought to Assisi, a city of Umbria, where, in company with certain Greek masters, in the lower Church of S. Francesco, he painted part of the vaulting, and on the walls the life of Jesus Christ and that of S. Francis. In these pictures he surpassed by a long way those Greek painters; wherefore, growing in courage, he began by his own self to paint the upper church in fresco, and in the chief apse, over the choir, on four sides, he made certain stories of Our Lady--namely, her death; when her soul is borne by Christ to Heaven upon a throne of clouds; and when, in the midst of a choir of angels, He crowns her, with a great number of saints below, both male and female, now eaten away by time and by dust. Next, in the sections of the vaulting of the said church, which are five, he painted in like manner many scenes.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "cimabue-wiki-cimabuesantamarianovella",
+          "title": "CimabueSantaMariaNovella",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabuesantamarianovella.jpg",
+          "w": 256,
+          "h": 381
+        },
+        {
+          "id": "cimabue-wiki-st-francis-of-assisi",
+          "title": "St. Francis of Assisi",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-st-francis-of-assisi.jpg",
+          "w": 536,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-fresco-in-the-lower-basilica-of-assisi",
+          "title": "Fresco in the Lower Basilica of Assisi",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-fresco-in-the-lower-basilica-of-assisi.jpg",
+          "w": 737,
+          "h": 496
+        },
+        {
+          "id": "cimabue-wiki-crucifix-1287-1288-panel-448-cm-390-cm-176-4-in",
+          "title": "Crucifix, 1287–1288, Panel, 448 cm × 390 cm (176.4 in × 153.5 in), Basilica di Santa",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-crucifix-1287-1288-panel-448-cm-390-cm-176-4-in.jpg",
+          "w": 1280,
+          "h": 1469
+        },
+        {
+          "id": "cimabue-wiki-pisa-duomo-di-pisa-2023-09-29-14-36-41-001",
+          "title": "Pisa — Duomo di Pisa — 2023 — 09 — 29 14 — 36 — 41 001",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-pisa-duomo-di-pisa-2023-09-29-14-36-41-001.jpg",
+          "w": 1089,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-cimabue-001",
+          "title": "Cimabue 001",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-001.jpg",
+          "w": 1084,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-cimabue-027",
+          "title": "Cimabue 027",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-027.jpg",
+          "w": 1280,
+          "h": 1561
+        },
+        {
+          "id": "cimabue-wiki-la-vierge-et-l-enfant-en-majest-entour-s-de-six",
+          "title": "La Vierge et l'Enfant en majesté entourés de six anges — Cimabue — Musée du Louv",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-la-vierge-et-l-enfant-en-majest-entour-s-de-six.jpg",
+          "w": 1061,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-cimabue-the-virgin-and-child-enthroned-with-two",
+          "title": "Cimabue, The Virgin and Child Enthroned with Two Angels",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-the-virgin-and-child-enthroned-with-two.jpg",
+          "w": 863,
+          "h": 1080
+        },
+        {
+          "id": "cimabue-wiki-la-d-rision-du-christ-cimabue-mus-e-du-louvre-p",
+          "title": "La Dérision du Christ — Cimabue — Musée du Louvre Peintures RFML.PE.2023.33.1 — ",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-la-d-rision-du-christ-cimabue-mus-e-du-louvre-pe.jpg",
+          "w": 1260,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-mosaici-del-battistero-di-firenze-storie-del-ba",
+          "title": "Mosaici del battistero di firenze, storie del battista, 1250 — 1330 ca., 02 nasc",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-mosaici-del-battistero-di-firenze-storie-del-bat.jpg",
+          "w": 1280,
+          "h": 765
+        },
+        {
+          "id": "cimabue-wiki-cimabue-maest-di-santa-maria-dei-servi",
+          "title": "Cimabue, maestà di santa maria dei servi",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-maest-di-santa-maria-dei-servi.jpg",
+          "w": 911,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-cimabue-madonna-di-castelfiorentino-1285-ca-01",
+          "title": "Cimabue, madonna di castelfiorentino, 1285 ca. 01",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-madonna-di-castelfiorentino-1285-ca-01.jpg",
+          "w": 1109,
+          "h": 1600
+        },
+        {
+          "id": "cimabue-wiki-cimabue-madonna-and-child-angels-and-st-francis",
+          "title": "Cimabue — Madonna and Child, Angels and St. Francis — after resoration 2023.4",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-madonna-and-child-angels-and-st-francis.jpg",
+          "w": 1280,
+          "h": 1178
+        },
+        {
+          "id": "cimabue-wiki-cimabue-loggette-con-angeli-09",
+          "title": "Cimabue, loggette con angeli 09",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-loggette-con-angeli-09.jpg",
+          "w": 605,
+          "h": 480
+        },
+        {
+          "id": "cimabue-wiki-cimabue-trapasso-di-maria",
+          "title": "Cimabue, trapasso di maria",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/cimabue-cimabue-trapasso-di-maria.jpg",
+          "w": 1280,
+          "h": 1262
         }
       ]
     },
@@ -198,6 +372,46 @@ const DATA = {
           "file": "images/coppo-bordone.jpg",
           "w": 946,
           "h": 1728
+        },
+        {
+          "id": "coppo-wiki-coppo-di-marcovaldo-madonna-and-child-c-1265-pan",
+          "title": "Coppo di Marcovaldo Madonna and Child. c. 1265. Panel. St. Martino dei Servi, Orvieto.",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Florence / Siena",
+          "file": "images/coppo-coppo-di-marcovaldo-madonna-and-child-c-1265-pan.jpg",
+          "w": 982,
+          "h": 1600
+        },
+        {
+          "id": "coppo-wiki-attributed-to-coppo-di-marcovaldo-mosaic-on-the",
+          "title": "Attributed to Coppo di Marcovaldo - Mosaic on the vault (Detail of Christ). Second half",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Florence / Siena",
+          "file": "images/coppo-attributed-to-coppo-di-marcovaldo-mosaic-on-the.jpg",
+          "w": 813,
+          "h": 900
+        },
+        {
+          "id": "coppo-wiki-mosaic-on-the-vault-detail-of-the-hell-scene-bap",
+          "title": "Mosaic on the vault (Detail of the Hell Scene), Baptistery, Florence.",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Florence / Siena",
+          "file": "images/coppo-mosaic-on-the-vault-detail-of-the-hell-scene-bap.jpg",
+          "w": 800,
+          "h": 558
+        },
+        {
+          "id": "coppo-wiki-crucifix-of-san-zeno-pistoia-cathedral",
+          "title": "Crucifix of San Zeno, Pistoia Cathedral",
+          "date": "c. 1250",
+          "year": 1250,
+          "place": "Florence / Siena",
+          "file": "images/coppo-crucifix-of-san-zeno-pistoia-cathedral.jpg",
+          "w": 1280,
+          "h": 1448
         }
       ]
     },
@@ -233,6 +447,116 @@ const DATA = {
           "file": "images/duccio-maesta-front.jpg",
           "w": 2029,
           "h": 1000
+        },
+        {
+          "id": "duccio-wiki-duccio-di-buoninsegna-rucellai-madonna-after-128",
+          "title": "Duccio di Buoninsegna, Rucellai Madonna, after 1285, Uffiz",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-duccio-di-buoninsegna-rucellai-madonna-after-128.jpg",
+          "w": 1053,
+          "h": 1600
+        },
+        {
+          "id": "duccio-wiki-the-calling-of-the-apostles-peter-and-andrew-fro",
+          "title": "The Calling of the Apostles Peter and Andrew (from the Maestà), c. 1308–1311",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-the-calling-of-the-apostles-peter-and-andrew-fro.jpg",
+          "w": 1280,
+          "h": 1201
+        },
+        {
+          "id": "duccio-wiki-madonna-and-child-the-child-touching-the-virgin",
+          "title": "Madonna and Child, the child touching the virgin's veil, c. 1300",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-madonna-and-child-the-child-touching-the-virgin.jpg",
+          "w": 1207,
+          "h": 1600
+        },
+        {
+          "id": "duccio-wiki-the-nativity-with-the-prophets-isaiah-and-ezekie",
+          "title": "The Nativity with the Prophets Isaiah and Ezekiel, 1308–1311, National Gallery of Art",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-the-nativity-with-the-prophets-isaiah-and-ezekie.jpg",
+          "w": 1280,
+          "h": 715
+        },
+        {
+          "id": "duccio-wiki-madonna-dei-francescani-ca-1280",
+          "title": "Madonna dei Francescani, ca. 1280",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-madonna-dei-francescani-ca-1280.jpg",
+          "w": 1131,
+          "h": 1600
+        },
+        {
+          "id": "duccio-wiki-duccio-crevole-madonna",
+          "title": "Duccio — Crevole Madonna",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-duccio-crevole-madonna.jpg",
+          "w": 1057,
+          "h": 1600
+        },
+        {
+          "id": "duccio-wiki-duccio-rucellai-madonna",
+          "title": "Duccio — Rucellai Madonna",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-duccio-rucellai-madonna.jpg",
+          "w": 1121,
+          "h": 1600
+        },
+        {
+          "id": "duccio-wiki-madonnaintrono41",
+          "title": "MadonnaInTrono41",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-madonnaintrono41.jpg",
+          "w": 1280,
+          "h": 1488
+        },
+        {
+          "id": "duccio-wiki-duccio-triptych-crucifixion-and-other-scenes-goo",
+          "title": "Duccio — Triptych — Crucifixion and other Scenes — Google Art Project",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-duccio-triptych-crucifixion-and-other-scenes-goo.jpg",
+          "w": 1280,
+          "h": 939
+        },
+        {
+          "id": "duccio-wiki-duccio-di-boninsegna-madonna-con-bambino-in-tron",
+          "title": "Duccio di Boninsegna — Madonna con Bambino in trono 1311 — 1313",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-duccio-di-boninsegna-madonna-con-bambino-in-tron.jpg",
+          "w": 1280,
+          "h": 907
+        },
+        {
+          "id": "duccio-wiki-madonna-and-child-c-1300-1305",
+          "title": "Madonna and Child, c. 1300–1305",
+          "date": "c. 1286",
+          "year": 1286,
+          "place": "Siena",
+          "file": "images/duccio-madonna-and-child-c-1300-1305.jpg",
+          "w": 840,
+          "h": 1500
         }
       ]
     },
@@ -341,6 +665,126 @@ const DATA = {
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "giotto-wiki-giotto-santa-maria-novella",
+          "title": "Giotto, Santa Maria Novella",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-giotto-santa-maria-novella.jpg",
+          "w": 473,
+          "h": 668
+        },
+        {
+          "id": "giotto-wiki-one-of-the-legend-of-st-francis-frescoes-at-assi",
+          "title": "One of the Legend of St. Francis frescoes at Assisi, the authorship of which is disputed",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-one-of-the-legend-of-st-francis-frescoes-at-assi.jpg",
+          "w": 890,
+          "h": 1001
+        },
+        {
+          "id": "giotto-wiki-drawing-of-giotto-s-lost-mosaic-navicella-made-a",
+          "title": "Drawing of Giotto's lost mosaic Navicella, made about 1420 and once owned by Vasari[11]",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-drawing-of-giotto-s-lost-mosaic-navicella-made-a.jpg",
+          "w": 1280,
+          "h": 950
+        },
+        {
+          "id": "giotto-wiki-full-size-copy-in-oils-of-giotto-s-lost-mosaic-n",
+          "title": "Full-size copy in oils of Giotto's lost mosaic Navicella, made in 1628",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-full-size-copy-in-oils-of-giotto-s-lost-mosaic-n.jpg",
+          "w": 1104,
+          "h": 800
+        },
+        {
+          "id": "giotto-wiki-saint-francis-receiving-the-stigmata",
+          "title": "Saint Francis receiving the Stigmata",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-saint-francis-receiving-the-stigmata.jpg",
+          "w": 852,
+          "h": 1600
+        },
+        {
+          "id": "giotto-wiki-the-crucifixion-of-rimini",
+          "title": "The Crucifixion of Rimini",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-the-crucifixion-of-rimini.jpg",
+          "w": 1053,
+          "h": 1600
+        },
+        {
+          "id": "giotto-wiki-kiss-of-judas-scrovegni-chapel",
+          "title": "Kiss of Judas, Scrovegni Chapel",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-kiss-of-judas-scrovegni-chapel.jpg",
+          "w": 1280,
+          "h": 1248
+        },
+        {
+          "id": "giotto-wiki-details-of-figures-from-the-raising-of-drusiana",
+          "title": "Details of figures from the Raising of Drusiana in the Peruzzi Chapel",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-details-of-figures-from-the-raising-of-drusiana.jpg",
+          "w": 1280,
+          "h": 1575
+        },
+        {
+          "id": "giotto-wiki-the-nativity-in-the-lower-church-assisi",
+          "title": "The Nativity in the Lower Church, Assisi",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-the-nativity-in-the-lower-church-assisi.jpg",
+          "w": 1030,
+          "h": 823
+        },
+        {
+          "id": "giotto-wiki-peruzzi-altarpiece-c-1322-north-carolina-museum",
+          "title": "Peruzzi Altarpiece, c. 1322, North Carolina Museum of Art, Raleigh",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-peruzzi-altarpiece-c-1322-north-carolina-museum.jpg",
+          "w": 1280,
+          "h": 579
+        },
+        {
+          "id": "giotto-wiki-giotto-s-campanile-florence",
+          "title": "Giotto's Campanile, Florence",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-giotto-s-campanile-florence.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "giotto-wiki-engraving-after-a-portrait-of-dante-by-giotto",
+          "title": "Engraving after a portrait of Dante by Giotto",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Florence / Padua",
+          "file": "images/giotto-engraving-after-a-portrait-of-dante-by-giotto.jpg",
+          "w": 239,
+          "h": 303
         }
       ]
     },
@@ -381,6 +825,36 @@ const DATA = {
           "file": "images/cavallini-trastevere.jpg",
           "w": 1280,
           "h": 912
+        },
+        {
+          "id": "cavallini-wiki-vite-de-pi-eccellenti-pittori-scultori-ed-arc",
+          "title": "Vite de più eccellenti pittori scultori ed architetti (1767) (14597651248)",
+          "date": "c. 1290",
+          "year": 1290,
+          "place": "Rome / Naples",
+          "file": "images/cavallini-vite-de-pi-eccellenti-pittori-scultori-ed-archit.jpg",
+          "w": 1280,
+          "h": 1468
+        },
+        {
+          "id": "cavallini-wiki-cavallini-apse-st-peter-recommending-bertoldo",
+          "title": "Cavallini — Apse St Peter Recommending Bertoldo Stefanschi to the Virgin, 1296 —",
+          "date": "c. 1290",
+          "year": 1290,
+          "place": "Rome / Naples",
+          "file": "images/cavallini-cavallini-apse-st-peter-recommending-bertoldo-st.jpg",
+          "w": 1010,
+          "h": 954
+        },
+        {
+          "id": "cavallini-wiki-pietro-cavallini-storie-della-vergine-commiss",
+          "title": "Pietro cavallini, storie della vergine commissionate da bernardo stefaneschi, 12",
+          "date": "c. 1290",
+          "year": 1290,
+          "place": "Rome / Naples",
+          "file": "images/cavallini-pietro-cavallini-storie-della-vergine-commission.jpg",
+          "w": 1280,
+          "h": 1299
         }
       ]
     },
@@ -411,6 +885,96 @@ const DATA = {
           "file": "images/pietro-deposition.jpg",
           "w": 1192,
           "h": 850
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-detail-of-a-fresco-in-the-basilica-of",
+          "title": "Detail of a fresco in the Basilica of Saint Francis of Assisi, 1310–1329",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-detail-of-a-fresco-in-the-basilica-of-saint-fran.jpg",
+          "w": 500,
+          "h": 500
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-castiglione-d-orcia-madonna",
+          "title": "Castiglione d'Orcia Madonna",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-castiglione-d-orcia-madonna.jpg",
+          "w": 1170,
+          "h": 1600
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-last-supper-basilica-of-san-francesco",
+          "title": "Last Supper, Basilica of San Francesco d'Assisi",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-last-supper-basilica-of-san-francesco-d-assisi.jpg",
+          "w": 1000,
+          "h": 913
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-crucifixion-basilica-of-san-francesco",
+          "title": "Crucifixion, Basilica of San Francesco d'Assisi",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-crucifixion-basilica-of-san-francesco-d-assisi.jpg",
+          "w": 1101,
+          "h": 900
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-stigmata-of-saint-francis-basilica-of",
+          "title": "Stigmata of Saint Francis, Basilica of San Francesco d'Assisi",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-stigmata-of-saint-francis-basilica-of-san-france.jpg",
+          "w": 1050,
+          "h": 851
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-madonna-with-saints-francis-and-john-",
+          "title": "Madonna with Saints Francis and John the Evangelist (Madonna dei Tramonti), Basilica of",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-madonna-with-saints-francis-and-john-the-evangel.jpg",
+          "w": 1188,
+          "h": 800
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-monticchiello-altarpiece",
+          "title": "Monticchiello Altarpiece",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-monticchiello-altarpiece.jpg",
+          "w": 770,
+          "h": 305
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-arezzo-polyptych-1320-arezzo-santa-ma",
+          "title": "Arezzo Polyptych, 1320. Arezzo, Santa Maria della Pieve.",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-arezzo-polyptych-1320-arezzo-santa-maria-della-p.jpg",
+          "w": 1280,
+          "h": 1238
+        },
+        {
+          "id": "pietro-lorenzetti-wiki-birth-of-the-virgin-1342-siena-museo-",
+          "title": "Birth of the Virgin, 1342. Siena, Museo dell'Opera del Duomo",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena / Assisi",
+          "file": "images/pietro-lorenzetti-birth-of-the-virgin-1342-siena-museo-dell-opera.jpg",
+          "w": 1000,
+          "h": 1021
         }
       ]
     },
@@ -474,6 +1038,56 @@ const DATA = {
             "text": "Niccola had, among others, a son called Giovanni, who, because he ever followed his father and applied himself under his teaching to sculpture and to architecture, in a few years became not only equal to his father but in some ways superior; wherefore Niccola, being now old, retired to Pisa, and living there quietly left the management of everything to his son. Pope Urban IV having died at that time in Perugia, a summons was sent to Giovanni, who, having gone there, made a tomb of marble for that Pontiff, which, together with that of Pope Martin IV, was afterwards thrown to the ground when the people of Perugia enlarged their Vescovado, in a manner that there are seen only a few relics of it scattered throughout the church. And the people of Perugia, at the same time, having brought a very great body of water through leaden pipes from the hill of Pacciano, two miles distant from the city, by means of the genius and industry of a friar of the Silvestrines, it was given to Giovanni Pisano to make all the ornaments of the fountain, both in bronze and in marble;…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "nicola-wiki-posthumous-19th-century-portrait-statue-of-nicol",
+          "title": "Posthumous 19th century portrait statue of Nicola Pisano at the Uffizi in Florence",
+          "date": "c. 1252",
+          "year": 1252,
+          "place": "Apulia / Pisa / Siena",
+          "file": "images/nicola-posthumous-19th-century-portrait-statue-of-nicol.jpg",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "id": "nicola-wiki-pulpit-detail-the-nativity-and-annunciation-to-t",
+          "title": "Pulpit (detail): the \"Nativity\" and Annunciation to the Shepherds",
+          "date": "c. 1252",
+          "year": 1252,
+          "place": "Apulia / Pisa / Siena",
+          "file": "images/nicola-pulpit-detail-the-nativity-and-annunciation-to-t.jpg",
+          "w": 1280,
+          "h": 1005
+        },
+        {
+          "id": "nicola-wiki-phaedra-and-hippolytus-sarcophagus-1-2-ct-c-e-ca",
+          "title": "Phaedra and Hippolytus Sarcophagus, 1-2 ct. C.E., Camposanto, Pisa",
+          "date": "c. 1252",
+          "year": 1252,
+          "place": "Apulia / Pisa / Siena",
+          "file": "images/nicola-phaedra-and-hippolytus-sarcophagus-1-2-ct-c-e-ca.jpg",
+          "w": 1280,
+          "h": 805
+        },
+        {
+          "id": "nicola-wiki-nicola-pisano-s-pisa-pulpit-with-the-first-two-r",
+          "title": "Nicola Pisano's Pisa pulpit with the first two reliefs and the Hercules beneath",
+          "date": "c. 1252",
+          "year": 1252,
+          "place": "Apulia / Pisa / Siena",
+          "file": "images/nicola-nicola-pisano-s-pisa-pulpit-with-the-first-two-r.jpg",
+          "w": 1007,
+          "h": 1600
+        },
+        {
+          "id": "nicola-wiki-east-side-of-the-baptistery-above-main-portal-wi",
+          "title": "East side of the baptistery above main portal with the Gothic arcade by Nicola (and",
+          "date": "c. 1252",
+          "year": 1252,
+          "place": "Apulia / Pisa / Siena",
+          "file": "images/nicola-east-side-of-the-baptistery-above-main-portal-wi.jpg",
+          "w": 1280,
+          "h": 894
         }
       ]
     },
@@ -522,6 +1136,66 @@ const DATA = {
             "text": "Giovanni, having dispatched his business in Perugia, wished to go to Rome, in order to learn from those few ancient things that were to be seen there, even as his father had done; but being hindered by good reasons, this his desire did not take effect, and the rather as he heard that the Court had just gone to Avignon. Returning, then, to Pisa, Nello di Giovanni Falconi, Warden, caused him to make the great pulpit of the Duomo, which is on the right hand going towards the high-altar, attached to the choir; and having made a beginning with this and with many figures in the round, three braccia high, that were to serve for it, little by little he brought them to that form that is seen to-day, placing the pulpit partly on the said figures and partly on some columns sustained by lions; and on the sides he made some scenes from the life of Christ.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "giovanni-wiki-giovanni-pisano-began-the-facade-of-siena-cath",
+          "title": "Giovanni Pisano began the facade of Siena Cathedral and provided its sculptures. (The",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-giovanni-pisano-began-the-facade-of-siena-cathed.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "giovanni-wiki-the-pulpit-of-pisa-cathedral",
+          "title": "The pulpit of Pisa Cathedral",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-the-pulpit-of-pisa-cathedral.jpg",
+          "w": 790,
+          "h": 1000
+        },
+        {
+          "id": "giovanni-wiki-madonna-del-colloquio-giovanni-pisano-museo-de",
+          "title": "Madonna del colloquio, Giovanni Pisano, Museo dell'Opera del Duomo (Pisa)",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-madonna-del-colloquio-giovanni-pisano-museo-dell.jpg",
+          "w": 1135,
+          "h": 1600
+        },
+        {
+          "id": "giovanni-wiki-giovanni-pisano-il-profeta-haggai-frammento-da",
+          "title": "Giovanni pisano, il profeta haggai, frammento da facciata duomo siena, 1285 — 97",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-giovanni-pisano-il-profeta-haggai-frammento-da-f.jpg",
+          "w": 1184,
+          "h": 1600
+        },
+        {
+          "id": "giovanni-wiki-escultures-dels-pisano-al-museo-dell-opera-del",
+          "title": "Escultures dels Pisano al Museo dell'Opera del Duomo de Siena — 221",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-escultures-dels-pisano-al-museo-dell-opera-del-d.jpg",
+          "w": 1280,
+          "h": 953
+        },
+        {
+          "id": "giovanni-wiki-giovanni-pisano-pulpito-di-sant-andrea-10-crop",
+          "title": "Giovanni pisano, pulpito di sant'andrea 10 crop — edit",
+          "date": "c. 1281",
+          "year": 1281,
+          "place": "Pisa / Siena / Pistoia",
+          "file": "images/giovanni-giovanni-pisano-pulpito-di-sant-andrea-10-crop-e.jpg",
+          "w": 1075,
+          "h": 1600
         }
       ]
     },
@@ -585,6 +1259,76 @@ const DATA = {
             "text": "After this there was founded with his design, in the year 1294, the Church of S. Croce, where the Friars Minor have their seat. What with the middle nave and the two lesser ones Arnolfo constructed this so wide, that, being unable to make the vaulting below the roof by reason of the too great space, he, with much judgment, caused arches to be made from pier to pier, and upon these he placed the roofs on a slope, building stone gutters over the said arches in order to carry away the rain-water, and giving them so much fall as to make the roofs secure, as they are, from the danger of rotting; which device was not only new and ingenious then, but is equally useful and worthy of being considered to-day. He then gave the design for the first cloisters of the old convent of that church, and a little time after he caused to be removed from round the Church of S. Giovanni, on the outer side, all the arches and tombs of marble and grey-stone that were there, and had part of them placed behind the campanile on the facade of the Canon's house, beside the Company of S. Zanobi;…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "arnolfo-wiki-arnolfo-di-cambio-santa-maria-novella",
+          "title": "Arnolfo di Cambio, Santa Maria Novella",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-arnolfo-di-cambio-santa-maria-novella.jpg",
+          "w": 283,
+          "h": 377
+        },
+        {
+          "id": "arnolfo-wiki-arnolfo-di-cambio-riccardo-degli-annibaldi-tomb",
+          "title": "Arnolfo di Cambio, Riccardo degli Annibaldi tomb",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-arnolfo-di-cambio-riccardo-degli-annibaldi-tomb.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arnolfo-wiki-int-rieur-basilique-saint-pierre-vatican-va-202",
+          "title": "Intérieur Basilique Saint Pierre — Vatican (VA) — 2021 — 08 — 27 — 22",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-int-rieur-basilique-saint-pierre-vatican-va-2021.jpg",
+          "w": 1198,
+          "h": 1600
+        },
+        {
+          "id": "arnolfo-wiki-bonifatius-grabmal-grotte-01c",
+          "title": "Bonifatius Grabmal Grotte.01c",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-bonifatius-grabmal-grotte-01c.jpg",
+          "w": 1009,
+          "h": 699
+        },
+        {
+          "id": "arnolfo-wiki-santa-maria-maggiore-24",
+          "title": "Santa Maria Maggiore 24",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-santa-maria-maggiore-24.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arnolfo-wiki-arnolfo-di-cambio-workshop-madonna-w-the-glass-",
+          "title": "Arnolfo di Cambio & workshop, Madonna w the Glass Eyes btw. SS Reparata & Zanobi",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-arnolfo-di-cambio-workshop-madonna-w-the-glass-e.jpg",
+          "w": 1280,
+          "h": 843
+        },
+        {
+          "id": "arnolfo-wiki-arnolfo-di-cambio-and-workshop-dormitio-virgini",
+          "title": "Arnolfo di Cambio and workshop, Dormitio virginis, 1300 — 10, Museo dell'Opera d",
+          "date": "c. 1271",
+          "year": 1271,
+          "place": "Florence",
+          "file": "images/arnolfo-arnolfo-di-cambio-and-workshop-dormitio-virginis.jpg",
+          "w": 1280,
+          "h": 640
         }
       ]
     },
@@ -610,6 +1354,26 @@ const DATA = {
           "file": "images/bruges-belfry.jpg",
           "w": 1280,
           "h": 1920
+        },
+        {
+          "id": "bruges-belfry-wiki-brugge-belfort-hdr",
+          "title": "Brugge Belfort HDR",
+          "date": "c. 1288",
+          "year": 1288,
+          "place": "Bruges",
+          "file": "images/bruges-belfry-brugge-belfort-hdr.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "bruges-belfry-wiki-bruges-market-square-and-belfry",
+          "title": "Bruges Market Square and Belfry",
+          "date": "c. 1288",
+          "year": 1288,
+          "place": "Bruges",
+          "file": "images/bruges-belfry-bruges-market-square-and-belfry.jpg",
+          "w": 1280,
+          "h": 1085
         }
       ]
     },
@@ -635,6 +1399,76 @@ const DATA = {
           "file": "images/bruges-olv.jpg",
           "w": 1280,
           "h": 1913
+        },
+        {
+          "id": "bruges-olv-wiki-olv-brugge",
+          "title": "OLV Brugge",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-olv-brugge.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "bruges-olv-wiki-brugge-de-onze-lieve-vrouwekerk-oeg82359-van",
+          "title": "Brugge, de Onze Lieve Vrouwekerk (oeg82359) vanuit Oud Sint Jan foto3 2015 — 09 ",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-brugge-de-onze-lieve-vrouwekerk-oeg82359-vanuit.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "bruges-olv-wiki-bruges-cimg3619",
+          "title": "Bruges Cimg3619",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-bruges-cimg3619.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "bruges-olv-wiki-onze-lieve-vrouwekerk-brugge-prunkgr-ber-kar",
+          "title": "Onze — Lieve — Vrouwekerk (Brugge) Prunkgräber Karl u Maria v Burgund",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-onze-lieve-vrouwekerk-brugge-prunkgr-ber-karl-u.jpg",
+          "w": 1280,
+          "h": 699
+        },
+        {
+          "id": "bruges-olv-wiki-michelangelo-s-madonna-and-child-in-brugge",
+          "title": "Michelangelo's Madonna and Child in Brugge",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-michelangelo-s-madonna-and-child-in-brugge.jpg",
+          "w": 1280,
+          "h": 833
+        },
+        {
+          "id": "bruges-olv-wiki-antoon-van-dijck-kruisiging",
+          "title": "Antoon van Dijck.Kruisiging",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-antoon-van-dijck-kruisiging.jpg",
+          "w": 1140,
+          "h": 1600
+        },
+        {
+          "id": "bruges-olv-wiki-caravaggio-liebfrauenkirche-abendmahl-in-emm",
+          "title": "Caravaggio Liebfrauenkirche Abendmahl in Emmaus",
+          "date": "c. 1302",
+          "year": 1302,
+          "place": "Bruges",
+          "file": "images/bruges-olv-caravaggio-liebfrauenkirche-abendmahl-in-emmaus.jpg",
+          "w": 1280,
+          "h": 843
         }
       ]
     },
@@ -660,6 +1494,106 @@ const DATA = {
           "file": "images/tournai.jpg",
           "w": 1280,
           "h": 919
+        },
+        {
+          "id": "tournai-wiki-tournai-pan",
+          "title": "Tournai pan",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-tournai-pan.jpg",
+          "w": 1280,
+          "h": 614
+        },
+        {
+          "id": "tournai-wiki-southern-transept-and-towers",
+          "title": "Southern transept and towers",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-southern-transept-and-towers.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "tournai-wiki-west-portico",
+          "title": "West portico",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-west-portico.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "tournai-wiki-doornikluchtfoto",
+          "title": "DoornikLuchtfoto",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-doornikluchtfoto.jpg",
+          "w": 600,
+          "h": 900
+        },
+        {
+          "id": "tournai-wiki-tournai-nave",
+          "title": "Tournai nave",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-tournai-nave.jpg",
+          "w": 518,
+          "h": 331
+        },
+        {
+          "id": "tournai-wiki-dehio-212-tournay",
+          "title": "Dehio 212 Tournay",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-dehio-212-tournay.jpg",
+          "w": 927,
+          "h": 1600
+        },
+        {
+          "id": "tournai-wiki-dehio-83-tournai-floor-plan",
+          "title": "Dehio 83 Tournai Floor plan",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-dehio-83-tournai-floor-plan.jpg",
+          "w": 791,
+          "h": 1600
+        },
+        {
+          "id": "tournai-wiki-n-d-de-tournai-rubens-jpg1",
+          "title": "N — D de Tournai — Rubens JPG1",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-n-d-de-tournai-rubens-jpg1.jpg",
+          "w": 1139,
+          "h": 1600
+        },
+        {
+          "id": "tournai-wiki-rentr-e-de-la-grande-procession-de-tournai-la-c",
+          "title": "Rentrée de la grande procession de Tournai à la cathédrale (DSCF8779)",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-rentr-e-de-la-grande-procession-de-tournai-la-ca.jpg",
+          "w": 870,
+          "h": 1600
+        },
+        {
+          "id": "tournai-wiki-stained-glass-windows-in-cath-drale-notre-dame-",
+          "title": "Stained — glass windows in Cathédrale Notre — Dame, Tournai (DSCF8354)",
+          "date": "c. 1249",
+          "year": 1249,
+          "place": "Tournai (Hainaut)",
+          "file": "images/tournai-stained-glass-windows-in-cath-drale-notre-dame-t.jpg",
+          "w": 1189,
+          "h": 1600
         }
       ]
     },
@@ -685,6 +1619,36 @@ const DATA = {
           "file": "images/naples-lorenzo.jpg",
           "w": 1280,
           "h": 1712
+        },
+        {
+          "id": "naples-lorenzo-wiki-napoli-san-lorenzo-maggiore-bw-2013-05-1",
+          "title": "Napoli San Lorenzo Maggiore BW 2013 — 05 — 16 11 — 47 — 11",
+          "date": "c. 1293",
+          "year": 1293,
+          "place": "Naples",
+          "file": "images/naples-lorenzo-napoli-san-lorenzo-maggiore-bw-2013-05-16-11-47.jpg",
+          "w": 933,
+          "h": 1600
+        },
+        {
+          "id": "naples-lorenzo-wiki-interior-of-san-lorenzo",
+          "title": "interior of San Lorenzo",
+          "date": "c. 1293",
+          "year": 1293,
+          "place": "Naples",
+          "file": "images/naples-lorenzo-interior-of-san-lorenzo.jpg",
+          "w": 1280,
+          "h": 870
+        },
+        {
+          "id": "naples-lorenzo-wiki-the-macellum-of-naples-an-ancient-roman-",
+          "title": "The Macellum of Naples, an ancient Roman market beneath the church.",
+          "date": "c. 1293",
+          "year": 1293,
+          "place": "Naples",
+          "file": "images/naples-lorenzo-the-macellum-of-naples-an-ancient-roman-market-b.jpg",
+          "w": 1200,
+          "h": 1600
         }
       ]
     },
@@ -718,6 +1682,86 @@ const DATA = {
             "text": "These sonnets, in truth, together with the mention made of him in one of his _Familiar Letters_, in the fifth book, which begins: \"Non sum nescius,\" have given more fame to the poor life of Maestro Simone than all his own works have ever done or ever will, seeing that they must at some time perish, whereas the writings of so great a man will live for eternal ages. Simone Memmi of Siena, then, was an excellent painter, remarkable in his own times and much esteemed at the Court of the Pope, for the reason that after the death of Giotto his master, whom he had followed to Rome when he made the Navicella in mosaic and the other works, he made a Virgin Mary in the portico of S. Pietro, with a S. Peter and a S. Paul, near to the place where the bronze pine-cone is, on a wall between the arches of the portico on the outer side; and in this he counterfeited the manner of Giotto very well, receiving so much praise, above all because he portrayed therein a sacristan of S.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "simone-wiki-simone-martini-frontispice-du-virgile",
+          "title": "Simone Martini — Frontispice du Virgile",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-frontispice-du-virgile.jpg",
+          "w": 1131,
+          "h": 1600
+        },
+        {
+          "id": "simone-wiki-simone-martini-annunciation-with-st-margaret-and",
+          "title": "Simone Martini — Annunciation with St. Margaret and St. Ansanus",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-annunciation-with-st-margaret-and.jpg",
+          "w": 1280,
+          "h": 1111
+        },
+        {
+          "id": "simone-wiki-simone-martini-068-069",
+          "title": "Simone Martini 068+069",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-068-069.jpg",
+          "w": 1280,
+          "h": 1042
+        },
+        {
+          "id": "simone-wiki-simone-martini-012",
+          "title": "Simone Martini 012",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-012.jpg",
+          "w": 1280,
+          "h": 902
+        },
+        {
+          "id": "simone-wiki-simone-martini-boston-polyptych",
+          "title": "Simone Martini — Boston Polyptych",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-boston-polyptych.jpg",
+          "w": 1280,
+          "h": 762
+        },
+        {
+          "id": "simone-wiki-simone-martini-071",
+          "title": "Simone Martini 071",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-071.jpg",
+          "w": 1280,
+          "h": 1562
+        },
+        {
+          "id": "simone-wiki-simone-martini-christ-discovered-in-the-temple-g",
+          "title": "Simone Martini — Christ Discovered in the Temple — Google Art Project",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-christ-discovered-in-the-temple-g.jpg",
+          "w": 1138,
+          "h": 1600
+        },
+        {
+          "id": "simone-wiki-simone-martini-maest-google-art-project",
+          "title": "Simone Martini — Maestà — Google Art Project",
+          "date": "c. 1314",
+          "year": 1314,
+          "place": "Siena",
+          "file": "images/simone-simone-martini-maest-google-art-project.jpg",
+          "w": 1280,
+          "h": 984
         }
       ]
     },
@@ -748,6 +1792,36 @@ const DATA = {
           "file": "images/margarito-ng.jpg",
           "w": 1920,
           "h": 881
+        },
+        {
+          "id": "margaritone-wiki-altarpiece-c-1263-64-national-gallery-londo",
+          "title": "Altarpiece, c. 1263–64, National Gallery, London",
+          "date": "c. 1270",
+          "year": 1270,
+          "place": "Arezzo",
+          "file": "images/margaritone-altarpiece-c-1263-64-national-gallery-london.jpg",
+          "w": 1280,
+          "h": 657
+        },
+        {
+          "id": "margaritone-wiki-margaritone-d-arezzo-madonna-and-child-c-12",
+          "title": "Margaritone d'Arezzo, Madonna and Child, c. 1270, National Gallery of Art",
+          "date": "c. 1270",
+          "year": 1270,
+          "place": "Arezzo",
+          "file": "images/margaritone-margaritone-d-arezzo-madonna-and-child-c-1270-na.jpg",
+          "w": 830,
+          "h": 1600
+        },
+        {
+          "id": "margaritone-wiki-5-margaritone-e-ristoro-d-arezzo-madonna-co",
+          "title": "5 Margaritone e Ristoro d'Arezzo, Madonna col Bambino e 4 storie delle Vergine, ",
+          "date": "c. 1270",
+          "year": 1270,
+          "place": "Arezzo",
+          "file": "images/margaritone-5-margaritone-e-ristoro-d-arezzo-madonna-col-bam.jpg",
+          "w": 1087,
+          "h": 701
         }
       ]
     },
@@ -778,6 +1852,66 @@ const DATA = {
           "file": "images/florence-baptistery-mosaic.jpg",
           "w": 1280,
           "h": 960
+        },
+        {
+          "id": "andrea-tafi-wiki-baptistery-ceiling",
+          "title": "Baptistery mosaic ceiling",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-baptistery-ceiling.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "andrea-tafi-wiki-christ-cherubim",
+          "title": "Christ among cherubim and seraphim",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-christ-cherubim.jpg",
+          "w": 1280,
+          "h": 823
+        },
+        {
+          "id": "andrea-tafi-wiki-angeli",
+          "title": "Angelic hierarchies — Angels",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-angeli.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "andrea-tafi-wiki-virtu",
+          "title": "Angelic hierarchies — Virtues",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-virtu.jpg",
+          "w": 1280,
+          "h": 843
+        },
+        {
+          "id": "andrea-tafi-wiki-christ-majesty",
+          "title": "Christ in Majesty",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-christ-majesty.jpg",
+          "w": 1280,
+          "h": 926
+        },
+        {
+          "id": "andrea-tafi-wiki-arcangeli",
+          "title": "Angelic hierarchies — Archangels",
+          "date": "c. 1225–1300",
+          "year": 1260,
+          "place": "Florence",
+          "file": "images/andrea-tafi-arcangeli.jpg",
+          "w": 1280,
+          "h": 853
         }
       ]
     },
@@ -803,6 +1937,56 @@ const DATA = {
           "file": "images/guido-siena.jpg",
           "w": 1280,
           "h": 1944
+        },
+        {
+          "id": "guido-wiki-enthroned-madonna-of-guido-of-siena-c-1270-80",
+          "title": "Enthroned Madonna of Guido of Siena, c. 1270–80",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Siena",
+          "file": "images/guido-enthroned-madonna-of-guido-of-siena-c-1270-80.jpg",
+          "w": 750,
+          "h": 1378
+        },
+        {
+          "id": "guido-wiki-guido-da-siena-annunciation-google-art-project",
+          "title": "Guido da Siena — Annunciation — Google Art Project",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Siena",
+          "file": "images/guido-guido-da-siena-annunciation-google-art-project.jpg",
+          "w": 1280,
+          "h": 916
+        },
+        {
+          "id": "guido-wiki-guido-da-siena-fuga-in-egitto",
+          "title": "Guido da Siena — Fuga in Egitto",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Siena",
+          "file": "images/guido-guido-da-siena-fuga-in-egitto.jpg",
+          "w": 1280,
+          "h": 941
+        },
+        {
+          "id": "guido-wiki-guido-da-siena-christ-crucified-wga10989",
+          "title": "Guido Da Siena — Christ Crucified — WGA10989",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Siena",
+          "file": "images/guido-guido-da-siena-christ-crucified-wga10989.jpg",
+          "w": 1055,
+          "h": 800
+        },
+        {
+          "id": "guido-wiki-guido-da-siena-transfigurazione-ingresso-a-gerus",
+          "title": "Guido da Siena — Transfigurazione, Ingresso a Gerusalemme, Resurrezione di Lazar",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Siena",
+          "file": "images/guido-guido-da-siena-transfigurazione-ingresso-a-gerus.jpg",
+          "w": 1280,
+          "h": 665
         }
       ]
     },
@@ -828,6 +2012,26 @@ const DATA = {
           "file": "images/torriti-coronation.jpg",
           "w": 1280,
           "h": 851
+        },
+        {
+          "id": "torriti-wiki-head-of-the-madonna",
+          "title": "Head of the Madonna",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Rome",
+          "file": "images/torriti-head-of-the-madonna.jpg",
+          "w": 1234,
+          "h": 1500
+        },
+        {
+          "id": "torriti-wiki-marriage-at-cana-by-torritti",
+          "title": "Marriage at Cana by Torritti.",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Rome",
+          "file": "images/torriti-marriage-at-cana-by-torritti.jpg",
+          "w": 874,
+          "h": 1000
         }
       ]
     },
@@ -853,6 +2057,16 @@ const DATA = {
           "file": "images/magdalen-master.jpg",
           "w": 972,
           "h": 2111
+        },
+        {
+          "id": "magdalen-master-wiki-madonna-and-child-alana-collection-newa",
+          "title": "Madonna and Child, Alana Collection, Newark.",
+          "date": "c. 1277",
+          "year": 1277,
+          "place": "Florence",
+          "file": "images/magdalen-master-madonna-and-child-alana-collection-newark.jpg",
+          "w": 1280,
+          "h": 1441
         }
       ]
     },
@@ -878,6 +2092,86 @@ const DATA = {
           "file": "images/siena-palazzo-pubblico.jpg",
           "w": 1280,
           "h": 1707
+        },
+        {
+          "id": "siena-palazzo-wiki-552sienapalpubblico",
+          "title": "552SienaPalPubblico",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-552sienapalpubblico.jpg",
+          "w": 525,
+          "h": 700
+        },
+        {
+          "id": "siena-palazzo-wiki-the-crown-of-palazzo-pubblico",
+          "title": "The crown of Palazzo Pubblico",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-the-crown-of-palazzo-pubblico.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "siena-palazzo-wiki-palazzo-pubblico-s-christogram",
+          "title": "Palazzo Pubblico's Christogram",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-palazzo-pubblico-s-christogram.jpg",
+          "w": 1280,
+          "h": 812
+        },
+        {
+          "id": "siena-palazzo-wiki-cappella-di-piazza",
+          "title": "Cappella di Piazza",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-cappella-di-piazza.jpg",
+          "w": 888,
+          "h": 1280
+        },
+        {
+          "id": "siena-palazzo-wiki-room-of-the-risorgimento",
+          "title": "Room of the Risorgimento",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-room-of-the-risorgimento.jpg",
+          "w": 1084,
+          "h": 1600
+        },
+        {
+          "id": "siena-palazzo-wiki-spinello-battle-of-punta-san-salvatore-de",
+          "title": "Spinello — Battle of Punta San Salvatore — detail1",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-spinello-battle-of-punta-san-salvatore-detail1.jpg",
+          "w": 1092,
+          "h": 728
+        },
+        {
+          "id": "siena-palazzo-wiki-simone-martini-maest-google-art-project",
+          "title": "Simone Martini — Maestà — Google Art Project",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-simone-martini-maest-google-art-project.jpg",
+          "w": 1280,
+          "h": 984
+        },
+        {
+          "id": "siena-palazzo-wiki-siena-palazzo-pubblico9",
+          "title": "Siena Palazzo Pubblico9",
+          "date": "c. 1311",
+          "year": 1311,
+          "place": "Siena",
+          "file": "images/siena-palazzo-siena-palazzo-pubblico9.jpg",
+          "w": 1024,
+          "h": 682
         }
       ]
     },
@@ -903,6 +2197,46 @@ const DATA = {
           "file": "images/camposanto-sarcophagi.jpg",
           "w": 1280,
           "h": 843
+        },
+        {
+          "id": "camposanto-wiki-camposanto-pisa-100",
+          "title": "Camposanto Pisa 100",
+          "date": "c. 1299",
+          "year": 1299,
+          "place": "Pisa",
+          "file": "images/camposanto-camposanto-pisa-100.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "camposanto-wiki-gothic-arcades-enclosing-the-courtyard-of-ca",
+          "title": "Gothic arcades enclosing the courtyard of Campo Santo",
+          "date": "c. 1299",
+          "year": 1299,
+          "place": "Pisa",
+          "file": "images/camposanto-gothic-arcades-enclosing-the-courtyard-of-campo.jpg",
+          "w": 1280,
+          "h": 791
+        },
+        {
+          "id": "camposanto-wiki-roman-sarcophagi",
+          "title": "Roman sarcophagi",
+          "date": "c. 1299",
+          "year": 1299,
+          "place": "Pisa",
+          "file": "images/camposanto-roman-sarcophagi.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "camposanto-wiki-the-triumph-of-death",
+          "title": "The Triumph of Death",
+          "date": "c. 1299",
+          "year": 1299,
+          "place": "Pisa",
+          "file": "images/camposanto-the-triumph-of-death.jpg",
+          "w": 1280,
+          "h": 960
         }
       ]
     },
@@ -928,6 +2262,166 @@ const DATA = {
           "file": "images/ghent-st-nicholas.jpg",
           "w": 1280,
           "h": 1999
+        },
+        {
+          "id": "ghent-niklaas-wiki-sint-niklaaskerk-and-the-belfry-of-ghent-",
+          "title": "Sint — Niklaaskerk and the belfry of Ghent (DSCF0229)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-sint-niklaaskerk-and-the-belfry-of-ghent-dscf022.jpg",
+          "w": 1280,
+          "h": 974
+        },
+        {
+          "id": "ghent-niklaas-wiki-st-nicholas-church-in-context-viewed-from",
+          "title": "St. Nicholas Church in context, viewed from the Belfry of Ghent in 2025",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-st-nicholas-church-in-context-viewed-from-the-be.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-choir-and-main-altar",
+          "title": "Choir and main altar",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-choir-and-main-altar.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-eduard-gaertner-marktplatz-nikolaikirche-",
+          "title": "Eduard Gaertner Marktplatz Nikolaikirche Gent",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-eduard-gaertner-marktplatz-nikolaikirche-gent.jpg",
+          "w": 650,
+          "h": 530
+        },
+        {
+          "id": "ghent-niklaas-wiki-sint-niklaaskerk-gent-46715459151",
+          "title": "Sint — Niklaaskerk, Gent (46715459151)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-sint-niklaaskerk-gent-46715459151.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-sint-niklaaskerk1",
+          "title": "Sint — Niklaaskerk1",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-sint-niklaaskerk1.jpg",
+          "w": 1280,
+          "h": 1288
+        },
+        {
+          "id": "ghent-niklaas-wiki-the-great-triumphant-bell-ghent-belgium",
+          "title": "The Great Triumphant Bell, Ghent, Belgium",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-the-great-triumphant-bell-ghent-belgium.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-altar-nicholas-church-gent",
+          "title": "Altar Nicholas church Gent",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-altar-nicholas-church-gent.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-gent-sint-niklaaskerk-pm-46214",
+          "title": "Gent Sint — Niklaaskerk — PM 46214",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-gent-sint-niklaaskerk-pm-46214.jpg",
+          "w": 850,
+          "h": 1275
+        },
+        {
+          "id": "ghent-niklaas-wiki-transepttoren-lantaarntoren-sint-niklaask",
+          "title": "Transepttoren Lantaarntoren — Sint — Niklaaskerk Gent (3)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-transepttoren-lantaarntoren-sint-niklaaskerk-gen.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "ghent-niklaas-wiki-achterzijde-van-het-hoofdaltaar-in-koorom",
+          "title": "Achterzijde van het hoofdaltaar in kooromgang — Sint — Niklaaskerk Gent(3)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-achterzijde-van-het-hoofdaltaar-in-kooromgang-si.jpg",
+          "w": 1199,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-apostelen-sint-niklaaskerk-gent-7",
+          "title": "Apostelen — Sint — Niklaaskerk Gent (7)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-apostelen-sint-niklaaskerk-gent-7.jpg",
+          "w": 1062,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-preekstoel-norbert-sauvage-sint-niklaaske",
+          "title": "Preekstoel — Norbert Sauvage — Sint — Niklaaskerk Gent (1)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-preekstoel-norbert-sauvage-sint-niklaaskerk-gent.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-binnenzicht-kerk-sint-niklaaskerk-gent-15",
+          "title": "Binnenzicht kerk — Sint — Niklaaskerk Gent (15)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-binnenzicht-kerk-sint-niklaaskerk-gent-15.jpg",
+          "w": 1280,
+          "h": 1085
+        },
+        {
+          "id": "ghent-niklaas-wiki-zijaltaren-altaar-heilige-drievuldigheid-",
+          "title": "Zijaltaren (Altaar Heilige Drievuldigheid en Altaar Gelovige Zielen) — laatste k",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-zijaltaren-altaar-heilige-drievuldigheid-en-alta.jpg",
+          "w": 1182,
+          "h": 1600
+        },
+        {
+          "id": "ghent-niklaas-wiki-middenschip-sint-niklaaskerk-gent-1",
+          "title": "Middenschip — Sint — Niklaaskerk Gent (1)",
+          "date": "c. 1285",
+          "year": 1285,
+          "place": "Ghent",
+          "file": "images/ghent-niklaas-middenschip-sint-niklaaskerk-gent-1.jpg",
+          "w": 1200,
+          "h": 1600
         }
       ]
     },
@@ -953,6 +2447,46 @@ const DATA = {
           "file": "images/pisa-phaedra.jpg",
           "w": 1280,
           "h": 805
+        },
+        {
+          "id": "pisa-phaedra-wiki-camposanto-pisa-100",
+          "title": "Camposanto Pisa 100",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Pisa",
+          "file": "images/pisa-phaedra-camposanto-pisa-100.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "pisa-phaedra-wiki-gothic-arcades-enclosing-the-courtyard-of-",
+          "title": "Gothic arcades enclosing the courtyard of Campo Santo",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Pisa",
+          "file": "images/pisa-phaedra-gothic-arcades-enclosing-the-courtyard-of-campo.jpg",
+          "w": 1280,
+          "h": 791
+        },
+        {
+          "id": "pisa-phaedra-wiki-roman-sarcophagi",
+          "title": "Roman sarcophagi",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Pisa",
+          "file": "images/pisa-phaedra-roman-sarcophagi.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "pisa-phaedra-wiki-the-triumph-of-death",
+          "title": "The Triumph of Death",
+          "date": "c. 1255",
+          "year": 1255,
+          "place": "Pisa",
+          "file": "images/pisa-phaedra-the-triumph-of-death.jpg",
+          "w": 1280,
+          "h": 960
         }
       ]
     },
@@ -978,6 +2512,76 @@ const DATA = {
           "file": "images/marcus-aurelius.jpg",
           "w": 1280,
           "h": 853
+        },
+        {
+          "id": "marcus-aurelius-wiki-equestrian-statue-of-marcus-aurelius-ro",
+          "title": "Equestrian statue of Marcus Aurelius (Rome)",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-equestrian-statue-of-marcus-aurelius-rome.jpg",
+          "w": 881,
+          "h": 1600
+        },
+        {
+          "id": "marcus-aurelius-wiki-statua-marco-aurelio-musei-capitolini",
+          "title": "Statua Marco Aurelio Musei Capitolini",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-statua-marco-aurelio-musei-capitolini.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "marcus-aurelius-wiki-marcus-aurelius-kapitolische-museen-pfe",
+          "title": "Marcus Aurelius Kapitolische Museen Pferdekopf",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-marcus-aurelius-kapitolische-museen-pferdekopf.jpg",
+          "w": 1280,
+          "h": 848
+        },
+        {
+          "id": "marcus-aurelius-wiki-the-inscription-on-the-plinth-of-the-st",
+          "title": "The inscription on the plinth of the statue, commissioned by Pope Paul III",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-the-inscription-on-the-plinth-of-the-statue-comm.jpg",
+          "w": 1280,
+          "h": 710
+        },
+        {
+          "id": "marcus-aurelius-wiki-the-original-statue-in-the-palazzo-dei-",
+          "title": "The original statue in the Palazzo dei Conservatori",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-the-original-statue-in-the-palazzo-dei-conservat.jpg",
+          "w": 1280,
+          "h": 792
+        },
+        {
+          "id": "marcus-aurelius-wiki-marcus-aurelius-aureus-ad-174-ric-iii-2",
+          "title": "Marcus Aurelius, aureus, AD 174, RIC III 295 (cropped)",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-marcus-aurelius-aureus-ad-174-ric-iii-295-croppe.jpg",
+          "w": 364,
+          "h": 342
+        },
+        {
+          "id": "marcus-aurelius-wiki-replica-of-the-equestrian-statue-of-mar",
+          "title": "Replica of the equestrian statue of Marcus Aurelius on the Capitoline Hill",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome (Lateran)",
+          "file": "images/marcus-aurelius-replica-of-the-equestrian-statue-of-marcus-aurel.jpg",
+          "w": 1280,
+          "h": 960
         }
       ]
     },
@@ -1003,6 +2607,146 @@ const DATA = {
           "file": "images/arch-constantine.jpg",
           "w": 1280,
           "h": 1925
+        },
+        {
+          "id": "arch-constantine-wiki-the-arch-of-constantine-rome-painted-b",
+          "title": "The Arch of Constantine, Rome - painted by Herman van Swanevelt, 17th century",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-the-arch-of-constantine-rome-painted-by-herman-v.jpg",
+          "w": 500,
+          "h": 382
+        },
+        {
+          "id": "arch-constantine-wiki-romeconstantine-sarch03",
+          "title": "RomeConstantine'sArch03",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-romeconstantine-sarch03.jpg",
+          "w": 1030,
+          "h": 780
+        },
+        {
+          "id": "arch-constantine-wiki-luk-konstantyna-strona-zachodnia",
+          "title": "Luk Konstantyna strona zachodnia",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-luk-konstantyna-strona-zachodnia.jpg",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "id": "arch-constantine-wiki-relief-panels-round-reliefs-and-frieze",
+          "title": "Relief panels, round reliefs and frieze over left (west) arch, from south",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-relief-panels-round-reliefs-and-frieze-over-left.jpg",
+          "w": 797,
+          "h": 1063
+        },
+        {
+          "id": "arch-constantine-wiki-round-reliefs-and-frieze-over-right-ea",
+          "title": "Round reliefs and frieze over right (east) arch, from south",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-round-reliefs-and-frieze-over-right-east-arch-fr.jpg",
+          "w": 1063,
+          "h": 797
+        },
+        {
+          "id": "arch-constantine-wiki-konstantinsbogenattika",
+          "title": "KonstantinsbogenAttika",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-konstantinsbogenattika.jpg",
+          "w": 1280,
+          "h": 286
+        },
+        {
+          "id": "arch-constantine-wiki-detail-of-relief-panel-south-side-righ",
+          "title": "Detail of relief panel, south side, right panel of left arch",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-detail-of-relief-panel-south-side-right-panel-of.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arch-constantine-wiki-arco-di-costantino-plinti-04",
+          "title": "Arco di costantino, plinti 04",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-arco-di-costantino-plinti-04.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arch-constantine-wiki-luk-konstantyna-6dscf0032",
+          "title": "Luk Konstantyna 6DSCF0032",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-luk-konstantyna-6dscf0032.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arch-constantine-wiki-constantine-arch-roman-trophy-img-6576",
+          "title": "Constantine Arch Roman Trophy IMG 6576",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-constantine-arch-roman-trophy-img-6576.jpg",
+          "w": 1280,
+          "h": 785
+        },
+        {
+          "id": "arch-constantine-wiki-spandrel-over-main-arch-with-victory",
+          "title": "Spandrel over main arch with Victory",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-spandrel-over-main-arch-with-victory.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "arch-constantine-wiki-obsidio-detail",
+          "title": "Obsidio (detail)",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-obsidio-detail.jpg",
+          "w": 1024,
+          "h": 685
+        },
+        {
+          "id": "arch-constantine-wiki-liberalitas-detail",
+          "title": "Liberalitas (detail)",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-liberalitas-detail.jpg",
+          "w": 900,
+          "h": 530
+        },
+        {
+          "id": "arch-constantine-wiki-img",
+          "title": "Триумфальная арка Константина",
+          "date": "c. 1297",
+          "year": 1297,
+          "place": "Rome",
+          "file": "images/arch-constantine-img.jpg",
+          "w": 1280,
+          "h": 493
         }
       ]
     },
@@ -1025,13 +2769,33 @@ const DATA = {
           "date": "c. 1198–1200",
           "year": 1200,
           "place": "Paris, Notre-Dame",
-          "file": null,
           "listen": [
             {
               "label": "Internet Archive — Pérotin, Viderunt omnes (Deller Consort, human; Notre Dame LP)",
               "url": "https://archive.org/details/lp_music-at-notre-dame-1200-1375-notre-dame-m_guillaume-de-machaut-protin-alfred-deller"
             }
           ]
+        },
+        {
+          "id": "perotin-sederunt",
+          "title": "Sederunt principes",
+          "date": "c. 1199",
+          "year": 1199,
+          "place": "Paris (Notre-Dame)"
+        },
+        {
+          "id": "perotin-alleluia-nativitas",
+          "title": "Alleluia Nativitas",
+          "date": "c. 1200",
+          "year": 1200,
+          "place": "Paris (Notre-Dame)"
+        },
+        {
+          "id": "perotin-dum-sigillum",
+          "title": "Dum sigillum summi Patris",
+          "date": "c. 1205",
+          "year": 1205,
+          "place": "Paris (Notre-Dame)"
         }
       ]
     },
@@ -1045,11 +2809,11 @@ const DATA = {
       "medium": "music",
       "region": "france",
       "place": "Arras / Naples",
-      "famous": "adam-robin",
+      "famous": "adam-robin-marion",
       "vasari": null,
       "works": [
         {
-          "id": "adam-robin",
+          "id": "adam-robin-marion",
           "title": "Le Jeu de Robin et Marion",
           "date": "c. 1282–83",
           "year": 1283,
@@ -1063,6 +2827,20 @@ const DATA = {
               "url": "https://archive.org/details/lp_le-jeu-de-robin-et-marion-13-rondeaux-1_adam-de-la-halle-pro-musica-antiqua-saffor"
             }
           ]
+        },
+        {
+          "id": "adam-jeux-partis",
+          "title": "Jeux-partis and chansons",
+          "date": "c. 1270",
+          "year": 1270,
+          "place": "Arras / Naples"
+        },
+        {
+          "id": "adam-congies",
+          "title": "Congés",
+          "date": "c. 1275",
+          "year": 1275,
+          "place": "Arras / Naples"
         }
       ]
     },
@@ -1085,13 +2863,26 @@ const DATA = {
           "date": "c. 1250–90",
           "year": 1270,
           "place": "Cortona, Biblioteca del Comune (ms. 91)",
-          "file": null,
           "listen": [
             {
               "label": "Internet Archive — Altissima luce, Laudario di Cortona (Quartetto Polifonico Italiano; track A17)",
               "url": "https://archive.org/details/lp_musica-italica-laudario-di-cortona-codex-9_quartetto-polifonico-italiano"
             }
           ]
+        },
+        {
+          "id": "cortona-ave-donna",
+          "title": "Ave donna santissima",
+          "date": "c. 1260",
+          "year": 1260,
+          "place": "Cortona / Tuscany"
+        },
+        {
+          "id": "cortona-laudario",
+          "title": "Laudario di Cortona (collection)",
+          "date": "c. 1265",
+          "year": 1265,
+          "place": "Cortona / Tuscany"
         }
       ]
     },
@@ -1114,13 +2905,19 @@ const DATA = {
           "date": "c. 1260",
           "year": 1260,
           "place": "Cologne / Paris",
-          "file": null,
           "listen": [
             {
               "label": "Wikipedia — Franco of Cologne (notation; no free recording of his music found)",
               "url": "https://en.wikipedia.org/wiki/Franco_of_Cologne"
             }
           ]
+        },
+        {
+          "id": "franco-motets",
+          "title": "Franconian motets",
+          "date": "c. 1270",
+          "year": 1270,
+          "place": "Cologne / Paris"
         }
       ]
     },
@@ -1143,13 +2940,19 @@ const DATA = {
           "date": "c. 1290",
           "year": 1290,
           "place": "Paris / Amiens",
-          "file": null,
           "listen": [
             {
               "label": "Wikipedia — Petrus de Cruce (no free recording of Aucun ont trouvé found)",
               "url": "https://en.wikipedia.org/wiki/Petrus_de_Cruce"
             }
           ]
+        },
+        {
+          "id": "petrus-motets",
+          "title": "Petronian motets",
+          "date": "c. 1295",
+          "year": 1295,
+          "place": "Amiens / Paris"
         }
       ]
     },
@@ -1163,16 +2966,15 @@ const DATA = {
       "medium": "music",
       "region": "north",
       "place": "Reading Abbey (England)",
-      "famous": "sumer-round",
+      "famous": "sumer-rota",
       "vasari": null,
       "works": [
         {
-          "id": "sumer-round",
+          "id": "sumer-rota",
           "title": "Sumer is icumen in (Reading Rota)",
           "date": "c. 1260",
           "year": 1260,
           "place": "British Library, Harley MS 978",
-          "file": null,
           "listen": [
             {
               "label": "Wikimedia Commons — Sumer Is Icumen In (human recording, playable .ogg)",
@@ -1183,6 +2985,13 @@ const DATA = {
               "url": "https://archive.org/details/78_summer-is-icumen-in_the-english-singers-john-of-fornsete_gbia3007147b"
             }
           ]
+        },
+        {
+          "id": "sumer-perspice",
+          "title": "Perspice Christicola (contrafact)",
+          "date": "c. 1260",
+          "year": 1260,
+          "place": "Reading Abbey (England)"
         }
       ]
     },
@@ -1218,6 +3027,27 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Vitry_-_Vos_qui_admiramini.ogg"
             }
           ]
+        },
+        {
+          "id": "vitry-garrit",
+          "title": "Garrit gallus / In nova fert",
+          "date": "c. 1315",
+          "year": 1315,
+          "place": "Paris"
+        },
+        {
+          "id": "vitry-ars-nova",
+          "title": "Ars nova treatise",
+          "date": "c. 1320",
+          "year": 1320,
+          "place": "Paris"
+        },
+        {
+          "id": "vitry-colla",
+          "title": "Colla iugo / Bona condit / Libera me",
+          "date": "c. 1325",
+          "year": 1325,
+          "place": "Paris"
         }
       ]
     },
@@ -1266,6 +3096,66 @@ const DATA = {
             "text": "PAINTER OF SIENA\n\n\nIf that debt is great, as without doubt it is, which craftsmen of fine\ngenius should acknowledge to nature, much greater should that be that is\ndue from us to them, seeing that they, with great solicitude, fill the\ncities with noble and useful buildings and with lovely historical\ncompositions, gaining for themselves, for the most part, fame and riches\nwith their works; as did Ambrogio Lorenzetti, painter of Siena, who\nshowed beautiful and great invention in grouping and placing his figures\nthoughtfully in historical scenes.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-013-le-vite-ambrogio-lorenzetti",
+          "title": "013 le vite, ambrogio lorenzetti",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-013-le-vite-ambrogio-lorenzetti.jpg",
+          "w": 271,
+          "h": 300
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-allegory-of-bad-government-detail-s",
+          "title": "Allegory of bad government, detail showing two soldiers robbing a woman",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-allegory-of-bad-government-detail-showing-two-so.jpg",
+          "w": 1181,
+          "h": 1600
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-annunciation-1344",
+          "title": "Annunciation, 1344",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-annunciation-1344.jpg",
+          "w": 1280,
+          "h": 1394
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-madonna-and-child-1319",
+          "title": "Madonna and Child, 1319",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-madonna-and-child-1319.jpg",
+          "w": 801,
+          "h": 1500
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-investiture-of-saint-louis-of-toulo",
+          "title": "Investiture of Saint Louis of Toulouse, 1329",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-investiture-of-saint-louis-of-toulouse-1329.jpg",
+          "w": 676,
+          "h": 806
+        },
+        {
+          "id": "ambrogio-lorenzetti-wiki-maest-1335",
+          "title": "Maestà, 1335",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Siena",
+          "file": "images/ambrogio-lorenzetti-maest-1335.jpg",
+          "w": 1280,
+          "h": 990
         }
       ]
     },
@@ -1299,6 +3189,66 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nIt is a beautiful and truly useful and praiseworthy action to reward\ntalent largely in every place, and to honour him who has it, seeing that\nan infinity of intellects which might otherwise slumber, roused by this\nencouragement, strive with all industry not only to learn their art but\nto become excellent therein, in order to advance themselves and to\nattain to a rank both profitable and honourable; whence there may follow\nhonour for their country, glory for themselves, and riches and nobility\nfor their descendants, who, upraised by such beginnings, very often\nbecome both very rich and very noble, even as the descendants of the\npainter Taddeo Gaddi did by reason of his work.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "taddeo-gaddi-wiki-imaginary-portrait-of-gaddi-18th-century",
+          "title": "Imaginary portrait of Gaddi (18th century)",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-imaginary-portrait-of-gaddi-18th-century.jpg",
+          "w": 1144,
+          "h": 1600
+        },
+        {
+          "id": "taddeo-gaddi-wiki-taddeo-gaddi-stories-of-the-virgin-c1330-b",
+          "title": "Taddeo Gaddi, Stories of the Virgin, c1330, Baroncelli chapel, Santa Croce, Flor",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-taddeo-gaddi-stories-of-the-virgin-c1330-baronce.jpg",
+          "w": 1280,
+          "h": 908
+        },
+        {
+          "id": "taddeo-gaddi-wiki-taddeo-gaddi-visitation-c1330-baroncelli-c",
+          "title": "Taddeo Gaddi, Visitation, c1330, Baroncelli chapel, Santa Croce, Florence",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-taddeo-gaddi-visitation-c1330-baroncelli-chapel.jpg",
+          "w": 1280,
+          "h": 1061
+        },
+        {
+          "id": "taddeo-gaddi-wiki-gaddi-taddeo-announcement",
+          "title": "Gaddi Taddeo Announcement",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-gaddi-taddeo-announcement.jpg",
+          "w": 642,
+          "h": 1027
+        },
+        {
+          "id": "taddeo-gaddi-wiki-taddeo-gaddi-adoration-of-the-magi-c1330-b",
+          "title": "Taddeo Gaddi, Adoration of the Magi, c1330, Baroncelli chapel, Santa Croce, Flor",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-taddeo-gaddi-adoration-of-the-magi-c1330-baronce.jpg",
+          "w": 958,
+          "h": 1600
+        },
+        {
+          "id": "taddeo-gaddi-wiki-taddeo-gaddi-arbor-vitae-c1330-40-or-60-sa",
+          "title": "Taddeo Gaddi, Arbor vitae, c1330 — 40 or — 60, Santa Croce Refectory, Florence",
+          "date": "c. 1333",
+          "year": 1333,
+          "place": "Florence",
+          "file": "images/taddeo-gaddi-taddeo-gaddi-arbor-vitae-c1330-40-or-60-santa-cr.jpg",
+          "w": 1280,
+          "h": 997
         }
       ]
     },
@@ -1324,6 +3274,26 @@ const DATA = {
           "file": "images/daddi-madonna.jpg",
           "w": 1256,
           "h": 1602
+        },
+        {
+          "id": "bernardo-daddi-wiki-crucifixion-1340-1345",
+          "title": "Crucifixion (1340–1345)",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence",
+          "file": "images/bernardo-daddi-crucifixion-1340-1345.jpg",
+          "w": 1046,
+          "h": 1600
+        },
+        {
+          "id": "bernardo-daddi-wiki-madonna-and-saints-thomas-aquinas-and-pa",
+          "title": "Madonna and Saints Thomas Aquinas and Paul",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence",
+          "file": "images/bernardo-daddi-madonna-and-saints-thomas-aquinas-and-paul.jpg",
+          "w": 1280,
+          "h": 1398
         }
       ]
     },
@@ -1357,6 +3327,166 @@ const DATA = {
             "text": "SCULPTOR AND ARCHITECT\n\n\nThe art of painting never flourished at any time without the sculptors\nalso pursuing their exercise with excellence, and to this the works of\nall ages bear witness for the close observer, because these two arts are\ntruly sisters, born at one and the same time, and fostered and governed\nby one and the same soul. This is seen in Andrea Pisano, who, practising\nsculpture in the time of Giotto, made so great improvement in this art,\nthat both in practice and in theory he was esteemed the greatest man\nthat the Tuscans had had up to his times in this profession, and above\nall in casting in bronze. Wherefore his works were honoured and rewarded\nin such a manner by all who knew him, and above all by the Florentines,\nthat it was no hardship to him to change country, relatives, property\nand friends.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "andrea-pisano-wiki-vite-de-pi-eccellenti-pittori-scultori-ed",
+          "title": "Vite de più eccellenti pittori scultori ed architetti (1767) (14781934584)",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-vite-de-pi-eccellenti-pittori-scultori-ed-archit.jpg",
+          "w": 1280,
+          "h": 1455
+        },
+        {
+          "id": "andrea-pisano-wiki-two-panels-from-the-south-door-of-florenc",
+          "title": "Two panels from the south door of Florence Baptistery, 1330–36",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-two-panels-from-the-south-door-of-florence-bapti.jpg",
+          "w": 1280,
+          "h": 837
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-justitia-from-the-south-doo",
+          "title": "Andrea Pisano, Justitia from the south door of the Baptistery, 1330 — 36, Floren",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-justitia-from-the-south-door-of-th.jpg",
+          "w": 1280,
+          "h": 1390
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-the-creation-of-adam-and-ev",
+          "title": "Andrea Pisano, The Creation of Adam and Eve, 1334 — 43, Museo dell'Opera del Duo",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-the-creation-of-adam-and-eve-1334.jpg",
+          "w": 1280,
+          "h": 636
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-s-workshop-the-sacrament-of",
+          "title": "Andrea Pisano's workshop, The Sacrament of Extreme Unction, 1343 — 60, Museo del",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-s-workshop-the-sacrament-of-extrem.jpg",
+          "w": 1117,
+          "h": 1600
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-e-nino-pisano-architettura-1348-50",
+          "title": "Andrea e nino pisano, architettura, 1348 — 50, dal lato est del campanile 01",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-e-nino-pisano-architettura-1348-50-dal-la.jpg",
+          "w": 1280,
+          "h": 1425
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-fidia-ovvero-la-scultura-13",
+          "title": "Andrea pisano, fidia ovvero la scultura, 1348 — 50, dal lato nord del campanile ",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-fidia-ovvero-la-scultura-1348-50-d.jpg",
+          "w": 1280,
+          "h": 1427
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-navigazione-1343-60-dal-lat",
+          "title": "Andrea pisano, navigazione, 1343 — 60, dal lato est del campanile 01",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-navigazione-1343-60-dal-lato-est-d.jpg",
+          "w": 1280,
+          "h": 1459
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-jabal-sheep-herding-1334-43",
+          "title": "Andrea Pisano, Jabal (sheep herding), 1334 — 43, Museo dell'Opera del Duomo, Flo",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-jabal-sheep-herding-1334-43-museo.jpg",
+          "w": 1280,
+          "h": 1468
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-daedalus-1348-50-museo-dell",
+          "title": "Andrea Pisano, Daedalus, 1348 — 50, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-daedalus-1348-50-museo-dell-opera.jpg",
+          "w": 1280,
+          "h": 1458
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-horse-riding-1348-50-museo-",
+          "title": "Andrea Pisano, Horse riding, 1348 — 50, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-horse-riding-1348-50-museo-dell-op.jpg",
+          "w": 1280,
+          "h": 1445
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-st-reparata-1337-40-museo-d",
+          "title": "Andrea Pisano, St Reparata, 1337 — 40, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-st-reparata-1337-40-museo-dell-ope.jpg",
+          "w": 900,
+          "h": 1600
+        },
+        {
+          "id": "andrea-pisano-wiki-andrea-pisano-king-salomon-1337-41-museo-",
+          "title": "Andrea Pisano, King Salomon, 1337 — 41, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-andrea-pisano-king-salomon-1337-41-museo-dell-op.jpg",
+          "w": 716,
+          "h": 1600
+        },
+        {
+          "id": "andrea-pisano-wiki-interno-spina-06",
+          "title": "Interno Spina 06",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-interno-spina-06.jpg",
+          "w": 876,
+          "h": 1600
+        },
+        {
+          "id": "andrea-pisano-wiki-san-giovanni-andrea-pisano",
+          "title": "San Giovanni Andrea Pisano",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-san-giovanni-andrea-pisano.jpg",
+          "w": 756,
+          "h": 1513
+        },
+        {
+          "id": "andrea-pisano-wiki-madonna-del-latte-copia",
+          "title": "Madonna del Latte copia",
+          "date": "c. 1319",
+          "year": 1319,
+          "place": "Florence / Pisa",
+          "file": "images/andrea-pisano-madonna-del-latte-copia.jpg",
+          "w": 1200,
+          "h": 1600
         }
       ]
     },
@@ -1390,6 +3520,26 @@ const DATA = {
             "text": "PAINTER, SCULPTOR, AND ARCHITECT, OF FLORENCE\n\n\nRarely is a man of parts excellent in one pursuit without being able\neasily to learn any other, and above all any one of those that are akin\nto his original profession, and proceed, as it were, from one and the\nsame source, as did the Florentine Orcagna, who was painter, sculptor,\narchitect, and poet, as it will be told below. Born in Florence, he\nbegan while still a child to give attention to sculpture under Andrea\nPisano, and pursued it for some years; then, being desirous to become\nabundant in invention in order to make lovely historical compositions,\nhe applied himself with so great study to drawing, assisted by nature,\nwho wished to make him universal, that having tried his hand at painting\nwith colours both in distemper and in fresco, even as one thing leads to\nanother, he succeeded so…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "orcagna-wiki-statue-of-andrea-orcagna-on-the-piazzale-degli-",
+          "title": "Statue of Andrea Orcagna on the Piazzale degli Uffizi in Florence carved by Niccolò",
+          "date": "c. 1338",
+          "year": 1338,
+          "place": "Florence",
+          "file": "images/orcagna-statue-of-andrea-orcagna-on-the-piazzale-degli-u.jpg",
+          "w": 726,
+          "h": 1372
+        },
+        {
+          "id": "orcagna-wiki-tabernacle-of-orsanmichele-1352-1359",
+          "title": "Tabernacle of Orsanmichele (1352–1359)",
+          "date": "c. 1338",
+          "year": 1338,
+          "place": "Florence",
+          "file": "images/orcagna-tabernacle-of-orsanmichele-1352-1359.jpg",
+          "w": 982,
+          "h": 1600
         }
       ]
     },
@@ -1423,6 +3573,36 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nBuonamico di Cristofano, called Buffalmacco, painter of Florence, who\nwas a disciple of Andrea Tafi, and celebrated for his jokes by Messer\nGiovanni Boccaccio in his _Decameron_, was, as is known, a very dear\ncompanion of Bruno and Calandrino, painters equally humorous and gay;\nand as may be seen in his works, scattered throughout all Tuscany, he\nwas a man of passing good judgment in his art of painting. Franco\nSacchetti relates in his three hundred Stories (to begin with the things\nthat this man did while still youthful), that Buffalmacco lived, while\nhe was a lad, with Andrea, and that this master of his used to make it a\ncustom, when the nights were long, to get up before daylight to labour,\nand to call the lads to night-work.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "buffalmacco-wiki-17th-century-engraving-of-buffalmacco-by-we",
+          "title": "17th-century engraving of Buffalmacco by Wenceslaus Hollar",
+          "date": "c. 1315",
+          "year": 1315,
+          "place": "Florence / Pisa",
+          "file": "images/buffalmacco-17th-century-engraving-of-buffalmacco-by-wencesl.jpg",
+          "w": 1134,
+          "h": 1600
+        },
+        {
+          "id": "buffalmacco-wiki-from-left-to-right-l-incontro-dei-tre-vivi-",
+          "title": "From left to right: L'incontro dei tre vivi e dei tre morti (\"The Three Dead and the",
+          "date": "c. 1315",
+          "year": 1315,
+          "place": "Florence / Pisa",
+          "file": "images/buffalmacco-from-left-to-right-l-incontro-dei-tre-vivi-e-dei.jpg",
+          "w": 1280,
+          "h": 465
+        },
+        {
+          "id": "buffalmacco-wiki-detail-of-trionfo-della-morte-triumph-of-de",
+          "title": "Detail of Trionfo della Morte (\"Triumph of Death\"): three stylish young aristocrats",
+          "date": "c. 1315",
+          "year": 1315,
+          "place": "Florence / Pisa",
+          "file": "images/buffalmacco-detail-of-trionfo-della-morte-triumph-of-death-t.jpg",
+          "w": 1280,
+          "h": 1014
         }
       ]
     },
@@ -1471,6 +3651,46 @@ const DATA = {
             "text": "For the noble family of the Alberti, likewise, he painted in fresco the\nprincipal chapel of the Church of S. Croce, making therein all that came\nto pass in the discovery of the Cross, and he executed that work with\nmuch mastery of handling but not with much design, for only the\ncolouring is beautiful and good enough. Next, in painting in fresco some\nstories of S. Louis in the Chapel of the Bardi in the same church, he\nacquitted himself much better. And because he used to work by caprice,\nnow with more zeal and now with less, working in S. Spirito, also in\nFlorence, within the door that leads from the square into the convent,\nhe made in fresco, over another door, a Madonna with the Child in her\narms, and S. Augustine and S. Nicholas, so well that the said figures…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "agnolo-gaddi-wiki-portrait-of-agnolo-gaddi",
+          "title": "Portrait of Agnolo Gaddi",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Florence",
+          "file": "images/agnolo-gaddi-portrait-of-agnolo-gaddi.jpg",
+          "w": 1128,
+          "h": 1600
+        },
+        {
+          "id": "agnolo-gaddi-wiki-madonna-enthroned-with-saints-and-angels-b",
+          "title": "Madonna Enthroned with Saints and Angels (before 1387)",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Florence",
+          "file": "images/agnolo-gaddi-madonna-enthroned-with-saints-and-angels-before.jpg",
+          "w": 1280,
+          "h": 1086
+        },
+        {
+          "id": "agnolo-gaddi-wiki-florence-santa-croce-apse-legend-of-the-tr",
+          "title": "Florence, Santa Croce, apse, Legend of the True Cross, frescoe cycle by Agnolo G",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Florence",
+          "file": "images/agnolo-gaddi-florence-santa-croce-apse-legend-of-the-true-cro.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "agnolo-gaddi-wiki-the-coronation-of-the-virgin-with-six-ange",
+          "title": "The coronation of the virgin with six angels 1939.1.203",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Florence",
+          "file": "images/agnolo-gaddi-the-coronation-of-the-virgin-with-six-angels-193.jpg",
+          "w": 777,
+          "h": 1600
         }
       ]
     },
@@ -1519,6 +3739,46 @@ const DATA = {
             "text": "Being next summoned to the famous Abbey of Camaldoli in the Casentino,\nin the year 1361, he made for the hermits of that place the panel of the\nhigh-altar, which was removed in the year 1539, when, that church having\nbeen just rebuilt completely anew, Giorgio Vasari made a new panel, and\npainted in fresco the whole of the principal chapel of that abbey, and\nthe tramezzo[2] of the church, also in fresco, and two other panels.\nSummoned thence to Florence by Don Jacopo d'Arezzo, Abbot of S. Miniato\nsul Monte, of the Order of Monte Oliveto, Spinello painted on the\nvaulting and on the four walls of the sacristy of that monastery,\nbesides the panel in distemper for the altar, many scenes in fresco of\nthe life of S. Benedict, with great mastery and with much vivacity of…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "spinello-aretino-wiki-spinello-aretino",
+          "title": "Spinello Aretino",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Arezzo / Florence / Siena",
+          "file": "images/spinello-aretino-spinello-aretino.jpg",
+          "w": 1145,
+          "h": 1600
+        },
+        {
+          "id": "spinello-aretino-wiki-salome",
+          "title": "Salome",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Arezzo / Florence / Siena",
+          "file": "images/spinello-aretino-salome.jpg",
+          "w": 1280,
+          "h": 1495
+        },
+        {
+          "id": "spinello-aretino-wiki-battle-of-punta-san-salvatore",
+          "title": "Battle of Punta San Salvatore",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Arezzo / Florence / Siena",
+          "file": "images/spinello-aretino-battle-of-punta-san-salvatore.jpg",
+          "w": 909,
+          "h": 728
+        },
+        {
+          "id": "spinello-aretino-wiki-the-entrance-of-the-pope-alexander-iii",
+          "title": "The Entrance of the Pope Alexander III and Emperor Frederick Barbarossa into Rome, 1407",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Arezzo / Florence / Siena",
+          "file": "images/spinello-aretino-the-entrance-of-the-pope-alexander-iii-and-emper.jpg",
+          "w": 1280,
+          "h": 838
         }
       ]
     },
@@ -1552,6 +3812,16 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nWhen those arts that proceed from design come into competition and their\ncraftsmen work in rivalry, without doubt the good intellects, exercising\nthemselves with much study, discover new things every day in order to\nsatisfy the various tastes of men; and some, speaking for the present of\npainting, executing works obscure and unusual and demonstrating in them\nthe difficulty of making them, make known by the shadows the brightness\nof their genius. Others, fashioning the sweet and delicate, thinking\nthese to be likely to be more pleasing to the eyes of all who behold\nthem by reason of their having more relief, easily attract to themselves\nthe minds of the greater part of men. Others, again, painting with unity…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
+        },
+        {
+          "id": "giottino-wiki-piet-of-san-remigio-ca-1365-tempera-on-wood-19",
+          "title": "Pietà of San Remigio. ca. 1365, tempera on wood, 195 x 134 cm, Galleria degli Uffizi,",
+          "date": "c. 1340",
+          "year": 1340,
+          "place": "Florence",
+          "file": "images/giottino-piet-of-san-remigio-ca-1365-tempera-on-wood-195.jpg",
+          "w": 1029,
+          "h": 1600
         }
       ]
     },
@@ -1587,6 +3857,16 @@ const DATA = {
           "file": "images/altichiero-san-giorgio.jpg",
           "w": 1200,
           "h": 1600
+        },
+        {
+          "id": "altichiero-wiki-detail-from-crucifixion-a-fresco-in-the-orat",
+          "title": "Detail from Crucifixion, a fresco in the Oratorio di San Giorgio of Padua",
+          "date": "c. 1360",
+          "year": 1360,
+          "place": "Verona / Padua",
+          "file": "images/altichiero-detail-from-crucifixion-a-fresco-in-the-oratorio.jpg",
+          "w": 1199,
+          "h": 1600
         }
       ]
     },
@@ -1600,11 +3880,11 @@ const DATA = {
       "medium": "music",
       "region": "italy",
       "place": "Bologna / Verona / Milan",
-      "famous": "jacopo-non-al-suo",
+      "famous": "jacopo-non-amante",
       "vasari": null,
       "works": [
         {
-          "id": "jacopo-non-al-suo",
+          "id": "jacopo-non-amante",
           "title": "Non al suo amante",
           "date": "c. 1350",
           "year": 1350,
@@ -1618,6 +3898,20 @@ const DATA = {
               "url": "https://archive.org/details/78_non-al-suo-amante_mm-archimbaud-bont-jacopo-da-bologna-guillaume-de-van_gbia0554147b"
             }
           ]
+        },
+        {
+          "id": "jacopo-lux",
+          "title": "Lux purpurata radiis",
+          "date": "c. 1355",
+          "year": 1355,
+          "place": "Bologna / Verona / Milan"
+        },
+        {
+          "id": "jacopo-fenice",
+          "title": "Fenice fu'",
+          "date": "c. 1360",
+          "year": 1360,
+          "place": "Bologna / Verona / Milan"
         }
       ]
     },
@@ -1665,6 +3959,27 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Johannes_Ciconia_-_O_Padua,_sidus_praeclarum.ogg"
             }
           ]
+        },
+        {
+          "id": "ciconia-sus-une",
+          "title": "Sus un' fontayne",
+          "date": "c. 1400",
+          "year": 1400,
+          "place": "Liège / Padua"
+        },
+        {
+          "id": "ciconia-le-ray",
+          "title": "Le ray au soleyl",
+          "date": "c. 1405",
+          "year": 1405,
+          "place": "Liège / Padua"
+        },
+        {
+          "id": "ciconia-o-felix",
+          "title": "O felix templum jubila",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Liège / Padua"
         }
       ]
     },
@@ -1696,6 +4011,20 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Ave_Regina_-_Leonel_Power.ogg"
             }
           ]
+        },
+        {
+          "id": "power-gloria",
+          "title": "Gloria and Credo (Old Hall)",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "England (Canterbury / Old Hall)"
+        },
+        {
+          "id": "power-missa-alma",
+          "title": "Missa Alma redemptoris mater",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "England (Canterbury / Old Hall)"
         }
       ]
     },
@@ -1744,6 +4073,156 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nThere is no doubt that in every city those who, by reason of any talent,\ncome into some fame among men, are a most blessed light and example to\nmany who are either born after them or live in the same age, not to\nmention the infinite praise and the extraordinary rewards that they\nthemselves gain thereby while living. Nor is there anything that does\nmore to arouse the minds of men, and to render the discipline of study\nless fatiguing to them, than the honour and profit which are afterwards\nwon by labouring at the arts, for the reason that these make every\ndifficult undertaking easy to them all, and give a greater stimulus to\nthe growth of their talents, when they are urged to greater efforts by\nthe praises of the world.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "ghiberti-wiki-ghiberti",
+          "title": "Ghiberti",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-ghiberti.jpg",
+          "w": 1017,
+          "h": 981
+        },
+        {
+          "id": "ghiberti-wiki-lorenzo-ghiberti-e-aiuti-porta-nord-del-battis",
+          "title": "Lorenzo ghiberti e aiuti, porta nord del battistero di firenze, 01",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-lorenzo-ghiberti-e-aiuti-porta-nord-del-battiste.jpg",
+          "w": 973,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-floren-a-port-es-do-para-so-146",
+          "title": "Florença — Portões do Paraíso (146)",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-floren-a-port-es-do-para-so-146.jpg",
+          "w": 431,
+          "h": 700
+        },
+        {
+          "id": "ghiberti-wiki-florence-baptistery-door-copy-harris-museum",
+          "title": "Florence Baptistery Door Copy — Harris Museum",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-florence-baptistery-door-copy-harris-museum.jpg",
+          "w": 1074,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-adameveghiberti",
+          "title": "AdamEveGhiberti",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-adameveghiberti.jpg",
+          "w": 1254,
+          "h": 798
+        },
+        {
+          "id": "ghiberti-wiki-abraham-gates-of-paradise-01",
+          "title": "Abraham (Gates of Paradise) 01",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-abraham-gates-of-paradise-01.jpg",
+          "w": 1031,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-firenze-baptistry-door01",
+          "title": "Firenze.Baptistry.door01",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-firenze-baptistry-door01.jpg",
+          "w": 1245,
+          "h": 924
+        },
+        {
+          "id": "ghiberti-wiki-stjohnthebaptistghiberti",
+          "title": "StJohntheBaptistGhiberti",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-stjohnthebaptistghiberti.jpg",
+          "w": 768,
+          "h": 1024
+        },
+        {
+          "id": "ghiberti-wiki-orsanmichele-san-matteo-di-ghiberti-02",
+          "title": "Orsanmichele, san matteo di Ghiberti 02",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-orsanmichele-san-matteo-di-ghiberti-02.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-statue-at-chiesa-di-orsanmichele-15609454329",
+          "title": "Statue at Chiesa di Orsanmichele (15609454329)",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-statue-at-chiesa-di-orsanmichele-15609454329.jpg",
+          "w": 987,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-detail-of-the-reliquary-shrine-of-ss-protus-hy",
+          "title": "Detail of the Reliquary Shrine of SS Protus, Hyacinth and Nemesius, 1428, Bargello,",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-detail-of-the-reliquary-shrine-of-ss-protus-hyac.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "ghiberti-wiki-filippo-brunelleschi-the-sacrifice-of-isaac-14",
+          "title": "Filippo Brunelleschi, The Sacrifice of Isaac, 1401 — 2, Bargello, Florence",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-filippo-brunelleschi-the-sacrifice-of-isaac-1401.jpg",
+          "w": 1280,
+          "h": 1414
+        },
+        {
+          "id": "ghiberti-wiki-paradies-tuer-florenz",
+          "title": "Paradies tuer florenz",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-paradies-tuer-florenz.jpg",
+          "w": 1200,
+          "h": 1599
+        },
+        {
+          "id": "ghiberti-wiki-lorenzo-ghiberti-or-after-ghiberti-virgin-and-",
+          "title": "Lorenzo Ghiberti (or after Ghiberti), Virgin and Child and Reclyning Eve, 1430s,",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-lorenzo-ghiberti-or-after-ghiberti-virgin-and-ch.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "ghiberti-wiki-santa-croce-firenze-apr-2008-4",
+          "title": "Santa Croce Firenze Apr 2008 (4)",
+          "date": "c. 1416",
+          "year": 1416,
+          "place": "Florence",
+          "file": "images/ghiberti-santa-croce-firenze-apr-2008-4.jpg",
+          "w": 1200,
+          "h": 1600
         }
       ]
     },
@@ -1792,6 +4271,166 @@ const DATA = {
             "text": "SCULPTOR AND ARCHITECT\n\n\nMany men are created by nature small in person and in features, who have\na mind full of such greatness and a heart of such irresistible\nvehemence, that if they do not begin difficult--nay, almost\nimpossible--undertakings, and bring them to completion to the marvel of\nall who behold them, they have never any peace in their lives; and\nwhatsoever work chance puts into their hands, however lowly and base it\nmay be, they give it value and nobility. Wherefore no one should turn up\nhis nose when he encounters people who have not, in their aspect, that\nprimal grace or beauty which nature should give, on his coming into the\nworld, to a man who works at any art, seeing that there is no doubt that\nbeneath the clods of the earth are hidden veins of gold.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "brunelleschi-wiki-masaccio-cappella-brancacci-san-pietro-in-",
+          "title": "Masaccio, cappella brancacci, san pietro in cattedra. ritratto di filippo brunel",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-masaccio-cappella-brancacci-san-pietro-in-catted.jpg",
+          "w": 1280,
+          "h": 1599
+        },
+        {
+          "id": "brunelleschi-wiki-santa-maria-del-fiore-cathedral-towering-a",
+          "title": "Santa Maria del Fiore cathedral towering above Florence, with the largest brick dome in",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-santa-maria-del-fiore-cathedral-towering-above-f.jpg",
+          "w": 1280,
+          "h": 720
+        },
+        {
+          "id": "brunelleschi-wiki-filippo-brunelleschi-attr-san-giovanni-eva",
+          "title": "Filippo Brunelleschi (attr.), san giovanni evangelista, 1400 — 01 ca. 03 — 156",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-filippo-brunelleschi-attr-san-giovanni-evangelis.jpg",
+          "w": 1159,
+          "h": 1566
+        },
+        {
+          "id": "brunelleschi-wiki-brunelleschi-s-original-design-of-the-foun",
+          "title": "Brunelleschi's original design of the Foundling Hospital. Digital reconstruction by",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-brunelleschi-s-original-design-of-the-foundling.jpg",
+          "w": 1280,
+          "h": 514
+        },
+        {
+          "id": "brunelleschi-wiki-florence-piazza-ss-annunziata-with-ospedal",
+          "title": "Florence, Piazza SS Annunziata with Ospedale degli Innocenti (1419 — 39) and par",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-florence-piazza-ss-annunziata-with-ospedale-degl.jpg",
+          "w": 1280,
+          "h": 720
+        },
+        {
+          "id": "brunelleschi-wiki-spedale-degli-innocenti-chiostro-degli-uom",
+          "title": "Spedale degli innocenti, chiostro degli uomini 01 con scultura di tony cragg, st",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-spedale-degli-innocenti-chiostro-degli-uomini-01.jpg",
+          "w": 1280,
+          "h": 783
+        },
+        {
+          "id": "brunelleschi-wiki-firenze-san-lorenzo-interno-navata-central",
+          "title": "Firenze, san lorenzo, interno, navata centrale 03",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-firenze-san-lorenzo-interno-navata-centrale-03.jpg",
+          "w": 1280,
+          "h": 953
+        },
+        {
+          "id": "brunelleschi-wiki-sagrestia-vecchia-veduta-00",
+          "title": "Sagrestia vecchia, veduta 00",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-sagrestia-vecchia-veduta-00.jpg",
+          "w": 1280,
+          "h": 1402
+        },
+        {
+          "id": "brunelleschi-wiki-florence-duomo-fc10",
+          "title": "Florence duomo fc10",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-florence-duomo-fc10.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "brunelleschi-wiki-system-of-the-dome-florence-cathedral-char",
+          "title": "System of the dome, Florence Cathedral (Character of Renaissance Architecture)",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-system-of-the-dome-florence-cathedral-character.jpg",
+          "w": 1271,
+          "h": 1600
+        },
+        {
+          "id": "brunelleschi-wiki-s-croce-cappella-dei-pazzi",
+          "title": "S. croce, cappella dei pazzi",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-s-croce-cappella-dei-pazzi.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "brunelleschi-wiki-plan-of-the-chapel-of-the-pazzi-character-",
+          "title": "Plan of the chapel of the Pazzi (Character of Renaissance Architecture)",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-plan-of-the-chapel-of-the-pazzi-character-of-ren.jpg",
+          "w": 1280,
+          "h": 1373
+        },
+        {
+          "id": "brunelleschi-wiki-pazzi-chapel-florence-apr-2008",
+          "title": "Pazzi Chapel Florence Apr 2008",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-pazzi-chapel-florence-apr-2008.jpg",
+          "w": 1280,
+          "h": 1410
+        },
+        {
+          "id": "brunelleschi-wiki-codice-rustici-santa-maria-degli-angeli",
+          "title": "Codice rustici, santa maria degli angeli",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-codice-rustici-santa-maria-degli-angeli.jpg",
+          "w": 1044,
+          "h": 828
+        },
+        {
+          "id": "brunelleschi-wiki-rotonda-del-brunelleschi-12",
+          "title": "Rotonda del brunelleschi 12",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-rotonda-del-brunelleschi-12.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "brunelleschi-wiki-angeli-11",
+          "title": "Angeli 11",
+          "date": "c. 1411",
+          "year": 1411,
+          "place": "Florence",
+          "file": "images/brunelleschi-angeli-11.jpg",
+          "w": 761,
+          "h": 827
         }
       ]
     },
@@ -1855,6 +4494,166 @@ const DATA = {
             "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "donatello-wiki-donatello-miracolo-della-mula-1446-49-ca-pd-m",
+          "title": "Donatello, miracolo della mula, 1446 — 49 ca. (pd, museo antoniano) 37 uomo che ",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-miracolo-della-mula-1446-49-ca-pd-muse.jpg",
+          "w": 1181,
+          "h": 1475
+        },
+        {
+          "id": "donatello-wiki-david-at-the-bargello-in-florence",
+          "title": "David at the Bargello in Florence",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-david-at-the-bargello-in-florence.jpg",
+          "w": 1066,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-16th-century-portraits-of-florentine-culture-",
+          "title": "16th-century portraits of Florentine culture heroes: Giotto, Paolo Uccello, Donatello,",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-16th-century-portraits-of-florentine-culture-her.jpg",
+          "w": 1280,
+          "h": 433
+        },
+        {
+          "id": "donatello-wiki-ghiberti-and-workshop-the-nativity-relief-of-",
+          "title": "Ghiberti and workshop, the Nativity relief of the north doors for the Florence Baptistery",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-ghiberti-and-workshop-the-nativity-relief-of-the.jpg",
+          "w": 868,
+          "h": 985
+        },
+        {
+          "id": "donatello-wiki-young-prophet-1406-museo-dell-opera-del-duomo",
+          "title": "Young Prophet, 1406, Museo dell'Opera del Duomo",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-young-prophet-1406-museo-dell-opera-del-duomo.jpg",
+          "w": 599,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-saint-john-the-evangelist-for-the-cathedral-1",
+          "title": "Saint John the Evangelist for the cathedral, 1409–1411, displayed on the reconstruction",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-saint-john-the-evangelist-for-the-cathedral-1409.jpg",
+          "w": 871,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-orsanmichele-with-donatello-s-saint-george-to",
+          "title": "Orsanmichele, with Donatello's Saint George (today a replica) left of the corner",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-orsanmichele-with-donatello-s-saint-george-today.jpg",
+          "w": 1280,
+          "h": 718
+        },
+        {
+          "id": "donatello-wiki-st-george-for-orsanmichele-now-bargello",
+          "title": "St. George, for Orsanmichele, now Bargello",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-st-george-for-orsanmichele-now-bargello.jpg",
+          "w": 1067,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-david-1408-9-1416-florence-bargello",
+          "title": "Donatello, David, 1408 — 9, 1416, Florence, Bargello",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-david-1408-9-1416-florence-bargello.jpg",
+          "w": 1025,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-san-marco-1411-13-02",
+          "title": "Donatello, san marco, 1411 — 13, 02",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-san-marco-1411-13-02.jpg",
+          "w": 606,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-profeta-imberbe-1416-18-dal-lato-es",
+          "title": "Donatello, profeta imberbe, 1416 — 18, dal lato est del campanile",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-profeta-imberbe-1416-18-dal-lato-est-d.jpg",
+          "w": 601,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-bearded-prophet-1418-20-museo-dell-",
+          "title": "Donatello, Bearded Prophet, 1418 — 20, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-bearded-prophet-1418-20-museo-dell-ope.jpg",
+          "w": 667,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-jeremiah-1427-36-museo-dell-opera-d",
+          "title": "Donatello, Jeremiah, 1427 — 36, Museo dell'Opera del Duomo, Florence",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-jeremiah-1427-36-museo-dell-opera-del.jpg",
+          "w": 713,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-zuccone-1426-c27-1435-36-florence-m",
+          "title": "Donatello, Zuccone, 1426 — c27+1435 — 36, Florence, Museo dell'Opera del Duomo",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-zuccone-1426-c27-1435-36-florence-muse.jpg",
+          "w": 657,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-donatello-san-luigi-di-tolosa-1423-25-01",
+          "title": "Donatello, san luigi di tolosa, 1423 — 25, 01",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-donatello-san-luigi-di-tolosa-1423-25-01.jpg",
+          "w": 786,
+          "h": 1600
+        },
+        {
+          "id": "donatello-wiki-florenz-bargello-2014-08-09s",
+          "title": "Florenz — Bargello 2014 — 08 — 09s",
+          "date": "c. 1426",
+          "year": 1426,
+          "place": "Florence / Padua",
+          "file": "images/donatello-florenz-bargello-2014-08-09s.jpg",
+          "w": 1032,
+          "h": 1600
         }
       ]
     },
@@ -1903,6 +4702,76 @@ const DATA = {
             "text": "Meanwhile Jacopo had heard that the Guild of the Merchants of Calimara\nin Florence wished to have a bronze door made for the Church of S.\nGiovanni, where, as it has been said, Andrea Pisano had wrought the\nfirst; and he had come to Florence in order to make himself known, above\nall because this work was to be allotted to the man who, in making one\nof those scenes in bronze, should give the best proof of himself and of\nhis talent. Having therefore come to Florence, he not only made the\nmodel, but delivered one very well executed scene, completely finished\nand polished, which gave so great satisfaction, that, if he had not had\nas rivals those most excellent masters, Donatello and Filippo\nBrunelleschi, who in truth surpassed him in their specimens, it would…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-serie-degli-uomini-i-pi-illustri-n",
+          "title": "Serie degli uomini i più illustri nella pittura, scultura, e architettura — con ",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-serie-degli-uomini-i-pi-illustri-nella-pittura-s.jpg",
+          "w": 1242,
+          "h": 1600
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-madonna-of-humility-marble-c-1400-",
+          "title": "Madonna of Humility, marble, c. 1400, National Gallery of Art, Washington",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-madonna-of-humility-marble-c-1400-national-galle.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-siena-campo-gaia-fountain01",
+          "title": "Siena.Campo.Gaia.fountain01",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-siena-campo-gaia-fountain01.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-tomb-effigy-of-lorenzo-trenta",
+          "title": "Tomb effigy of Lorenzo Trenta",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-tomb-effigy-of-lorenzo-trenta.jpg",
+          "w": 960,
+          "h": 1280
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-porta-magna-s-petronio-bologna",
+          "title": "Porta Magna, S. Petronio, Bologna",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-porta-magna-s-petronio-bologna.jpg",
+          "w": 299,
+          "h": 430
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-della-quercia-s-creation-of-eve-th",
+          "title": "della Quercia's Creation of Eve, the source for Michelangelo's fresco on the Sistine",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-della-quercia-s-creation-of-eve-the-source-for-m.jpg",
+          "w": 750,
+          "h": 895
+        },
+        {
+          "id": "jacopo-della-quercia-wiki-the-tomb-of-ilaria-del-carretto-c-",
+          "title": "The tomb of Ilaria del Carretto (c. 1406), Cathedral of Lucca",
+          "date": "c. 1406",
+          "year": 1406,
+          "place": "Siena / Lucca / Bologna",
+          "file": "images/jacopo-della-quercia-the-tomb-of-ilaria-del-carretto-c-1406-cathedral.jpg",
+          "w": 1280,
+          "h": 681
         }
       ]
     },
@@ -1951,6 +4820,136 @@ const DATA = {
             "text": "Having then succeeded in this as much as he could desire, he resolved\nthat his first works should be those that are in the arch over the\nbronze door which he had made for the sacristy, below the organ of S.\nMaria del Fiore; and therein he made a Resurrection of Christ, so\nbeautiful for that time that it was admired, when placed in position, as\nsomething truly rare. Moved by this, the said Wardens of Works desired\nthat the arch over the door of the other sacristy, where Donatello had\nmade the ornament of the other organ, should be filled by Luca in the\nsame manner with similar figures and works in terra-cotta; wherefore\nLuca made therein a very beautiful Jesus Christ ascending into Heaven.\n\nNow, not being yet satisfied with this beautiful invention--so lovely…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "luca-della-robbia-wiki-madonna-and-child-with-angels-from-vi",
+          "title": "Madonna and Child with Angels from Via dell'Agnolo in Florence, um 1470, Bargello,",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-madonna-and-child-with-angels-from-via-dell-agno.jpg",
+          "w": 1280,
+          "h": 854
+        },
+        {
+          "id": "luca-della-robbia-wiki-madonna-of-the-rosebush-1450-60-barge",
+          "title": "Madonna of the Rosebush, 1450–60, Bargello, Florence",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-madonna-of-the-rosebush-1450-60-bargello-florenc.jpg",
+          "w": 1036,
+          "h": 1600
+        },
+        {
+          "id": "luca-della-robbia-wiki-cantoria-singing-loft-by-luca-della-r",
+          "title": "Cantoria (singing loft) by Luca della Robbia, 1431-38, his first known commission - Museo",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-cantoria-singing-loft-by-luca-della-robbia-1431.jpg",
+          "w": 1280,
+          "h": 810
+        },
+        {
+          "id": "luca-della-robbia-wiki-one-of-the-panels-of-the-cantoria",
+          "title": "One of the panels of the Cantoria",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-one-of-the-panels-of-the-cantoria.jpg",
+          "w": 1280,
+          "h": 1344
+        },
+        {
+          "id": "luca-della-robbia-wiki-visitation-1445-san-giovanni-fuoriciv",
+          "title": "Visitation, 1445, San Giovanni Fuoricivitas, Pistoia, detail",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-visitation-1445-san-giovanni-fuoricivitas-pistoi.jpg",
+          "w": 1280,
+          "h": 1077
+        },
+        {
+          "id": "luca-della-robbia-wiki-luca-della-robbia-mary-and-child-with",
+          "title": "Luca della Robbia, Mary and Child with Two Adoring Angels, 1430 — 40, terracotta",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-luca-della-robbia-mary-and-child-with-two-adorin.jpg",
+          "w": 1280,
+          "h": 832
+        },
+        {
+          "id": "luca-della-robbia-wiki-ciborio-di-luca-della-robbia-1443-da-",
+          "title": "Ciborio di luca della robbia, 1443, da s.m. nuova 01",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-ciborio-di-luca-della-robbia-1443-da-s-m-nuova-0.jpg",
+          "w": 866,
+          "h": 1600
+        },
+        {
+          "id": "luca-della-robbia-wiki-andrea-della-robbia-thronende-madonna",
+          "title": "Andrea della Robbia Thronende Madonna Medici Kapelle Santa Croce Florenz — 1",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-andrea-della-robbia-thronende-madonna-medici-kap.jpg",
+          "w": 1280,
+          "h": 1236
+        },
+        {
+          "id": "luca-della-robbia-wiki-virgin-and-child-in-a-niche-met-dp225",
+          "title": "Virgin and Child in a niche MET DP225831",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-virgin-and-child-in-a-niche-met-dp225831.jpg",
+          "w": 1280,
+          "h": 1564
+        },
+        {
+          "id": "luca-della-robbia-wiki-nativity-by-luca-della-robbia-nationa",
+          "title": "Nativity by Luca della Robbia — National Gallery of Art, Washington — DSC08609",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-nativity-by-luca-della-robbia-national-gallery-o.jpg",
+          "w": 1280,
+          "h": 1590
+        },
+        {
+          "id": "luca-della-robbia-wiki-luca-e-andrea-della-robbia-madonna-co",
+          "title": "Luca e andrea della robbia, madonna col bambino (cornice di andrea), 1460 — 1480",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-luca-e-andrea-della-robbia-madonna-col-bambino-c.jpg",
+          "w": 1280,
+          "h": 1097
+        },
+        {
+          "id": "luca-della-robbia-wiki-luca-della-robbia-bust-of-a-saint-146",
+          "title": "Luca della Robbia, Bust of a Saint, 1465 — 70, Florence, Bargello",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-luca-della-robbia-bust-of-a-saint-1465-70-floren.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "luca-della-robbia-wiki-workshop-of-luca-della-robbia-madonna",
+          "title": "Workshop of Luca della Robbia, Madonna and Child with Angels, 15. ct., Florence,",
+          "date": "c. 1441",
+          "year": 1441,
+          "place": "Florence",
+          "file": "images/luca-della-robbia-workshop-of-luca-della-robbia-madonna-and-child.jpg",
+          "w": 1280,
+          "h": 1280
         }
       ]
     },
@@ -1986,6 +4985,27 @@ const DATA = {
               "url": "https://archive.org/details/lp_music-of-the-middle-ages-volume-viii-sa_john-dunstable-denis-stevens-the-ambros"
             }
           ]
+        },
+        {
+          "id": "dunstable-preco",
+          "title": "Preco preheminencie",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "England / France"
+        },
+        {
+          "id": "dunstable-venes",
+          "title": "Veni Sancte Spiritus / Veni Creator",
+          "date": "c. 1430",
+          "year": 1430,
+          "place": "England / France"
+        },
+        {
+          "id": "dunstable-rosa",
+          "title": "O rosa bella",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "England / France"
         }
       ]
     },
@@ -2049,6 +5069,76 @@ const DATA = {
             "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "masaccio-wiki-masaccio-self-portrait",
+          "title": "Masaccio Self Portrait",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-masaccio-self-portrait.jpg",
+          "w": 290,
+          "h": 470
+        },
+        {
+          "id": "masaccio-wiki-san-giovenale-triptych-1422",
+          "title": "San Giovenale Triptych (1422)",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-san-giovenale-triptych-1422.jpg",
+          "w": 1200,
+          "h": 841
+        },
+        {
+          "id": "masaccio-wiki-masolino-masaccio-virgin-and-child-with-saint-",
+          "title": "Masolino & Masaccio, Virgin and Child with Saint Anne (c. 1424), Uffizi",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-masolino-masaccio-virgin-and-child-with-saint-an.jpg",
+          "w": 721,
+          "h": 1200
+        },
+        {
+          "id": "masaccio-wiki-masaccio-s-fresco-of-the-expulsion-1426-1427",
+          "title": "Masaccio's fresco of The Expulsion (1426–1427)",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-masaccio-s-fresco-of-the-expulsion-1426-1427.jpg",
+          "w": 851,
+          "h": 1600
+        },
+        {
+          "id": "masaccio-wiki-when-it-was-cleaned-in-the-1980s-the-added-fig",
+          "title": "When it was cleaned in the 1980s, the added fig leaves were removed.",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-when-it-was-cleaned-in-the-1980s-the-added-fig-l.jpg",
+          "w": 913,
+          "h": 1173
+        },
+        {
+          "id": "masaccio-wiki-raising-of-the-son-of-theophilus-of-antioch-co",
+          "title": "Raising of the Son of Theophilus of Antioch, containing self-portrait of Masaccio (third",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-raising-of-the-son-of-theophilus-of-antioch-cont.jpg",
+          "w": 1280,
+          "h": 524
+        },
+        {
+          "id": "masaccio-wiki-virgin-mary-with-pseudo-arabic-halo-by-masacci",
+          "title": "Virgin Mary with pseudo-Arabic halo, by Masaccio (1426).[23]",
+          "date": "c. 1414",
+          "year": 1414,
+          "place": "Florence",
+          "file": "images/masaccio-virgin-mary-with-pseudo-arabic-halo-by-masaccio.jpg",
+          "w": 888,
+          "h": 1600
         }
       ]
     },
@@ -2082,6 +5172,46 @@ const DATA = {
             "text": "Truly great, I believe, must be the contentment of those who are\napproaching the highest rank in the science wherein they are labouring;\nand those, likewise, who, besides the delight and pleasure that they\nfeel in working valiantly, enjoy some fruit from their labours, without\ndoubt live a quiet and very happy life. And if perchance it comes to\npass that one, while advancing towards perfection in any science or art,\nis overtaken by death in the happy course of his life, his memory does\nnot become wholly spent, if only he has laboured worthily in order to\nattain to the true end of his art.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "masolino-wiki-038-le-vite-masolino-da-panicale",
+          "title": "038 le vite, masolino da panicale",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Florence",
+          "file": "images/masolino-038-le-vite-masolino-da-panicale.jpg",
+          "w": 256,
+          "h": 300
+        },
+        {
+          "id": "masolino-wiki-madonna-and-child-saint-anne-and-the-angels",
+          "title": "Madonna and Child, Saint Anne and the Angels",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Florence",
+          "file": "images/masolino-madonna-and-child-saint-anne-and-the-angels.jpg",
+          "w": 721,
+          "h": 1200
+        },
+        {
+          "id": "masolino-wiki-the-annunciation-national-gallery-of-art",
+          "title": "The Annunciation, National Gallery of Art",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Florence",
+          "file": "images/masolino-the-annunciation-national-gallery-of-art.jpg",
+          "w": 1246,
+          "h": 1600
+        },
+        {
+          "id": "masolino-wiki-madonna-dell-umilt-c-1423-tempera-on-wood-uffi",
+          "title": "Madonna dell'Umiltà c. 1423, Tempera on wood, Uffizi Florence",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Florence",
+          "file": "images/masolino-madonna-dell-umilt-c-1423-tempera-on-wood-uffizi.jpg",
+          "w": 842,
+          "h": 1600
         }
       ]
     },
@@ -2115,6 +5245,156 @@ const DATA = {
             "text": "PAINTER OF THE ORDER OF PREACHING FRIARS\n\n\nFra Giovanni Angelico da Fiesole, who was known in the world as Guido,\nwas no less excellent as painter and illuminator than he was upright as\nchurchman, and for both one and the other of these reasons he deserves\nthat most honourable record should be made of him. This man, although he\ncould have lived in the world with the greatest comfort, and could have\ngained whatever he wished, besides what he possessed, by means of those\narts, of which he had a very good knowledge even in his youth, yet\nresolved, for his own peace and satisfaction, being by nature serious\nand upright, and above all in order to save his soul, to take the vows\nof the Order of Preaching Friars; for the reason that, although it is\npossible to serve God in all walks of life, nevertheless it appears to\nsome men that they can gain…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "fra-angelico-wiki-fra-angelico-portrait",
+          "title": "Portrait of Fra Angelico",
+          "date": "c. 15th c.",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-fra-angelico-portrait.jpg",
+          "w": 550,
+          "h": 695
+        },
+        {
+          "id": "fra-angelico-wiki-san-marco-altarpiece",
+          "title": "San Marco Altarpiece",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-san-marco-altarpiece.jpg",
+          "w": 1280,
+          "h": 1323
+        },
+        {
+          "id": "fra-angelico-wiki-the-crucified-christ-detail",
+          "title": "The Crucified Christ (detail)",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-crucified-christ-detail.jpg",
+          "w": 1179,
+          "h": 1600
+        },
+        {
+          "id": "fra-angelico-wiki-fra-angelico-s-tomb-in-santa-maria-sopra-m",
+          "title": "Tomb of Fra Angelico, Santa Maria sopra Minerva",
+          "date": "1455",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-fra-angelico-s-tomb-in-santa-maria-sopra-minerva.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "fra-angelico-wiki-the-day-of-judgement-upper-panel-of-an-alt",
+          "title": "Last Judgment",
+          "date": "c. 1431",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-day-of-judgement-upper-panel-of-an-altarpiec.jpg",
+          "w": 1280,
+          "h": 674
+        },
+        {
+          "id": "fra-angelico-wiki-a-thebaide-showing-the-activities-in-the-l",
+          "title": "Thebaid",
+          "date": "c. 1420",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-a-thebaide-showing-the-activities-in-the-lives-o.jpg",
+          "w": 1280,
+          "h": 440
+        },
+        {
+          "id": "fra-angelico-wiki-the-adoration-of-the-magi-is-a-tondo-depic",
+          "title": "Adoration of the Magi (tondo)",
+          "date": "c. 1440–60",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-adoration-of-the-magi-is-a-tondo-depicting-t.jpg",
+          "w": 1280,
+          "h": 1280
+        },
+        {
+          "id": "fra-angelico-wiki-the-transfiguration-shows-the-directness-s",
+          "title": "Transfiguration",
+          "date": "c. 1440–45",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-transfiguration-shows-the-directness-simplic.jpg",
+          "w": 1280,
+          "h": 1521
+        },
+        {
+          "id": "fra-angelico-wiki-saint-lawrence-distributing-alms-1447-1450",
+          "title": "Saint Lawrence Distributing Alms",
+          "date": "1447–50",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-saint-lawrence-distributing-alms-1447-1450-fresc.jpg",
+          "w": 1031,
+          "h": 780
+        },
+        {
+          "id": "fra-angelico-wiki-blessing-redeemer-1423",
+          "title": "Blessing Redeemer (1423)",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-blessing-redeemer-1423.jpg",
+          "w": 316,
+          "h": 398
+        },
+        {
+          "id": "fra-angelico-wiki-virgin-and-child-with-saints-detail-fiesol",
+          "title": "Virgin and Child with Saints (Fiesole)",
+          "date": "c. 1428–30",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-virgin-and-child-with-saints-detail-fiesole-1428.jpg",
+          "w": 1280,
+          "h": 959
+        },
+        {
+          "id": "fra-angelico-wiki-coronation-of-the-virgin-c-1432",
+          "title": "Coronation of the Virgin (c. 1432)",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-coronation-of-the-virgin-c-1432.jpg",
+          "w": 1280,
+          "h": 1283
+        },
+        {
+          "id": "fra-angelico-wiki-the-deposition-from-the-cross-museo-san-ma",
+          "title": "The Deposition from the Cross, Museo San Marco",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-deposition-from-the-cross-museo-san-marco.jpg",
+          "w": 1280,
+          "h": 1070
+        },
+        {
+          "id": "fra-angelico-wiki-the-madonna-enthroned-with-saints-cosmas-a",
+          "title": "Madonna and Child with Saints Cosmas and Damian",
+          "date": "c. 1438–40",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-the-madonna-enthroned-with-saints-cosmas-and-dam.jpg",
+          "w": 1280,
+          "h": 892
+        },
+        {
+          "id": "fra-angelico-wiki-in-the-annunciation-the-interior-reproduce",
+          "title": "Annunciation (San Marco cell)",
+          "date": "c. 1440–45",
+          "year": 1425,
+          "place": "Florence / Rome",
+          "file": "images/fra-angelico-in-the-annunciation-the-interior-reproduces-that.jpg",
+          "w": 1280,
+          "h": 1526
         }
       ]
     },
@@ -2148,6 +5428,116 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nPaolo Uccello would have been the most gracious and fanciful genius that\nwas ever devoted to the art of painting, from Giotto's day to our own,\nif he had laboured as much at figures and animals as he laboured and\nlost time over the details of perspective; for although these are\ningenious and beautiful, yet if a man pursues them beyond measure he\ndoes nothing but waste his time, exhausts his powers, fills his mind\nwith difficulties, and often transforms its fertility and readiness into\nsterility and constraint, and renders his manner, by attending more to\nthese details than to figures, dry and angular, which all comes from a\nwish to examine things too minutely; not to mention that very often he\nbecomes solitary, eccentric, melancholy, and poor, as did Paolo Uccello.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "uccello-wiki-cinq-ma-tres-de-la-renaissance-florentine-uccel",
+          "title": "Cinq maîtres de la Renaissance florentine — Uccello (Louvre)",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-cinq-ma-tres-de-la-renaissance-florentine-uccell.jpg",
+          "w": 1277,
+          "h": 1600
+        },
+        {
+          "id": "uccello-wiki-funerary-monument-to-sir-john-hawkwood",
+          "title": "Funerary Monument to Sir John Hawkwood",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-funerary-monument-to-sir-john-hawkwood.jpg",
+          "w": 991,
+          "h": 1600
+        },
+        {
+          "id": "uccello-wiki-saint-george-and-the-dragon-c-1470-showing-ucce",
+          "title": "Saint George and the Dragon (c. 1470), showing Uccello's Gothic influences",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-saint-george-and-the-dragon-c-1470-showing-uccel.jpg",
+          "w": 1280,
+          "h": 980
+        },
+        {
+          "id": "uccello-wiki-story-of-noah-c-1447-in-the-refectory-of-santa-",
+          "title": "Story of Noah, c. 1447, in the refectory of Santa Maria Novella, Florence",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-story-of-noah-c-1447-in-the-refectory-of-santa-m.jpg",
+          "w": 1280,
+          "h": 991
+        },
+        {
+          "id": "uccello-wiki-san-romano-battle-paolo-uccello-london-01",
+          "title": "San Romano Battle (Paolo Uccello, London) 01",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-san-romano-battle-paolo-uccello-london-01.jpg",
+          "w": 1280,
+          "h": 724
+        },
+        {
+          "id": "uccello-wiki-uccello-the-battle-of-san-romano",
+          "title": "Uccello — the Battle of San Romano",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-uccello-the-battle-of-san-romano.jpg",
+          "w": 1280,
+          "h": 719
+        },
+        {
+          "id": "uccello-wiki-paolo-uccello-the-decisive-attack-of-micheletto",
+          "title": "Paolo Uccello — The Decisive Attack of Micheletto Attendolo at San Romano",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-paolo-uccello-the-decisive-attack-of-micheletto.jpg",
+          "w": 1280,
+          "h": 706
+        },
+        {
+          "id": "uccello-wiki-a-scene-in-paolo-uccello-s-corpus-domini-predel",
+          "title": "A scene in Paolo Uccello's Corpus Domini predella (c. 1465–1468), set in a Jewish",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-a-scene-in-paolo-uccello-s-corpus-domini-predell.jpg",
+          "w": 1280,
+          "h": 766
+        },
+        {
+          "id": "uccello-wiki-clock-in-the-duomo-florence",
+          "title": "Clock in the Duomo, Florence",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-clock-in-the-duomo-florence.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "uccello-wiki-marble-mosaic-showing-a-small-stellated-dodecah",
+          "title": "Marble mosaic showing a small stellated dodecahedron and a ring of hexagonal prisms, on",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-marble-mosaic-showing-a-small-stellated-dodecahe.jpg",
+          "w": 543,
+          "h": 566
+        },
+        {
+          "id": "uccello-wiki-perspective-study-of-a-vase",
+          "title": "Perspective study of a vase",
+          "date": "c. 1436",
+          "year": 1436,
+          "place": "Florence",
+          "file": "images/uccello-perspective-study-of-a-vase.jpg",
+          "w": 1106,
+          "h": 1600
         }
       ]
     },
@@ -2181,6 +5571,66 @@ const DATA = {
             "text": "Very great is the advantage enjoyed by one who follows in the steps of a\npredecessor who has gained honour and fame by means of some rare talent,\nfor the reason that, if only he follows to some extent the path prepared\nby his master, he seldom fails to arrive without much fatigue at an\nhonourable goal; whereas, if he had to reach it by himself, he would\nhave need of a much longer time and far greater labours. The truth of\nthis could be seen, ready for the finger to point to, as the saying is,\namong many other examples, in that of Pisano, or rather, Pisanello, a\npainter of Verona, who, having spent many years in Florence with Andrea\ndal Castagno, and having finished his works after his death, acquired so\nmuch credit by means of Andrea's name, that Pope Martin V, coming to\nFlorence, took him in his train to Rome, where he caused him to pain…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "gentile-wiki-056-le-vite-gentile-da-fabriano",
+          "title": "056 le vite, gentile da fabriano",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-056-le-vite-gentile-da-fabriano.jpg",
+          "w": 264,
+          "h": 300
+        },
+        {
+          "id": "gentile-wiki-madonna-in-glory-between-saint-francis-and-sain",
+          "title": "Madonna in Glory between Saint Francis and Saint Clare, c. 1390-1395",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-madonna-in-glory-between-saint-francis-and-saint.jpg",
+          "w": 1172,
+          "h": 1600
+        },
+        {
+          "id": "gentile-wiki-trinci-palace-foligno-hall-of-liberal-arts-and-",
+          "title": "Trinci Palace, Foligno: Hall of Liberal Arts and Planets, 1410–1411",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-trinci-palace-foligno-hall-of-liberal-arts-and-p.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "gentile-wiki-flight-into-egypt-from-the-predella-of-adoratio",
+          "title": "Flight into Egypt, from the predella of Adoration of the Magi",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-flight-into-egypt-from-the-predella-of-adoration.jpg",
+          "w": 1280,
+          "h": 363
+        },
+        {
+          "id": "gentile-wiki-the-annunciation-1420-1425",
+          "title": "The Annunciation, 1420–1425",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-the-annunciation-1420-1425.jpg",
+          "w": 1280,
+          "h": 1061
+        },
+        {
+          "id": "gentile-wiki-coronation-of-the-virgin-c-1420",
+          "title": "Coronation of the Virgin, c. 1420",
+          "date": "c. 1398",
+          "year": 1398,
+          "place": "Fabriano / Florence",
+          "file": "images/gentile-coronation-of-the-virgin-c-1420.jpg",
+          "w": 1224,
+          "h": 1600
         }
       ]
     },
@@ -2229,6 +5679,116 @@ const DATA = {
             "text": "OF THE ANGELI IN FLORENCE, PAINTER\n\n\nFor a good and religious person, I believe, there must be great\ncontentment in having ready to his hand some honourable exercise,\nwhether that of letters, or of music, or of painting, or of any other\nliberal or mechanical arts, such as are not blameworthy, but rather\nuseful and helpful to other men; for the reason that after the divine\noffices the time passes honourably with the delight that is taken in the\nsweet labours of these pleasant exercises. And to this it may be added\nthat not only is he esteemed and held in price by others the while that\nhe lives, provided that they be not envious and malign, but that he is\nalso honoured after death by all men, by reason of his works and of the…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        },
+        {
+          "id": "lorenzo-monaco-wiki-vite-de-pi-eccellenti-pittori-scultori-e",
+          "title": "Vite de più eccellenti pittori scultori ed architetti (1767). Lorenzo Monaco",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-vite-de-pi-eccellenti-pittori-scultori-ed-archit.jpg",
+          "w": 1280,
+          "h": 1492
+        },
+        {
+          "id": "lorenzo-monaco-wiki-adoration-of-the-magi-c-1420-1422-uffizi",
+          "title": "Adoration of the Magi, c. 1420–1422, Uffizi, Florence",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-adoration-of-the-magi-c-1420-1422-uffizi-florenc.jpg",
+          "w": 1072,
+          "h": 950
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-coronation-of-the-virgin-",
+          "title": "Lorenzo Monaco, Coronation of the Virgin, Christ Redeemer, 1388 — 90, Courtauld ",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-coronation-of-the-virgin-christ-r.jpg",
+          "w": 952,
+          "h": 1200
+        },
+        {
+          "id": "lorenzo-monaco-wiki-frama-asssc046",
+          "title": "Frama AssSC046",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-frama-asssc046.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-mnac",
+          "title": "Lorenzo Monaco — mnac",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-mnac.jpg",
+          "w": 850,
+          "h": 1381
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-madonna",
+          "title": "Lorenzo Monaco Madonna",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-madonna.jpg",
+          "w": 751,
+          "h": 960
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-polittico-della-madonna-i",
+          "title": "Lorenzo monaco, polittico della madonna in trono",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-polittico-della-madonna-in-trono.jpg",
+          "w": 1280,
+          "h": 1345
+        },
+        {
+          "id": "lorenzo-monaco-wiki-don-lorenzo-monaco-010",
+          "title": "Don Lorenzo Monaco 010",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-don-lorenzo-monaco-010.jpg",
+          "w": 1280,
+          "h": 806
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-the-nativity-ca-1406-1410",
+          "title": "Lorenzo Monaco — The Nativity (ca. 1406 — 1410)",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-the-nativity-ca-1406-1410.jpg",
+          "w": 1280,
+          "h": 854
+        },
+        {
+          "id": "lorenzo-monaco-wiki-coronaci-n-lorenzo-monaco-05",
+          "title": "Coronación Lorenzo Monaco 05",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-coronaci-n-lorenzo-monaco-05.jpg",
+          "w": 1280,
+          "h": 853
+        },
+        {
+          "id": "lorenzo-monaco-wiki-lorenzo-monaco-crucifixion-wga13584",
+          "title": "Lorenzo Monaco — Crucifixion — WGA13584",
+          "date": "c. 1397",
+          "year": 1397,
+          "place": "Florence (Santa Maria degli Angeli)",
+          "file": "images/lorenzo-monaco-lorenzo-monaco-crucifixion-wga13584.jpg",
+          "w": 750,
+          "h": 1400
         }
       ]
     },
@@ -2277,6 +5837,166 @@ const DATA = {
             "text": "But to return to Vittore Pisano; the account that has been given of him\nabove was written by us, with nothing more, when this our book was\nprinted for the first time, because we had not then received that\ninformation and knowledge of the works of this excellent craftsman which\nwe have since gained from notices supplied by that very reverend and\nmost learned Father, Fra Marco de' Medici of Verona, of the Order of\nPreaching Friars, and from the narrative of Biondo da Forli, where he\nspeaks of Verona in his \"Italia Illustrata.\" Vittore was equal in\nexcellence to any painter of his age; and to this, not to speak of the\nworks enumerated above, most ample testimony is borne by many others\nthat are seen in his most noble native city of Verona, although many are…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "pisanello-wiki-antonio-marescotti-medaglia-con-pisanello",
+          "title": "Antonio Marescotti, Medaglia con Pisanello",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-antonio-marescotti-medaglia-con-pisanello.jpg",
+          "w": 1280,
+          "h": 1246
+        },
+        {
+          "id": "pisanello-wiki-pisanello-apparizione-della-madonna-ai-ss-ant",
+          "title": "Pisanello, apparizione della madonna ai ss. antonio abate e giorgio, 1435 — 41 c",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-apparizione-della-madonna-ai-ss-antoni.jpg",
+          "w": 1280,
+          "h": 582
+        },
+        {
+          "id": "pisanello-wiki-duck-in-watercolor",
+          "title": "Duck in watercolor",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-duck-in-watercolor.jpg",
+          "w": 1280,
+          "h": 832
+        },
+        {
+          "id": "pisanello-wiki-st-george-and-the-princess-detail-with-horse",
+          "title": "St. George and the Princess (detail with horse).",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-st-george-and-the-princess-detail-with-horse.jpg",
+          "w": 1280,
+          "h": 1561
+        },
+        {
+          "id": "pisanello-wiki-portrait-of-ludovico-iii-gonzaga-margrave-of-",
+          "title": "Portrait of Ludovico III Gonzaga, Margrave of Mantua. Medal by Antonio Pisano (obverse).",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-portrait-of-ludovico-iii-gonzaga-margrave-of-man.jpg",
+          "w": 1280,
+          "h": 1280
+        },
+        {
+          "id": "pisanello-wiki-the-vision-of-saint-eustace-c-1438-1442",
+          "title": "The Vision of Saint Eustace, c. 1438–1442.",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-the-vision-of-saint-eustace-c-1438-1442.jpg",
+          "w": 1280,
+          "h": 1053
+        },
+        {
+          "id": "pisanello-wiki-cecilia-gonzaga-medal-innocence-and-unicorn-i",
+          "title": "Cecilia Gonzaga medal: Innocence and Unicorn in Moonlit Landscape (1447).",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-cecilia-gonzaga-medal-innocence-and-unicorn-in-m.jpg",
+          "w": 575,
+          "h": 573
+        },
+        {
+          "id": "pisanello-wiki-pisanello-001",
+          "title": "Pisanello 001",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-001.jpg",
+          "w": 1280,
+          "h": 974
+        },
+        {
+          "id": "pisanello-wiki-pisanello-017",
+          "title": "Pisanello 017",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-017.jpg",
+          "w": 1280,
+          "h": 1448
+        },
+        {
+          "id": "pisanello-wiki-pisanello-falcone-cabinet-des-dessins-inv-245",
+          "title": "Pisanello, falcone, cabinet des dessins INV 2453",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-falcone-cabinet-des-dessins-inv-2453.jpg",
+          "w": 256,
+          "h": 400
+        },
+        {
+          "id": "pisanello-wiki-pisanello-codex-vallardi-2465-r",
+          "title": "Pisanello — Codex Vallardi 2465 r",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-codex-vallardi-2465-r.jpg",
+          "w": 1280,
+          "h": 697
+        },
+        {
+          "id": "pisanello-wiki-pisanello-019",
+          "title": "Pisanello 019",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-019.jpg",
+          "w": 1280,
+          "h": 942
+        },
+        {
+          "id": "pisanello-wiki-pisanello-disegno-gatti",
+          "title": "Pisanello, disegno gatti",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-disegno-gatti.jpg",
+          "w": 469,
+          "h": 650
+        },
+        {
+          "id": "pisanello-wiki-pisanello-study-of-horse-heads-wga17855",
+          "title": "Pisanello — Study of Horse Heads — WGA17855",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-study-of-horse-heads-wga17855.jpg",
+          "w": 826,
+          "h": 550
+        },
+        {
+          "id": "pisanello-wiki-pisanello-scimmie",
+          "title": "Pisanello, scimmie",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-scimmie.jpg",
+          "w": 423,
+          "h": 400
+        },
+        {
+          "id": "pisanello-wiki-pisanello-disegni-windsor-12815",
+          "title": "Pisanello, disegni, windsor 12815",
+          "date": "c. 1425",
+          "year": 1425,
+          "place": "Verona / courts of Ferrara & Mantua",
+          "file": "images/pisanello-pisanello-disegni-windsor-12815.jpg",
+          "w": 744,
+          "h": 533
         }
       ]
     },
@@ -2310,6 +6030,136 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nFra Filippo di Tommaso Lippi, a Carmelite, was born in Florence in a\nstreet called Ardiglione, below the Canto alla Cuculia and behind the\nConvent of the Carmelites. By the death of his father Tommaso he was\nleft a poor little orphan at the age of two, with no one to take care of\nhim, for his mother had also died not long after giving him birth. He\nwas left, therefore, in the charge of one Mona Lapaccia, his aunt,\nsister of his father, who brought him up with very great inconvenience\nto herself; and when he was eight years of age and she could no longer\nsupport him, she made him a friar in the aforesaid Convent of the\nCarmine.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "filippo-lippi-wiki-lippi-z13",
+          "title": "Lippi z13",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-lippi-z13.jpg",
+          "w": 600,
+          "h": 800
+        },
+        {
+          "id": "filippo-lippi-wiki-devotional-image-of-the-madonna-and-child",
+          "title": "Devotional image of the Madonna and Child before a golden curtain, the Workshop of",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-devotional-image-of-the-madonna-and-child-before.jpg",
+          "w": 1127,
+          "h": 1600
+        },
+        {
+          "id": "filippo-lippi-wiki-adoration-in-the-forest-1459-gem-ldegaler",
+          "title": "Adoration in the Forest (1459), Gemäldegalerie Berlin",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-adoration-in-the-forest-1459-gem-ldegalerie-berl.jpg",
+          "w": 1280,
+          "h": 1439
+        },
+        {
+          "id": "filippo-lippi-wiki-madonna-and-child-1440-1445-tempera-on-pa",
+          "title": "Madonna and Child (1440–1445), tempera on panel, National Gallery of Art, Washington, D.C.",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-madonna-and-child-1440-1445-tempera-on-panel-nat.jpg",
+          "w": 600,
+          "h": 910
+        },
+        {
+          "id": "filippo-lippi-wiki-madonna-with-the-child-and-two-angels-146",
+          "title": "Madonna with the Child and Two Angels (1465), tempera on wood, Uffizi, Florence (also",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-madonna-with-the-child-and-two-angels-1465-tempe.jpg",
+          "w": 894,
+          "h": 1300
+        },
+        {
+          "id": "filippo-lippi-wiki-detail-of-the-spoleto-coronation-of-the-v",
+          "title": "Detail of the Spoleto Coronation of the Virgin (c. 1469), fresco, semidome of the apse of",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-detail-of-the-spoleto-coronation-of-the-virgin-c.jpg",
+          "w": 845,
+          "h": 1100
+        },
+        {
+          "id": "filippo-lippi-wiki-fra-filippo-lippi-and-workshop-the-nativi",
+          "title": "Fra Filippo Lippi and Workshop, The Nativity, probably c. 1445, NGA 422",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-fra-filippo-lippi-and-workshop-the-nativity-prob.jpg",
+          "w": 1280,
+          "h": 512
+        },
+        {
+          "id": "filippo-lippi-wiki-fra-angelico-fra-filippo-lippi-the-adorat",
+          "title": "Fra Angelico, Fra Filippo Lippi, The Adoration of the Magi",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-fra-angelico-fra-filippo-lippi-the-adoration-of.jpg",
+          "w": 1280,
+          "h": 1280
+        },
+        {
+          "id": "filippo-lippi-wiki-filippo-lippi-incoronazione-della-vergine",
+          "title": "Filippo Lippi — Incoronazione della Vergine — Google Art Project",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-filippo-lippi-incoronazione-della-vergine-google.jpg",
+          "w": 1280,
+          "h": 905
+        },
+        {
+          "id": "filippo-lippi-wiki-lippo-lippi-woman",
+          "title": "Lippo lippi woman",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-lippo-lippi-woman.jpg",
+          "w": 1040,
+          "h": 1600
+        },
+        {
+          "id": "filippo-lippi-wiki-madonna-col-bambino-palazzo-medici-riccar",
+          "title": "Madonna col bambino, palazzo medici riccardi, filippo lippi",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-madonna-col-bambino-palazzo-medici-riccardi-fili.jpg",
+          "w": 969,
+          "h": 1600
+        },
+        {
+          "id": "filippo-lippi-wiki-filippo-lippi-ritratto-femminile",
+          "title": "Filippo Lippi, ritratto femminile",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-filippo-lippi-ritratto-femminile.jpg",
+          "w": 994,
+          "h": 1500
+        },
+        {
+          "id": "filippo-lippi-wiki-pseudo-pier-francesco-fiorentino-madonna-",
+          "title": "Pseudo — Pier Francesco Fiorentino, madonna del roseto",
+          "date": "c. 1437",
+          "year": 1437,
+          "place": "Florence / Prato",
+          "file": "images/filippo-lippi-pseudo-pier-francesco-fiorentino-madonna-del-ros.jpg",
+          "w": 883,
+          "h": 1300
         }
       ]
     },
@@ -2343,6 +6193,76 @@ const DATA = {
             "text": "How reprehensible is the vice of envy, which should never exist in\nanyone, when found in a man of excellence, and how wicked and horrible a\nthing it is to seek under the guise of a feigned friendship to\nextinguish not only the fame and glory of another but his very life, I\ntruly believe it to be impossible to express with words, for the\nwickedness of the act overcomes all power and force of speech, however\neloquent. For this reason, without enlarging further on this subject, I\nwill only say that in such men there dwells a spirit not merely inhuman\nand savage but wholly cruel and devilish, and so far removed from any\nsort of virtue that they are no longer men or even animals, and do not\ndeserve to live.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "domenico-veneziano-wiki-santa-lucia-de-magnoli-altarpiece-c-",
+          "title": "Santa Lucia de' Magnoli Altarpiece, c. 1445–47, tempera on panel, 198 × 207 cm, Uffizi,",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-santa-lucia-de-magnoli-altarpiece-c-1445-47-temp.jpg",
+          "w": 1025,
+          "h": 1026
+        },
+        {
+          "id": "domenico-veneziano-wiki-the-stigmatization-of-st-francis-pre",
+          "title": "The Stigmatization of St Francis (predella 1), washington",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-the-stigmatization-of-st-francis-predella-1-wash.jpg",
+          "w": 991,
+          "h": 869
+        },
+        {
+          "id": "domenico-veneziano-wiki-domenico-veneziano-001",
+          "title": "Domenico Veneziano 001",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-domenico-veneziano-001.jpg",
+          "w": 1280,
+          "h": 1124
+        },
+        {
+          "id": "domenico-veneziano-wiki-annunciation-predella-3-fitzwilliam-",
+          "title": "Annunciation (predella 3), fitzwilliam museum, Cambridge",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-annunciation-predella-3-fitzwilliam-museum-cambr.jpg",
+          "w": 1280,
+          "h": 615
+        },
+        {
+          "id": "domenico-veneziano-wiki-miracle-of-saint-zenobius-fitzwillia",
+          "title": "Miracle of saint zenobius, fitzwilliam museum, Cambridge 2",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-miracle-of-saint-zenobius-fitzwilliam-museum-cam.jpg",
+          "w": 958,
+          "h": 826
+        },
+        {
+          "id": "domenico-veneziano-wiki-martyrdom-of-st-lucy-predella-5-berl",
+          "title": "Martyrdom of St Lucy (predella 5), berlino",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-martyrdom-of-st-lucy-predella-5-berlino.jpg",
+          "w": 900,
+          "h": 800
+        },
+        {
+          "id": "domenico-veneziano-wiki-pala-di-santa-lucia-dei-magnoli-san-",
+          "title": "Pala di Santa Lucia dei Magnoli, san francesco e san giovanni battista",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence",
+          "file": "images/domenico-veneziano-pala-di-santa-lucia-dei-magnoli-san-francesco-e.jpg",
+          "w": 790,
+          "h": 1120
         }
       ]
     },
@@ -2374,6 +6294,20 @@ const DATA = {
               "url": "https://archive.org/details/mhu-2.472-danses-du-moyen-age-clementic-cons.-ens.-ricercare"
             }
           ]
+        },
+        {
+          "id": "squarcialupi-jacopo",
+          "title": "Jacopo da Bologna madrigals (in the Codex)",
+          "date": "c. 1350",
+          "year": 1350,
+          "place": "Florence (BML Med. Pal. 87)"
+        },
+        {
+          "id": "squarcialupi-landini",
+          "title": "Landini ballate (in the Codex)",
+          "date": "c. 1390",
+          "year": 1390,
+          "place": "Florence (BML Med. Pal. 87)"
         }
       ]
     },
@@ -2422,6 +6356,106 @@ const DATA = {
             "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "piero-wiki-delle-vite-de-pi-eccellenti-pittori-scultori-et",
+          "title": "Delle vite de' più eccellenti pittori, scultori, et architetti (1648) (147996080",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-delle-vite-de-pi-eccellenti-pittori-scultori-et.jpg",
+          "w": 1280,
+          "h": 1492
+        },
+        {
+          "id": "piero-wiki-the-resurrection-c-1463-65",
+          "title": "The Resurrection (c. 1463–65)",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-the-resurrection-c-1463-65.jpg",
+          "w": 730,
+          "h": 826
+        },
+        {
+          "id": "piero-wiki-sigismondo-pandolfo-malatesta-kneeling-before-st",
+          "title": "Sigismondo Pandolfo Malatesta kneeling before St. Sigismund (1451)",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-sigismondo-pandolfo-malatesta-kneeling-before-st.jpg",
+          "w": 1280,
+          "h": 916
+        },
+        {
+          "id": "piero-wiki-detail-from-the-history-of-the-true-cross-the-qu",
+          "title": "Detail from The History of the True Cross: the Queen of Sheba meeting with King Solomon",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-detail-from-the-history-of-the-true-cross-the-qu.jpg",
+          "w": 569,
+          "h": 740
+        },
+        {
+          "id": "piero-wiki-the-montefeltro-altarpiece-or-the-brera-madonna",
+          "title": "The Montefeltro Altarpiece or the Brera Madonna",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-the-montefeltro-altarpiece-or-the-brera-madonna.jpg",
+          "w": 1116,
+          "h": 1600
+        },
+        {
+          "id": "piero-wiki-virgin-and-child-enthroned-with-four-angels-by-p",
+          "title": "Virgin and Child Enthroned With Four Angels by Piero della Francesca, Clark Art Institute",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-virgin-and-child-enthroned-with-four-angels-by-p.jpg",
+          "w": 1168,
+          "h": 1600
+        },
+        {
+          "id": "piero-wiki-first-page-of-the-trattato-d-abaco",
+          "title": "First page of the Trattato d'Abaco",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-first-page-of-the-trattato-d-abaco.jpg",
+          "w": 1022,
+          "h": 1600
+        },
+        {
+          "id": "piero-wiki-the-baptism-of-christ-c-1450-national-gallery-lo",
+          "title": "The Baptism of Christ, c. 1450, National Gallery, London",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-the-baptism-of-christ-c-1450-national-gallery-lo.jpg",
+          "w": 1095,
+          "h": 1600
+        },
+        {
+          "id": "piero-wiki-polyptych-of-perugia-c-1470-galleria-nazionale-d",
+          "title": "Polyptych of Perugia, c. 1470, Galleria Nazionale dell'Umbria, Perugia",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-polyptych-of-perugia-c-1470-galleria-nazionale-d.jpg",
+          "w": 938,
+          "h": 1600
+        },
+        {
+          "id": "piero-wiki-madonna-del-parto-in-monterchi-sansepolcro-by-pi",
+          "title": "Madonna del Parto, in Monterchi, Sansepolcro, by Piero della Francesca",
+          "date": "c. 1453",
+          "year": 1453,
+          "place": "Sansepolcro / Urbino",
+          "file": "images/piero-madonna-del-parto-in-monterchi-sansepolcro-by-pi.jpg",
+          "w": 800,
+          "h": 840
         }
       ]
     },
@@ -2469,6 +6503,20 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:6_quant_ce_vendra.ogg"
             }
           ]
+        },
+        {
+          "id": "busnois-forture",
+          "title": "Je ne puis vivre ainsi",
+          "date": "c. 1460",
+          "year": 1460,
+          "place": "Burgundy / France"
+        },
+        {
+          "id": "busnois-in-hydraulis",
+          "title": "In hydraulis",
+          "date": "c. 1467",
+          "year": 1467,
+          "place": "Burgundy / France"
         }
       ]
     },
@@ -2517,6 +6565,106 @@ const DATA = {
             "text": "PAINTER OF MANTUA\n\n\nHow great is the effect of reward on talent is known to him who labours\nvaliantly and receives a certain measure of recompense, for he feels\nneither discomfort, nor hardship, nor fatigue, when he expects honour\nand reward for them; nay, what is more, they render his talent every day\nmore renowned and illustrious. It is true, indeed, that there is not\nalways found one to recognize, esteem, and remunerate it as that of\nAndrea Mantegna was recognized. This man was born from very humble stock\nin the district of Mantua; and, although as a boy he was occupied in\ngrazing herds, he was so greatly exalted by destiny and by his merit\nthat he attained to the honourable rank of Chevalier, as will be told in\nthe proper place.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "mantegna-wiki-mantegna-bronze-bust-san-andrea-mantua",
+          "title": "Mantegna Bronze Bust San Andrea Mantua",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-mantegna-bronze-bust-san-andrea-mantua.jpg",
+          "w": 688,
+          "h": 912
+        },
+        {
+          "id": "mantegna-wiki-st-sebastian-1480-panel-mus-e-du-louvre",
+          "title": "St. Sebastian, 1480; panel; Musée du Louvre",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-st-sebastian-1480-panel-mus-e-du-louvre.jpg",
+          "w": 750,
+          "h": 1374
+        },
+        {
+          "id": "mantegna-wiki-the-agony-in-the-garden-1459-national-gallery-",
+          "title": "The Agony in the Garden (1459) National Gallery, London, is the pinnacle of Mantegna's",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-the-agony-in-the-garden-1459-national-gallery-lo.jpg",
+          "w": 1280,
+          "h": 991
+        },
+        {
+          "id": "mantegna-wiki-christ-as-the-suffering-redeemer-christ-resurr",
+          "title": "Christ as the Suffering Redeemer. Christ resurrecting, depicted according to Luke 24:1–2,",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-christ-as-the-suffering-redeemer-christ-resurrec.jpg",
+          "w": 975,
+          "h": 1600
+        },
+        {
+          "id": "mantegna-wiki-judith-and-holofernes-by-andrea-mantegna-or-po",
+          "title": "Judith and Holofernes, by Andrea Mantegna or possibly Giulio Campagnola, c. 1495",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-judith-and-holofernes-by-andrea-mantegna-or-poss.jpg",
+          "w": 956,
+          "h": 1600
+        },
+        {
+          "id": "mantegna-wiki-detail-of-camera-degli-sposi",
+          "title": "Detail of Camera degli Sposi",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-detail-of-camera-degli-sposi.jpg",
+          "w": 742,
+          "h": 968
+        },
+        {
+          "id": "mantegna-wiki-the-madonna-of-the-cherubim-1485",
+          "title": "The Madonna of the Cherubim (1485)",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-the-madonna-of-the-cherubim-1485.jpg",
+          "w": 815,
+          "h": 1006
+        },
+        {
+          "id": "mantegna-wiki-bacco-mantegna-andrea-baccanale-col-tino-1470-",
+          "title": "Bacco — Mantegna, Andrea — Baccanale col tino — 1470 ca. — ",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-bacco-mantegna-andrea-baccanale-col-tino-1470-ca.jpg",
+          "w": 750,
+          "h": 512
+        },
+        {
+          "id": "mantegna-wiki-andrea-mantegna-the-lamentation-over-the-dead-",
+          "title": "Andrea Mantegna — The Lamentation over the Dead Christ — WGA13981",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-andrea-mantegna-the-lamentation-over-the-dead-ch.jpg",
+          "w": 1280,
+          "h": 1097
+        },
+        {
+          "id": "mantegna-wiki-the-virgin-mary-in-andrea-mantegna-s-san-zeno-",
+          "title": "The Virgin Mary in Andrea Mantegna's San Zeno Altarpiece combines pseudo-Arabic halos and",
+          "date": "c. 1468",
+          "year": 1468,
+          "place": "Padua / Mantua",
+          "file": "images/mantegna-the-virgin-mary-in-andrea-mantegna-s-san-zeno-al.jpg",
+          "w": 832,
+          "h": 1600
         }
       ]
     },
@@ -2550,6 +6698,166 @@ const DATA = {
             "text": "PAINTERS AND SCULPTORS OF FLORENCE\n\n\nMany men begin in a humble spirit with unimportant works, who, gaining\ncourage from proficiency, grow also in power and ability, in such a\nmanner that they aspire to greater undertakings and almost reach Heaven\nwith their beautiful thoughts. Raised by fortune, they very often chance\nupon some liberal Prince, who, finding himself well served by them, is\nforced to remunerate their labours so richly that their descendants\nderive great benefits and advantages from them. Wherefore such men walk\nthrough this life to the end with so much glory, that they leave\nmarvellous memorials of themselves to the world, as did Antonio and\nPiero del Pollaiuolo, who were greatly esteemed in their day for the\nrare acquirements that they had made with their industry and labour.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "pollaiuolo-wiki-san-pietro-in-vincoli-monumento-ai-fratelli-",
+          "title": "San pietro in vincoli, monumento ai fratelli del pollaiolo, di luigi capponi, an",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-san-pietro-in-vincoli-monumento-ai-fratelli-del.jpg",
+          "w": 720,
+          "h": 811
+        },
+        {
+          "id": "pollaiuolo-wiki-hercules-and-the-hydra-a-reduced-version-of-",
+          "title": "Hercules and the Hydra, a reduced version of his huge painting for the Medici Palace, now",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-hercules-and-the-hydra-a-reduced-version-of-his.jpg",
+          "w": 1127,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-david-with-the-head-of-goliath-by-both-broth",
+          "title": "David with the Head of Goliath, by both brothers (c. 1470)",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-david-with-the-head-of-goliath-by-both-brothers.jpg",
+          "w": 1162,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-damaged-fresco-of-dancing-figures-1470s-vill",
+          "title": "Damaged fresco of dancing figures, 1470s, Villa la Gallina",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-damaged-fresco-of-dancing-figures-1470s-villa-la.jpg",
+          "w": 1239,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-hercules-and-antaeus-bronze-bargello",
+          "title": "Hercules and Antaeus, bronze, Bargello",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-hercules-and-antaeus-bronze-bargello.jpg",
+          "w": 993,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-parade-shield-with-plaster-milo-of-croton-c-",
+          "title": "Parade shield with plaster Milo of Croton, c. 1460–1465, Louvre, Paris",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-parade-shield-with-plaster-milo-of-croton-c-1460.jpg",
+          "w": 610,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-tomb-of-pope-sixtus-iv-completed-1493",
+          "title": "Tomb of Pope Sixtus IV, completed 1493",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-tomb-of-pope-sixtus-iv-completed-1493.jpg",
+          "w": 1280,
+          "h": 1312
+        },
+        {
+          "id": "pollaiuolo-wiki-battle-of-the-nude-men-1470s-engraving-42-8-",
+          "title": "Battle of the Nude Men (1470s?) – Engraving, 42.8 × 61.8 cm",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-battle-of-the-nude-men-1470s-engraving-42-8-61-8.jpg",
+          "w": 1280,
+          "h": 891
+        },
+        {
+          "id": "pollaiuolo-wiki-terracotta-relief-with-another-battle-of-the",
+          "title": "Terracotta relief with another Battle of the Nude Men, 1470s",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-terracotta-relief-with-another-battle-of-the-nud.jpg",
+          "w": 1280,
+          "h": 999
+        },
+        {
+          "id": "pollaiuolo-wiki-antonio-del-pollaiolo-assunzione-di-santa-ma",
+          "title": "Antonio del pollaiolo, assunzione di santa maria maddalena, staggia senese",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-antonio-del-pollaiolo-assunzione-di-santa-maria.jpg",
+          "w": 1237,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-pietro-and-antonio-pollaiolo-pala-del-cardin",
+          "title": "Pietro and Antonio Pollaiolo, Pala del Cardinale del Portogallo, 1466 — 1468, Uf",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-pietro-and-antonio-pollaiolo-pala-del-cardinale.jpg",
+          "w": 1280,
+          "h": 1280
+        },
+        {
+          "id": "pollaiuolo-wiki-pollaiolo-ercole-e-deianira",
+          "title": "Pollaiolo, ercole e deianira",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-pollaiolo-ercole-e-deianira.jpg",
+          "w": 1280,
+          "h": 842
+        },
+        {
+          "id": "pollaiuolo-wiki-piero-del-pollaiuolo-profile-portrait-of-a-y",
+          "title": "Piero del Pollaiuolo — Profile Portrait of a Young Lady — Gemäldegalerie Berlin ",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-piero-del-pollaiuolo-profile-portrait-of-a-young.jpg",
+          "w": 1071,
+          "h": 1600
+        },
+        {
+          "id": "pollaiuolo-wiki-andrea-del-verrocchio-busto-di-giuliano-di-p",
+          "title": "Andrea del verrocchio, busto di giuliano di piero de' medici, 1475 ca., (washing",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-andrea-del-verrocchio-busto-di-giuliano-di-piero.jpg",
+          "w": 1280,
+          "h": 1321
+        },
+        {
+          "id": "pollaiuolo-wiki-the-sculpture-of-warrior",
+          "title": "The sculpture of Warrior",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-the-sculpture-of-warrior.jpg",
+          "w": 687,
+          "h": 909
+        },
+        {
+          "id": "pollaiuolo-wiki-hercules-pollaiuolo",
+          "title": "Hercules pollaiuolo",
+          "date": "c. 1464",
+          "year": 1464,
+          "place": "Florence / Rome",
+          "file": "images/pollaiuolo-hercules-pollaiuolo.jpg",
+          "w": 700,
+          "h": 1380
         }
       ]
     },
@@ -2598,6 +6906,96 @@ const DATA = {
             "text": "PAINTER, SCULPTOR, AND ARCHITECT OF FLORENCE\n\n\nAndrea del Verrocchio, a Florentine, was in his day a goldsmith, a\nmaster of perspective, a sculptor, a wood-carver, a painter, and a\nmusician; but in the arts of sculpture and painting, to tell the truth,\nhe had a manner somewhat hard and crude, as one who acquired it rather\nby infinite study than by the facility of a natural gift. Even if he had\nbeen as poor in this facility as he was rich in the study and diligence\nthat exalted him, he would have been most excellent in those arts,\nwhich, for their highest perfection, require a union of study and\nnatural power.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "verrocchio-wiki-andrea-del-castagno-portrait-de-verrocchio-v",
+          "title": "Andrea del Castagno, portrait de Verrocchio, vers 1470",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-andrea-del-castagno-portrait-de-verrocchio-vers.jpg",
+          "w": 846,
+          "h": 929
+        },
+        {
+          "id": "verrocchio-wiki-madonna-with-seated-child-1468-1470-gem-ldeg",
+          "title": "Madonna with Seated Child, 1468–1470, Gemäldegalerie, Berlin",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-madonna-with-seated-child-1468-1470-gem-ldegaler.jpg",
+          "w": 1156,
+          "h": 1600
+        },
+        {
+          "id": "verrocchio-wiki-tobias-and-the-angel-1470-1475-national-gall",
+          "title": "Tobias and the Angel, 1470–1475, National Gallery, London",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-tobias-and-the-angel-1470-1475-national-gallery.jpg",
+          "w": 1250,
+          "h": 1600
+        },
+        {
+          "id": "verrocchio-wiki-baptism-of-christ-1474-1475-uffizi-florence",
+          "title": "Baptism of Christ, 1474–1475, Uffizi, Florence",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-baptism-of-christ-1474-1475-uffizi-florence.jpg",
+          "w": 1280,
+          "h": 1504
+        },
+        {
+          "id": "verrocchio-wiki-david-c-1466-1469-bargello-florence",
+          "title": "David, c. 1466–1469, Bargello, Florence",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-david-c-1466-1469-bargello-florence.jpg",
+          "w": 1045,
+          "h": 1600
+        },
+        {
+          "id": "verrocchio-wiki-a-copy-of-christ-and-st-thomas-1467-1483-in-",
+          "title": "A copy of Christ and St Thomas, 1467–1483, in the niche all'antica by Donatello at",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-a-copy-of-christ-and-st-thomas-1467-1483-in-the.jpg",
+          "w": 580,
+          "h": 1014
+        },
+        {
+          "id": "verrocchio-wiki-giuliano-de-medici-c-1475-1478-national-gall",
+          "title": "Giuliano de' Medici, c. 1475–1478, National Gallery of Art, Washington",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-giuliano-de-medici-c-1475-1478-national-gallery.jpg",
+          "w": 1280,
+          "h": 980
+        },
+        {
+          "id": "verrocchio-wiki-putto-with-dolphin-for-the-medici-villa-of-c",
+          "title": "Putto with Dolphin for the Medici villa of Careggi",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-putto-with-dolphin-for-the-medici-villa-of-careg.jpg",
+          "w": 1073,
+          "h": 1600
+        },
+        {
+          "id": "verrocchio-wiki-statue-of-bartolomeo-colleoni-in-venice-verr",
+          "title": "Statue of Bartolomeo Colleoni in Venice, Verrocchio, 1483–1488, cast by Leopardi",
+          "date": "c. 1461",
+          "year": 1461,
+          "place": "Florence",
+          "file": "images/verrocchio-statue-of-bartolomeo-colleoni-in-venice-verrocch.jpg",
+          "w": 1280,
+          "h": 1146
         }
       ]
     },
@@ -2646,6 +7044,166 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nAt the same time with the elder Lorenzo de' Medici, the Magnificent,\nwhich was truly a golden age for men of intellect, there also flourished\none Alessandro, called Sandro after our custom, and surnamed Di\nBotticello for a reason that we shall see below. This man was the son of\nMariano Filipepi, a citizen of Florence, who brought him up with care,\nand had him instructed in all those things that are usually taught to\nchildren before they are old enough to be apprenticed to some calling.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "botticelli-wiki-sandro-botticelli-083",
+          "title": "Sandro Botticelli 083",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-sandro-botticelli-083.jpg",
+          "w": 1280,
+          "h": 1399
+        },
+        {
+          "id": "botticelli-wiki-botticelli-sandro-1444-1510-01-dewp",
+          "title": "Botticelli Sandro 1444 — 1510 01 deWP",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-botticelli-sandro-1444-1510-01-dewp.jpg",
+          "w": 504,
+          "h": 232
+        },
+        {
+          "id": "botticelli-wiki-detail-from-botticelli-s-most-famous-work-4-",
+          "title": "Detail from Botticelli's most famous work,[4] The Birth of Venus (c. 1484–1486)",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-detail-from-botticelli-s-most-famous-work-4-the.jpg",
+          "w": 1280,
+          "h": 983
+        },
+        {
+          "id": "botticelli-wiki-via-borgo-ognissanti-in-2008-with-the-eponym",
+          "title": "Via Borgo Ognissanti in 2008, with the eponymous church halfway down on the right. Like",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-via-borgo-ognissanti-in-2008-with-the-eponymous.jpg",
+          "w": 1280,
+          "h": 960
+        },
+        {
+          "id": "botticelli-wiki-madonna-and-child-with-st-john-the-baptist-c",
+          "title": "Madonna and Child with St. John the Baptist, c. 1470–1475, Louvre, Paris",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-madonna-and-child-with-st-john-the-baptist-c-147.jpg",
+          "w": 1172,
+          "h": 1600
+        },
+        {
+          "id": "botticelli-wiki-adoration-of-the-magi-1475-111-134-cm-44-53-",
+          "title": "Adoration of the Magi, 1475, 111 × 134 cm (44 × 53 in), Uffizi, Florence",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-adoration-of-the-magi-1475-111-134-cm-44-53-in-u.jpg",
+          "w": 1280,
+          "h": 1046
+        },
+        {
+          "id": "botticelli-wiki-youth-of-moses-sistine-chapel-rome",
+          "title": "Youth of Moses, Sistine Chapel, Rome",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-youth-of-moses-sistine-chapel-rome.jpg",
+          "w": 1280,
+          "h": 801
+        },
+        {
+          "id": "botticelli-wiki-punishment-of-the-sons-of-corah-sistine-chap",
+          "title": "Punishment of the Sons of Corah, Sistine Chapel",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-punishment-of-the-sons-of-corah-sistine-chapel.jpg",
+          "w": 1280,
+          "h": 805
+        },
+        {
+          "id": "botticelli-wiki-the-birth-of-venus-c-1485-uffizi",
+          "title": "The Birth of Venus, c. 1485, Uffizi",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-the-birth-of-venus-c-1485-uffizi.jpg",
+          "w": 1280,
+          "h": 804
+        },
+        {
+          "id": "botticelli-wiki-venus-and-mars-c-1485-tempera-on-panel-69-cm",
+          "title": "Venus and Mars, c. 1485, tempera on panel, 69 cm × 173 cm (27.17 in × 68.11 in), National",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-venus-and-mars-c-1485-tempera-on-panel-69-cm-173.jpg",
+          "w": 1280,
+          "h": 512
+        },
+        {
+          "id": "botticelli-wiki-the-bardi-altarpiece-1484-1485-185-180-cm-ge",
+          "title": "The Bardi Altarpiece, 1484–1485, 185 × 180 cm, Gemäldegalerie, Berlin",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-the-bardi-altarpiece-1484-1485-185-180-cm-gem-ld.jpg",
+          "w": 1280,
+          "h": 1333
+        },
+        {
+          "id": "botticelli-wiki-san-barnaba-altarpiece-c-1487-uffizi-268-280",
+          "title": "San Barnaba Altarpiece, c. 1487, Uffizi, 268 × 280 cm, Uffizi, Florence",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-san-barnaba-altarpiece-c-1487-uffizi-268-280-cm.jpg",
+          "w": 800,
+          "h": 719
+        },
+        {
+          "id": "botticelli-wiki-lamentation-of-christ-early-1490s-alte-pinak",
+          "title": "Lamentation of Christ, early 1490s, Alte Pinakothek, Munich",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-lamentation-of-christ-early-1490s-alte-pinakothe.jpg",
+          "w": 1280,
+          "h": 864
+        },
+        {
+          "id": "botticelli-wiki-botticelli-annunciazione-di-cestello-02",
+          "title": "Botticelli, annunciazione di cestello 02",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-botticelli-annunciazione-di-cestello-02.jpg",
+          "w": 1100,
+          "h": 1036
+        },
+        {
+          "id": "botticelli-wiki-botticelli-trinity",
+          "title": "Botticelli Trinity",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-botticelli-trinity.jpg",
+          "w": 950,
+          "h": 1048
+        },
+        {
+          "id": "botticelli-wiki-magnificat-madonna-c-1483-uffizi-florence",
+          "title": "Magnificat Madonna, c. 1483, Uffizi, Florence",
+          "date": "c. 1477",
+          "year": 1477,
+          "place": "Florence",
+          "file": "images/botticelli-magnificat-madonna-c-1483-uffizi-florence.jpg",
+          "w": 1280,
+          "h": 1280
         }
       ]
     },
@@ -2677,6 +7235,27 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Loyset_Compere_Nous_sommes_de_l_ordre_de_St_Babouin_Sung_by_the_dwsChorale.ogg"
             }
           ]
+        },
+        {
+          "id": "compere-missa-lhomme",
+          "title": "Missa L'homme armé",
+          "date": "c. 1480",
+          "year": 1480,
+          "place": "France / Italy (Sforza)"
+        },
+        {
+          "id": "compere-dictes",
+          "title": "Dictes moy toutes voz pensées",
+          "date": "c. 1480",
+          "year": 1480,
+          "place": "France / Italy (Sforza)"
+        },
+        {
+          "id": "compere-nous-sommes",
+          "title": "Nous sommes de l'ordre de Saint Babouin",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "France / Italy (Sforza)"
         }
       ]
     },
@@ -2725,6 +7304,146 @@ const DATA = {
             "text": "PAINTER OF FLORENCE\n\n\nDomenico di Tommaso del Ghirlandajo, who, from his talent and from the\ngreatness and the vast number of his works, may be called one of the\nmost important and most excellent masters of his age, was made by nature\nto be a painter; and for this reason, in spite of the opposition of\nthose who had charge of him (which often nips the finest fruits of our\nintellects in the bud by occupying them with work for which they are not\nsuited, and by diverting them from that to which nature inclines them),\nhe followed his natural instinct, secured very great honour for himself\nand profit for his art and for his kindred, and became the great delight\nof his age.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        },
+        {
+          "id": "ghirlandaio-wiki-domenico-ghirlandaio-self-portrait",
+          "title": "Domenico Ghirlandaio Self Portrait",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-domenico-ghirlandaio-self-portrait.jpg",
+          "w": 887,
+          "h": 1109
+        },
+        {
+          "id": "ghirlandaio-wiki-pope-gregory-announces-the-death-of-santa-f",
+          "title": "Pope Gregory announces the death of Santa Fina, in the Collegiate Church of San Gimignano",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-pope-gregory-announces-the-death-of-santa-fina-i.jpg",
+          "w": 1067,
+          "h": 980
+        },
+        {
+          "id": "ghirlandaio-wiki-the-confirmation-of-the-franciscan-rule-fro",
+          "title": "The Confirmation of the Franciscan Rule from the Sassetti Chapel, with portraits of",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-the-confirmation-of-the-franciscan-rule-from-the.jpg",
+          "w": 1123,
+          "h": 780
+        },
+        {
+          "id": "ghirlandaio-wiki-the-adoration-of-the-shepherds-sassetti-cha",
+          "title": "The Adoration of the Shepherds, Sassetti Chapel, containing a portrait of Ghirlandaio as",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-the-adoration-of-the-shepherds-sassetti-chapel-c.jpg",
+          "w": 1071,
+          "h": 1059
+        },
+        {
+          "id": "ghirlandaio-wiki-detail-of-the-angel-appearing-to-zacharias-",
+          "title": "Detail of the Angel appearing to Zacharias showing portraits of the philosophers Marsilio",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-detail-of-the-angel-appearing-to-zacharias-showi.jpg",
+          "w": 1044,
+          "h": 900
+        },
+        {
+          "id": "ghirlandaio-wiki-visitation-c-1491",
+          "title": "Visitation, c. 1491",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-visitation-c-1491.jpg",
+          "w": 1280,
+          "h": 1265
+        },
+        {
+          "id": "ghirlandaio-wiki-the-birth-of-mary-tornabuoni-chapel-1485-90",
+          "title": "The Birth of Mary, Tornabuoni Chapel (1485–90), appears to represent a domestic scene",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-the-birth-of-mary-tornabuoni-chapel-1485-90-appe.jpg",
+          "w": 1280,
+          "h": 748
+        },
+        {
+          "id": "ghirlandaio-wiki-ghirlandaio-domenico-an-old-man-and-his-gra",
+          "title": "Ghirlandaio, Domenico — An Old Man and His Grandson — Louvre — Google Art Projec",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-ghirlandaio-domenico-an-old-man-and-his-grandson.jpg",
+          "w": 1180,
+          "h": 1600
+        },
+        {
+          "id": "ghirlandaio-wiki-ghirlandaio-giovanna-tornabuoni",
+          "title": "Ghirlandaio — Giovanna Tornabuoni",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-ghirlandaio-giovanna-tornabuoni.jpg",
+          "w": 1007,
+          "h": 1600
+        },
+        {
+          "id": "ghirlandaio-wiki-adoration-of-the-magi-spedale-degli-innocen",
+          "title": "Adoration of the Magi Spedale degli Innocenti",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-adoration-of-the-magi-spedale-degli-innocenti.jpg",
+          "w": 1280,
+          "h": 1516
+        },
+        {
+          "id": "ghirlandaio-wiki-ghirlandaio-ultima-cena-di-san-marco",
+          "title": "Ghirlandaio, ultima cena di san marco",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-ghirlandaio-ultima-cena-di-san-marco.jpg",
+          "w": 1184,
+          "h": 930
+        },
+        {
+          "id": "ghirlandaio-wiki-cappella-sassetti-stigmata-of-saint-francis",
+          "title": "Cappella sassetti, Stigmata of Saint Francis 02",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-cappella-sassetti-stigmata-of-saint-francis-02.jpg",
+          "w": 965,
+          "h": 950
+        },
+        {
+          "id": "ghirlandaio-wiki-ghirlandaio-santa-caterina-da-siena2",
+          "title": "Ghirlandaio, santa caterina da siena2",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-ghirlandaio-santa-caterina-da-siena2.jpg",
+          "w": 268,
+          "h": 1028
+        },
+        {
+          "id": "ghirlandaio-wiki-ghirlandaio-san-lorenzo2",
+          "title": "Ghirlandaio, san lorenzo2",
+          "date": "c. 1471",
+          "year": 1471,
+          "place": "Florence",
+          "file": "images/ghirlandaio-ghirlandaio-san-lorenzo2.jpg",
+          "w": 276,
+          "h": 1032
         }
       ]
     },
@@ -2758,6 +7477,136 @@ const DATA = {
             "text": "How great a benefit poverty may be to men of genius, and how potent\na force it may be to make them become excellent--nay, perfect--in\nthe exercise of any faculty whatsoever, can be seen clearly enough\nin the actions of Pietro Perugino, who, flying from the extremity of\ndistress at Perugia, and betaking himself to Florence in the desire\nto attain to some distinction by means of his talent, remained for\nmany months without any other bed than a miserable chest to sleep\nin, turning night into day, and devoting himself with the greatest\nardour to the unceasing study of his profession.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
           }
+        },
+        {
+          "id": "perugino-wiki-pietro-perugino-031",
+          "title": "Pietro Perugino 031",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-pietro-perugino-031.jpg",
+          "w": 1184,
+          "h": 1600
+        },
+        {
+          "id": "perugino-wiki-citt-della-pieve",
+          "title": "Città della Pieve",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-citt-della-pieve.jpg",
+          "w": 1280,
+          "h": 854
+        },
+        {
+          "id": "perugino-wiki-the-delivery-of-the-keys-fresco-1481-1482-sist",
+          "title": "The Delivery of the Keys fresco, 1481–1482, Sistine Chapel, Rome",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-the-delivery-of-the-keys-fresco-1481-1482-sistin.jpg",
+          "w": 1280,
+          "h": 772
+        },
+        {
+          "id": "perugino-wiki-god-the-father-and-angels-by-pietro-perugino-o",
+          "title": "God the Father and angels by Pietro Perugino on the ceiling of Stanza dell'Incendio del",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-god-the-father-and-angels-by-pietro-perugino-on.jpg",
+          "w": 1280,
+          "h": 1158
+        },
+        {
+          "id": "perugino-wiki-piet-c-1490",
+          "title": "Pietà, c. 1490",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-piet-c-1490.jpg",
+          "w": 1280,
+          "h": 1243
+        },
+        {
+          "id": "perugino-wiki-monument-to-pietro-vannucci-perugia",
+          "title": "Monument to Pietro Vannucci, Perugia",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-monument-to-pietro-vannucci-perugia.jpg",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "id": "perugino-wiki-madonna-and-child-enthroned-with-saints-john-t",
+          "title": "Madonna and Child Enthroned with Saints John the Baptist and Sebastian, 1493",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-madonna-and-child-enthroned-with-saints-john-the.jpg",
+          "w": 1280,
+          "h": 1391
+        },
+        {
+          "id": "perugino-wiki-apollo-and-marsyas-c-1490",
+          "title": "Apollo and Marsyas, c. 1490",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-apollo-and-marsyas-c-1490.jpg",
+          "w": 1162,
+          "h": 1600
+        },
+        {
+          "id": "perugino-wiki-pietro-perugino-assumption-of-the-virgin-wga17",
+          "title": "Pietro Perugino — Assumption of the Virgin — WGA17283",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-pietro-perugino-assumption-of-the-virgin-wga1728.jpg",
+          "w": 900,
+          "h": 1306
+        },
+        {
+          "id": "perugino-wiki-pietro-perugino-cat41b",
+          "title": "Pietro Perugino cat41b",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-pietro-perugino-cat41b.jpg",
+          "w": 1280,
+          "h": 1562
+        },
+        {
+          "id": "perugino-wiki-pietro-perugino-057",
+          "title": "Pietro Perugino 057",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-pietro-perugino-057.jpg",
+          "w": 1280,
+          "h": 1570
+        },
+        {
+          "id": "perugino-wiki-pietro-perugino-025",
+          "title": "Pietro Perugino 025",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-pietro-perugino-025.jpg",
+          "w": 1280,
+          "h": 1553
+        },
+        {
+          "id": "perugino-wiki-lorenzo-di-credi-by-perugino",
+          "title": "Lorenzo di Credi by Perugino",
+          "date": "c. 1484",
+          "year": 1484,
+          "place": "Perugia / Rome / Florence",
+          "file": "images/perugino-lorenzo-di-credi-by-perugino.jpg",
+          "w": 1119,
+          "h": 1600
         }
       ]
     },
@@ -2795,7 +7644,7 @@ const DATA = {
           ]
         },
         {
-          "id": "josquin-missa-pange",
+          "id": "josquin-pange",
           "title": "Missa Pange lingua (Kyrie excerpt)",
           "date": "c. 1515",
           "year": 1515,
@@ -2813,6 +7662,41 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:Josquin_El_grillo_sung_by_the_dwsChorale.ogg"
             }
           ]
+        },
+        {
+          "id": "josquin-nimphes",
+          "title": "Nymphes des bois (Déploration on Ockeghem)",
+          "date": "c. 1497",
+          "year": 1497,
+          "place": "France / Italy (Ferrara, Rome)"
+        },
+        {
+          "id": "josquin-lhomme",
+          "title": "Missa L'homme armé super voces musicales",
+          "date": "c. 1500",
+          "year": 1500,
+          "place": "France / Italy (Ferrara, Rome)"
+        },
+        {
+          "id": "josquin-hercules",
+          "title": "Missa Hercules Dux Ferrariae",
+          "date": "c. 1503",
+          "year": 1503,
+          "place": "France / Italy (Ferrara, Rome)"
+        },
+        {
+          "id": "josquin-miserere",
+          "title": "Miserere mei, Deus",
+          "date": "c. 1503",
+          "year": 1503,
+          "place": "France / Italy (Ferrara, Rome)"
+        },
+        {
+          "id": "josquin-mille",
+          "title": "Mille regretz",
+          "date": "c. 1520",
+          "year": 1520,
+          "place": "France / Italy (Ferrara, Rome)"
         }
       ]
     },
@@ -2876,6 +7760,166 @@ const DATA = {
             "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
           }
+        },
+        {
+          "id": "leonardo-wiki-francesco-melzi-portrait-of-leonardo",
+          "title": "Francesco Melzi — Portrait of Leonardo",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-francesco-melzi-portrait-of-leonardo.jpg",
+          "w": 1117,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-s-baptism-record",
+          "title": "Leonardo da Vinci's baptism record",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-s-baptism-record.jpg",
+          "w": 828,
+          "h": 390
+        },
+        {
+          "id": "leonardo-wiki-the-possible-birthplace-and-childhood-home-of-",
+          "title": "The possible birthplace and childhood home of Leonardo in Anchiano, Vinci, Italy",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-the-possible-birthplace-and-childhood-home-of-le.jpg",
+          "w": 1280,
+          "h": 662
+        },
+        {
+          "id": "leonardo-wiki-the-baptism-of-christ-1472-1475-by-verrocchio-",
+          "title": "The Baptism of Christ (1472–1475) by Verrocchio and Leonardo, Uffizi Gallery",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-the-baptism-of-christ-1472-1475-by-verrocchio-an.jpg",
+          "w": 1280,
+          "h": 1525
+        },
+        {
+          "id": "leonardo-wiki-adoration-of-the-magi-c-1478-1482-d-1-uffizi-f",
+          "title": "Adoration of the Magi c. 1478–1482,[d 1] Uffizi, Florence",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-adoration-of-the-magi-c-1478-1482-d-1-uffizi-flo.jpg",
+          "w": 1280,
+          "h": 1265
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-madonna-mit-der-nelke-7779-9",
+          "title": "LEONARDO — DA — VINCI — MADONNA — MIT — DER — NELKE — 7779 917154 BSTGS",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-madonna-mit-der-nelke-7779-917.jpg",
+          "w": 1189,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-paisagem-do-arno-leonardo-da-vinci",
+          "title": "Paisagem do Arno — Leonardo da Vinci",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-paisagem-do-arno-leonardo-da-vinci.jpg",
+          "w": 800,
+          "h": 553
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-ginevra-de-benci-google-art-",
+          "title": "Leonardo da Vinci — Ginevra de' Benci — Google Art Project",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-ginevra-de-benci-google-art-pr.jpg",
+          "w": 1280,
+          "h": 1357
+        },
+        {
+          "id": "leonardo-wiki-madonna-benois-01",
+          "title": "Madonna benois 01",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-madonna-benois-01.jpg",
+          "w": 823,
+          "h": 1255
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-hanging-of-bernardo-baroncel",
+          "title": "Leonardo da Vinci — Hanging of Bernardo Baroncelli 1479",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-hanging-of-bernardo-baroncelli.jpg",
+          "w": 613,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-virgin-of-the-rocks-c-1483-1493-d-2-louvre-ver",
+          "title": "Virgin of the Rocks, c. 1483–1493,[d 2] Louvre version",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-virgin-of-the-rocks-c-1483-1493-d-2-louvre-versi.jpg",
+          "w": 1009,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-portrait-of-a-musician-pinac",
+          "title": "Leonardo da Vinci — Portrait of a Musician — Pinacoteca Ambrosiana",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-portrait-of-a-musician-pinacot.jpg",
+          "w": 1219,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-da-vinci-vitruve-luc-viatour-cropped",
+          "title": "Da Vinci Vitruve Luc Viatour (cropped)",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-da-vinci-vitruve-luc-viatour-cropped.jpg",
+          "w": 1162,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-study-of-horse",
+          "title": "Study of horse",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-study-of-horse.jpg",
+          "w": 801,
+          "h": 1074
+        },
+        {
+          "id": "leonardo-wiki-leonardo-da-vinci-attrib-la-belle-ferroniere",
+          "title": "Leonardo da Vinci (attrib) — la Belle Ferroniere",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-leonardo-da-vinci-attrib-la-belle-ferroniere.jpg",
+          "w": 1130,
+          "h": 1600
+        },
+        {
+          "id": "leonardo-wiki-sala-asse-18-02-2014-32",
+          "title": "Sala — Asse — 18 — 02 — 2014 — 32",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Florence / Milan / France",
+          "file": "images/leonardo-sala-asse-18-02-2014-32.jpg",
+          "w": 1280,
+          "h": 853
         }
       ]
     },
@@ -2911,6 +7955,166 @@ const DATA = {
           "file": "images/van-eyck-arnolfini.jpg",
           "w": 1280,
           "h": 1751
+        },
+        {
+          "id": "van-eyck-wiki-jan-van-eyck-portrait-of-a-man-self-portrait-1",
+          "title": "Jan van Eyck — Portrait of a Man (Self Portrait?) 1433",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-jan-van-eyck-portrait-of-a-man-self-portrait-143.jpg",
+          "w": 1163,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-the-arnolfini-portrait-oil-on-oak-1434-nationa",
+          "title": "The Arnolfini Portrait, oil on oak, 1434. National Gallery, London",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-the-arnolfini-portrait-oil-on-oak-1434-national.jpg",
+          "w": 1170,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-hubert-and-jan-van-eyck-ghent-altarpiece-compl",
+          "title": "Hubert and Jan van Eyck, Ghent Altarpiece, completed 1432. Saint Bavo Cathedral, Ghent",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-hubert-and-jan-van-eyck-ghent-altarpiece-complet.jpg",
+          "w": 1280,
+          "h": 944
+        },
+        {
+          "id": "van-eyck-wiki-portrait-of-margaret-van-eyck-groeningemuseum-",
+          "title": "Portrait of Margaret van Eyck, Groeningemuseum, Bruges, 1439",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-portrait-of-margaret-van-eyck-groeningemuseum-br.jpg",
+          "w": 1253,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-annunciation-1434-1436-national-gallery-of-art",
+          "title": "Annunciation, 1434–1436; National Gallery of Art, Washington",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-annunciation-1434-1436-national-gallery-of-art-w.jpg",
+          "w": 606,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-bas-de-page-of-the-baptism-of-christ-hand-g-tu",
+          "title": "Bas-de-page of the Baptism of Christ, Hand G, Turin. Milan Filio 93v, Inv 47.",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-bas-de-page-of-the-baptism-of-christ-hand-g-turi.jpg",
+          "w": 1280,
+          "h": 474
+        },
+        {
+          "id": "van-eyck-wiki-dresden-triptych-oil-on-oak-panel-1437-gem-lde",
+          "title": "Dresden Triptych. Oil on oak panel, 1437. Gemäldegalerie Alte Meister, Dresden",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-dresden-triptych-oil-on-oak-panel-1437-gem-ldega.jpg",
+          "w": 1280,
+          "h": 943
+        },
+        {
+          "id": "van-eyck-wiki-madonna-of-chancellor-rolin-c-1435-mus-e-du-lo",
+          "title": "Madonna of Chancellor Rolin, c. 1435. Musée du Louvre, Paris",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-madonna-of-chancellor-rolin-c-1435-mus-e-du-louv.jpg",
+          "w": 1280,
+          "h": 1330
+        },
+        {
+          "id": "van-eyck-wiki-madonna-in-the-church-c-1438-1440-gem-ldegaler",
+          "title": "Madonna in the Church, c. 1438–1440. Gemäldegalerie, Berlin",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-madonna-in-the-church-c-1438-1440-gem-ldegalerie.jpg",
+          "w": 770,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-ghent-altarpiece-detail-showing-the-virgin-mar",
+          "title": "Ghent Altarpiece, detail showing the Virgin Mary",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-ghent-altarpiece-detail-showing-the-virgin-mary.jpg",
+          "w": 730,
+          "h": 1010
+        },
+        {
+          "id": "van-eyck-wiki-jan-van-eyck-man-in-a-blue-cap-c-1430",
+          "title": "Jan van Eyck — Man in a Blue Cap (c.1430)",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-jan-van-eyck-man-in-a-blue-cap-c-1430.jpg",
+          "w": 1066,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-eyck-jan-van-portrait-of-a-young-man-tymotheos",
+          "title": "Eyck, Jan van — Portrait of a Young Man (Tymotheos) — National Gallery, London",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-eyck-jan-van-portrait-of-a-young-man-tymotheos-n.jpg",
+          "w": 890,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-jan-van-eyck-um-1390-1400-1441-baudouin-de-lan",
+          "title": "Jan van Eyck (um 1390 — 1400 — 1441) — Baudouin de Lannoy — 525G — Gemäldegaleri",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-jan-van-eyck-um-1390-1400-1441-baudouin-de-lanno.jpg",
+          "w": 1166,
+          "h": 1600
+        },
+        {
+          "id": "van-eyck-wiki-virgin-and-child-with-canon-van-der-paele-c-14",
+          "title": "Virgin and Child with Canon van der Paele, c. 1434–1436. Groeningemuseum, Bruges. Van",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-virgin-and-child-with-canon-van-der-paele-c-1434.jpg",
+          "w": 1280,
+          "h": 994
+        },
+        {
+          "id": "van-eyck-wiki-detail-with-mirror-and-signature-arnolfini-por",
+          "title": "Detail with mirror and signature; Arnolfini Portrait, 1434",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-detail-with-mirror-and-signature-arnolfini-portr.jpg",
+          "w": 1000,
+          "h": 1108
+        },
+        {
+          "id": "van-eyck-wiki-copy-of-a-van-eyck-portrait-of-isabella-of-por",
+          "title": "Copy of a Van Eyck, Portrait of Isabella of Portugal (original lost). Private collection",
+          "date": "c. 1415",
+          "year": 1415,
+          "place": "Bruges / Ghent",
+          "file": "images/van-eyck-copy-of-a-van-eyck-portrait-of-isabella-of-portu.jpg",
+          "w": 449,
+          "h": 530
         }
       ]
     },
@@ -2936,6 +8140,136 @@ const DATA = {
           "file": "images/campin-merode.jpg",
           "w": 1280,
           "h": 1017
+        },
+        {
+          "id": "campin-wiki-robert-campin-013",
+          "title": "Robert Campin 013",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-robert-campin-013.jpg",
+          "w": 1086,
+          "h": 1600
+        },
+        {
+          "id": "campin-wiki-robert-campin-012",
+          "title": "Robert Campin 012",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-robert-campin-012.jpg",
+          "w": 1086,
+          "h": 1600
+        },
+        {
+          "id": "campin-wiki-the-seilern-triptych-c-1425-one-of-two-of-campin",
+          "title": "The Seilern Triptych, c. 1425. One of two of Campin's surviving triptychs.[6] As an early",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-the-seilern-triptych-c-1425-one-of-two-of-campin.jpg",
+          "w": 1280,
+          "h": 773
+        },
+        {
+          "id": "campin-wiki-the-m-rode-altarpiece-attributed-to-the-master-o",
+          "title": "The Mérode Altarpiece, attributed to the Master of Flémalle or workshop, c. 1425–1428.",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-the-m-rode-altarpiece-attributed-to-the-master-o.jpg",
+          "w": 1280,
+          "h": 651
+        },
+        {
+          "id": "campin-wiki-descent-from-the-cross-probable-workshop-copy-of",
+          "title": "Descent from the Cross, probable workshop copy of a lost triptych.",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-descent-from-the-cross-probable-workshop-copy-of.jpg",
+          "w": 1280,
+          "h": 637
+        },
+        {
+          "id": "campin-wiki-right-hand-panel-of-the-1438-werl-triptych-now-i",
+          "title": "Right hand panel of the 1438 Werl Triptych, now in the Prado, Madrid",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-right-hand-panel-of-the-1438-werl-triptych-now-i.jpg",
+          "w": 722,
+          "h": 1600
+        },
+        {
+          "id": "campin-wiki-portrait-of-st-veronica-attributed-to-robert-cam",
+          "title": "Portrait of St. Veronica, attributed to Robert Campin workshop",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-portrait-of-st-veronica-attributed-to-robert-cam.jpg",
+          "w": 498,
+          "h": 1300
+        },
+        {
+          "id": "campin-wiki-los-desposorios-de-la-virgen-por-robert-campin",
+          "title": "Los Desposorios de la Virgen, por Robert Campin",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-los-desposorios-de-la-virgen-por-robert-campin.jpg",
+          "w": 1280,
+          "h": 1124
+        },
+        {
+          "id": "campin-wiki-la-anunciaci-n-por-robert-campin",
+          "title": "La Anunciación, por Robert Campin",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-la-anunciaci-n-por-robert-campin.jpg",
+          "w": 1280,
+          "h": 1406
+        },
+        {
+          "id": "campin-wiki-the-nativity-robert-campin",
+          "title": "The Nativity Robert Campin",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-the-nativity-robert-campin.jpg",
+          "w": 1280,
+          "h": 1536
+        },
+        {
+          "id": "campin-wiki-robert-campin-009",
+          "title": "Robert Campin 009",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-robert-campin-009.jpg",
+          "w": 1025,
+          "h": 1600
+        },
+        {
+          "id": "campin-wiki-robert-campin-the-virgin-and-child-before-a-fire",
+          "title": "Robert Campin — The Virgin and Child before a Firescreen (National Gallery Londo",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-robert-campin-the-virgin-and-child-before-a-fire.jpg",
+          "w": 1225,
+          "h": 1600
+        },
+        {
+          "id": "campin-wiki-robertcampin-trinity",
+          "title": "RobertCampin — Trinity",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Tournai",
+          "file": "images/campin-robertcampin-trinity.jpg",
+          "w": 1034,
+          "h": 1600
         }
       ]
     },
@@ -2971,6 +8305,36 @@ const DATA = {
           "file": "images/sluter-champmol.jpg",
           "w": 1280,
           "h": 1920
+        },
+        {
+          "id": "claus-sluter-wiki-statue-of-claus-sluter-in-dijon",
+          "title": "Statue of Claus Sluter in Dijon.",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Dijon (Chartreuse de Champmol)",
+          "file": "images/claus-sluter-statue-of-claus-sluter-in-dijon.jpg",
+          "w": 800,
+          "h": 1600
+        },
+        {
+          "id": "claus-sluter-wiki-zechariah-and-two-mourning-angels-from-the",
+          "title": "Zechariah and two mourning angels from the Well of Moses",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Dijon (Chartreuse de Champmol)",
+          "file": "images/claus-sluter-zechariah-and-two-mourning-angels-from-the-well.jpg",
+          "w": 1280,
+          "h": 854
+        },
+        {
+          "id": "claus-sluter-wiki-monumental-portal-of-the-chartreuse-of-cha",
+          "title": "Monumental portal of the Chartreuse of Champmol at Dijon by Claus Sluter",
+          "date": "c. 1373",
+          "year": 1373,
+          "place": "Dijon (Chartreuse de Champmol)",
+          "file": "images/claus-sluter-monumental-portal-of-the-chartreuse-of-champmol.jpg",
+          "w": 1280,
+          "h": 1064
         }
       ]
     },
@@ -3006,6 +8370,41 @@ const DATA = {
               "url": "https://commons.wikimedia.org/wiki/File:HontePaour.mid"
             }
           ]
+        },
+        {
+          "id": "machaut-douce",
+          "title": "Douce dame jolie",
+          "date": "c. 1350",
+          "year": 1350,
+          "place": "Reims"
+        },
+        {
+          "id": "machaut-quant-vraie",
+          "title": "Quant en moy / Amour et biauté / Amara valde",
+          "date": "c. 1350",
+          "year": 1350,
+          "place": "Reims"
+        },
+        {
+          "id": "machaut-rose",
+          "title": "Rose, liz, printemps, verdure",
+          "date": "c. 1355",
+          "year": 1355,
+          "place": "Reims"
+        },
+        {
+          "id": "machaut-ma-fin",
+          "title": "Ma fin est mon commencement",
+          "date": "c. 1360",
+          "year": 1360,
+          "place": "Reims"
+        },
+        {
+          "id": "machaut-voir-dit",
+          "title": "Le Voir Dit (songs)",
+          "date": "c. 1365",
+          "year": 1365,
+          "place": "Reims"
         }
       ]
     },
@@ -3037,6 +8436,34 @@ const DATA = {
               "url": "https://archive.org/details/mhu-2.472-danses-du-moyen-age-clementic-cons.-ens.-ricercare"
             }
           ]
+        },
+        {
+          "id": "landini-ecco",
+          "title": "Ecco la primavera",
+          "date": "c. 1375",
+          "year": 1375,
+          "place": "Florence"
+        },
+        {
+          "id": "landini-gram",
+          "title": "Gram piant' agl' ochi",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Florence"
+        },
+        {
+          "id": "landini-sy",
+          "title": "Sy dolce non sono",
+          "date": "c. 1380",
+          "year": 1380,
+          "place": "Florence"
+        },
+        {
+          "id": "landini-non-avra",
+          "title": "Non avrà ma' pietà",
+          "date": "c. 1385",
+          "year": 1385,
+          "place": "Florence"
         }
       ]
     },
@@ -3072,6 +8499,48 @@ const DATA = {
               "url": "https://archive.org/details/01-syntagma-musicum-francescus-andrieu-armes-amours_202409"
             }
           ]
+        },
+        {
+          "id": "dufay-resvellies",
+          "title": "Resvellies vous",
+          "date": "c. 1423",
+          "year": 1423,
+          "place": "Florence / Ferrara / Rome / Cambrai"
+        },
+        {
+          "id": "dufay-ave-maris",
+          "title": "Ave maris stella",
+          "date": "c. 1430",
+          "year": 1430,
+          "place": "Florence / Ferrara / Rome / Cambrai"
+        },
+        {
+          "id": "dufay-flors",
+          "title": "Flos florum",
+          "date": "c. 1430",
+          "year": 1430,
+          "place": "Florence / Ferrara / Rome / Cambrai"
+        },
+        {
+          "id": "dufay-conditor",
+          "title": "Conditor alme siderum",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Florence / Ferrara / Rome / Cambrai"
+        },
+        {
+          "id": "dufay-se-la-face",
+          "title": "Se la face ay pale (missa & chanson)",
+          "date": "c. 1450",
+          "year": 1450,
+          "place": "Florence / Ferrara / Rome / Cambrai"
+        },
+        {
+          "id": "dufay-lhomme",
+          "title": "Missa L'homme armé",
+          "date": "c. 1460",
+          "year": 1460,
+          "place": "Florence / Ferrara / Rome / Cambrai"
         }
       ]
     },
@@ -3103,6 +8572,34 @@ const DATA = {
               "url": "https://archive.org/details/01-arnold-de-lantins-puisque-je-voy"
             }
           ]
+        },
+        {
+          "id": "binchois-tristre",
+          "title": "Triste plaisir et douloureuse joye",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Burgundy"
+        },
+        {
+          "id": "binchois-dueil",
+          "title": "Dueil angoisseus",
+          "date": "c. 1435",
+          "year": 1435,
+          "place": "Burgundy"
+        },
+        {
+          "id": "binchois-files",
+          "title": "Files a marier",
+          "date": "c. 1440",
+          "year": 1440,
+          "place": "Burgundy"
+        },
+        {
+          "id": "binchois-adieu",
+          "title": "Adieu m'amour",
+          "date": "c. 1440",
+          "year": 1440,
+          "place": "Burgundy"
         }
       ]
     },
@@ -3116,11 +8613,11 @@ const DATA = {
       "medium": "music",
       "region": "north",
       "place": "France (royal chapel)",
-      "famous": "ockeghem-missa",
+      "famous": "ockeghem-prolationum",
       "vasari": null,
       "works": [
         {
-          "id": "ockeghem-missa",
+          "id": "ockeghem-prolationum",
           "title": "Missa prolationum / Ma bouche rit",
           "date": "c. 1460–80",
           "year": 1470,
@@ -3142,6 +8639,41 @@ const DATA = {
               "url": "https://archive.org/details/mb-4109-ockeghem-o-missae-charles-ravier"
             }
           ]
+        },
+        {
+          "id": "ockeghem-mi-mi",
+          "title": "Missa Mi-mi",
+          "date": "c. 1460",
+          "year": 1460,
+          "place": "France (royal chapel)"
+        },
+        {
+          "id": "ockeghem-fors",
+          "title": "Fors seulement",
+          "date": "c. 1460",
+          "year": 1460,
+          "place": "France (royal chapel)"
+        },
+        {
+          "id": "ockeghem-deploration",
+          "title": "Mort, tu as navré (Déploration on Binchois)",
+          "date": "c. 1460",
+          "year": 1460,
+          "place": "France (royal chapel)"
+        },
+        {
+          "id": "ockeghem-ma-bouche",
+          "title": "Ma bouche rit",
+          "date": "c. 1465",
+          "year": 1465,
+          "place": "France (royal chapel)"
+        },
+        {
+          "id": "ockeghem-cuiusvis",
+          "title": "Missa cuiusvis toni",
+          "date": "c. 1475",
+          "year": 1475,
+          "place": "France (royal chapel)"
         }
       ]
     }
@@ -3253,20 +8785,7 @@ function boot(){
   pxPerYear = Math.max(10, Math.min(18, avail / years));
   document.documentElement.style.setProperty('--px-per-year', pxPerYear + 'px');
 
-  const sel = $('#century-select');
-  sel.innerHTML = '';
-  centuries().forEach(c => {
-    const opt = document.createElement('option');
-    opt.value = String(c);
-    opt.textContent = centuryLabel(c);
-    sel.appendChild(opt);
-  });
-  sel.value = String(centuries()[0] || 1200);
-  sel.addEventListener('change', () => {
-    const c = Number(sel.value);
-    if (!Number.isFinite(c)) return;
-    scrollToYear(c + 50); // mid-century
-  });
+  setupCenturyMenu();
 
   draw(range);
   scrollToStart();
@@ -3466,6 +8985,73 @@ function scrollToYear(year){
   syncNav();
 }
 
+let centuryValue = null;
+
+function setupCenturyMenu(){
+  const menu = $('#century-menu');
+  const trigger = $('#century-trigger');
+  const label = $('#century-label');
+  if (!menu || !trigger || !label) return;
+  const cents = centuries();
+  centuryValue = cents[0] || 1200;
+  menu.innerHTML = '';
+  cents.forEach(c => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'century-opt';
+    btn.role = 'option';
+    btn.dataset.value = String(c);
+    btn.textContent = centuryLabel(c);
+    btn.setAttribute('aria-selected', c === centuryValue ? 'true' : 'false');
+    btn.addEventListener('click', () => {
+      setCentury(c, true);
+      closeCenturyMenu();
+    });
+    menu.appendChild(btn);
+  });
+  label.textContent = centuryLabel(centuryValue);
+  trigger.addEventListener('click', e => {
+    e.stopPropagation();
+    toggleCenturyMenu();
+  });
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#century-pick')) closeCenturyMenu();
+  });
+}
+
+function setCentury(c, scroll){
+  const cents = centuries();
+  if (!cents.includes(c)) return;
+  centuryValue = c;
+  const label = $('#century-label');
+  if (label) label.textContent = centuryLabel(c);
+  document.querySelectorAll('#century-menu .century-opt').forEach(btn => {
+    btn.setAttribute('aria-selected', btn.dataset.value === String(c) ? 'true' : 'false');
+  });
+  if (scroll) scrollToYear(c + 50);
+}
+
+function openCenturyMenu(){
+  const menu = $('#century-menu');
+  const trigger = $('#century-trigger');
+  if (!menu || !trigger) return;
+  menu.hidden = false;
+  trigger.setAttribute('aria-expanded', 'true');
+}
+function closeCenturyMenu(){
+  const menu = $('#century-menu');
+  const trigger = $('#century-trigger');
+  if (!menu || !trigger) return;
+  menu.hidden = true;
+  trigger.setAttribute('aria-expanded', 'false');
+}
+function toggleCenturyMenu(){
+  const menu = $('#century-menu');
+  if (!menu) return;
+  if (menu.hidden) openCenturyMenu();
+  else closeCenturyMenu();
+}
+
 function syncNav(){
   const range = (window.__timeline && window.__timeline.range) || yearRange();
   const st = $('#stage');
@@ -3477,8 +9063,7 @@ function syncNav(){
     if (c < cents[0]) c = cents[0];
     if (c > cents[cents.length-1]) c = cents[cents.length-1];
   }
-  const sel = $('#century-select');
-  if (sel && sel.value !== String(c)) sel.value = String(c);
+  if (centuryValue !== c) setCentury(c, false);
 }
 
 function openPanel(a, focusWork){
@@ -3563,14 +9148,14 @@ function onKey(e){
     clearMediumFilter();
   }
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
-    const sel = $('#century-select');
-    if (!sel) return;
-    const opts = [...sel.options];
-    const on = opts.findIndex(o => o.value === sel.value);
-    const n = e.key === 'ArrowRight' ? on+1 : on-1;
-    if (n>=0 && n<opts.length){
-      sel.value = opts[n].value;
-      sel.dispatchEvent(new Event('change'));
+    const cents = centuries();
+    if (!cents.length) return;
+    const on = cents.indexOf(centuryValue);
+    const idx = on < 0 ? 0 : on;
+    const n = e.key === 'ArrowRight' ? idx+1 : idx-1;
+    if (n>=0 && n<cents.length){
+      setCentury(cents[n], true);
+      closeCenturyMenu();
     }
   }
 }

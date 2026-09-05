@@ -6,17 +6,21 @@
 <title>Vademecum of the arts · 1250–1510</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=EB+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260905e">
+<link rel="stylesheet" href="styles.css?v=20260905f">
 </head>
 <body>
   <header class="mast">
     <div class="mast-left">
       <div class="mast-title-row">
         <h1>Vademecum of the arts</h1>
-        <label class="century-pick" for="century-select">
-          <span class="visually-hidden">Century</span>
-          <select id="century-select" aria-label="Jump to century"></select>
-        </label>
+        <div class="century-pick" id="century-pick">
+          <button type="button" class="century-trigger" id="century-trigger"
+            aria-haspopup="listbox" aria-expanded="false" aria-controls="century-menu"
+            aria-label="Jump to century">
+            <span id="century-label">13th c.</span>
+          </button>
+          <div class="century-menu" id="century-menu" role="listbox" aria-label="Centuries" hidden></div>
+        </div>
       </div>
       <p class="lede">Earliest years at the left; later years to the right</p>
     </div>
@@ -47,6 +51,6 @@
     </figure>
   </div>
 
-<script src="app.js?v=20260905e"></script>
+<script src="app.js?v=20260905f"></script>
 </body>
 </html>
