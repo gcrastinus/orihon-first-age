@@ -16,7 +16,7 @@ Open `index.html`, or `python3 -m http.server 8766`.
 
 ## Live
 
-https://gcrastinus.github.io/orihon-first-age/
+https://gcrastinus.github.io/vademecum/
 
 ## Dispose
 
