@@ -9070,25 +9070,75 @@ function openPanel(a, focusWork){
   openArtist = a;
   const pan = $('#artist-panel');
   let html = `<h2>${escapeHtml(a.nameFull)}</h2>
-    <p class="dates">${escapeHtml(a.dates)} · ${escapeHtml(a.place||'')}</p>
-    <div class="works">`;
-  a.works.forEach(w => {
-    const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
-    const noImg = !w.file;
-    html += `<button type="button" class="${noImg?'no-img':''}" data-work="${w.id}"${hot}>`;
-    if (w.file) html += `<img src="${escapeAttr(w.file)}" alt="" loading="lazy">`;
-    html += `<figcaption><b>${escapeHtml(w.title)}</b><br>${escapeHtml(w.date||'')}<br>${escapeHtml(w.place||'')}</figcaption></button>`;
-  });
-  html += `</div>`;
+    <p class="dates">${escapeHtml(a.dates)} · ${escapeHtml(a.place||'')}</p>`;
 
-  const listens = [];
-  a.works.forEach(w => (w.listen||[]).forEach(L => listens.push({work:w.title, ...L})));
-  if (listens.length){
-    html += `<div class="listen-links">`;
-    listens.forEach(L => {
-      html += `<a href="${escapeAttr(L.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.label)}</a>`;
+  const isMusic = a.medium === 'music';
+  const imageWorks = a.works.filter(w => w.file);
+  const linkedMusic = isMusic ? a.works.filter(w => (w.listen && w.listen.length) || w.about) : [];
+  const textMusic = isMusic ? a.works.filter(w => !(w.listen && w.listen.length) && !w.about && !w.file) : [];
+  // music works that have listen OR about, even if they also have a file — list as links; portraits alone stay in image grid
+  const linkedIds = new Set(linkedMusic.map(w => w.id));
+
+  if (!isMusic){
+    html += `<div class="works">`;
+    a.works.forEach(w => {
+      const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
+      const noImg = !w.file;
+      if (!w.file && !w.listen && !w.about){
+        // should not look like a button
+        return;
+      }
+      if (!w.file && (w.listen || w.about)){
+        const href = (w.listen && w.listen[0] && w.listen[0].url) || w.about;
+        html += `<a class="work-link-card" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer"${hot}><figcaption><b>${escapeHtml(w.title)}</b><br>${escapeHtml(w.date||'')}<br>${escapeHtml(w.place||'')}</figcaption></a>`;
+        return;
+      }
+      html += `<button type="button" class="${noImg?'no-img':''}" data-work="${w.id}"${hot}>`;
+      if (w.file) html += `<img src="${escapeAttr(w.file)}" alt="" loading="lazy">`;
+      html += `<figcaption><b>${escapeHtml(w.title)}</b><br>${escapeHtml(w.date||'')}<br>${escapeHtml(w.place||'')}</figcaption></button>`;
     });
     html += `</div>`;
+  } else {
+    // portraits / manuscript images (optional)
+    const portraits = imageWorks.filter(w => !linkedIds.has(w.id) || !(w.listen && w.listen.length));
+    // show image grid only for items that are primarily images without listen? If has listen, prefer link list.
+    const pureImages = a.works.filter(w => w.file && !(w.listen && w.listen.length) && !w.about);
+    if (pureImages.length){
+      html += `<div class="works">`;
+      pureImages.forEach(w => {
+        const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
+        html += `<button type="button" data-work="${w.id}"${hot}>`;
+        html += `<img src="${escapeAttr(w.file)}" alt="" loading="lazy">`;
+        html += `<figcaption><b>${escapeHtml(w.title)}</b><br>${escapeHtml(w.date||'')}<br>${escapeHtml(w.place||'')}</figcaption></button>`;
+      });
+      html += `</div>`;
+    }
+    const withLink = a.works.filter(w => (w.listen && w.listen.length) || w.about);
+    const plain = a.works.filter(w => !(w.listen && w.listen.length) && !w.about);
+    // plain may include pureImages titles — list compositions once: linked first, then plain text for the rest (skip duplicates already shown only as images if title-only wanted)
+    // User asked: playable/external as links; otherwise plain text list — not buttons.
+    html += `<ul class="works-text">`;
+    withLink.forEach(w => {
+      const href = (w.listen && w.listen[0] && w.listen[0].url) || w.about;
+      const extra = [w.date, w.place].filter(Boolean).join(' · ');
+      html += `<li><a href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(w.title)}</a>`;
+      if (extra) html += ` <span class="work-meta">${escapeHtml(extra)}</span>`;
+      // further listen targets
+      if (w.listen && w.listen.length > 1){
+        w.listen.slice(1).forEach(L => {
+          html += ` · <a href="${escapeAttr(L.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.label || 'recording')}</a>`;
+        });
+      }
+      html += `</li>`;
+    });
+    plain.forEach(w => {
+      // if this was only a portrait image work with no separate composition name needed, still list title as text (not button)
+      const extra = [w.date, w.place].filter(Boolean).join(' · ');
+      html += `<li><span class="work-plain">${escapeHtml(w.title)}</span>`;
+      if (extra) html += ` <span class="work-meta">${escapeHtml(extra)}</span>`;
+      html += `</li>`;
+    });
+    html += `</ul>`;
   }
 
   const workQuotes = a.works.filter(w => w.vasari && w.vasari.text);
@@ -9113,7 +9163,6 @@ function openPanel(a, focusWork){
     btn.addEventListener('click', () => {
       const w = a.works.find(x => x.id === btn.dataset.work);
       if (w && w.file) openLight(a, w);
-      else if (w && w.listen && w.listen[0]) window.open(w.listen[0].url, '_blank', 'noopener,noreferrer');
     });
   });
 }

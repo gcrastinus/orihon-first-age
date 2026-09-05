@@ -319,3 +319,13 @@ details.vasari blockquote{
 }
 details.vasari .cite{margin:0 12px 12px; font-size:12px; color:#6a5640;}
 details.vasari .note-muted{margin:0 12px 8px;}
+
+/* Music / text-only works: list, not fake buttons */
+.works-text{list-style:none; margin:12px 0 0; padding:0; font-family:"EB Garamond",Garamond,serif; font-size:16px; line-height:1.45;}
+.works-text li{margin:0 0 8px; padding:0; color:var(--ink);}
+.works-text a{color:var(--vermilion); text-decoration:underline; text-underline-offset:2px; font-family:"EB Garamond",Garamond,serif;}
+.works-text a:hover,.works-text a:focus{color:var(--bole); outline:none;}
+.works-text .work-plain{color:var(--ink);}
+.works-text .work-meta{color:#6a5640; font-size:14px; font-style:italic;}
+.work-link-card{display:block; text-decoration:none; color:inherit; border:1px solid color-mix(in srgb, var(--bole) 35%, transparent); border-radius:4px; padding:8px 10px; background:color-mix(in srgb, #fff6de 55%, transparent); font-family:"EB Garamond",Garamond,serif;}
+.work-link-card:hover{border-color:var(--vermilion);}
