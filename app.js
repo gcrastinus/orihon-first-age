@@ -727,16 +727,6 @@ const DATA = {
           "h": 1600
         },
         {
-          "id": "giotto-wiki-kiss-of-judas-scrovegni-chapel",
-          "title": "Kiss of Judas, Scrovegni Chapel",
-          "date": "c. 1302",
-          "year": 1302,
-          "place": "Florence / Padua",
-          "file": "images/giotto-kiss-of-judas-scrovegni-chapel.jpg",
-          "w": 1280,
-          "h": 1248
-        },
-        {
           "id": "giotto-wiki-details-of-figures-from-the-raising-of-drusiana",
           "title": "Details of figures from the Raising of Drusiana in the Peruzzi Chapel",
           "date": "c. 1302",
@@ -1356,16 +1346,6 @@ const DATA = {
           "h": 1920
         },
         {
-          "id": "bruges-belfry-wiki-brugge-belfort-hdr",
-          "title": "Brugge Belfort HDR",
-          "date": "c. 1288",
-          "year": 1288,
-          "place": "Bruges",
-          "file": "images/bruges-belfry-brugge-belfort-hdr.jpg",
-          "w": 1067,
-          "h": 1600
-        },
-        {
           "id": "bruges-belfry-wiki-bruges-market-square-and-belfry",
           "title": "Bruges Market Square and Belfry",
           "date": "c. 1288",
@@ -1752,16 +1732,6 @@ const DATA = {
           "file": "images/simone-simone-martini-christ-discovered-in-the-temple-g.jpg",
           "w": 1138,
           "h": 1600
-        },
-        {
-          "id": "simone-wiki-simone-martini-maest-google-art-project",
-          "title": "Simone Martini — Maestà — Google Art Project",
-          "date": "c. 1314",
-          "year": 1314,
-          "place": "Siena",
-          "file": "images/simone-simone-martini-maest-google-art-project.jpg",
-          "w": 1280,
-          "h": 984
         }
       ]
     },
@@ -3673,16 +3643,6 @@ const DATA = {
           "h": 1086
         },
         {
-          "id": "agnolo-gaddi-wiki-florence-santa-croce-apse-legend-of-the-tr",
-          "title": "Florence, Santa Croce, apse, Legend of the True Cross, frescoe cycle by Agnolo G",
-          "date": "c. 1373",
-          "year": 1373,
-          "place": "Florence",
-          "file": "images/agnolo-gaddi-florence-santa-croce-apse-legend-of-the-true-cro.jpg",
-          "w": 1067,
-          "h": 1600
-        },
-        {
           "id": "agnolo-gaddi-wiki-the-coronation-of-the-virgin-with-six-ange",
           "title": "The coronation of the virgin with six angels 1939.1.203",
           "date": "c. 1373",
@@ -4313,16 +4273,6 @@ const DATA = {
           "h": 514
         },
         {
-          "id": "brunelleschi-wiki-florence-piazza-ss-annunziata-with-ospedal",
-          "title": "Florence, Piazza SS Annunziata with Ospedale degli Innocenti (1419 — 39) and par",
-          "date": "c. 1411",
-          "year": 1411,
-          "place": "Florence",
-          "file": "images/brunelleschi-florence-piazza-ss-annunziata-with-ospedale-degl.jpg",
-          "w": 1280,
-          "h": 720
-        },
-        {
           "id": "brunelleschi-wiki-spedale-degli-innocenti-chiostro-degli-uom",
           "title": "Spedale degli innocenti, chiostro degli uomini 01 con scultura di tony cragg, st",
           "date": "c. 1411",
@@ -4504,16 +4454,6 @@ const DATA = {
           "file": "images/donatello-donatello-miracolo-della-mula-1446-49-ca-pd-muse.jpg",
           "w": 1181,
           "h": 1475
-        },
-        {
-          "id": "donatello-wiki-david-at-the-bargello-in-florence",
-          "title": "David at the Bargello in Florence",
-          "date": "c. 1426",
-          "year": 1426,
-          "place": "Florence / Padua",
-          "file": "images/donatello-david-at-the-bargello-in-florence.jpg",
-          "w": 1066,
-          "h": 1600
         },
         {
           "id": "donatello-wiki-16th-century-portraits-of-florentine-culture-",
@@ -5889,16 +5829,6 @@ const DATA = {
           "h": 1280
         },
         {
-          "id": "pisanello-wiki-the-vision-of-saint-eustace-c-1438-1442",
-          "title": "The Vision of Saint Eustace, c. 1438–1442.",
-          "date": "c. 1425",
-          "year": 1425,
-          "place": "Verona / courts of Ferrara & Mantua",
-          "file": "images/pisanello-the-vision-of-saint-eustace-c-1438-1442.jpg",
-          "w": 1280,
-          "h": 1053
-        },
-        {
           "id": "pisanello-wiki-cecilia-gonzaga-medal-innocence-and-unicorn-i",
           "title": "Cecilia Gonzaga medal: Innocence and Unicorn in Moonlit Landscape (1447).",
           "date": "c. 1425",
@@ -6215,16 +6145,6 @@ const DATA = {
           "h": 869
         },
         {
-          "id": "domenico-veneziano-wiki-domenico-veneziano-001",
-          "title": "Domenico Veneziano 001",
-          "date": "c. 1435",
-          "year": 1435,
-          "place": "Florence",
-          "file": "images/domenico-veneziano-domenico-veneziano-001.jpg",
-          "w": 1280,
-          "h": 1124
-        },
-        {
           "id": "domenico-veneziano-wiki-annunciation-predella-3-fitzwilliam-",
           "title": "Annunciation (predella 3), fitzwilliam museum, Cambridge",
           "date": "c. 1435",
@@ -6425,16 +6345,6 @@ const DATA = {
           "place": "Sansepolcro / Urbino",
           "file": "images/piero-first-page-of-the-trattato-d-abaco.jpg",
           "w": 1022,
-          "h": 1600
-        },
-        {
-          "id": "piero-wiki-the-baptism-of-christ-c-1450-national-gallery-lo",
-          "title": "The Baptism of Christ, c. 1450, National Gallery, London",
-          "date": "c. 1453",
-          "year": 1453,
-          "place": "Sansepolcro / Urbino",
-          "file": "images/piero-the-baptism-of-christ-c-1450-national-gallery-lo.jpg",
-          "w": 1095,
           "h": 1600
         },
         {
@@ -7126,16 +7036,6 @@ const DATA = {
           "h": 805
         },
         {
-          "id": "botticelli-wiki-the-birth-of-venus-c-1485-uffizi",
-          "title": "The Birth of Venus, c. 1485, Uffizi",
-          "date": "c. 1477",
-          "year": 1477,
-          "place": "Florence",
-          "file": "images/botticelli-the-birth-of-venus-c-1485-uffizi.jpg",
-          "w": 1280,
-          "h": 804
-        },
-        {
           "id": "botticelli-wiki-venus-and-mars-c-1485-tempera-on-panel-69-cm",
           "title": "Venus and Mars, c. 1485, tempera on panel, 69 cm × 173 cm (27.17 in × 68.11 in), National",
           "date": "c. 1477",
@@ -7376,16 +7276,6 @@ const DATA = {
           "h": 748
         },
         {
-          "id": "ghirlandaio-wiki-ghirlandaio-domenico-an-old-man-and-his-gra",
-          "title": "Ghirlandaio, Domenico — An Old Man and His Grandson — Louvre — Google Art Projec",
-          "date": "c. 1471",
-          "year": 1471,
-          "place": "Florence",
-          "file": "images/ghirlandaio-ghirlandaio-domenico-an-old-man-and-his-grandson.jpg",
-          "w": 1180,
-          "h": 1600
-        },
-        {
           "id": "ghirlandaio-wiki-ghirlandaio-giovanna-tornabuoni",
           "title": "Ghirlandaio — Giovanna Tornabuoni",
           "date": "c. 1471",
@@ -7497,16 +7387,6 @@ const DATA = {
           "file": "images/perugino-citt-della-pieve.jpg",
           "w": 1280,
           "h": 854
-        },
-        {
-          "id": "perugino-wiki-the-delivery-of-the-keys-fresco-1481-1482-sist",
-          "title": "The Delivery of the Keys fresco, 1481–1482, Sistine Chapel, Rome",
-          "date": "c. 1484",
-          "year": 1484,
-          "place": "Perugia / Rome / Florence",
-          "file": "images/perugino-the-delivery-of-the-keys-fresco-1481-1482-sistin.jpg",
-          "w": 1280,
-          "h": 772
         },
         {
           "id": "perugino-wiki-god-the-father-and-angels-by-pietro-perugino-o",
@@ -7964,16 +7844,6 @@ const DATA = {
           "place": "Bruges / Ghent",
           "file": "images/van-eyck-jan-van-eyck-portrait-of-a-man-self-portrait-143.jpg",
           "w": 1163,
-          "h": 1600
-        },
-        {
-          "id": "van-eyck-wiki-the-arnolfini-portrait-oil-on-oak-1434-nationa",
-          "title": "The Arnolfini Portrait, oil on oak, 1434. National Gallery, London",
-          "date": "c. 1415",
-          "year": 1415,
-          "place": "Bruges / Ghent",
-          "file": "images/van-eyck-the-arnolfini-portrait-oil-on-oak-1434-national.jpg",
-          "w": 1170,
           "h": 1600
         },
         {
