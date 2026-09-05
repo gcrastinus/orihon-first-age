@@ -1508,6 +1508,179 @@
       ]
     },
     {
+      "id": "agnolo-gaddi",
+      "name": "Agnolo Gaddi",
+      "nameFull": "Agnolo Gaddi",
+      "dates": "c. 1350–1396",
+      "born": 1350,
+      "died": 1396,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "agnolo-true-cross",
+      "vasari": {
+        "life": "Life of Agnolo Gaddi",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "works": [
+        {
+          "id": "agnolo-true-cross",
+          "title": "Legend of the True Cross (north wall)",
+          "date": "c. 1385–87",
+          "year": 1386,
+          "place": "Florence, Santa Croce (apse)",
+          "file": "images/agnolo-true-cross.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Alberti chapel cycle: Constantine, Helena, and the wood of the Cross in late Trecento narrative.",
+          "vasari": {
+            "life": "Life of Agnolo Gaddi",
+            "text": "For the noble family of the Alberti, likewise, he painted in fresco the\nprincipal chapel of the Church of S. Croce, making therein all that came\nto pass in the discovery of the Cross, and he executed that work with\nmuch mastery of handling but not with much design, for only the\ncolouring is beautiful and good enough. Next, in painting in fresco some\nstories of S. Louis in the Chapel of the Bardi in the same church, he\nacquitted himself much better. And because he used to work by caprice,\nnow with more zeal and now with less, working in S. Spirito, also in\nFlorence, within the door that leads from the square into the convent,\nhe made in fresco, over another door, a Madonna with the Child in her\narms, and S. Augustine and S. Nicholas, so well that the said figures…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        },
+        {
+          "id": "agnolo-true-cross-south",
+          "title": "Legend of the True Cross (south wall)",
+          "date": "c. 1385–87",
+          "year": 1387,
+          "place": "Florence, Santa Croce (apse)",
+          "file": "images/agnolo-true-cross-cycle.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Companion wall of the Maggiore chapel cycle — Taddeo’s son carrying Giotto’s shop into the next generation.",
+          "vasari": {
+            "life": "Life of Agnolo Gaddi",
+            "text": "For the noble family of the Alberti, likewise, he painted in fresco the\nprincipal chapel of the Church of S. Croce, making therein all that came\nto pass in the discovery of the Cross, and he executed that work with\nmuch mastery of handling but not with much design, for only the\ncolouring is beautiful and good enough. Next, in painting in fresco some\nstories of S. Louis in the Chapel of the Bardi in the same church, he\nacquitted himself much better. And because he used to work by caprice,\nnow with more zeal and now with less, working in S. Spirito, also in\nFlorence, within the door that leads from the square into the convent,\nhe made in fresco, over another door, a Madonna with the Child in her\narms, and S. Augustine and S. Nicholas, so well that the said figures…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        }
+      ]
+    },
+    {
+      "id": "spinello-aretino",
+      "name": "Spinello Aretino",
+      "nameFull": "Spinello Aretino (Spinello di Luca Spinelli)",
+      "dates": "c. 1350–1410",
+      "born": 1350,
+      "died": 1410,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Arezzo / Florence / Siena",
+      "famous": "spinello-san-miniato",
+      "vasari": {
+        "life": "Life of Spinello Aretino",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "spinello-annunciation",
+          "title": "Annunciation",
+          "date": "c. 1380s",
+          "year": 1385,
+          "place": "Arezzo, San Domenico",
+          "file": "images/spinello-annunciation.jpg",
+          "w": 1280,
+          "h": 1091,
+          "note": "Arezzo fresco: angel and Virgin in Spinello’s firm late-Gothic line.",
+          "vasari": {
+            "life": "Life of Spinello Aretino",
+            "text": "Luca Spinelli having gone to dwell in Arezzo on one of the several\noccasions when the Ghibellines were driven out of Florence, there was\nborn to him in that city a son, to whom he gave the name of Spinello, so\nmuch inclined by nature to be a painter, that almost without a master,\nwhile still a boy, he knew what many exercised under the discipline of\nthe best masters do not know; and what is more, having had friendship\nwith Jacopo di Casentino while he worked in Arezzo, and having learnt\nsomething from him, before he was twenty years of age he was by a long\nway a much better master, young as he was, than was Jacopo himself,\nalready an old painter. Spinello, then, began to be reputed a good\npainter, and Messer Dardano Acciaiuoli, having caused the Church of S…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "spinello-san-miniato",
+          "title": "Scenes from the Life of Saint Benedict",
+          "date": "c. 1384–85",
+          "year": 1385,
+          "place": "Florence, San Miniato al Monte (sacristy)",
+          "file": "images/spinello-san-miniato.jpg",
+          "w": 1280,
+          "h": 853,
+          "note": "Olivetan sacristy cycle: Benedictine narrative for the hillside basilica.",
+          "vasari": {
+            "life": "Life of Spinello Aretino",
+            "text": "Being next summoned to the famous Abbey of Camaldoli in the Casentino,\nin the year 1361, he made for the hermits of that place the panel of the\nhigh-altar, which was removed in the year 1539, when, that church having\nbeen just rebuilt completely anew, Giorgio Vasari made a new panel, and\npainted in fresco the whole of the principal chapel of that abbey, and\nthe tramezzo[2] of the church, also in fresco, and two other panels.\nSummoned thence to Florence by Don Jacopo d'Arezzo, Abbot of S. Miniato\nsul Monte, of the Order of Monte Oliveto, Spinello painted on the\nvaulting and on the four walls of the sacristy of that monastery,\nbesides the panel in distemper for the altar, many scenes in fresco of\nthe life of S. Benedict, with great mastery and with much vivacity of…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giottino",
+      "name": "Giottino",
+      "nameFull": "Giottino (Tommaso / Maso — contested)",
+      "dates": "fl. mid-14th century",
+      "born": 1324,
+      "died": 1357,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "giottino-pieta",
+      "vasari": {
+        "life": "Life of Tommaso, called Giottino",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+      },
+      "vasariNote": "Vasari’s Giottino (Tommaso di Stefano / Maso) is contested: the Uffizi Pietà is often linked to this Life, but modern attribution debates Maso di Banco and others.",
+      "works": [
+        {
+          "id": "giottino-pieta",
+          "title": "Pietà di San Remigio (Descent from the Cross)",
+          "date": "c. 1360–65",
+          "year": 1360,
+          "place": "Florence, Uffizi",
+          "file": "images/giottino-pieta.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Gold-ground lamentation Vasari illustrated as Giottino — attribution still debated.",
+          "vasari": {
+            "life": "Life of Tommaso, called Giottino",
+            "text": "PAINTER OF FLORENCE\n\n\nWhen those arts that proceed from design come into competition and their\ncraftsmen work in rivalry, without doubt the good intellects, exercising\nthemselves with much study, discover new things every day in order to\nsatisfy the various tastes of men; and some, speaking for the present of\npainting, executing works obscure and unusual and demonstrating in them\nthe difficulty of making them, make known by the shadows the brightness\nof their genius. Others, fashioning the sweet and delicate, thinking\nthese to be likely to be more pleasing to the eyes of all who behold\nthem by reason of their having more relief, easily attract to themselves\nthe minds of the greater part of men. Others, again, painting with unity…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
+          }
+        }
+      ]
+    },
+    {
+      "id": "altichiero",
+      "name": "Altichiero",
+      "nameFull": "Altichiero da Zevio",
+      "dates": "c. 1330–1390",
+      "born": 1330,
+      "died": 1390,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Verona / Padua",
+      "famous": "altichiero-crucifixion",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — major north-Italian Trecento master (Padua’s Santo and Oratorio di San Giorgio), outside Vasari’s Florentine First Age focus.",
+      "works": [
+        {
+          "id": "altichiero-crucifixion",
+          "title": "Crucifixion (Cappella di San Felice)",
+          "date": "c. 1376–79",
+          "year": 1378,
+          "place": "Padua, Basilica del Santo",
+          "file": "images/altichiero-crucifixion.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Crowded Giotto-afterlife drama under the Santo’s vaults — Verona’s school in Padua."
+        },
+        {
+          "id": "altichiero-san-giorgio",
+          "title": "Crucifixion (Oratorio di San Giorgio)",
+          "date": "c. 1379–84",
+          "year": 1382,
+          "place": "Padua, Oratorio di San Giorgio",
+          "file": "images/altichiero-san-giorgio.jpg",
+          "w": 1200,
+          "h": 1600,
+          "note": "Altar wall of the oratory: chivalric saints’ chapel beside the Santo."
+        }
+      ]
+    },
+    {
       "id": "jacopo-bologna",
       "name": "Jacopo da Bologna",
       "nameFull": "Jacopo da Bologna",
@@ -1790,6 +1963,106 @@
       ]
     },
     {
+      "id": "jacopo-della-quercia",
+      "name": "Jacopo della Quercia",
+      "nameFull": "Jacopo della Quercia (Jacopo della Fonte)",
+      "dates": "c. 1374–1438",
+      "born": 1374,
+      "died": 1438,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Siena / Lucca / Bologna",
+      "famous": "quercia-ilaria",
+      "vasari": {
+        "life": "Life of Jacopo della Quercia",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "quercia-ilaria",
+          "title": "Tomb of Ilaria del Carretto",
+          "date": "c. 1406–08",
+          "year": 1408,
+          "place": "Lucca, Cathedral of San Martino",
+          "file": "images/quercia-ilaria.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Guinigi’s wife in marble sleep — dog at her feet, boys with garlands on the base.",
+          "vasari": {
+            "life": "Life of Jacopo della Quercia",
+            "text": "After this work, Jacopo made in Siena two panels of lime-wood, carving\nthe figures in them, with their beards and hair, with so great patience\nthat it was a marvel to see. And after these panels, which were placed\nin the Duomo, he made some prophets in marble, of no great size, which\nare in the facade of the said Duomo; and he would have continued to\nlabour at the works of this building, if plague, famine, and the\ndiscords of the citizens of Siena had not brought that city to an evil\npass; for, after having many times risen in tumult, they drove out\nOrlando Malevolti, by whose favour Jacopo had enjoyed creditable\nemployment in his native city. Departing then from Siena, he betook\nhimself by the agency of certain friends to Lucca, and there, in the\nChurch of S…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "quercia-porta-magna",
+          "title": "Porta Magna (San Petronio)",
+          "date": "1425–38",
+          "year": 1430,
+          "place": "Bologna, San Petronio",
+          "file": "images/quercia-porta-magna.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Genesis reliefs and prophets on the basilica’s main portal — weighty bodies before Michelangelo.",
+          "vasari": {
+            "life": "Life of Jacopo della Quercia",
+            "text": "Meanwhile Jacopo had heard that the Guild of the Merchants of Calimara\nin Florence wished to have a bronze door made for the Church of S.\nGiovanni, where, as it has been said, Andrea Pisano had wrought the\nfirst; and he had come to Florence in order to make himself known, above\nall because this work was to be allotted to the man who, in making one\nof those scenes in bronze, should give the best proof of himself and of\nhis talent. Having therefore come to Florence, he not only made the\nmodel, but delivered one very well executed scene, completely finished\nand polished, which gave so great satisfaction, that, if he had not had\nas rivals those most excellent masters, Donatello and Filippo\nBrunelleschi, who in truth surpassed him in their specimens, it would…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luca-della-robbia",
+      "name": "Luca della Robbia",
+      "nameFull": "Luca della Robbia",
+      "dates": "1399/1400–1482",
+      "born": 1400,
+      "died": 1482,
+      "medium": "sculpture",
+      "region": "italy",
+      "place": "Florence",
+      "famous": "luca-cantoria",
+      "vasari": {
+        "life": "Life of Luca della Robbia",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "luca-cantoria",
+          "title": "Cantoria (singing gallery)",
+          "date": "1431–38",
+          "year": 1435,
+          "place": "Florence, Museo dell’Opera del Duomo",
+          "file": "images/luca-cantoria.jpg",
+          "w": 4032,
+          "h": 2268,
+          "note": "Marble choir of children: throats swelling, music made visible for the Duomo organ loft.",
+          "vasari": {
+            "life": "Life of Luca della Robbia",
+            "text": "Luca was barely fifteen years of age when he was summoned, together with\nother young sculptors, to Rimini, in order to make some figures and\nother ornaments in marble for Sigismondo di Pandolfo Malatesti, Lord of\nthat city, who was then having a chapel made in the Church of S.\nFrancesco, and a tomb for his wife, who had died. Luca had given an\nhonourable proof of his knowledge in some low-reliefs in this work,\nwhich are still seen there, when he was recalled by the Wardens of Works\nof S. Maria del Fiore to Florence, where, for the campanile of that\nchurch, he made five little scenes in marble, which are on the side that\nfaces the church, and which were wanting, according to the design of\nGiotto, to go with that wherein are the Sciences and Arts, formerly…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "luca-madonna-apple",
+          "title": "Madonna of the Apple",
+          "date": "c. 1455–60",
+          "year": 1455,
+          "place": "Florence, Bargello",
+          "file": "images/luca-madonna-apple.jpg",
+          "w": 1280,
+          "h": 1509,
+          "note": "Glazed terracotta blue-and-white: Luca’s durable enamel invention in quiet devotion.",
+          "vasari": {
+            "life": "Life of Luca della Robbia",
+            "text": "Having then succeeded in this as much as he could desire, he resolved\nthat his first works should be those that are in the arch over the\nbronze door which he had made for the sacristy, below the organ of S.\nMaria del Fiore; and therein he made a Resurrection of Christ, so\nbeautiful for that time that it was admired, when placed in position, as\nsomething truly rare. Moved by this, the said Wardens of Works desired\nthat the arch over the door of the other sacristy, where Donatello had\nmade the ornament of the other organ, should be filled by Luca in the\nsame manner with similar figures and works in terra-cotta; wherefore\nLuca made therein a very beautiful Jesus Christ ascending into Heaven.\n\nNow, not being yet satisfied with this beautiful invention--so lovely…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
       "id": "dunstable",
       "name": "Dunstable",
       "nameFull": "John Dunstable (Dunstaple)",
@@ -2023,6 +2296,106 @@
           "vasari": {
             "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
             "text": "Very great is the advantage enjoyed by one who follows in the steps of a\npredecessor who has gained honour and fame by means of some rare talent,\nfor the reason that, if only he follows to some extent the path prepared\nby his master, he seldom fails to arrive without much fatigue at an\nhonourable goal; whereas, if he had to reach it by himself, he would\nhave need of a much longer time and far greater labours. The truth of\nthis could be seen, ready for the finger to point to, as the saying is,\namong many other examples, in that of Pisano, or rather, Pisanello, a\npainter of Verona, who, having spent many years in Florence with Andrea\ndal Castagno, and having finished his works after his death, acquired so\nmuch credit by means of Andrea's name, that Pope Martin V, coming to\nFlorence, took him in his train to Rome, where he caused him to pain…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lorenzo-monaco",
+      "name": "Lorenzo Monaco",
+      "nameFull": "Don Lorenzo Monaco",
+      "dates": "c. 1370–1425",
+      "born": 1370,
+      "died": 1425,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Florence (Santa Maria degli Angeli)",
+      "famous": "lorenzo-monaco-coronation",
+      "vasari": {
+        "life": "Life of Don Lorenzo Monaco",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+      },
+      "works": [
+        {
+          "id": "lorenzo-monaco-coronation",
+          "title": "Coronation of the Virgin",
+          "date": "1414",
+          "year": 1414,
+          "place": "Florence, Uffizi",
+          "file": "images/lorenzo-monaco-coronation.jpg",
+          "w": 1280,
+          "h": 1327,
+          "note": "Camaldolese gold and rhythm: International Gothic on the eve of Masaccio.",
+          "vasari": {
+            "life": "Life of Don Lorenzo Monaco",
+            "text": "Don Lorenzo, then, a painter of Florence, was a monk of the Order of\nCamaldoli in the Monastery of the Angeli, which monastery was founded in\nthe year 1294 by Fra Guittone d'Arezzo, of the Militant Order of the\nVirgin Mother of Jesus Christ, or rather, as the monks of that Order\nwere vulgarly called, of the Joyous Friars; and he applied himself in\nhis earliest years to design and to painting with so great zeal, that he\nwas afterwards deservedly numbered among the best of the age in that\nexercise. The first works of this painter-monk, who held to the manner\nof Taddeo Gaddi and his disciples, were in his Monastery of the Angeli,\nwhere, among many other things, he painted the panel of the high-altar,\nwhich is still seen to-day in their church, and which was completely…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        },
+        {
+          "id": "lorenzo-monaco-annunciation",
+          "title": "Annunciation triptych",
+          "date": "c. 1409",
+          "year": 1409,
+          "place": "Florence, Accademia",
+          "file": "images/lorenzo-monaco-annunciation.jpg",
+          "w": 1280,
+          "h": 1147,
+          "note": "Slender angel and Virgin in luminous tempera — monastic Gothic elegance.",
+          "vasari": {
+            "life": "Life of Don Lorenzo Monaco",
+            "text": "OF THE ANGELI IN FLORENCE, PAINTER\n\n\nFor a good and religious person, I believe, there must be great\ncontentment in having ready to his hand some honourable exercise,\nwhether that of letters, or of music, or of painting, or of any other\nliberal or mechanical arts, such as are not blameworthy, but rather\nuseful and helpful to other men; for the reason that after the divine\noffices the time passes honourably with the delight that is taken in the\nsweet labours of these pleasant exercises. And to this it may be added\nthat not only is he esteemed and held in price by others the while that\nhe lives, provided that they be not envious and malign, but that he is\nalso honoured after death by all men, by reason of his works and of the…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pisanello",
+      "name": "Pisanello",
+      "nameFull": "Antonio di Puccio (Pisanello)",
+      "dates": "c. 1395–1455",
+      "born": 1395,
+      "died": 1455,
+      "medium": "painting",
+      "region": "italy",
+      "place": "Verona / courts of Ferrara & Mantua",
+      "famous": "pisanello-eustace",
+      "vasari": {
+        "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
+        "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+      },
+      "works": [
+        {
+          "id": "pisanello-eustace",
+          "title": "Vision of Saint Eustace",
+          "date": "c. 1438–42",
+          "year": 1440,
+          "place": "London, National Gallery",
+          "file": "images/pisanello-eustace.jpg",
+          "w": 1280,
+          "h": 1053,
+          "note": "International Gothic forest of animals and heraldry — the saint before the stag’s crucifix.",
+          "vasari": {
+            "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
+            "text": "But to return to Vittore Pisano; the account that has been given of him\nabove was written by us, with nothing more, when this our book was\nprinted for the first time, because we had not then received that\ninformation and knowledge of the works of this excellent craftsman which\nwe have since gained from notices supplied by that very reverend and\nmost learned Father, Fra Marco de' Medici of Verona, of the Order of\nPreaching Friars, and from the narrative of Biondo da Forli, where he\nspeaks of Verona in his \"Italia Illustrata.\" Vittore was equal in\nexcellence to any painter of his age; and to this, not to speak of the\nworks enumerated above, most ample testimony is borne by many others\nthat are seen in his most noble native city of Verona, although many are…",
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
+          }
+        },
+        {
+          "id": "pisanello-princess",
+          "title": "Portrait of a Princess of the House of Este",
+          "date": "c. 1435–40",
+          "year": 1438,
+          "place": "Paris, Louvre",
+          "file": "images/pisanello-princess.jpg",
+          "w": 1280,
+          "h": 1840,
+          "note": "Profile court portrait among butterflies and flowers — medal-maker’s eye in paint.",
+          "vasari": {
+            "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
+            "text": "But to return to Vittore Pisano; the account that has been given of him\nabove was written by us, with nothing more, when this our book was\nprinted for the first time, because we had not then received that\ninformation and knowledge of the works of this excellent craftsman which\nwe have since gained from notices supplied by that very reverend and\nmost learned Father, Fra Marco de' Medici of Verona, of the Order of\nPreaching Friars, and from the narrative of Biondo da Forli, where he\nspeaks of Verona in his \"Italia Illustrata.\" Vittore was equal in\nexcellence to any painter of his age; and to this, not to speak of the\nworks enumerated above, most ample testimony is borne by many others\nthat are seen in his most noble native city of Verona, although many are…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
         }
@@ -2716,6 +3089,44 @@
           "w": 1280,
           "h": 1017,
           "note": "Annunciation in a bourgeois room: oil light on brass and linen."
+        }
+      ]
+    },
+    {
+      "id": "claus-sluter",
+      "name": "Claus Sluter",
+      "nameFull": "Claus Sluter",
+      "dates": "c. 1340–1405/6",
+      "born": 1340,
+      "died": 1406,
+      "medium": "sculpture",
+      "region": "north",
+      "place": "Dijon (Chartreuse de Champmol)",
+      "famous": "sluter-moses",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — Burgundian court sculptor at Champmol; northern counterpart to Quattrocento weight in stone.",
+      "works": [
+        {
+          "id": "sluter-moses",
+          "title": "Well of Moses (Puits de Moïse)",
+          "date": "1395–1406",
+          "year": 1402,
+          "place": "Dijon, Chartreuse de Champmol",
+          "file": "images/sluter-moses.jpg",
+          "w": 1280,
+          "h": 960,
+          "note": "Prophets in heavy drapery around the Cross’s base — Burgundy’s monumental realism."
+        },
+        {
+          "id": "sluter-champmol",
+          "title": "Portal of the Chartreuse de Champmol",
+          "date": "c. 1389–1401",
+          "year": 1395,
+          "place": "Dijon, Chartreuse de Champmol",
+          "file": "images/sluter-champmol.jpg",
+          "w": 1280,
+          "h": 1920,
+          "note": "Duke Philip the Bold and Margaret kneeling before the Virgin — donor portal in living stone."
         }
       ]
     },
