@@ -2909,6 +2909,19 @@ const DATA = {
   ]
 };
 
+const $ = (s, r=document) => r.querySelector(s);
+let openArtist = null;
+let pxPerYear = 14;
+
+const PALETTE = {
+  painting: ['#3d5a45', '#4f7358', '#2f4a38', '#5a8062', '#456650', '#6b8f72', '#334f3c', '#587a5e'],
+  sculpture: ['#8a4b32', '#a35a3c', '#734028', '#b56a48', '#935540', '#7a3f2a', '#c17a55', '#6b3824'],
+  architecture: ['#2a3d6b', '#3a5080', '#243556', '#4a6294', '#334870', '#1f2f55', '#5a72a0', '#2f4470'],
+  antiquity: ['#a6863a', '#c4a35a', '#8a7030', '#b89648'],
+  music: ['#5a3d6b', '#6e4d82', '#4a3258', '#7a5a94', '#513868', '#8668a0']
+};
+const colorCursor = {painting:0, sculpture:0, architecture:0, antiquity:0, music:0};
+
 function colorFor(medium){
   const arr = PALETTE[medium] || PALETTE.painting;
   const i = colorCursor[medium] % arr.length;
@@ -2997,14 +3010,13 @@ function boot(){
 
   const sel = $('#century-select');
   sel.innerHTML = '';
-  // Only 13th and 14th for now (years 1200–1299 / 1300–1399)
-  ;[1200, 1300].forEach(c => {
+  centuries().forEach(c => {
     const opt = document.createElement('option');
     opt.value = String(c);
     opt.textContent = centuryLabel(c);
     sel.appendChild(opt);
   });
-  sel.value = '1200';
+  sel.value = String(centuries()[0] || 1200);
   sel.addEventListener('change', () => {
     const c = Number(sel.value);
     if (!Number.isFinite(c)) return;
