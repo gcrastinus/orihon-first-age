@@ -69,3 +69,23 @@ Span target: decades through latest major work years (~1510); centuries `[1200,1
 - Vasari: de Vere Gutenberg vols 1–4 (#25326, #25759, #26860, #28420).
 - Images: Wikimedia Commons (color, both sides ≥800).
 - Music listen: Commons / Internet Archive only (label MIDI vs human).
+
+## Music track extension (2026-09-05)
+
+Added major Western art-music figures born ≤1454 (thin strand; visual arts stay primary):
+
+| id | name | born | died | key works |
+|----|------|------|------|-----------|
+| leonin | Léonin | fl. c.1160–1201 | — | Viderunt omnes / Magnus liber (pairs with Pérotin) |
+| jacopo-bologna | Jacopo da Bologna | fl. c.1340–60 | — | Non al suo amante |
+| squarcialupi | Squarcialupi Codex | ms. c.1410–15 | — | manuscript source (like Laudario) |
+| ciconia | Johannes Ciconia | c.1370 | 1412 | O Padua; Gloria |
+| dunstable | John Dunstable | c.1390 | 1453 | Quam pulchra es / O rosa bella |
+| leonel-power | Leonel Power | c.1370 | 1445 | Ave regina caelorum (with Dunstable / Old Hall) |
+| busnois | Antoine Busnois | c.1430 | 1492 | Missa L’homme armé; Quant ce vendra |
+| compere | Loyset Compère | c.1445 | 1518 | Omnium bonorum plena |
+| josquin | Josquin des Prez | c.1450 | 1521 | Ave Maria … virgo serena; Missa Pange lingua |
+
+Already present (unchanged): Pérotin, Adam de la Halle, Laudario, Franco, Sumer, Petrus, Vitry, Machaut (incl. Messe de Nostre Dame), Landini, Dufay (incl. Nuper rosarum flores), Binchois, Ockeghem.
+
+Skipped: Obrecht (~1457+), Isaac if dated ≥1455, anyone born ≥1455. Machaut/Dufay second-work checks: both already had the canonical works.

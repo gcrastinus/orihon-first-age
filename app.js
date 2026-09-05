@@ -3,7 +3,7 @@ const DATA = {
   "span": "1250–1510",
   "subtitle": "Painting, sculpture, architecture, and music — Italy, the Low Countries, and the sounding world around them",
   "years": {
-    "start": 1220,
+    "start": 1140,
     "end": 1520
   },
   "decades": [
@@ -63,6 +63,43 @@ const DATA = {
     }
   ],
   "artists": [
+    {
+      "id": "leonin",
+      "name": "Léonin",
+      "nameFull": "Léonin (Magister Leoninus)",
+      "dates": "fl. c. 1160–1201",
+      "born": 1150,
+      "died": 1201,
+      "medium": "music",
+      "region": "france",
+      "place": "Paris (Notre-Dame)",
+      "famous": "leonin-viderunt",
+      "vasari": null,
+      "vasariNote": "Outside Vasari’s painterly First Age: the earlier Notre-Dame master of two-voice organum, paired here with Pérotin. Slightly before the 1250 visual focus — kept because the Magnus liber still frames later motets.",
+      "works": [
+        {
+          "id": "leonin-viderunt",
+          "title": "Viderunt omnes (organum duplum) / Magnus liber organi",
+          "date": "c. 1170–1190",
+          "year": 1180,
+          "place": "Paris, Notre-Dame (Florence, BML Plut. 29.1)",
+          "file": "images/leonin-pluteus.jpg",
+          "w": 900,
+          "h": 1244,
+          "listen": [
+            {
+              "label": "Internet Archive — Léonin, organa de l’école de Notre-Dame (78 rpm; human performance, Anspach / Jacquier)",
+              "url": "https://archive.org/details/78_leonin-vers-1200_organa-de-lcole-de-notre-dame-de-paris-m-f-anspach-mm-e-jacquier-e_gbia0525701a"
+            },
+            {
+              "label": "Wikimedia Commons — Breves dies hominis (Léonin or Pérotin; human recording by Makemi)",
+              "url": "https://commons.wikimedia.org/wiki/File:Breves_dies_hominis.ogg"
+            }
+          ],
+          "note": "Two-voice organum for Christmas Day Gradual — the Notre-Dame school before Pérotin’s four-voice elaborations. Frontispiece of the Florence Magnus liber (Plut. 29.1). Opens an external recording (not hosted here)."
+        }
+      ]
+    },
     {
       "id": "cimabue",
       "name": "Cimabue",
@@ -1471,6 +1508,122 @@ const DATA = {
       ]
     },
     {
+      "id": "jacopo-bologna",
+      "name": "Jacopo da Bologna",
+      "nameFull": "Jacopo da Bologna",
+      "dates": "fl. c. 1340–1360",
+      "born": 1310,
+      "died": 1360,
+      "medium": "music",
+      "region": "italy",
+      "place": "Bologna / Verona / Milan",
+      "famous": "jacopo-non-al-suo",
+      "vasari": null,
+      "vasariNote": "No Vasari Life — Trecento madrigalist beside Landini in the Squarcialupi Codex.",
+      "works": [
+        {
+          "id": "jacopo-non-al-suo",
+          "title": "Non al suo amante",
+          "date": "c. 1350",
+          "year": 1350,
+          "place": "Northern Italy (Squarcialupi Codex)",
+          "file": "images/jacopo-squarcialupi.jpg",
+          "w": 1280,
+          "h": 1431,
+          "listen": [
+            {
+              "label": "Internet Archive — Non al suo amante (Jacopo da Bologna; 78 rpm, human performance / Guillaume de Van)",
+              "url": "https://archive.org/details/78_non-al-suo-amante_mm-archimbaud-bont-jacopo-da-bologna-guillaume-de-van_gbia0554147b"
+            }
+          ],
+          "note": "Two-voice madrigal on a Petrarch sonnet — early Italian polyphony under his Squarcialupi portrait. Opens an external recording (not hosted here)."
+        }
+      ]
+    },
+    {
+      "id": "ciconia",
+      "name": "Ciconia",
+      "nameFull": "Johannes Ciconia",
+      "dates": "c. 1370–1412",
+      "born": 1370,
+      "died": 1412,
+      "medium": "music",
+      "region": "north",
+      "place": "Liège / Padua",
+      "famous": "ciconia-padua",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Franco-Italian bridge figure between Trecento and the Quattrocento north.",
+      "works": [
+        {
+          "id": "ciconia-padua",
+          "title": "O Padua, sidus praeclarum",
+          "date": "c. 1400–10",
+          "year": 1405,
+          "place": "Padua",
+          "file": "images/ciconia-merce.jpg",
+          "w": 1280,
+          "h": 1828,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Ciconia, O Padua, sidus praeclarum (human performance, playable .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Johannes_Ciconia_-_O_Padua,_sidus_praeclarum.ogg"
+            }
+          ],
+          "note": "Civic motet for Padua — northern craft meeting Italian text. Opens an external recording (not hosted here)."
+        },
+        {
+          "id": "ciconia-gloria",
+          "title": "Gloria (Krasinski manuscript)",
+          "date": "c. 1400–10",
+          "year": 1408,
+          "place": "Padua / Poland (BN III.8054)",
+          "file": "images/ciconia-gloria.jpg",
+          "w": 1280,
+          "h": 926,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Ciconia, O Padua (companion listen; human .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Johannes_Ciconia_-_O_Padua,_sidus_praeclarum.ogg"
+            }
+          ],
+          "note": "Mass Ordinary movement preserved in the Polish Krasinski source. Opens an external recording (not hosted here)."
+        }
+      ]
+    },
+    {
+      "id": "leonel-power",
+      "name": "Leonel Power",
+      "nameFull": "Leonel Power",
+      "dates": "c. 1370–1445",
+      "born": 1370,
+      "died": 1445,
+      "medium": "music",
+      "region": "north",
+      "place": "England (Canterbury / Old Hall)",
+      "famous": "power-ave-regina",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Old Hall colleague of the English style that travels with Dunstable.",
+      "works": [
+        {
+          "id": "power-ave-regina",
+          "title": "Ave regina caelorum",
+          "date": "c. 1420–40",
+          "year": 1430,
+          "place": "England (Old Hall Manuscript)",
+          "file": "images/old-hall-ms.jpg",
+          "w": 466,
+          "h": 728,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Leonel Power, Ave Regina (human recording, playable .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Ave_Regina_-_Leonel_Power.ogg"
+            }
+          ],
+          "note": "Marian antiphon in the English choirbook tradition. Opens an external recording (not hosted here)."
+        }
+      ]
+    },
+    {
       "id": "ghiberti",
       "name": "Ghiberti",
       "nameFull": "Lorenzo Ghiberti",
@@ -1633,6 +1786,43 @@ const DATA = {
             "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 2 (1912); Project Gutenberg #25759."
           }
+        }
+      ]
+    },
+    {
+      "id": "dunstable",
+      "name": "Dunstable",
+      "nameFull": "John Dunstable (Dunstaple)",
+      "dates": "c. 1390–1453",
+      "born": 1390,
+      "died": 1453,
+      "medium": "music",
+      "region": "north",
+      "place": "England / France",
+      "famous": "dunstable-quam",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. English contenance angloise that reshaped Burgundian and Italian hearing after him.",
+      "works": [
+        {
+          "id": "dunstable-quam",
+          "title": "Quam pulchra es / O rosa bella",
+          "date": "c. 1420–40",
+          "year": 1430,
+          "place": "England (Old Hall milieu) / continental courts",
+          "file": "images/old-hall-ms.jpg",
+          "w": 466,
+          "h": 728,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — O rosa bella (attrib. Dunstable; human recording, playable .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:O_rosa_bella_-_John_Dunstable.ogg"
+            },
+            {
+              "label": "Internet Archive — Music of the Middle Ages VIII: Dunstable (Ambrosian Singers / Denis Stevens; human; includes Quam pulchra es)",
+              "url": "https://archive.org/details/lp_music-of-the-middle-ages-volume-viii-sa_john-dunstable-denis-stevens-the-ambros"
+            }
+          ],
+          "note": "Sweet-third English sonority — the influence Dufay’s generation absorbed. Old Hall manuscript page for English sacred polyphony. Opens an external recording (not hosted here)."
         }
       ]
     },
@@ -1907,6 +2097,39 @@ const DATA = {
       ]
     },
     {
+      "id": "squarcialupi",
+      "name": "Squarcialupi Codex",
+      "nameFull": "Anonymous — Squarcialupi Codex",
+      "dates": "ms. c. 1410–1415",
+      "born": 1410,
+      "died": 1415,
+      "medium": "music",
+      "region": "italy",
+      "place": "Florence (BML Med. Pal. 87)",
+      "famous": "squarcialupi-codex",
+      "vasari": null,
+      "vasariNote": "Not a Vasari Life — the great Florentine choirbook of Trecento song (Landini, Jacopo, and company), kept as a manuscript source like the Laudario di Cortona.",
+      "works": [
+        {
+          "id": "squarcialupi-codex",
+          "title": "Squarcialupi Codex (Med. Pal. 87)",
+          "date": "c. 1410–15",
+          "year": 1412,
+          "place": "Florence, Biblioteca Medicea Laurenziana",
+          "file": "images/squarcialupi-page.jpg",
+          "w": 1280,
+          "h": 1842,
+          "listen": [
+            {
+              "label": "Internet Archive — Danses du Moyen-Age / early music program of Landini’s era (Clemencic Consort & Ensemble Ricercare; human)",
+              "url": "https://archive.org/details/mhu-2.472-danses-du-moyen-age-clementic-cons.-ens.-ricercare"
+            }
+          ],
+          "note": "Lavish illuminated source for Trecento polyphony — portraits of composers heading each section. Opens an external recording (not hosted here)."
+        }
+      ]
+    },
+    {
       "id": "piero",
       "name": "Piero della Francesca",
       "nameFull": "Piero della Francesca",
@@ -1953,6 +2176,56 @@ const DATA = {
             "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 3 (1912); Project Gutenberg #26860."
           }
+        }
+      ]
+    },
+    {
+      "id": "busnois",
+      "name": "Busnois",
+      "nameFull": "Antoine Busnois (Busnoys)",
+      "dates": "c. 1430–1492",
+      "born": 1430,
+      "died": 1492,
+      "medium": "music",
+      "region": "north",
+      "place": "Burgundy / France",
+      "famous": "busnois-lhomme",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Burgundian court composer after Binchois — chanson and L’homme armé Mass.",
+      "works": [
+        {
+          "id": "busnois-lhomme",
+          "title": "Missa L’homme armé",
+          "date": "c. 1460–70",
+          "year": 1465,
+          "place": "Burgundian court",
+          "file": "images/busnois-lhomme.jpg",
+          "w": 1920,
+          "h": 1414,
+          "listen": [
+            {
+              "label": "Internet Archive — Busnois, Chansons (Nonesuch Consort / Joshua Rifkin; human performance)",
+              "url": "https://archive.org/details/lp_chansons_antoine-busnois-the-nonesuch-consort-joshu"
+            }
+          ],
+          "note": "Four-voice Mass on the armed-man cantus firmus — Burgundian craft after Ockeghem’s generation. Opens an external recording (not hosted here)."
+        },
+        {
+          "id": "busnois-quant",
+          "title": "Quant ce vendra",
+          "date": "c. 1460–75",
+          "year": 1468,
+          "place": "Burgundian court",
+          "file": "images/busnois-mass.jpg",
+          "w": 1305,
+          "h": 902,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Busnoys, Quant ce vendra (ASTERIA live on WQXR; human performance, .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:6_quant_ce_vendra.ogg"
+            }
+          ],
+          "note": "Courtly rondeau. Opens an external recording (not hosted here)."
         }
       ]
     },
@@ -2141,6 +2414,39 @@ const DATA = {
       ]
     },
     {
+      "id": "compere",
+      "name": "Compère",
+      "nameFull": "Loyset Compère",
+      "dates": "c. 1445–1518",
+      "born": 1445,
+      "died": 1518,
+      "medium": "music",
+      "region": "north",
+      "place": "France / Italy (Sforza)",
+      "famous": "compere-omnium",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Franco-Flemish colleague of Josquin’s generation (born under the ≤1454 cutoff).",
+      "works": [
+        {
+          "id": "compere-omnium",
+          "title": "Omnium bonorum plena",
+          "date": "c. 1472",
+          "year": 1472,
+          "place": "Cambrai / Milan circle",
+          "file": "images/compere-omnium.jpg",
+          "w": 1342,
+          "h": 935,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Compère, Nous sommes de l’ordre de St Babouin (dwsChorale; human performance, .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Loyset_Compere_Nous_sommes_de_l_ordre_de_St_Babouin_Sung_by_the_dwsChorale.ogg"
+            }
+          ],
+          "note": "Motet naming fellow singers (including Josquin) — a sounding roll-call of the generation. Companion listen is a secular Compère chanson. Opens an external recording (not hosted here)."
+        }
+      ]
+    },
+    {
       "id": "ghirlandaio",
       "name": "Ghirlandaio",
       "nameFull": "Domenico Ghirlandaio",
@@ -2221,6 +2527,64 @@ const DATA = {
             "text": "How great a benefit poverty may be to men of genius, and how potent\na force it may be to make them become excellent--nay, perfect--in\nthe exercise of any faculty whatsoever, can be seen clearly enough\nin the actions of Pietro Perugino, who, flying from the extremity of\ndistress at Perugia, and betaking himself to Florence in the desire\nto attain to some distinction by means of his talent, remained for\nmany months without any other bed than a miserable chest to sleep\nin, turning night into day, and devoting himself with the greatest\nardour to the unceasing study of his profession.…",
             "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 4 (1912); Project Gutenberg #28420."
           }
+        }
+      ]
+    },
+    {
+      "id": "josquin",
+      "name": "Josquin",
+      "nameFull": "Josquin des Prez",
+      "dates": "c. 1450–1521",
+      "born": 1450,
+      "died": 1521,
+      "medium": "music",
+      "region": "north",
+      "place": "France / Italy (Ferrara, Rome)",
+      "famous": "josquin-ave-maria",
+      "vasari": null,
+      "vasariNote": "No Vasari Life. Born c.1450 (under the cutoff) — the Franco-Flemish summit of the first age’s sounding track.",
+      "works": [
+        {
+          "id": "josquin-ave-maria",
+          "title": "Ave Maria … virgo serena",
+          "date": "c. 1485",
+          "year": 1485,
+          "place": "Italy / North",
+          "file": "images/josquin-ave-maria.jpg",
+          "w": 884,
+          "h": 315,
+          "listen": [
+            {
+              "label": "Internet Archive — Josquin Motetten (Pro Cantione Antiqua / Bruno Turner; human; includes Ave Maria … virgo serena)",
+              "url": "https://archive.org/details/josquin-des-prez-motetten-bruno-turner-dvg"
+            },
+            {
+              "label": "Wikimedia Commons — Josquin, Tu pauperum refugium (human multitrack recording, .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Josquin_Des_Prez-Tu_Pauperum_Refugium.ogg"
+            }
+          ],
+          "note": "Four-voice Marian motet — clear imitative architecture that later centuries still treat as a model. Opens an external recording (not hosted here)."
+        },
+        {
+          "id": "josquin-missa-pange",
+          "title": "Missa Pange lingua (Kyrie excerpt)",
+          "date": "c. 1515",
+          "year": 1515,
+          "place": "Condé / late career",
+          "file": "images/josquin-woodcut.jpg",
+          "w": 491,
+          "h": 500,
+          "listen": [
+            {
+              "label": "Wikimedia Commons — Josquin, Missa Pange lingua Kyrie bars (electronic / MIDI realization)",
+              "url": "https://commons.wikimedia.org/wiki/File:Josquin_Missa_Pangue_Lingua_Quarten_for_wikipedia.mid"
+            },
+            {
+              "label": "Wikimedia Commons — Josquin, El grillo (dwsChorale; human performance, .ogg)",
+              "url": "https://commons.wikimedia.org/wiki/File:Josquin_El_grillo_sung_by_the_dwsChorale.ogg"
+            }
+          ],
+          "note": "Late cyclic Mass on the Corpus Christi hymn; woodcut likeness from Opmeer (1611). Opens an external recording (not hosted here)."
         }
       ]
     },
@@ -2543,20 +2907,7 @@ const DATA = {
     1300,
     1400
   ]
-};;
-
-const $ = (s, r=document) => r.querySelector(s);
-let openArtist = null;
-let pxPerYear = 14;
-
-const PALETTE = {
-  painting: ['#3d5a45', '#4f7358', '#2f4a38', '#5a8062', '#456650', '#6b8f72', '#334f3c', '#587a5e'],
-  sculpture: ['#8a4b32', '#a35a3c', '#734028', '#b56a48', '#935540', '#7a3f2a', '#c17a55', '#6b3824'],
-  architecture: ['#2a3d6b', '#3a5080', '#243556', '#4a6294', '#334870', '#1f2f55', '#5a72a0', '#2f4470'],
-  antiquity: ['#a6863a', '#c4a35a', '#8a7030', '#b89648'],
-  music: ['#5a3d6b', '#6e4d82', '#4a3258', '#7a5a94', '#513868', '#8668a0']
 };
-const colorCursor = {painting:0, sculpture:0, architecture:0, antiquity:0, music:0};
 
 function colorFor(medium){
   const arr = PALETTE[medium] || PALETTE.painting;
