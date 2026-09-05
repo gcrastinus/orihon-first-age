@@ -1,6 +1,6 @@
 # Vademecum of the arts (1250–1510)
 
-A pocket timeline of painting, sculpture, architecture, and music — life-lines and build-lines on a dated axis, with Vasari where he wrote, and **external** listening links for music (nothing is streamed on this page).
+A pocket timeline of painting, sculpture, architecture, and music — Name, years, place; Vasari when he wrote; external listen links for music.
 
 Extends from the first age (c. 1250–1320) through artists **born ≤1454** (Leonardo in; Michelangelo/Raphael out). Timeline works may run into the early 1500s.
 

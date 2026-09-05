@@ -1,7 +1,7 @@
 const DATA = {
   "title": "Vademecum of the arts",
   "span": "1250–1510",
-  "subtitle": "Painting, sculpture, architecture, and music — Italy, the Low Countries, and the sounding world around them",
+  "subtitle": "Painting, sculpture, architecture, and music",
   "years": {
     "start": 1140,
     "end": 1520
@@ -75,7 +75,6 @@ const DATA = {
       "place": "Paris (Notre-Dame)",
       "famous": "leonin-viderunt",
       "vasari": null,
-      "vasariNote": "Outside Vasari’s painterly First Age: the earlier Notre-Dame master of two-voice organum, paired here with Pérotin. Slightly before the 1250 visual focus — kept because the Magnus liber still frames later motets.",
       "works": [
         {
           "id": "leonin-viderunt",
@@ -95,8 +94,7 @@ const DATA = {
               "label": "Wikimedia Commons — Breves dies hominis (Léonin or Pérotin; human recording by Makemi)",
               "url": "https://commons.wikimedia.org/wiki/File:Breves_dies_hominis.ogg"
             }
-          ],
-          "note": "Two-voice organum for Christmas Day Gradual — the Notre-Dame school before Pérotin’s four-voice elaborations. Frontispiece of the Florence Magnus liber (Plut. 29.1). Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -125,12 +123,10 @@ const DATA = {
           "file": "images/cimabue-trinita.jpg",
           "w": 1280,
           "h": 2292,
-          "note": "Vasari’s first light of painting: the Madonna still Byzantine in gold, the faces already turning.",
           "vasari": {
             "life": "Life of Giovanni Cimabue",
             "text": "Having returned, then, to Florence, Cimabue painted in the cloister of S. Spirito (wherein there is painted in the Greek manner, by other masters, the whole side facing the church) three small arches by his own hand, from the life of Christ, and truly with much design. And at the same time he sent certain works wrought by himself in Florence to Empoli, which works are still held to-day in great veneration in the Pieve of that township. Next, he made for the Church of S. Maria Novella the panel of Our Lady that is set on high between the Chapel of the Rucellai and that of the Bardi da Vernia; which work was of greater size than any figure that had been made up to that time. And certain angels that are round it show that, although he still had the Greek manner, he was going on approaching in part to the line and method of the modern.…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari’s famous Madonna-panel story (he places it at S. Maria Novella / the Rucellai chapel; modern scholarship often reads that panel as Duccio’s)."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -142,12 +138,10 @@ const DATA = {
           "file": "images/cimabue-louvre.jpg",
           "w": 1280,
           "h": 2073,
-          "note": "Smaller seated Virgin with angels; the same gold ground, a softer weight in the Child.",
           "vasari": {
             "life": "Life of Giovanni Cimabue",
             "text": "Having returned, then, to Florence, Cimabue painted in the cloister of S. Spirito (wherein there is painted in the Greek manner, by other masters, the whole side facing the church) three small arches by his own hand, from the life of Christ, and truly with much design. And at the same time he sent certain works wrought by himself in Florence to Empoli, which works are still held to-day in great veneration in the Pieve of that township. Next, he made for the Church of S. Maria Novella the panel of Our Lady that is set on high between the Chapel of the Rucellai and that of the Bardi da Vernia; which work was of greater size than any figure that had been made up to that time. And certain angels that are round it show that, although he still had the Greek manner, he was going on approaching in part to the line and method of the modern.…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari’s procession / Charles of Anjou anecdote for Cimabue’s great Madonna panel."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -159,7 +153,6 @@ const DATA = {
           "file": "images/cimabue-crucifix.jpg",
           "w": 1280,
           "h": 1584,
-          "note": "Photographed in color before the 1966 flood. The living body against the old Italo-Byzantine scheme.",
           "vasari": {
             "life": "Life of Giovanni Cimabue",
             "text": "Cimabue, being summoned again after this work by the same Prior who had caused him to make the works in S. Croce, made him a large Crucifix on wood, which is still seen to-day in the church; which work was the reason, it appearing to the Prior that he had been well served, that he took him to S. Francesco in Pisa, their convent, in order to make a S. Francis on a panel, which was held by these people to be a most rare work, there being seen therein a certain greater quality of excellence, both in the air of the heads and in the folds of the draperies, than had been shown in the Greek manner up to that time by anyone who had wrought anything, not only in Pisa, but in all Italy. Cimabue having next made for the same church on a large panel the image of Our Lady, with the Child in her arms and with many angels round her, also on a ground of gold, it was after no long time removed from where it had been set up the first time, in order to make there the marble altar that is there at present, and was placed within the church beside the door on the left hand;…",
@@ -175,7 +168,6 @@ const DATA = {
           "file": "images/cimabue-assisi.jpg",
           "w": 1280,
           "h": 921,
-          "note": "The lead white has darkened over the centuries into a photographic negative of itself; the grief in the angels is untouched.",
           "vasari": {
             "life": "Life of Giovanni Cimabue",
             "text": "By reason of these works, then, the name of Cimabue being very famous everywhere, he was brought to Assisi, a city of Umbria, where, in company with certain Greek masters, in the lower Church of S. Francesco, he painted part of the vaulting, and on the walls the life of Jesus Christ and that of S. Francis. In these pictures he surpassed by a long way those Greek painters; wherefore, growing in courage, he began by his own self to paint the upper church in fresco, and in the chief apse, over the choir, on four sides, he made certain stories of Our Lady--namely, her death; when her soul is borne by Christ to Heaven upon a throne of clouds; and when, in the midst of a choir of angels, He crowns her, with a great number of saints below, both male and female, now eaten away by time and by dust. Next, in the sections of the vaulting of the said church, which are five, he painted in like manner many scenes.…",
@@ -205,8 +197,7 @@ const DATA = {
           "place": "Siena, Santa Maria dei Servi",
           "file": "images/coppo-bordone.jpg",
           "w": 946,
-          "h": 1728,
-          "note": "Signed and dated. A Florentine in Siena, still in the gold of the Greek manner."
+          "h": 1728
         }
       ]
     },
@@ -222,7 +213,6 @@ const DATA = {
       "place": "Siena",
       "famous": "duccio-maesta-front",
       "vasari": null,
-      "vasariNote": "Vasari gives Duccio no Life of his own in de Vere’s Vol. I (Cimabue to Agnolo Gaddi). He is here from the works.",
       "works": [
         {
           "id": "duccio-rucellai",
@@ -232,8 +222,7 @@ const DATA = {
           "place": "Florence, Uffizi",
           "file": "images/duccio-rucellai.jpg",
           "w": 1256,
-          "h": 1025,
-          "note": "Commissioned 1285 for Santa Maria Novella. Vasari later confused it with Cimabue."
+          "h": 1025
         },
         {
           "id": "duccio-maesta-front",
@@ -243,8 +232,7 @@ const DATA = {
           "place": "Siena, Duomo (now Museo dell'Opera)",
           "file": "images/duccio-maesta-front.jpg",
           "w": 2029,
-          "h": 1000,
-          "note": "Carried through Siena in procession on 9 June 1311. Twenty angels and ten saints attend a Virgin still enthroned in gold."
+          "h": 1000
         }
       ]
     },
@@ -273,12 +261,10 @@ const DATA = {
           "file": "images/giotto-lamentation.jpg",
           "w": 1000,
           "h": 925,
-          "note": "The blue vault and the mourners who occupy real ground. Vasari’s Giotto begins here in the student’s eye.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -290,12 +276,10 @@ const DATA = {
           "file": "images/giotto-judas.jpg",
           "w": 1280,
           "h": 1248,
-          "note": "The two faces, the yellow cloak, the crowd as a single press of helmets.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -307,7 +291,6 @@ const DATA = {
           "file": "images/giotto-ognissanti.jpg",
           "w": 1280,
           "h": 1968,
-          "note": "The throne recedes; the angels stand on a floor. Painted for the church of All Saints, Florence.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "For the Frati Umiliati of Ognissanti in Florence, Giotto painted a chapel and four panels, in one of which there was the Madonna, with many angels round her and the Child in her arms, and a large Crucifix on wood, whereof Puccio Capanna took the design and wrought many of them afterwards throughout all Italy, having much practice in the manner of Giotto. In the tramezzo[12] of the said church, when this book of the Lives of the Painters, Sculptors, and Architects was printed the first time, there was a little panel in distemper painted by Giotto with infinite diligence, wherein was the death of Our Lady, with the Apostles round her and with a Christ who is receiving her soul into His arms. This work was much praised by the craftsmen of painting, and in particular by Michelagnolo Buonarroti, who declared, as was said another time, that the quality of this painted story could not be more like to the truth than it is.…",
@@ -323,12 +306,10 @@ const DATA = {
           "file": "images/giotto-flight.jpg",
           "w": 1280,
           "h": 1302,
-          "note": "The donkey's four legs carry the whole weight of the journey; the mountain closes behind the family like a wave.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -340,12 +321,10 @@ const DATA = {
           "file": "images/giotto-nativity.jpg",
           "w": 1920,
           "h": 1959,
-          "note": "Mary reaches for the Child across her own reclining body; the ox and ass watch from a rock-cut stable.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -357,12 +336,10 @@ const DATA = {
           "file": "images/giotto-golden-gate.jpg",
           "w": 1000,
           "h": 908,
-          "note": "Joachim and Anna embrace before the city gate — the same tenderness Giotto gives Mary and Elizabeth.",
           "vasari": {
             "life": "Life of Giotto",
             "text": "Afterwards, having gone again to Padua, besides many other works and chapels that he painted there, he made a Mundane Glory in the precincts of the Arena, which gained him much honour and profit. In Milan, also, he wrought certain works, that are scattered throughout that city and held most beautiful even to this day. Finally, having returned from Milan, no long time passed before he gave up his soul to God, having wrought so many most beautiful works in his life, and having been no less good as Christian than he was excellent as painter. He died in the year 1336, to the great grief of all his fellow-citizens--nay, of all those who had known him or even only heard his name--and he was buried, even as his virtues deserved, with great honour, having been loved by all while he lived, and in particular by the men excellent in all the professions, seeing that, besides Dante, of whom we have spoken above, he was much honoured by Petrarca, both he and his works, so greatly that it is read in Petrarca's testament that he left to Signor Francesco da Carrara, Lord of Padua, among other things…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari names Giotto at the Arena in Padua but does not describe each fresco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         }
       ]
@@ -393,8 +370,7 @@ const DATA = {
           "place": "Rome, Santa Cecilia in Trastevere",
           "file": "images/cavallini-apostles.jpg",
           "w": 1280,
-          "h": 821,
-          "note": "Fresco, not mosaic: Roman gravity in the seated college of apostles."
+          "h": 821
         },
         {
           "id": "cavallini-trastevere",
@@ -404,8 +380,7 @@ const DATA = {
           "place": "Rome, Santa Maria in Trastevere",
           "file": "images/cavallini-trastevere.jpg",
           "w": 1280,
-          "h": 912,
-          "note": "Mosaic, not fresco: the same Roman gravity Cavallini gave the apostles at Santa Cecilia, here in gold and glass."
+          "h": 912
         }
       ]
     },
@@ -435,8 +410,7 @@ const DATA = {
           "place": "Assisi, Lower Church",
           "file": "images/pietro-deposition.jpg",
           "w": 1192,
-          "h": 850,
-          "note": "The body coming down in a real space. Vasari calls him Pietro Laurati."
+          "h": 850
         }
       ]
     },
@@ -465,7 +439,6 @@ const DATA = {
           "file": "images/nicola-pisa.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Signed and dated 1260. The nude Fortitude and the Roman sarcophagus remembered in marble.",
           "vasari": {
             "life": "Life of Niccola and Giovanni of Pisa",
             "text": "Niccola, meanwhile, being summoned by the people of Volterra, in the year 1254 (when they came under the power of the Florentines), in order that their Duomo, which was small, might be enlarged, he brought it to better form, although it was very irregular, and made it more magnificent than it was before. Then, having returned finally to Pisa, he made the pulpit of S. Giovanni, in marble, putting therein all diligence in order to leave a memorial of himself to his country; and among other things, carving in it the Universal Judgment, he made therein many figures, if not with perfect design, at least with infinite patience and diligence, as can be seen. And because it appeared to him, as was true, that he had done a work worthy of praise, he carved at the foot of it these verses:",
@@ -481,7 +454,6 @@ const DATA = {
           "file": "images/nicola-siena.jpg",
           "w": 1280,
           "h": 1707,
-          "note": "Octagonal, with Giovanni already in the shop. Narrative crowding beyond Pisa.",
           "vasari": {
             "life": "Life of Niccola and Giovanni of Pisa",
             "text": "The people of Siena, moved by the fame of this work, which greatly pleased not only the Pisans but everyone who saw it, gave to Niccola the making of the pulpit of their Duomo, in which there is sung the Gospel; Guglielmo Mariscotti being Praetor. In this Niccola made many stories of Jesus Christ, with much credit to himself, by reason of the figures that are there wrought and with great difficulty almost wholly detached from the marble. Niccola likewise made the design of the Church and Convent of S. Domenico in Arezzo for the Lords of Pietramala, who erected it. And at the entreaty of Bishop Ubertini he restored the Pieve of Cortona, and founded the Church of S. Margherita for the Friars of S. Francis, on the highest point of that city.",
@@ -497,12 +469,10 @@ const DATA = {
           "file": "images/fontana-maggiore.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Two basins carved with the labors of the months, the liberal arts, and Rome and Perugia enthroned — made with Giovanni, then in his twenties.",
           "vasari": {
             "life": "Life of Niccola and Giovanni of Pisa",
             "text": "Niccola had, among others, a son called Giovanni, who, because he ever followed his father and applied himself under his teaching to sculpture and to architecture, in a few years became not only equal to his father but in some ways superior; wherefore Niccola, being now old, retired to Pisa, and living there quietly left the management of everything to his son. Pope Urban IV having died at that time in Perugia, a summons was sent to Giovanni, who, having gone there, made a tomb of marble for that Pontiff, which, together with that of Pope Martin IV, was afterwards thrown to the ground when the people of Perugia enlarged their Vescovado, in a manner that there are seen only a few relics of it scattered throughout the church. And the people of Perugia, at the same time, having brought a very great body of water through leaden pipes from the hill of Pacciano, two miles distant from the city, by means of the genius and industry of a friar of the Silvestrines, it was given to Giovanni Pisano to make all the ornaments of the fountain, both in bronze and in marble;…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
-            "note": "Vasari gives the Fontana Maggiore to Giovanni Pisano (Niccola’s son)."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326."
           }
         }
       ]
@@ -532,7 +502,6 @@ const DATA = {
           "file": "images/giovanni-pistoia.jpg",
           "w": 1280,
           "h": 1284,
-          "note": "The support: a lioness with cubs. Giovanni’s pulpit is harsher and more Gothic than his father’s.",
           "vasari": {
             "life": "Life of Niccola and Giovanni of Pisa",
             "text": "In the year 1300, Niccola da Prato, Cardinal Legate of the Pope, being in Florence in order to accommodate the dissensions of the Florentines, caused him to make a convent for nuns in Prato, which is called S. Niccola from his name, and to restore in the same territory the Convent of S. Domenico, and so too that of Pistoia; in both the one and the other of which there are still seen the arms of the said Cardinal. And because the people of Pistoia held in veneration the name of Niccola, father of Giovanni, by reason of that which he had wrought in that city with his talent, they caused Giovanni himself to make a pulpit of marble for the Church of S. Andrea, like to the one which he had made in the Duomo of Siena; and this he did in order to compete with one which had been made a little before in the Church of S. Giovanni Evangelista by a German, who was therefore much praised.…",
@@ -548,7 +517,6 @@ const DATA = {
           "file": "images/giovanni-pisa-pulpit.jpg",
           "w": 1280,
           "h": 953,
-          "note": "Giovanni's late pulpit, more crowded and more Gothic than his father's at the Baptistery forty years before.",
           "vasari": {
             "life": "Life of Niccola and Giovanni of Pisa",
             "text": "Giovanni, having dispatched his business in Perugia, wished to go to Rome, in order to learn from those few ancient things that were to be seen there, even as his father had done; but being hindered by good reasons, this his desire did not take effect, and the rather as he heard that the Court had just gone to Avignon. Returning, then, to Pisa, Nello di Giovanni Falconi, Warden, caused him to make the great pulpit of the Duomo, which is on the right hand going towards the high-altar, attached to the choir; and having made a beginning with this and with many figures in the round, three braccia high, that were to serve for it, little by little he brought them to that form that is seen to-day, placing the pulpit partly on the said figures and partly on some columns sustained by lions; and on the sides he made some scenes from the life of Christ.…",
@@ -582,7 +550,6 @@ const DATA = {
           "file": "images/palazzo-vecchio.jpg",
           "w": 1280,
           "h": 2276,
-          "note": "The civic tower. Vasari calls him Arnolfo di Lapo. The rusticated mass is of his time; later floors were altered.",
           "vasari": {
             "life": "Life of Arnolfo di Lapo",
             "text": "But returning to Arnolfo, I say that being held, as he was, excellent, he had acquired so great trust that nothing of importance was determined without his counsel; wherefore, in the same year, the Commune of Florence having finished the foundation of the last circle of the walls of the city, even as it was said above that they were formerly begun, and so too the towers of the gates, and all being in great part well advanced, he made a beginning for the Palace of the Signori, designing it in resemblance to that which his father Lapo had built in the Casentino for the Counts of Poppi. But yet, however magnificent and great he designed it, he could not give it that perfection which his art and his judgment required, for the following reason: the houses of the Uberti, Ghibellines and rebels against the people of Florence, had been pulled down and thrown to the ground, and a square had been made on the site, and the stupid obstinacy of certain men prevailed so greatly that Arnolfo could not bring it about, through whatsoever arguments he might urge thereunto, that it should be granted…",
@@ -598,7 +565,6 @@ const DATA = {
           "file": "images/arnolfo-braye.jpg",
           "w": 1280,
           "h": 2069,
-          "note": "Two acolytes draw back a stone curtain over the effigy — a device copied for two centuries of tomb design after him. The Madonna above is modeled on an antique statue of Abundance.",
           "vasari": {
             "life": "Life of Arnolfo di Lapo",
             "text": "[NOTICE TO READERS IN THE LIFE OF ARNOLFO.--The said Arnolfo began, in S. Maria Maggiore in Rome, the tomb of Pope Honorius III, of the house of Savelli; which tomb he left imperfect, with the portrait of the said Pope, which was afterwards placed with his design in the principal chapel of mosaic of S. Paolo in Rome, with the portrait of Giovanni Gaetano, Abbot of that monastery. And the marble chapel, wherein is the Manger of Jesus Christ, was one of the last pieces of sculpture in marble that Arnolfo ever made; and he made it at the instance of Pandolfo Ippotecorvo, in the year twelve (?), as an epitaph bears witness that is on the wall beside the chapel; and likewise the chapel and tomb of Pope Boniface VIII, in S. Pietro in Rome, whereon is carved the same name of Arnolfo, who wrought it.]",
@@ -614,7 +580,6 @@ const DATA = {
           "file": "images/santa-croce-interior.jpg",
           "w": 1280,
           "h": 1717,
-          "note": "The Franciscans' great Florentine church, traditionally begun to Arnolfo's design; the Gothic nave, not the nineteenth-century marble front.",
           "vasari": {
             "life": "Life of Arnolfo di Lapo",
             "text": "After this there was founded with his design, in the year 1294, the Church of S. Croce, where the Friars Minor have their seat. What with the middle nave and the two lesser ones Arnolfo constructed this so wide, that, being unable to make the vaulting below the roof by reason of the too great space, he, with much judgment, caused arches to be made from pier to pier, and upon these he placed the roofs on a slope, building stone gutters over the said arches in order to carry away the rain-water, and giving them so much fall as to make the roofs secure, as they are, from the danger of rotting; which device was not only new and ingenious then, but is equally useful and worthy of being considered to-day. He then gave the design for the first cloisters of the old convent of that church, and a little time after he caused to be removed from round the Church of S. Giovanni, on the outer side, all the arches and tombs of marble and grey-stone that were there, and had part of them placed behind the campanile on the facade of the Canon's house, beside the Company of S. Zanobi;…",
@@ -644,8 +609,7 @@ const DATA = {
           "place": "Bruges, Markt",
           "file": "images/bruges-belfry.jpg",
           "w": 1280,
-          "h": 1920,
-          "note": "Cloth hall and belfry of a Flemish commune. The upper octagon is fifteenth-century; the square body belongs here."
+          "h": 1920
         }
       ]
     },
@@ -670,8 +634,7 @@ const DATA = {
           "place": "Bruges",
           "file": "images/bruges-olv.jpg",
           "w": 1280,
-          "h": 1913,
-          "note": "Brick Gothic of the Low Countries. The brick spire rose later; the choir belongs to this span."
+          "h": 1913
         }
       ]
     },
@@ -696,8 +659,7 @@ const DATA = {
           "place": "Tournai",
           "file": "images/tournai.jpg",
           "w": 1280,
-          "h": 919,
-          "note": "Five towers of a Low Countries cathedral (not France). The Gothic choir was underway at the opening of our span."
+          "h": 919
         }
       ]
     },
@@ -722,8 +684,7 @@ const DATA = {
           "place": "Naples",
           "file": "images/naples-lorenzo.jpg",
           "w": 1280,
-          "h": 1712,
-          "note": "Angevin Gothic in the south. Charles I laid the church in 1266; the cloister as seen is a later garment on that foundation."
+          "h": 1712
         }
       ]
     },
@@ -752,7 +713,6 @@ const DATA = {
           "file": "images/simone-maesta.jpg",
           "w": 1280,
           "h": 984,
-          "note": "The Virgin under a canopy of civic heraldry: Siena’s Nine govern under her gaze. Vasari’s Simone.",
           "vasari": {
             "life": "Life of Simone Sanese",
             "text": "These sonnets, in truth, together with the mention made of him in one of his _Familiar Letters_, in the fifth book, which begins: \"Non sum nescius,\" have given more fame to the poor life of Maestro Simone than all his own works have ever done or ever will, seeing that they must at some time perish, whereas the writings of so great a man will live for eternal ages. Simone Memmi of Siena, then, was an excellent painter, remarkable in his own times and much esteemed at the Court of the Pope, for the reason that after the death of Giotto his master, whom he had followed to Rome when he made the Navicella in mosaic and the other works, he made a Virgin Mary in the portico of S. Pietro, with a S. Peter and a S. Paul, near to the place where the bronze pine-cone is, on a wall between the arches of the portico on the outer side; and in this he counterfeited the manner of Giotto very well, receiving so much praise, above all because he portrayed therein a sacristan of S.…",
@@ -787,8 +747,7 @@ const DATA = {
           "place": "London, National Gallery",
           "file": "images/margarito-ng.jpg",
           "w": 1920,
-          "h": 881,
-          "note": "Signed. The Greek manner Vasari feared Cimabue would eclipse — gold ground, mandorla, eight little martyrdoms."
+          "h": 881
         }
       ]
     },
@@ -809,7 +768,6 @@ const DATA = {
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. I (1912); Project Gutenberg #25326.",
         "key": "ANDREA_TAFI"
       },
-      "vasariNote": "Vasari credits Tafi with bringing mosaicists from Venice; modern scholarship also names Coppo and others for the cupola.",
       "works": [
         {
           "id": "florence-baptistery-mosaic",
@@ -819,8 +777,7 @@ const DATA = {
           "place": "Florence, Baptistery of San Giovanni",
           "file": "images/florence-baptistery-mosaic.jpg",
           "w": 1280,
-          "h": 960,
-          "note": "Christ in a gold mandorla over hell and the rising dead. The mosaic dome Dante and every Florentine painter knew by heart."
+          "h": 960
         }
       ]
     },
@@ -836,7 +793,6 @@ const DATA = {
       "place": "Siena",
       "famous": "guido-siena",
       "vasari": null,
-      "vasariNote": "Vasari gives Guido no Life. The faces of this Maestà were later refreshed — perhaps by Duccio’s shop.",
       "works": [
         {
           "id": "guido-siena",
@@ -846,8 +802,7 @@ const DATA = {
           "place": "Siena, Palazzo Pubblico",
           "file": "images/guido-siena.jpg",
           "w": 1280,
-          "h": 1944,
-          "note": "Siena’s great earlier Maestà, still in the Greek manner, decades before Duccio’s cathedral altarpiece."
+          "h": 1944
         }
       ]
     },
@@ -863,7 +818,6 @@ const DATA = {
       "place": "Rome",
       "famous": "torriti-coronation",
       "vasari": null,
-      "vasariNote": "Vasari barely notices Torriti; the Roman school of the 1290s is largely a modern recovery.",
       "works": [
         {
           "id": "torriti-coronation",
@@ -873,8 +827,7 @@ const DATA = {
           "place": "Rome, Santa Maria Maggiore",
           "file": "images/torriti-coronation.jpg",
           "w": 1280,
-          "h": 851,
-          "note": "Apse mosaic for Nicholas IV. Acanthus scrolls out of early Christian Rome, with Francis and Anthony among the saints — Jubilee-era Rome."
+          "h": 851
         }
       ]
     },
@@ -890,7 +843,6 @@ const DATA = {
       "place": "Florence",
       "famous": "magdalen-master",
       "vasari": null,
-      "vasariNote": "Unknown to Vasari by this modern name — a Florentine workshop between Coppo and Cimabue.",
       "works": [
         {
           "id": "magdalen-master",
@@ -900,8 +852,7 @@ const DATA = {
           "place": "Florence, Accademia",
           "file": "images/magdalen-master.jpg",
           "w": 972,
-          "h": 2111,
-          "note": "The hairy saint as a living column of penance, with little narrative panels climbing the sides."
+          "h": 2111
         }
       ]
     },
@@ -926,8 +877,7 @@ const DATA = {
           "place": "Siena, Piazza del Campo",
           "file": "images/siena-palazzo-pubblico.jpg",
           "w": 1280,
-          "h": 1707,
-          "note": "The brick palace of the Nine. The Torre del Mangia rises later (from 1325); the three-storey body belongs here. Simone’s Maestà is painted inside."
+          "h": 1707
         }
       ]
     },
@@ -952,8 +902,7 @@ const DATA = {
           "place": "Pisa",
           "file": "images/camposanto-sarcophagi.jpg",
           "w": 1280,
-          "h": 843,
-          "note": "Giovanni di Simone’s marble cloister, built to house the holy earth and the antique sarcophagi Pisa had already collected. The Phaedra sarcophagus now lives here."
+          "h": 843
         }
       ]
     },
@@ -978,8 +927,7 @@ const DATA = {
           "place": "Ghent",
           "file": "images/ghent-st-nicholas.jpg",
           "w": 1280,
-          "h": 1999,
-          "note": "Scheldt Gothic in brick and stone — the parish church of Ghent’s merchants, contemporary with the Tuscan first age."
+          "h": 1999
         }
       ]
     },
@@ -995,7 +943,6 @@ const DATA = {
       "place": "Pisa",
       "famous": "pisa-phaedra",
       "vasari": null,
-      "vasariNote": "Vasari calls this the Meleager sarcophagus and quotes the medieval Beatrice inscription. Nicola studied the seated Phaedra for his Virgin of the Adoration.",
       "works": [
         {
           "id": "pisa-phaedra",
@@ -1005,8 +952,7 @@ const DATA = {
           "place": "Pisa, Camposanto (then on the cathedral precinct)",
           "file": "images/pisa-phaedra.jpg",
           "w": 1280,
-          "h": 805,
-          "note": "The teacher, not the pupil. Nicola’s Virgin of the Magi takes her throne and weight from the seated Phaedra on the left. The Beatrice of Lorraine inscription (1076) is the one Vasari quotes."
+          "h": 805
         }
       ]
     },
@@ -1031,8 +977,7 @@ const DATA = {
           "place": "Rome (then Lateran; now Capitoline Museums)",
           "file": "images/marcus-aurelius.jpg",
           "w": 1280,
-          "h": 853,
-          "note": "Saved because it was taken for Constantine. Standing outside the Lateran when Giotto, Cavallini, and Torriti worked for the Jubilee of 1300 — the one surviving antique bronze emperor anyone could walk up to."
+          "h": 853
         }
       ]
     },
@@ -1057,8 +1002,7 @@ const DATA = {
           "place": "Rome, beside the Colosseum",
           "file": "images/arch-constantine.jpg",
           "w": 1280,
-          "h": 1925,
-          "note": "Reliefs of Trajan, Hadrian, and Marcus Aurelius reused under Constantine’s attic. Always standing; Jubilee pilgrims and Roman painters walked under it."
+          "h": 1925
         }
       ]
     },
@@ -1074,7 +1018,6 @@ const DATA = {
       "place": "Paris (Notre-Dame)",
       "famous": "perotin-viderunt",
       "vasari": null,
-      "vasariNote": "Outside Vasari’s painterly First Age: the Notre-Dame school that taught Europe how voices could move together. Slightly earlier than 1250, kept here because later motets still live in its wake.",
       "works": [
         {
           "id": "perotin-viderunt",
@@ -1088,8 +1031,7 @@ const DATA = {
               "label": "Internet Archive — Pérotin, Viderunt omnes (Deller Consort, human; Notre Dame LP)",
               "url": "https://archive.org/details/lp_music-at-notre-dame-1200-1375-notre-dame-m_guillaume-de-machaut-protin-alfred-deller"
             }
-          ],
-          "note": "Four-voice organum for Christmas. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1105,7 +1047,6 @@ const DATA = {
       "place": "Arras / Naples",
       "famous": "adam-robin",
       "vasari": null,
-      "vasariNote": "No Vasari Life — a trouvère, not a Tuscan painter. Arras and the Angevin south.",
       "works": [
         {
           "id": "adam-robin",
@@ -1121,8 +1062,7 @@ const DATA = {
               "label": "Internet Archive — Le Jeu de Robin et Marion (Pro Musica Antiqua / Safford Cape, human, 1956)",
               "url": "https://archive.org/details/lp_le-jeu-de-robin-et-marion-13-rondeaux-1_adam-de-la-halle-pro-musica-antiqua-saffor"
             }
-          ],
-          "note": "Pastoral play with songs — often called an ancestor of opera. Written for the Angevin circle. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1138,7 +1078,6 @@ const DATA = {
       "place": "Cortona / Tuscany",
       "famous": "cortona-altissima",
       "vasari": null,
-      "vasariNote": "Devotional songs in Italian, unknown to Vasari’s painter Lives — the sounding counterpart to Franciscan Assisi.",
       "works": [
         {
           "id": "cortona-altissima",
@@ -1152,8 +1091,7 @@ const DATA = {
               "label": "Internet Archive — Altissima luce, Laudario di Cortona (Quartetto Polifonico Italiano; track A17)",
               "url": "https://archive.org/details/lp_musica-italica-laudario-di-cortona-codex-9_quartetto-polifonico-italiano"
             }
-          ],
-          "note": "Vernacular praise-songs of the confraternities. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1169,7 +1107,6 @@ const DATA = {
       "place": "Cologne / Paris",
       "famous": "franco-ars",
       "vasari": null,
-      "vasariNote": "Theorist of Franconian notation (Ars cantus mensurabilis). No Vasari Life.",
       "works": [
         {
           "id": "franco-ars",
@@ -1183,8 +1120,7 @@ const DATA = {
               "label": "Wikipedia — Franco of Cologne (notation; no free recording of his music found)",
               "url": "https://en.wikipedia.org/wiki/Franco_of_Cologne"
             }
-          ],
-          "note": "How the breve was measured — the rulebook behind late-13th-c. polyphony. Listen via period motets that follow his precepts. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1200,7 +1136,6 @@ const DATA = {
       "place": "Amiens / Paris",
       "famous": "petrus-aucun",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Jacobus of Liège praised his motets.",
       "works": [
         {
           "id": "petrus-aucun",
@@ -1214,8 +1149,7 @@ const DATA = {
               "label": "Wikipedia — Petrus de Cruce (no free recording of Aucun ont trouvé found)",
               "url": "https://en.wikipedia.org/wiki/Petrus_de_Cruce"
             }
-          ],
-          "note": "Petronian motet: a top voice that subdivides the breve into many quick notes. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1231,7 +1165,6 @@ const DATA = {
       "place": "Reading Abbey (England)",
       "famous": "sumer-round",
       "vasari": null,
-      "vasariNote": "English rota — outside Vasari, included as a northern sounding contemporary of the Tuscan first age.",
       "works": [
         {
           "id": "sumer-round",
@@ -1249,8 +1182,7 @@ const DATA = {
               "label": "Internet Archive — Summer Is Icumen In (English Singers, c.1927 78)",
               "url": "https://archive.org/details/78_summer-is-icumen-in_the-english-singers-john-of-fornsete_gbia3007147b"
             }
-          ],
-          "note": "Four-voice round with a Latin pious contrafact in the same manuscript. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1266,7 +1198,6 @@ const DATA = {
       "place": "Paris",
       "famous": "vitry-fauvel",
       "vasari": null,
-      "vasariNote": "Ars Nova begins in his generation. No Vasari Life.",
       "works": [
         {
           "id": "vitry-fauvel",
@@ -1286,8 +1217,7 @@ const DATA = {
               "label": "Wikimedia Commons — Vitry, Vos qui admiramini (electronic / MIDI realization)",
               "url": "https://commons.wikimedia.org/wiki/File:Vitry_-_Vos_qui_admiramini.ogg"
             }
-          ],
-          "note": "Isorhythmic satire in a multimedia book of poetry, image, and song. Opens an external recording (not hosted here). No MIDI."
+          ]
         }
       ]
     },
@@ -1316,12 +1246,10 @@ const DATA = {
           "file": "images/ambrogio-good-government.jpg",
           "w": 2000,
           "h": 1082,
-          "note": "Justice, Concord, and the Common Good enthroned: civic painting as political theory.",
           "vasari": {
             "life": "Life of Ambrogio Lorenzetti",
             "text": "PAINTER OF SIENA\n\n\nIf that debt is great, as without doubt it is, which craftsmen of fine\ngenius should acknowledge to nature, much greater should that be that is\ndue from us to them, seeing that they, with great solicitude, fill the\ncities with noble and useful buildings and with lovely historical\ncompositions, gaining for themselves, for the most part, fame and riches\nwith their works; as did Ambrogio Lorenzetti, painter of Siena, who\nshowed beautiful and great invention in grouping and placing his figures\nthoughtfully in historical scenes.…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
-            "note": "Vasari praises Ambrogio’s Siena frescoes of peace and government."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
         },
         {
@@ -1333,7 +1261,6 @@ const DATA = {
           "file": "images/ambrogio-effects-good.jpg",
           "w": 1280,
           "h": 1151,
-          "note": "Shops, dancers, builders: the city thriving under the Nine.",
           "vasari": {
             "life": "Life of Ambrogio Lorenzetti",
             "text": "PAINTER OF SIENA\n\n\nIf that debt is great, as without doubt it is, which craftsmen of fine\ngenius should acknowledge to nature, much greater should that be that is\ndue from us to them, seeing that they, with great solicitude, fill the\ncities with noble and useful buildings and with lovely historical\ncompositions, gaining for themselves, for the most part, fame and riches\nwith their works; as did Ambrogio Lorenzetti, painter of Siena, who\nshowed beautiful and great invention in grouping and placing his figures\nthoughtfully in historical scenes.…",
@@ -1367,7 +1294,6 @@ const DATA = {
           "file": "images/taddeo-baroncelli.jpg",
           "w": 1280,
           "h": 872,
-          "note": "Giotto’s pupil in the Baroncelli Chapel: deep architecture, quiet procession.",
           "vasari": {
             "life": "Life of Taddeo Gaddi",
             "text": "PAINTER OF FLORENCE\n\n\nIt is a beautiful and truly useful and praiseworthy action to reward\ntalent largely in every place, and to honour him who has it, seeing that\nan infinity of intellects which might otherwise slumber, roused by this\nencouragement, strive with all industry not only to learn their art but\nto become excellent therein, in order to advance themselves and to\nattain to a rank both profitable and honourable; whence there may follow\nhonour for their country, glory for themselves, and riches and nobility\nfor their descendants, who, upraised by such beginnings, very often\nbecome both very rich and very noble, even as the descendants of the\npainter Taddeo Gaddi did by reason of his work.…",
@@ -1388,7 +1314,6 @@ const DATA = {
       "place": "Florence",
       "famous": "daddi-madonna",
       "vasari": null,
-      "vasariNote": "No dedicated Vasari Life; he appears among Giotto’s Florentine followers.",
       "works": [
         {
           "id": "daddi-madonna",
@@ -1398,8 +1323,7 @@ const DATA = {
           "place": "Florence (panel now often Uffizi / related ensembles)",
           "file": "images/daddi-madonna.jpg",
           "w": 1256,
-          "h": 1602,
-          "note": "Gold-ground tenderness after Giotto: soft faces, careful drapery folds."
+          "h": 1602
         }
       ]
     },
@@ -1428,12 +1352,10 @@ const DATA = {
           "file": "images/andrea-pisano-doors.jpg",
           "w": 1280,
           "h": 1485,
-          "note": "Twenty-eight bronze scenes of the Baptist: Gothic frames, clear narrative.",
           "vasari": {
             "life": "Life of Andrea Pisano",
             "text": "SCULPTOR AND ARCHITECT\n\n\nThe art of painting never flourished at any time without the sculptors\nalso pursuing their exercise with excellence, and to this the works of\nall ages bear witness for the close observer, because these two arts are\ntruly sisters, born at one and the same time, and fostered and governed\nby one and the same soul. This is seen in Andrea Pisano, who, practising\nsculpture in the time of Giotto, made so great improvement in this art,\nthat both in practice and in theory he was esteemed the greatest man\nthat the Tuscans had had up to his times in this profession, and above\nall in casting in bronze. Wherefore his works were honoured and rewarded\nin such a manner by all who knew him, and above all by the Florentines,\nthat it was no hardship to him to change country, relatives, property\nand friends.…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
-            "note": "Vasari’s account of the Baptistery doors for the Arte di Calimala."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
         }
       ]
@@ -1463,7 +1385,6 @@ const DATA = {
           "file": "images/orcagna-strozzi.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Christ in glory amid saints: gold ground after the Black Death generation.",
           "vasari": {
             "life": "Life of Andrea di Cione Orcagna",
             "text": "PAINTER, SCULPTOR, AND ARCHITECT, OF FLORENCE\n\n\nRarely is a man of parts excellent in one pursuit without being able\neasily to learn any other, and above all any one of those that are akin\nto his original profession, and proceed, as it were, from one and the\nsame source, as did the Florentine Orcagna, who was painter, sculptor,\narchitect, and poet, as it will be told below. Born in Florence, he\nbegan while still a child to give attention to sculpture under Andrea\nPisano, and pursued it for some years; then, being desirous to become\nabundant in invention in order to make lovely historical compositions,\nhe applied himself with so great study to drawing, assisted by nature,\nwho wished to make him universal, that having tried his hand at painting\nwith colours both in distemper and in fresco, even as one thing leads to\nanother, he succeeded so…",
@@ -1491,18 +1412,16 @@ const DATA = {
         {
           "id": "buffalmacco-death",
           "title": "Triumph of Death (detail: angels and demons)",
-          "date": "c. 1336–41",
-          "year": 1338,
+          "date": "c. 1340",
+          "year": 1340,
           "place": "Pisa, Camposanto",
           "file": "images/buffalmacco-death.jpg",
           "w": 1920,
           "h": 1918,
-          "note": "Attributed Camposanto fresco: souls contested between angels and demons.",
           "vasari": {
             "life": "Life of Buonamico Buffalmacco",
             "text": "PAINTER OF FLORENCE\n\n\nBuonamico di Cristofano, called Buffalmacco, painter of Florence, who\nwas a disciple of Andrea Tafi, and celebrated for his jokes by Messer\nGiovanni Boccaccio in his _Decameron_, was, as is known, a very dear\ncompanion of Bruno and Calandrino, painters equally humorous and gay;\nand as may be seen in his works, scattered throughout all Tuscany, he\nwas a man of passing good judgment in his art of painting. Franco\nSacchetti relates in his three hundred Stories (to begin with the things\nthat this man did while still youthful), that Buffalmacco lived, while\nhe was a lad, with Andrea, and that this master of his used to make it a\ncustom, when the nights were long, to get up before daylight to labour,\nand to call the lads to night-work.…",
-            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326.",
-            "note": "Vasari’s comic Life; modern scholarship attributes the Camposanto cycle to Buffalmacco."
+            "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
           }
         }
       ]
@@ -1532,7 +1451,6 @@ const DATA = {
           "file": "images/agnolo-true-cross.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Alberti chapel cycle: Constantine, Helena, and the wood of the Cross in late Trecento narrative.",
           "vasari": {
             "life": "Life of Agnolo Gaddi",
             "text": "For the noble family of the Alberti, likewise, he painted in fresco the\nprincipal chapel of the Church of S. Croce, making therein all that came\nto pass in the discovery of the Cross, and he executed that work with\nmuch mastery of handling but not with much design, for only the\ncolouring is beautiful and good enough. Next, in painting in fresco some\nstories of S. Louis in the Chapel of the Bardi in the same church, he\nacquitted himself much better. And because he used to work by caprice,\nnow with more zeal and now with less, working in S. Spirito, also in\nFlorence, within the door that leads from the square into the convent,\nhe made in fresco, over another door, a Madonna with the Child in her\narms, and S. Augustine and S. Nicholas, so well that the said figures…",
@@ -1548,7 +1466,6 @@ const DATA = {
           "file": "images/agnolo-true-cross-cycle.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Companion wall of the Maggiore chapel cycle — Taddeo’s son carrying Giotto’s shop into the next generation.",
           "vasari": {
             "life": "Life of Agnolo Gaddi",
             "text": "For the noble family of the Alberti, likewise, he painted in fresco the\nprincipal chapel of the Church of S. Croce, making therein all that came\nto pass in the discovery of the Cross, and he executed that work with\nmuch mastery of handling but not with much design, for only the\ncolouring is beautiful and good enough. Next, in painting in fresco some\nstories of S. Louis in the Chapel of the Bardi in the same church, he\nacquitted himself much better. And because he used to work by caprice,\nnow with more zeal and now with less, working in S. Spirito, also in\nFlorence, within the door that leads from the square into the convent,\nhe made in fresco, over another door, a Madonna with the Child in her\narms, and S. Augustine and S. Nicholas, so well that the said figures…",
@@ -1582,7 +1499,6 @@ const DATA = {
           "file": "images/spinello-annunciation.jpg",
           "w": 1280,
           "h": 1091,
-          "note": "Arezzo fresco: angel and Virgin in Spinello’s firm late-Gothic line.",
           "vasari": {
             "life": "Life of Spinello Aretino",
             "text": "Luca Spinelli having gone to dwell in Arezzo on one of the several\noccasions when the Ghibellines were driven out of Florence, there was\nborn to him in that city a son, to whom he gave the name of Spinello, so\nmuch inclined by nature to be a painter, that almost without a master,\nwhile still a boy, he knew what many exercised under the discipline of\nthe best masters do not know; and what is more, having had friendship\nwith Jacopo di Casentino while he worked in Arezzo, and having learnt\nsomething from him, before he was twenty years of age he was by a long\nway a much better master, young as he was, than was Jacopo himself,\nalready an old painter. Spinello, then, began to be reputed a good\npainter, and Messer Dardano Acciaiuoli, having caused the Church of S…",
@@ -1598,7 +1514,6 @@ const DATA = {
           "file": "images/spinello-san-miniato.jpg",
           "w": 1280,
           "h": 853,
-          "note": "Olivetan sacristy cycle: Benedictine narrative for the hillside basilica.",
           "vasari": {
             "life": "Life of Spinello Aretino",
             "text": "Being next summoned to the famous Abbey of Camaldoli in the Casentino,\nin the year 1361, he made for the hermits of that place the panel of the\nhigh-altar, which was removed in the year 1539, when, that church having\nbeen just rebuilt completely anew, Giorgio Vasari made a new panel, and\npainted in fresco the whole of the principal chapel of that abbey, and\nthe tramezzo[2] of the church, also in fresco, and two other panels.\nSummoned thence to Florence by Don Jacopo d'Arezzo, Abbot of S. Miniato\nsul Monte, of the Order of Monte Oliveto, Spinello painted on the\nvaulting and on the four walls of the sacristy of that monastery,\nbesides the panel in distemper for the altar, many scenes in fresco of\nthe life of S. Benedict, with great mastery and with much vivacity of…",
@@ -1622,7 +1537,6 @@ const DATA = {
         "life": "Life of Tommaso, called Giottino",
         "cite": "Vasari, Lives of the Most Eminent Painters Sculptors and Architects, trans. Gaston du C. de Vere, Vol. 1 (1912); Project Gutenberg #25326."
       },
-      "vasariNote": "Vasari’s Giottino (Tommaso di Stefano / Maso) is contested: the Uffizi Pietà is often linked to this Life, but modern attribution debates Maso di Banco and others.",
       "works": [
         {
           "id": "giottino-pieta",
@@ -1633,7 +1547,6 @@ const DATA = {
           "file": "images/giottino-pieta.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Gold-ground lamentation Vasari illustrated as Giottino — attribution still debated.",
           "vasari": {
             "life": "Life of Tommaso, called Giottino",
             "text": "PAINTER OF FLORENCE\n\n\nWhen those arts that proceed from design come into competition and their\ncraftsmen work in rivalry, without doubt the good intellects, exercising\nthemselves with much study, discover new things every day in order to\nsatisfy the various tastes of men; and some, speaking for the present of\npainting, executing works obscure and unusual and demonstrating in them\nthe difficulty of making them, make known by the shadows the brightness\nof their genius. Others, fashioning the sweet and delicate, thinking\nthese to be likely to be more pleasing to the eyes of all who behold\nthem by reason of their having more relief, easily attract to themselves\nthe minds of the greater part of men. Others, again, painting with unity…",
@@ -1654,7 +1567,6 @@ const DATA = {
       "place": "Verona / Padua",
       "famous": "altichiero-crucifixion",
       "vasari": null,
-      "vasariNote": "No Vasari Life — major north-Italian Trecento master (Padua’s Santo and Oratorio di San Giorgio), outside Vasari’s Florentine First Age focus.",
       "works": [
         {
           "id": "altichiero-crucifixion",
@@ -1664,8 +1576,7 @@ const DATA = {
           "place": "Padua, Basilica del Santo",
           "file": "images/altichiero-crucifixion.jpg",
           "w": 1280,
-          "h": 960,
-          "note": "Crowded Giotto-afterlife drama under the Santo’s vaults — Verona’s school in Padua."
+          "h": 960
         },
         {
           "id": "altichiero-san-giorgio",
@@ -1675,8 +1586,7 @@ const DATA = {
           "place": "Padua, Oratorio di San Giorgio",
           "file": "images/altichiero-san-giorgio.jpg",
           "w": 1200,
-          "h": 1600,
-          "note": "Altar wall of the oratory: chivalric saints’ chapel beside the Santo."
+          "h": 1600
         }
       ]
     },
@@ -1692,7 +1602,6 @@ const DATA = {
       "place": "Bologna / Verona / Milan",
       "famous": "jacopo-non-al-suo",
       "vasari": null,
-      "vasariNote": "No Vasari Life — Trecento madrigalist beside Landini in the Squarcialupi Codex.",
       "works": [
         {
           "id": "jacopo-non-al-suo",
@@ -1708,8 +1617,7 @@ const DATA = {
               "label": "Internet Archive — Non al suo amante (Jacopo da Bologna; 78 rpm, human performance / Guillaume de Van)",
               "url": "https://archive.org/details/78_non-al-suo-amante_mm-archimbaud-bont-jacopo-da-bologna-guillaume-de-van_gbia0554147b"
             }
-          ],
-          "note": "Two-voice madrigal on a Petrarch sonnet — early Italian polyphony under his Squarcialupi portrait. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -1725,7 +1633,6 @@ const DATA = {
       "place": "Liège / Padua",
       "famous": "ciconia-padua",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Franco-Italian bridge figure between Trecento and the Quattrocento north.",
       "works": [
         {
           "id": "ciconia-padua",
@@ -1741,8 +1648,7 @@ const DATA = {
               "label": "Wikimedia Commons — Ciconia, O Padua, sidus praeclarum (human performance, playable .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Johannes_Ciconia_-_O_Padua,_sidus_praeclarum.ogg"
             }
-          ],
-          "note": "Civic motet for Padua — northern craft meeting Italian text. Opens an external recording (not hosted here)."
+          ]
         },
         {
           "id": "ciconia-gloria",
@@ -1758,8 +1664,7 @@ const DATA = {
               "label": "Wikimedia Commons — Ciconia, O Padua (companion listen; human .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Johannes_Ciconia_-_O_Padua,_sidus_praeclarum.ogg"
             }
-          ],
-          "note": "Mass Ordinary movement preserved in the Polish Krasinski source. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -1775,7 +1680,6 @@ const DATA = {
       "place": "England (Canterbury / Old Hall)",
       "famous": "power-ave-regina",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Old Hall colleague of the English style that travels with Dunstable.",
       "works": [
         {
           "id": "power-ave-regina",
@@ -1791,8 +1695,7 @@ const DATA = {
               "label": "Wikimedia Commons — Leonel Power, Ave Regina (human recording, playable .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Ave_Regina_-_Leonel_Power.ogg"
             }
-          ],
-          "note": "Marian antiphon in the English choirbook tradition. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -1821,7 +1724,6 @@ const DATA = {
           "file": "images/ghiberti-isaac.jpg",
           "w": 1280,
           "h": 1707,
-          "note": "The 1401 Baptistery-door contest panel: graceful Isaac, crowded bronze stage.",
           "vasari": {
             "life": "Life of Lorenzo Ghiberti",
             "text": "PAINTER OF FLORENCE\n\n\nThere is no doubt that in every city those who, by reason of any talent,\ncome into some fame among men, are a most blessed light and example to\nmany who are either born after them or live in the same age, not to\nmention the infinite praise and the extraordinary rewards that they\nthemselves gain thereby while living. Nor is there anything that does\nmore to arouse the minds of men, and to render the discipline of study\nless fatiguing to them, than the honour and profit which are afterwards\nwon by labouring at the arts, for the reason that these make every\ndifficult undertaking easy to them all, and give a greater stimulus to\nthe growth of their talents, when they are urged to greater efforts by\nthe praises of the world.…",
@@ -1837,7 +1739,6 @@ const DATA = {
           "file": "images/ghiberti-paradise.jpg",
           "w": 1280,
           "h": 1769,
-          "note": "Ten gilded Old Testament scenes; Michelangelo’s later nickname stuck.",
           "vasari": {
             "life": "Life of Lorenzo Ghiberti",
             "text": "PAINTER OF FLORENCE\n\n\nThere is no doubt that in every city those who, by reason of any talent,\ncome into some fame among men, are a most blessed light and example to\nmany who are either born after them or live in the same age, not to\nmention the infinite praise and the extraordinary rewards that they\nthemselves gain thereby while living. Nor is there anything that does\nmore to arouse the minds of men, and to render the discipline of study\nless fatiguing to them, than the honour and profit which are afterwards\nwon by labouring at the arts, for the reason that these make every\ndifficult undertaking easy to them all, and give a greater stimulus to\nthe growth of their talents, when they are urged to greater efforts by\nthe praises of the world.…",
@@ -1871,7 +1772,6 @@ const DATA = {
           "file": "images/brunelleschi-dome.jpg",
           "w": 1280,
           "h": 928,
-          "note": "Double shell without centering: the engineering wonder of Quattrocento Florence.",
           "vasari": {
             "life": "Life of Filippo Brunelleschi",
             "text": "SCULPTOR AND ARCHITECT\n\n\nMany men are created by nature small in person and in features, who have\na mind full of such greatness and a heart of such irresistible\nvehemence, that if they do not begin difficult--nay, almost\nimpossible--undertakings, and bring them to completion to the marvel of\nall who behold them, they have never any peace in their lives; and\nwhatsoever work chance puts into their hands, however lowly and base it\nmay be, they give it value and nobility. Wherefore no one should turn up\nhis nose when he encounters people who have not, in their aspect, that\nprimal grace or beauty which nature should give, on his coming into the\nworld, to a man who works at any art, seeing that there is no doubt that\nbeneath the clods of the earth are hidden veins of gold.…",
@@ -1887,7 +1787,6 @@ const DATA = {
           "file": "images/brunelleschi-innocenti.jpg",
           "w": 1920,
           "h": 1080,
-          "note": "Measured arches and Corinthian columns: a new classical street façade.",
           "vasari": {
             "life": "Life of Filippo Brunelleschi",
             "text": "SCULPTOR AND ARCHITECT\n\n\nMany men are created by nature small in person and in features, who have\na mind full of such greatness and a heart of such irresistible\nvehemence, that if they do not begin difficult--nay, almost\nimpossible--undertakings, and bring them to completion to the marvel of\nall who behold them, they have never any peace in their lives; and\nwhatsoever work chance puts into their hands, however lowly and base it\nmay be, they give it value and nobility. Wherefore no one should turn up\nhis nose when he encounters people who have not, in their aspect, that\nprimal grace or beauty which nature should give, on his coming into the\nworld, to a man who works at any art, seeing that there is no doubt that\nbeneath the clods of the earth are hidden veins of gold.…",
@@ -1921,7 +1820,6 @@ const DATA = {
           "file": "images/donatello-st-george.jpg",
           "w": 1280,
           "h": 2768,
-          "note": "Alert marble knight: early Quattrocento vigilance in stone.",
           "vasari": {
             "life": "Life of Donato",
             "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
@@ -1937,7 +1835,6 @@ const DATA = {
           "file": "images/donatello-david.jpg",
           "w": 1066,
           "h": 1600,
-          "note": "First freestanding nude bronze of the Renaissance — hat, sword, soft contrapposto.",
           "vasari": {
             "life": "Life of Donato",
             "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
@@ -1953,7 +1850,6 @@ const DATA = {
           "file": "images/donatello-gattamelata.jpg",
           "w": 1280,
           "h": 1970,
-          "note": "Bronze general after the antique: power without a pedestal emperor.",
           "vasari": {
             "life": "Life of Donato",
             "text": "SCULPTOR OF FLORENCE\n\n\nDonato, who was called Donatello by his relatives and wrote his name\nthus on some of his works, was born in Florence in the year 1403.\nDevoting himself to the arts of design, he was not only a very rare\nsculptor and a marvellous statuary, but also a practised worker in\nstucco, an able master of perspective, and greatly esteemed as an\narchitect; and his works showed so great grace, design, and excellence,\nthat they were held to approach more nearly to the marvellous works of\nthe ancient Greeks and Romans than those of any other craftsman\nwhatsoever.…",
@@ -1987,7 +1883,6 @@ const DATA = {
           "file": "images/quercia-ilaria.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Guinigi’s wife in marble sleep — dog at her feet, boys with garlands on the base.",
           "vasari": {
             "life": "Life of Jacopo della Quercia",
             "text": "After this work, Jacopo made in Siena two panels of lime-wood, carving\nthe figures in them, with their beards and hair, with so great patience\nthat it was a marvel to see. And after these panels, which were placed\nin the Duomo, he made some prophets in marble, of no great size, which\nare in the facade of the said Duomo; and he would have continued to\nlabour at the works of this building, if plague, famine, and the\ndiscords of the citizens of Siena had not brought that city to an evil\npass; for, after having many times risen in tumult, they drove out\nOrlando Malevolti, by whose favour Jacopo had enjoyed creditable\nemployment in his native city. Departing then from Siena, he betook\nhimself by the agency of certain friends to Lucca, and there, in the\nChurch of S…",
@@ -2003,7 +1898,6 @@ const DATA = {
           "file": "images/quercia-porta-magna.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Genesis reliefs and prophets on the basilica’s main portal — weighty bodies before Michelangelo.",
           "vasari": {
             "life": "Life of Jacopo della Quercia",
             "text": "Meanwhile Jacopo had heard that the Guild of the Merchants of Calimara\nin Florence wished to have a bronze door made for the Church of S.\nGiovanni, where, as it has been said, Andrea Pisano had wrought the\nfirst; and he had come to Florence in order to make himself known, above\nall because this work was to be allotted to the man who, in making one\nof those scenes in bronze, should give the best proof of himself and of\nhis talent. Having therefore come to Florence, he not only made the\nmodel, but delivered one very well executed scene, completely finished\nand polished, which gave so great satisfaction, that, if he had not had\nas rivals those most excellent masters, Donatello and Filippo\nBrunelleschi, who in truth surpassed him in their specimens, it would…",
@@ -2037,7 +1931,6 @@ const DATA = {
           "file": "images/luca-cantoria.jpg",
           "w": 4032,
           "h": 2268,
-          "note": "Marble choir of children: throats swelling, music made visible for the Duomo organ loft.",
           "vasari": {
             "life": "Life of Luca della Robbia",
             "text": "Luca was barely fifteen years of age when he was summoned, together with\nother young sculptors, to Rimini, in order to make some figures and\nother ornaments in marble for Sigismondo di Pandolfo Malatesti, Lord of\nthat city, who was then having a chapel made in the Church of S.\nFrancesco, and a tomb for his wife, who had died. Luca had given an\nhonourable proof of his knowledge in some low-reliefs in this work,\nwhich are still seen there, when he was recalled by the Wardens of Works\nof S. Maria del Fiore to Florence, where, for the campanile of that\nchurch, he made five little scenes in marble, which are on the side that\nfaces the church, and which were wanting, according to the design of\nGiotto, to go with that wherein are the Sciences and Arts, formerly…",
@@ -2053,7 +1946,6 @@ const DATA = {
           "file": "images/luca-madonna-apple.jpg",
           "w": 1280,
           "h": 1509,
-          "note": "Glazed terracotta blue-and-white: Luca’s durable enamel invention in quiet devotion.",
           "vasari": {
             "life": "Life of Luca della Robbia",
             "text": "Having then succeeded in this as much as he could desire, he resolved\nthat his first works should be those that are in the arch over the\nbronze door which he had made for the sacristy, below the organ of S.\nMaria del Fiore; and therein he made a Resurrection of Christ, so\nbeautiful for that time that it was admired, when placed in position, as\nsomething truly rare. Moved by this, the said Wardens of Works desired\nthat the arch over the door of the other sacristy, where Donatello had\nmade the ornament of the other organ, should be filled by Luca in the\nsame manner with similar figures and works in terra-cotta; wherefore\nLuca made therein a very beautiful Jesus Christ ascending into Heaven.\n\nNow, not being yet satisfied with this beautiful invention--so lovely…",
@@ -2074,7 +1966,6 @@ const DATA = {
       "place": "England / France",
       "famous": "dunstable-quam",
       "vasari": null,
-      "vasariNote": "No Vasari Life. English contenance angloise that reshaped Burgundian and Italian hearing after him.",
       "works": [
         {
           "id": "dunstable-quam",
@@ -2094,8 +1985,7 @@ const DATA = {
               "label": "Internet Archive — Music of the Middle Ages VIII: Dunstable (Ambrosian Singers / Denis Stevens; human; includes Quam pulchra es)",
               "url": "https://archive.org/details/lp_music-of-the-middle-ages-volume-viii-sa_john-dunstable-denis-stevens-the-ambros"
             }
-          ],
-          "note": "Sweet-third English sonority — the influence Dufay’s generation absorbed. Old Hall manuscript page for English sacred polyphony. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -2124,7 +2014,6 @@ const DATA = {
           "file": "images/masaccio-tribute.jpg",
           "w": 2200,
           "h": 1015,
-          "note": "One continuous space, one light: tax coin, lake, and Apostles under Brunelleschi’s perspective.",
           "vasari": {
             "life": "Life of Masaccio",
             "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
@@ -2140,7 +2029,6 @@ const DATA = {
           "file": "images/masaccio-trinity.jpg",
           "w": 1028,
           "h": 2073,
-          "note": "Painted barrel vault that seems to pierce the wall — donors below, God above.",
           "vasari": {
             "life": "Life of Masaccio",
             "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
@@ -2156,7 +2044,6 @@ const DATA = {
           "file": "images/masaccio-expulsion.jpg",
           "w": 1280,
           "h": 2239,
-          "note": "Adam’s shame, Eve’s cry: bodies weighted by grief.",
           "vasari": {
             "life": "Life of Masaccio",
             "text": "PAINTER OF SAN GIOVANNI IN VALDARNO\n\n\nIt is the custom of nature, when she makes a man very excellent in any\nprofession, very often not to make him alone, but at the same time, and\nin the same neighbourhood, to make another to compete with him, to the\nend that they may assist each other by their talent and emulation; which\ncircumstance, besides the singular advantage enjoyed by the men\nthemselves, who thus compete with each other, also kindles beyond\nmeasure the minds of those who come after that age, to strive with all\nstudy and all industry to attain to that honour and that glorious\nreputation which they hear highly extolled without ceasing in those who\nhave passed away.…",
@@ -2190,7 +2077,6 @@ const DATA = {
           "file": "images/masolino-temptation.jpg",
           "w": 1025,
           "h": 1956,
-          "note": "Elegant International Gothic bodies across from Masaccio’s Expulsion.",
           "vasari": {
             "life": "Life of Masolino da Panicale",
             "text": "Truly great, I believe, must be the contentment of those who are\napproaching the highest rank in the science wherein they are labouring;\nand those, likewise, who, besides the delight and pleasure that they\nfeel in working valiantly, enjoy some fruit from their labours, without\ndoubt live a quiet and very happy life. And if perchance it comes to\npass that one, while advancing towards perfection in any science or art,\nis overtaken by death in the happy course of his life, his memory does\nnot become wholly spent, if only he has laboured worthily in order to\nattain to the true end of his art.…",
@@ -2224,7 +2110,6 @@ const DATA = {
           "file": "images/fra-angelico-annunciation.jpg",
           "w": 1280,
           "h": 1327,
-          "note": "Gabriel and Mary under a quiet arcade: Dominican devotion made luminous.",
           "vasari": {
             "life": "Life of Fra Giovanni da Fiesole",
             "text": "PAINTER OF THE ORDER OF PREACHING FRIARS\n\n\nFra Giovanni Angelico da Fiesole, who was known in the world as Guido,\nwas no less excellent as painter and illuminator than he was upright as\nchurchman, and for both one and the other of these reasons he deserves\nthat most honourable record should be made of him. This man, although he\ncould have lived in the world with the greatest comfort, and could have\ngained whatever he wished, besides what he possessed, by means of those\narts, of which he had a very good knowledge even in his youth, yet\nresolved, for his own peace and satisfaction, being by nature serious\nand upright, and above all in order to save his soul, to take the vows\nof the Order of Preaching Friars; for the reason that, although it is\npossible to serve God in all walks of life, nevertheless it appears to\nsome men that they can gain…",
@@ -2258,7 +2143,6 @@ const DATA = {
           "file": "images/uccello-san-romano.jpg",
           "w": 1280,
           "h": 1555,
-          "note": "Lances as perspective lines; Vasari’s painter “drunk on perspective.”",
           "vasari": {
             "life": "Life of Paolo Uccello",
             "text": "PAINTER OF FLORENCE\n\n\nPaolo Uccello would have been the most gracious and fanciful genius that\nwas ever devoted to the art of painting, from Giotto's day to our own,\nif he had laboured as much at figures and animals as he laboured and\nlost time over the details of perspective; for although these are\ningenious and beautiful, yet if a man pursues them beyond measure he\ndoes nothing but waste his time, exhausts his powers, fills his mind\nwith difficulties, and often transforms its fertility and readiness into\nsterility and constraint, and renders his manner, by attending more to\nthese details than to figures, dry and angular, which all comes from a\nwish to examine things too minutely; not to mention that very often he\nbecomes solitary, eccentric, melancholy, and poor, as did Paolo Uccello.…",
@@ -2292,7 +2176,6 @@ const DATA = {
           "file": "images/gentile-magi.jpg",
           "w": 1280,
           "h": 922,
-          "note": "International Gothic splendor: gold, animals, and a winding Magi procession.",
           "vasari": {
             "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
             "text": "Very great is the advantage enjoyed by one who follows in the steps of a\npredecessor who has gained honour and fame by means of some rare talent,\nfor the reason that, if only he follows to some extent the path prepared\nby his master, he seldom fails to arrive without much fatigue at an\nhonourable goal; whereas, if he had to reach it by himself, he would\nhave need of a much longer time and far greater labours. The truth of\nthis could be seen, ready for the finger to point to, as the saying is,\namong many other examples, in that of Pisano, or rather, Pisanello, a\npainter of Verona, who, having spent many years in Florence with Andrea\ndal Castagno, and having finished his works after his death, acquired so\nmuch credit by means of Andrea's name, that Pope Martin V, coming to\nFlorence, took him in his train to Rome, where he caused him to pain…",
@@ -2326,7 +2209,6 @@ const DATA = {
           "file": "images/lorenzo-monaco-coronation.jpg",
           "w": 1280,
           "h": 1327,
-          "note": "Camaldolese gold and rhythm: International Gothic on the eve of Masaccio.",
           "vasari": {
             "life": "Life of Don Lorenzo Monaco",
             "text": "Don Lorenzo, then, a painter of Florence, was a monk of the Order of\nCamaldoli in the Monastery of the Angeli, which monastery was founded in\nthe year 1294 by Fra Guittone d'Arezzo, of the Militant Order of the\nVirgin Mother of Jesus Christ, or rather, as the monks of that Order\nwere vulgarly called, of the Joyous Friars; and he applied himself in\nhis earliest years to design and to painting with so great zeal, that he\nwas afterwards deservedly numbered among the best of the age in that\nexercise. The first works of this painter-monk, who held to the manner\nof Taddeo Gaddi and his disciples, were in his Monastery of the Angeli,\nwhere, among many other things, he painted the panel of the high-altar,\nwhich is still seen to-day in their church, and which was completely…",
@@ -2342,7 +2224,6 @@ const DATA = {
           "file": "images/lorenzo-monaco-annunciation.jpg",
           "w": 1280,
           "h": 1147,
-          "note": "Slender angel and Virgin in luminous tempera — monastic Gothic elegance.",
           "vasari": {
             "life": "Life of Don Lorenzo Monaco",
             "text": "OF THE ANGELI IN FLORENCE, PAINTER\n\n\nFor a good and religious person, I believe, there must be great\ncontentment in having ready to his hand some honourable exercise,\nwhether that of letters, or of music, or of painting, or of any other\nliberal or mechanical arts, such as are not blameworthy, but rather\nuseful and helpful to other men; for the reason that after the divine\noffices the time passes honourably with the delight that is taken in the\nsweet labours of these pleasant exercises. And to this it may be added\nthat not only is he esteemed and held in price by others the while that\nhe lives, provided that they be not envious and malign, but that he is\nalso honoured after death by all men, by reason of his works and of the…",
@@ -2376,7 +2257,6 @@ const DATA = {
           "file": "images/pisanello-eustace.jpg",
           "w": 1280,
           "h": 1053,
-          "note": "International Gothic forest of animals and heraldry — the saint before the stag’s crucifix.",
           "vasari": {
             "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
             "text": "But to return to Vittore Pisano; the account that has been given of him\nabove was written by us, with nothing more, when this our book was\nprinted for the first time, because we had not then received that\ninformation and knowledge of the works of this excellent craftsman which\nwe have since gained from notices supplied by that very reverend and\nmost learned Father, Fra Marco de' Medici of Verona, of the Order of\nPreaching Friars, and from the narrative of Biondo da Forli, where he\nspeaks of Verona in his \"Italia Illustrata.\" Vittore was equal in\nexcellence to any painter of his age; and to this, not to speak of the\nworks enumerated above, most ample testimony is borne by many others\nthat are seen in his most noble native city of Verona, although many are…",
@@ -2392,7 +2272,6 @@ const DATA = {
           "file": "images/pisanello-princess.jpg",
           "w": 1280,
           "h": 1840,
-          "note": "Profile court portrait among butterflies and flowers — medal-maker’s eye in paint.",
           "vasari": {
             "life": "Lives of Gentile da Fabriano and Vittore Pisanello",
             "text": "But to return to Vittore Pisano; the account that has been given of him\nabove was written by us, with nothing more, when this our book was\nprinted for the first time, because we had not then received that\ninformation and knowledge of the works of this excellent craftsman which\nwe have since gained from notices supplied by that very reverend and\nmost learned Father, Fra Marco de' Medici of Verona, of the Order of\nPreaching Friars, and from the narrative of Biondo da Forli, where he\nspeaks of Verona in his \"Italia Illustrata.\" Vittore was equal in\nexcellence to any painter of his age; and to this, not to speak of the\nworks enumerated above, most ample testimony is borne by many others\nthat are seen in his most noble native city of Verona, although many are…",
@@ -2426,7 +2305,6 @@ const DATA = {
           "file": "images/filippo-lippi-madonna.jpg",
           "w": 1280,
           "h": 1911,
-          "note": "Window ledge, mischievous angels, and a tender half-smile.",
           "vasari": {
             "life": "Life of Fra Filippo Lippi",
             "text": "PAINTER OF FLORENCE\n\n\nFra Filippo di Tommaso Lippi, a Carmelite, was born in Florence in a\nstreet called Ardiglione, below the Canto alla Cuculia and behind the\nConvent of the Carmelites. By the death of his father Tommaso he was\nleft a poor little orphan at the age of two, with no one to take care of\nhim, for his mother had also died not long after giving him birth. He\nwas left, therefore, in the charge of one Mona Lapaccia, his aunt,\nsister of his father, who brought him up with very great inconvenience\nto herself; and when he was eight years of age and she could no longer\nsupport him, she made him a friar in the aforesaid Convent of the\nCarmine.…",
@@ -2460,7 +2338,6 @@ const DATA = {
           "file": "images/domenico-veneziano-lucy.jpg",
           "w": 1280,
           "h": 1124,
-          "note": "Pale light and measured architecture: oil-ish tempera clarity in Florence.",
           "vasari": {
             "life": "Lives of Andrea dal Castagno and Domenico Veneziano",
             "text": "How reprehensible is the vice of envy, which should never exist in\nanyone, when found in a man of excellence, and how wicked and horrible a\nthing it is to seek under the guise of a feigned friendship to\nextinguish not only the fame and glory of another but his very life, I\ntruly believe it to be impossible to express with words, for the\nwickedness of the act overcomes all power and force of speech, however\neloquent. For this reason, without enlarging further on this subject, I\nwill only say that in such men there dwells a spirit not merely inhuman\nand savage but wholly cruel and devilish, and so far removed from any\nsort of virtue that they are no longer men or even animals, and do not\ndeserve to live.…",
@@ -2481,7 +2358,6 @@ const DATA = {
       "place": "Florence (BML Med. Pal. 87)",
       "famous": "squarcialupi-codex",
       "vasari": null,
-      "vasariNote": "Not a Vasari Life — the great Florentine choirbook of Trecento song (Landini, Jacopo, and company), kept as a manuscript source like the Laudario di Cortona.",
       "works": [
         {
           "id": "squarcialupi-codex",
@@ -2497,8 +2373,7 @@ const DATA = {
               "label": "Internet Archive — Danses du Moyen-Age / early music program of Landini’s era (Clemencic Consort & Ensemble Ricercare; human)",
               "url": "https://archive.org/details/mhu-2.472-danses-du-moyen-age-clementic-cons.-ens.-ricercare"
             }
-          ],
-          "note": "Lavish illuminated source for Trecento polyphony — portraits of composers heading each section. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -2527,7 +2402,6 @@ const DATA = {
           "file": "images/piero-flagellation.jpg",
           "w": 1280,
           "h": 900,
-          "note": "Geometry of suffering: Christ small in a measured courtyard.",
           "vasari": {
             "life": "Life of Piero della Francesca",
             "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
@@ -2543,7 +2417,6 @@ const DATA = {
           "file": "images/piero-baptism.jpg",
           "w": 846,
           "h": 1200,
-          "note": "Still water, pale angels, and a landscape folded into math.",
           "vasari": {
             "life": "Life of Piero della Francesca",
             "text": "PAINTER OF BORGO A SAN SEPOLCRO\n\n\nTruly unhappy are those who, labouring at their studies in order to\nbenefit others and to make their own name famous, are hindered by\ninfirmity and sometimes by death from carrying to perfection the works\nthat they have begun. And it happens very often that, leaving them all\nbut finished or in a fair way to completion, they are falsely claimed by\nthe presumption of those who seek to conceal their asses' skin under the\nhonourable spoils of the lion. And although time, who is called the\nfather of truth, sooner or later makes manifest the real state of\nthings, it is none the less true that for a certain space of time the\ntrue craftsman is robbed of the honour that is due to his labours; as\nhappened to Piero della Francesca of Borgo a San Sepolcro.…",
@@ -2564,7 +2437,6 @@ const DATA = {
       "place": "Burgundy / France",
       "famous": "busnois-lhomme",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Burgundian court composer after Binchois — chanson and L’homme armé Mass.",
       "works": [
         {
           "id": "busnois-lhomme",
@@ -2580,8 +2452,7 @@ const DATA = {
               "label": "Internet Archive — Busnois, Chansons (Nonesuch Consort / Joshua Rifkin; human performance)",
               "url": "https://archive.org/details/lp_chansons_antoine-busnois-the-nonesuch-consort-joshu"
             }
-          ],
-          "note": "Four-voice Mass on the armed-man cantus firmus — Burgundian craft after Ockeghem’s generation. Opens an external recording (not hosted here)."
+          ]
         },
         {
           "id": "busnois-quant",
@@ -2597,8 +2468,7 @@ const DATA = {
               "label": "Wikimedia Commons — Busnoys, Quant ce vendra (ASTERIA live on WQXR; human performance, .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:6_quant_ce_vendra.ogg"
             }
-          ],
-          "note": "Courtly rondeau. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -2627,7 +2497,6 @@ const DATA = {
           "file": "images/mantegna-dead-christ.jpg",
           "w": 1280,
           "h": 960,
-          "note": "Foreshortened corpse on a slab: antique rigor and raw grief.",
           "vasari": {
             "life": "Life of Andrea Mantegna",
             "text": "PAINTER OF MANTUA\n\n\nHow great is the effect of reward on talent is known to him who labours\nvaliantly and receives a certain measure of recompense, for he feels\nneither discomfort, nor hardship, nor fatigue, when he expects honour\nand reward for them; nay, what is more, they render his talent every day\nmore renowned and illustrious. It is true, indeed, that there is not\nalways found one to recognize, esteem, and remunerate it as that of\nAndrea Mantegna was recognized. This man was born from very humble stock\nin the district of Mantua; and, although as a boy he was occupied in\ngrazing herds, he was so greatly exalted by destiny and by his merit\nthat he attained to the honourable rank of Chevalier, as will be told in\nthe proper place.…",
@@ -2643,7 +2512,6 @@ const DATA = {
           "file": "images/mantegna-camera.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Putti and court faces lean over a painted sky-hole.",
           "vasari": {
             "life": "Life of Andrea Mantegna",
             "text": "PAINTER OF MANTUA\n\n\nHow great is the effect of reward on talent is known to him who labours\nvaliantly and receives a certain measure of recompense, for he feels\nneither discomfort, nor hardship, nor fatigue, when he expects honour\nand reward for them; nay, what is more, they render his talent every day\nmore renowned and illustrious. It is true, indeed, that there is not\nalways found one to recognize, esteem, and remunerate it as that of\nAndrea Mantegna was recognized. This man was born from very humble stock\nin the district of Mantua; and, although as a boy he was occupied in\ngrazing herds, he was so greatly exalted by destiny and by his merit\nthat he attained to the honourable rank of Chevalier, as will be told in\nthe proper place.…",
@@ -2677,7 +2545,6 @@ const DATA = {
           "file": "images/pollaiuolo-sebastian.jpg",
           "w": 1280,
           "h": 1759,
-          "note": "Anatomy under arrow-fire: brothers’ workshop muscle study.",
           "vasari": {
             "life": "Life of Antonio and Piero Pollaiuolo",
             "text": "PAINTERS AND SCULPTORS OF FLORENCE\n\n\nMany men begin in a humble spirit with unimportant works, who, gaining\ncourage from proficiency, grow also in power and ability, in such a\nmanner that they aspire to greater undertakings and almost reach Heaven\nwith their beautiful thoughts. Raised by fortune, they very often chance\nupon some liberal Prince, who, finding himself well served by them, is\nforced to remunerate their labours so richly that their descendants\nderive great benefits and advantages from them. Wherefore such men walk\nthrough this life to the end with so much glory, that they leave\nmarvellous memorials of themselves to the world, as did Antonio and\nPiero del Pollaiuolo, who were greatly esteemed in their day for the\nrare acquirements that they had made with their industry and labour.…",
@@ -2711,7 +2578,6 @@ const DATA = {
           "file": "images/verrocchio-david.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Wiry bronze youth — workshop of Leonardo’s master.",
           "vasari": {
             "life": "Life of Andrea Verrocchio",
             "text": "PAINTER, SCULPTOR, AND ARCHITECT OF FLORENCE\n\n\nAndrea del Verrocchio, a Florentine, was in his day a goldsmith, a\nmaster of perspective, a sculptor, a wood-carver, a painter, and a\nmusician; but in the arts of sculpture and painting, to tell the truth,\nhe had a manner somewhat hard and crude, as one who acquired it rather\nby infinite study than by the facility of a natural gift. Even if he had\nbeen as poor in this facility as he was rich in the study and diligence\nthat exalted him, he would have been most excellent in those arts,\nwhich, for their highest perfection, require a union of study and\nnatural power.…",
@@ -2727,7 +2593,6 @@ const DATA = {
           "file": "images/verrocchio-thomas.jpg",
           "w": 1280,
           "h": 1920,
-          "note": "Doubting Thomas steps into the niche; Christ opens the wound.",
           "vasari": {
             "life": "Life of Andrea Verrocchio",
             "text": "PAINTER, SCULPTOR, AND ARCHITECT OF FLORENCE\n\n\nAndrea del Verrocchio, a Florentine, was in his day a goldsmith, a\nmaster of perspective, a sculptor, a wood-carver, a painter, and a\nmusician; but in the arts of sculpture and painting, to tell the truth,\nhe had a manner somewhat hard and crude, as one who acquired it rather\nby infinite study than by the facility of a natural gift. Even if he had\nbeen as poor in this facility as he was rich in the study and diligence\nthat exalted him, he would have been most excellent in those arts,\nwhich, for their highest perfection, require a union of study and\nnatural power.…",
@@ -2761,7 +2626,6 @@ const DATA = {
           "file": "images/botticelli-primavera.jpg",
           "w": 1280,
           "h": 841,
-          "note": "Mercury, the Graces, Venus, Flora: a Medici garden of allegory.",
           "vasari": {
             "life": "Life of Sandro Botticelli",
             "text": "PAINTER OF FLORENCE\n\n\nAt the same time with the elder Lorenzo de' Medici, the Magnificent,\nwhich was truly a golden age for men of intellect, there also flourished\none Alessandro, called Sandro after our custom, and surnamed Di\nBotticello for a reason that we shall see below. This man was the son of\nMariano Filipepi, a citizen of Florence, who brought him up with care,\nand had him instructed in all those things that are usually taught to\nchildren before they are old enough to be apprenticed to some calling.…",
@@ -2777,7 +2641,6 @@ const DATA = {
           "file": "images/botticelli-venus.jpg",
           "w": 1280,
           "h": 804,
-          "note": "Venus on the shell: antique myth in tempera line.",
           "vasari": {
             "life": "Life of Sandro Botticelli",
             "text": "PAINTER OF FLORENCE\n\n\nAt the same time with the elder Lorenzo de' Medici, the Magnificent,\nwhich was truly a golden age for men of intellect, there also flourished\none Alessandro, called Sandro after our custom, and surnamed Di\nBotticello for a reason that we shall see below. This man was the son of\nMariano Filipepi, a citizen of Florence, who brought him up with care,\nand had him instructed in all those things that are usually taught to\nchildren before they are old enough to be apprenticed to some calling.…",
@@ -2798,7 +2661,6 @@ const DATA = {
       "place": "France / Italy (Sforza)",
       "famous": "compere-omnium",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Franco-Flemish colleague of Josquin’s generation (born under the ≤1454 cutoff).",
       "works": [
         {
           "id": "compere-omnium",
@@ -2814,8 +2676,7 @@ const DATA = {
               "label": "Wikimedia Commons — Compère, Nous sommes de l’ordre de St Babouin (dwsChorale; human performance, .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Loyset_Compere_Nous_sommes_de_l_ordre_de_St_Babouin_Sung_by_the_dwsChorale.ogg"
             }
-          ],
-          "note": "Motet naming fellow singers (including Josquin) — a sounding roll-call of the generation. Companion listen is a secular Compère chanson. Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -2844,7 +2705,6 @@ const DATA = {
           "file": "images/ghirlandaio-birth-virgin.jpg",
           "w": 1376,
           "h": 850,
-          "note": "Tornabuoni women visit a Florentine birth chamber in sacred dress.",
           "vasari": {
             "life": "Life of Domenico Ghirlandaio",
             "text": "PAINTER OF FLORENCE\n\n\nDomenico di Tommaso del Ghirlandajo, who, from his talent and from the\ngreatness and the vast number of his works, may be called one of the\nmost important and most excellent masters of his age, was made by nature\nto be a painter; and for this reason, in spite of the opposition of\nthose who had charge of him (which often nips the finest fruits of our\nintellects in the bud by occupying them with work for which they are not\nsuited, and by diverting them from that to which nature inclines them),\nhe followed his natural instinct, secured very great honour for himself\nand profit for his art and for his kindred, and became the great delight\nof his age.…",
@@ -2860,7 +2720,6 @@ const DATA = {
           "file": "images/ghirlandaio-old-man.jpg",
           "w": 1280,
           "h": 1736,
-          "note": "Nose and affection without flattery: portrait tenderness.",
           "vasari": {
             "life": "Life of Domenico Ghirlandaio",
             "text": "PAINTER OF FLORENCE\n\n\nDomenico di Tommaso del Ghirlandajo, who, from his talent and from the\ngreatness and the vast number of his works, may be called one of the\nmost important and most excellent masters of his age, was made by nature\nto be a painter; and for this reason, in spite of the opposition of\nthose who had charge of him (which often nips the finest fruits of our\nintellects in the bud by occupying them with work for which they are not\nsuited, and by diverting them from that to which nature inclines them),\nhe followed his natural instinct, secured very great honour for himself\nand profit for his art and for his kindred, and became the great delight\nof his age.…",
@@ -2894,7 +2753,6 @@ const DATA = {
           "file": "images/perugino-keys.jpg",
           "w": 2000,
           "h": 1207,
-          "note": "Open piazza and measured temple: Raphael’s teacher at the Vatican wall.",
           "vasari": {
             "life": "Life of Pietro Perugino",
             "text": "How great a benefit poverty may be to men of genius, and how potent\na force it may be to make them become excellent--nay, perfect--in\nthe exercise of any faculty whatsoever, can be seen clearly enough\nin the actions of Pietro Perugino, who, flying from the extremity of\ndistress at Perugia, and betaking himself to Florence in the desire\nto attain to some distinction by means of his talent, remained for\nmany months without any other bed than a miserable chest to sleep\nin, turning night into day, and devoting himself with the greatest\nardour to the unceasing study of his profession.…",
@@ -2915,7 +2773,6 @@ const DATA = {
       "place": "France / Italy (Ferrara, Rome)",
       "famous": "josquin-ave-maria",
       "vasari": null,
-      "vasariNote": "No Vasari Life. Born c.1450 (under the cutoff) — the Franco-Flemish summit of the first age’s sounding track.",
       "works": [
         {
           "id": "josquin-ave-maria",
@@ -2935,8 +2792,7 @@ const DATA = {
               "label": "Wikimedia Commons — Josquin, Tu pauperum refugium (human multitrack recording, .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Josquin_Des_Prez-Tu_Pauperum_Refugium.ogg"
             }
-          ],
-          "note": "Four-voice Marian motet — clear imitative architecture that later centuries still treat as a model. Opens an external recording (not hosted here)."
+          ]
         },
         {
           "id": "josquin-missa-pange",
@@ -2956,8 +2812,7 @@ const DATA = {
               "label": "Wikimedia Commons — Josquin, El grillo (dwsChorale; human performance, .ogg)",
               "url": "https://commons.wikimedia.org/wiki/File:Josquin_El_grillo_sung_by_the_dwsChorale.ogg"
             }
-          ],
-          "note": "Late cyclic Mass on the Corpus Christi hymn; woodcut likeness from Opmeer (1611). Opens an external recording (not hosted here)."
+          ]
         }
       ]
     },
@@ -2986,7 +2841,6 @@ const DATA = {
           "file": "images/leonardo-annunciation.jpg",
           "w": 1920,
           "h": 1440,
-          "note": "Early workshop panel: Gabriel, lectern, and a distant harbor haze.",
           "vasari": {
             "life": "Life of Leonardo da Vinci",
             "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
@@ -3002,7 +2856,6 @@ const DATA = {
           "file": "images/leonardo-last-supper.jpg",
           "w": 2000,
           "h": 1000,
-          "note": "The moment of betrayal spoken: geometry of hands and faces.",
           "vasari": {
             "life": "Life of Leonardo da Vinci",
             "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
@@ -3018,7 +2871,6 @@ const DATA = {
           "file": "images/leonardo-mona-lisa.jpg",
           "w": 1280,
           "h": 1908,
-          "note": "Sfumato portrait that never quite settles into a single smile.",
           "vasari": {
             "life": "Life of Leonardo da Vinci",
             "text": "PAINTER AND SCULPTOR OF FLORENCE\n\n\nThe greatest gifts are often seen, in the course of nature, rained\nby celestial influences on human creatures; and sometimes, in\nsupernatural fashion, beauty, grace, and talent are united beyond\nmeasure in one single person, in a manner that to whatever such an\none turns his attention, his every action is so divine, that,\nsurpassing all other men, it makes itself clearly known as a thing\nbestowed by God (as it is), and not acquired by human art. This was\nseen by all mankind in Leonardo da Vinci, in whom, besides a beauty\nof body never sufficiently extolled, there was an infinite grace in\nall his actions; and so great was his genius, and such its growth,\nthat to whatever difficulties he turned his mind, he solved them\nwith ease.…",
@@ -3039,7 +2891,6 @@ const DATA = {
       "place": "Bruges / Ghent",
       "famous": "van-eyck-arnolfini",
       "vasari": null,
-      "vasariNote": "No Vasari Life — northern oil painting outside his Florentine horizon.",
       "works": [
         {
           "id": "van-eyck-ghent",
@@ -3049,8 +2900,7 @@ const DATA = {
           "place": "Ghent, Saint Bavo",
           "file": "images/van-eyck-ghent.jpg",
           "w": 1280,
-          "h": 936,
-          "note": "Hubert begun, Jan finished: the Lamb and a paradise of detail."
+          "h": 936
         },
         {
           "id": "van-eyck-arnolfini",
@@ -3060,8 +2910,7 @@ const DATA = {
           "place": "London, National Gallery",
           "file": "images/van-eyck-arnolfini.jpg",
           "w": 1280,
-          "h": 1751,
-          "note": "Convex mirror, oranges, and a solemn double portrait in oil."
+          "h": 1751
         }
       ]
     },
@@ -3077,7 +2926,6 @@ const DATA = {
       "place": "Tournai",
       "famous": "campin-merode",
       "vasari": null,
-      "vasariNote": "No Vasari Life — Early Netherlandish workshop painting.",
       "works": [
         {
           "id": "campin-merode",
@@ -3087,8 +2935,7 @@ const DATA = {
           "place": "New York, The Cloisters",
           "file": "images/campin-merode.jpg",
           "w": 1280,
-          "h": 1017,
-          "note": "Annunciation in a bourgeois room: oil light on brass and linen."
+          "h": 1017
         }
       ]
     },
@@ -3104,7 +2951,6 @@ const DATA = {
       "place": "Dijon (Chartreuse de Champmol)",
       "famous": "sluter-moses",
       "vasari": null,
-      "vasariNote": "No Vasari Life — Burgundian court sculptor at Champmol; northern counterpart to Quattrocento weight in stone.",
       "works": [
         {
           "id": "sluter-moses",
@@ -3114,8 +2960,7 @@ const DATA = {
           "place": "Dijon, Chartreuse de Champmol",
           "file": "images/sluter-moses.jpg",
           "w": 1280,
-          "h": 960,
-          "note": "Prophets in heavy drapery around the Cross’s base — Burgundy’s monumental realism."
+          "h": 960
         },
         {
           "id": "sluter-champmol",
@@ -3125,8 +2970,7 @@ const DATA = {
           "place": "Dijon, Chartreuse de Champmol",
           "file": "images/sluter-champmol.jpg",
           "w": 1280,
-          "h": 1920,
-          "note": "Duke Philip the Bold and Margaret kneeling before the Virgin — donor portal in living stone."
+          "h": 1920
         }
       ]
     },
@@ -3142,7 +2986,6 @@ const DATA = {
       "place": "Reims",
       "famous": "machaut-messe",
       "vasari": null,
-      "vasariNote": "Ars Nova poet-composer. No Vasari Life.",
       "works": [
         {
           "id": "machaut-messe",
@@ -3153,7 +2996,6 @@ const DATA = {
           "file": "images/machaut-messe.jpg",
           "w": 960,
           "h": 1287,
-          "note": "Four-voice cyclic Mass: Ars Nova architecture in sound. External listening only.",
           "listen": [
             {
               "label": "Internet Archive — Machaut, Messe de Nostre Dame (human performance, John McCarthy / Ambrosian Singers)",
@@ -3179,7 +3021,6 @@ const DATA = {
       "place": "Florence",
       "famous": "landini-ballate",
       "vasari": null,
-      "vasariNote": "Blind organist of Trecento Florence. No Vasari Life.",
       "works": [
         {
           "id": "landini-ballate",
@@ -3190,7 +3031,6 @@ const DATA = {
           "file": "images/landini-portrait.jpg",
           "w": 1280,
           "h": 1842,
-          "note": "Trecento ballate under his portrait in the Squarcialupi Codex. External listening only.",
           "listen": [
             {
               "label": "Internet Archive — Danses du Moyen-Age / early music program including Landini’s era (Clemencic Consort & Ensemble Ricercare)",
@@ -3209,10 +3049,9 @@ const DATA = {
       "died": 1474,
       "medium": "music",
       "region": "north",
-      "place": "Cambrai / Italy",
+      "place": "Florence / Ferrara / Rome / Cambrai",
       "famous": "dufay-nuper",
       "vasari": null,
-      "vasariNote": "Burgundian / papal chapel composer. No Vasari Life.",
       "works": [
         {
           "id": "dufay-nuper",
@@ -3223,7 +3062,6 @@ const DATA = {
           "file": "images/dufay-portrait.jpg",
           "w": 1280,
           "h": 1655,
-          "note": "Motet for the Duomo consecration (1436) and Marian fauxbourdon. External listening only.",
           "listen": [
             {
               "label": "Wikimedia Commons — Dufay, Ave maris stella (electronic / MIDI realization)",
@@ -3249,7 +3087,6 @@ const DATA = {
       "place": "Burgundy",
       "famous": "binchois-de-plus",
       "vasari": null,
-      "vasariNote": "Burgundian court chanson composer. No Vasari Life.",
       "works": [
         {
           "id": "binchois-de-plus",
@@ -3260,7 +3097,6 @@ const DATA = {
           "file": "images/binchois-illum.jpg",
           "w": 1280,
           "h": 1655,
-          "note": "Intimate court song beside Dufay. External listening only.",
           "listen": [
             {
               "label": "Internet Archive — Rondeaux du 15e siècle program (human performance; Binchois milieu)",
@@ -3282,7 +3118,6 @@ const DATA = {
       "place": "France (royal chapel)",
       "famous": "ockeghem-missa",
       "vasari": null,
-      "vasariNote": "Franco-Flemish Mass and chanson master. No Vasari Life.",
       "works": [
         {
           "id": "ockeghem-missa",
@@ -3293,7 +3128,6 @@ const DATA = {
           "file": "images/ockeghem-illum.jpg",
           "w": 1280,
           "h": 839,
-          "note": "Prolation canons and melancholy chanson. External listening only.",
           "listen": [
             {
               "label": "Wikimedia Commons — Ockeghem, Missa prolationum Kyrie (electronic / MIDI realization)",
@@ -3312,7 +3146,7 @@ const DATA = {
       ]
     }
   ],
-  "lede": "A pocket guide from the first age into the Quattrocento: life-lines, build-lines, music-lines, and the antique models they studied",
+  "lede": "Earliest years at the left; later years to the right",
   "centuries": [
     1200,
     1300,
@@ -3637,65 +3471,47 @@ function syncNav(){
   const st = $('#stage');
   const mid = st.scrollLeft + st.clientWidth * 0.35;
   const year = range.start + mid / pxPerYear;
+  const cents = centuries();
   let c = Math.floor(year / 100) * 100;
-  if (c < 1200) c = 1200;
-  if (c > 1300) c = 1300;
+  if (cents.length){
+    if (c < cents[0]) c = cents[0];
+    if (c > cents[cents.length-1]) c = cents[cents.length-1];
+  }
   const sel = $('#century-select');
   if (sel && sel.value !== String(c)) sel.value = String(c);
-}
-
-function regionLabel(a){
-  if (a.medium === 'antiquity') return 'Ancient model';
-  if (a.region === 'north') return 'North / Low Countries';
-  if (a.region === 'france') return 'France (sounding context)';
-  return 'Italy';
-}
-
-function mediumLabel(a){
-  return ({
-    architecture:'Architecture (build-line)',
-    antiquity:'Ancient model',
-    sculpture:'Sculpture (life-line)',
-    music:'Music (music-line)',
-    painting:'Painting (life-line)'
-  })[a.medium] || a.medium;
 }
 
 function openPanel(a, focusWork){
   openArtist = a;
   const pan = $('#artist-panel');
-  let html = `<h2>${a.nameFull}</h2>
-    <p class="dates">${a.dates} · ${a.place}</p>
-    <p class="note-muted">${mediumLabel(a)} · ${regionLabel(a)}</p>
+  let html = `<h2>${escapeHtml(a.nameFull)}</h2>
+    <p class="dates">${escapeHtml(a.dates)} · ${escapeHtml(a.place||'')}</p>
     <div class="works">`;
   a.works.forEach(w => {
     const hot = focusWork && focusWork.id === w.id ? ' style="outline:2px solid #9c2b1a"' : '';
     const noImg = !w.file;
     html += `<button type="button" class="${noImg?'no-img':''}" data-work="${w.id}"${hot}>`;
-    if (w.file) html += `<img src="${w.file}" alt="" loading="lazy">`;
-    html += `<figcaption><b>${w.title}</b><br>${w.date}<br>${w.place||''}</figcaption></button>`;
+    if (w.file) html += `<img src="${escapeAttr(w.file)}" alt="" loading="lazy">`;
+    html += `<figcaption><b>${escapeHtml(w.title)}</b><br>${escapeHtml(w.date||'')}<br>${escapeHtml(w.place||'')}</figcaption></button>`;
   });
   html += `</div>`;
 
-  // external listen links for all works that have them
   const listens = [];
   a.works.forEach(w => (w.listen||[]).forEach(L => listens.push({work:w.title, ...L})));
   if (listens.length){
-    html += `<div class="listen-links"><p class="note-muted">Listen (opens elsewhere — nothing loads on this page):</p>`;
+    html += `<div class="listen-links">`;
     listens.forEach(L => {
-      html += `<a href="${escapeAttr(L.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.label)} — ${escapeHtml(L.work)}</a>`;
+      html += `<a href="${escapeAttr(L.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(L.label)}</a>`;
     });
     html += `</div>`;
   }
 
-  // Vasari: one collapsed quote per major work (not the whole Life dumped open)
   const workQuotes = a.works.filter(w => w.vasari && w.vasari.text);
   if (workQuotes.length){
     html += `<div class="vasari-works">`;
     workQuotes.forEach(w => {
       const V = w.vasari;
       html += `<details class="vasari"><summary>Vasari on <em>${escapeHtml(w.title)}</em></summary>`;
-      if (V.note) html += `<p class="note-muted">${escapeHtml(V.note)}</p>`;
       html += `<blockquote>${escapeHtml(V.text).replace(/\n\n/g,'</blockquote><blockquote>')}</blockquote>`;
       if (V.cite) html += `<p class="cite">${escapeHtml(V.cite)}</p>`;
       html += `</details>`;
@@ -3705,8 +3521,6 @@ function openPanel(a, focusWork){
     html += `<details class="vasari"><summary>Vasari · ${escapeHtml(a.vasari.life||'Life')}</summary>
       <blockquote>${escapeHtml(a.vasari.text).replace(/\n\n/g,'</blockquote><blockquote>')}</blockquote>
       <p class="cite">${escapeHtml(a.vasari.cite||'')}</p></details>`;
-  } else if (a.vasariNote){
-    html += `<p class="note-muted">${escapeHtml(a.vasariNote)}</p>`;
   }
   $('#panel-body').innerHTML = html;
   pan.hidden = false;
@@ -3733,7 +3547,7 @@ function openLight(a, w){
   if (!w.file) return;
   $('#light-img').src = w.file;
   $('#light-img').alt = w.title;
-  $('#light-cap').textContent = `${w.title}, ${w.date}. ${w.place||''}. ${w.note || ''} — ${a.nameFull}.`;
+  $('#light-cap').textContent = `${w.title}, ${w.date}. ${w.place||''} — ${a.nameFull}.`;
   $('#lightbox').hidden = false;
 }
 
